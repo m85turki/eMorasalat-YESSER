@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Hidden Form Fields</title>
+  
+  <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+</head>
+<body>
+	<form action="#" method="POST">
+    
+    <div>
+      Question 1?: <input type="checkbox" name="" data-trigger="hidden_fields_oneX" class="trigger">
+    </div>
+    <div id="hidden_fields_oneX" class="hidden">
+      This is hidden one: 
+    </div>
+    
+    <div>
+      Question 2?: <input type="checkbox" id="checkbox_two" name="question2" data-trigger="hidden_fields_two" class="trigger">
+    </div>
+    <div id="hidden_fields_two" class="hidden">
+      This is hidden two: 
+    </div>
+    
+    <div>
+      Question 3?: <input type="checkbox" id="checkbox_three" name="question3" data-trigger="hidden_fields_three" class="trigger">
+    </div>
+    <div id="hidden_fields_three" class="hidden">
+      This is hidden three: 
+    </div>
+    
+    <div>
+      Question 4?: <input type="checkbox" id="checkbox_four" name="question4" data-trigger="hidden_fields_four" class="trigger">
+    </div>
+    <div id="hidden_fields_four" class="hidden">
+      This is hidden four: 
+    </div>
+    
+  </form>
+
+<script>
+$(function() {
+  $('.hidden').hide();
+  $('.trigger').change(function() {  
+    var hiddenId = $(this).attr("data-trigger");
+    if ($(this).is(':checked')) {
+      $("#" + hiddenId).fadeIn();
+    } else {
+      $("#" + hiddenId).fadeOut();
+    }
+  });
+});
+</script>
+</body>
+</html>

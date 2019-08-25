@@ -1,0 +1,206 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('./icomoon.eot?s2oenw');
+  src:  url('./icomoon.eot?s2oenw#iefix') format('embedded-opentype'),
+    url('./icomoon.ttf?s2oenw') format('truetype'),
+    url('./icomoon.woff?s2oenw') format('woff'),
+    url('./icomoon.svg?s2oenw#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-toolbar1:before {
+  content: "\e900";
+}
+.icon-toolbar2:before {
+  content: "\e901";
+}
+.icon-toolbar3 .path1:before {
+  content: "\e902";
+  color: rgb(0, 0, 0);
+}
+.icon-toolbar3 .path2:before {
+  content: "\e903";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-toolbar3 .path3:before {
+  content: "\e904";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-toolbar3 .path4:before {
+  content: "\e905";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-toolbar3 .path5:before {
+  content: "\e906";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-toolbar3 .path6:before {
+  content: "\e907";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-toolbar3 .path7:before {
+  content: "\e908";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-toolbar3 .path8:before {
+  content: "\e909";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-toolbar3 .path9:before {
+  content: "\e90a";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-toolbar3 .path10:before {
+  content: "\e90b";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-toolbar3 .path11:before {
+  content: "\e90c";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-toolbar3 .path12:before {
+  content: "\e90d";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-toolbar3 .path13:before {
+  content: "\e90e";
+  margin-left: -1em;
+  color: rgb(92, 156, 237);
+}
+.icon-toolbar3 .path14:before {
+  content: "\e90f";
+  margin-left: -1em;
+  color: rgb(37, 182, 210);
+}
+.icon-toolbar3 .path15:before {
+  content: "\e910";
+  margin-left: -1em;
+  color: rgb(251, 110, 81);
+}
+.icon-toolbar3 .path16:before {
+  content: "\e911";
+  margin-left: -1em;
+  color: rgb(224, 79, 95);
+}
+.icon-toolbar3 .path17:before {
+  content: "\e912";
+  margin-left: -1em;
+  color: rgb(37, 182, 210);
+}
+.icon-toolbar3 .path18:before {
+  content: "\e913";
+  margin-left: -1em;
+  color: rgb(71, 206, 172);
+}
+.icon-toolbar3 .path19:before {
+  content: "\e914";
+  margin-left: -1em;
+  color: rgb(254, 205, 84);
+}
+.icon-toolbar3 .path20:before {
+  content: "\e915";
+  margin-left: -1em;
+  color: rgb(50, 190, 166);
+}
+.icon-toolbar4:before {
+  content: "\e916";
+}
+.icon-toolbar5:before {
+  content: "\e917";
+}
+.icon-toolbar6:before {
+  content: "\e918";
+}
+.icon-toolbar7:before {
+  content: "\e919";
+}
+.icon-toolbar8:before {
+  content: "\e91a";
+}
+.icon-toolbar9:before {
+  content: "\e91b";
+}
+.icon-toolbar10:before {
+  content: "\e91c";
+}
+.icon-toolbar11:before {
+  content: "\e91d";
+}
+.icon-toolbar12:before {
+  content: "\e91e";
+}
+.icon-toolbar13:before {
+  content: "\e91f";
+}
+.icon-toolbar14:before {
+  content: "\e920";
+}
+.icon-toolbar15:before {
+  content: "\e921";
+}
+.icon-toolbar16:before {
+  content: "\e922";
+}
+.icon-tab1:before {
+  content: "\e923";
+}
+.icon-tab2:before {
+  content: "\e924";
+}
+.icon-tab3:before {
+  content: "\e925";
+}
+.icon-tab4:before {
+  content: "\e926";
+}
+.icon-tab5:before {
+  content: "\e927";
+}
+.icon-tab6:before {
+  content: "\e928";
+}
+.icon-tab7:before {
+  content: "\e929";
+}
+.icon-tab8:before {
+  content: "\e92a";
+}
+.icon-tab9:before {
+  content: "\e92b";
+}
+.icon-tab10:before {
+  content: "\e92c";
+}
+.icon-filter:before {
+  content: "\e92d";
+}
+.icon-sort:before {
+  content: "\e92e";
+}

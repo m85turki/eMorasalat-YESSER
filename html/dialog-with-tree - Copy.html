@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link type="image/x-icon" rel="shortcut icon" href="./favicon.ico">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="theme-color" content="#0c7c5a">
+    <title>مراسلات</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="../assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../assets/bootstrap/css/bootstrap.min.rtl.css" rel="stylesheet">
+    <!-- Custom CSS sssssss -->
+
+    <!-- Bootstrap Upgrade CSS -->
+    <link href="../assets/bootstrap/css/bootstrap.form.rtl.css" rel="stylesheet">
+    <link href="../assets/bootstrap/css/bootstrap.grid.css" rel="stylesheet">
+    <!-- Custom CSS -->
+
+    <!-- Custom Fonts -->
+    <link href="../assets/css/fonts/fontawesome/css/all.css" rel="stylesheet" type="text/css">
+    <link href="../assets/css/fonts/line-awesome/css/line-awesome.min.css" rel="stylesheet">
+
+    <link href="../assets/css/bootstrap-select.min.css" rel="stylesheet">
+    <link href="../assets/css/animate.css" rel="stylesheet">
+    <link href="../assets/css/style.css" rel="stylesheet">
+    <link href="../assets/css/mob_style.css" rel="stylesheet">
+
+    <!-- New -->
+    <link href="../assets/css/new.css" rel="stylesheet">
+
+    <!-- Select2 CSS -->
+    <link href="../assets/plugins/select2/select2.min.css" rel="stylesheet" />
+
+    <!-- Vertical Menu css-->
+    <link rel="stylesheet" type="text/css" href="../assets/plugins/vertical-menu/vertical-menu.min.css">
+
+    <!-- Confirm CSS -->
+    <link rel="stylesheet" type="text/css" href="../assets/plugins/confirm/jquery-confirm.min.css" />
+
+    <!-- Dawood CSS -->
+    <link href="../assets/css/dawood-style.css" rel="stylesheet">
+
+</head>
+
+
+<body class="vertical-layout vertical-menu 2-columns   menu-flipped fixed-navbar " data-open="click"
+    data-menu="vertical-menu" data-col="2-columns" dir="rtl">
+    <div class="fixed-top">
+        <div class="top-header">
+            <div class="container-fluid">
+                <div class="d-flex flex-column flex-sm-row">
+                    <div class="">
+                        <a class="main_logo" href="#"><img src="../assets/images/logo-morasalat.png" title=""
+                                alt="" /></a>
+                    </div>
+
+                    <div class="d-flex mr-sm-auto  mr-0 align-content-around flex-wrap h-side">
+                        <div class="dropdown px-1 px-md-3 ">
+                            <a id="drop1" href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false">
+                                <span>إسم الإدارة</span>
+                                <i class="la la-angle-down"></i>
+                            </a>
+
+                            <ul class="dropdown-menu fadeIn animated" aria-labelledby="drop1">
+                                <li><a href="#">الإدارة 1</a></li>
+                                <li><a href="#">الإدارة 2</a></li>
+                                <li><a href="#">الإدارة 3</a></li>
+                            </ul>
+                        </div>
+                        <div class="dropdown  px-1 px-md-3 ml-0 ml-md-5">
+                            <a id="drop1" href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false">
+                                <span class="h-avatar mx-2">
+                                    <img src="../assets/images/businessman.png">
+                                </span>
+                                <span>أشرف حسين</span>
+                                <i class="la la-angle-down"></i>
+                            </a>
+
+                            <ul class="dropdown-menu fadeIn animated" aria-labelledby="drop1">
+                                <li><a href="#">الاعدادات</a></li>
+                                <li><a href="#">التفضيلات</a></li>
+                                <li><a href="#">التغييرات</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">التعديلات</a></li>
+                            </ul>
+                        </div>
+                        <div class="d-flex">
+                            <div class="px-2 flex-grow-1">
+                                <div class="h-search">
+                                    <i onclick="focusMethod()" data-toggle="tooltip" data-placement="bottom"
+                                        title="البحث السريع" class="la la-search"></i>
+                                    <input class="myTextField" type="text" name="search" placeholder="البحث هنا">
+                                </div>
+                                <script>
+                                    focusMethod = function getFocus() {
+                                        $('.myTextField').focus();
+                                    }
+                                </script>
+                            </div>
+                            <div class="px-2">
+                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="التنبيهات"><em>22</em>
+                                    <i class="la la-bell"></i></a>
+                            </div>
+                            <div class="px-2">
+                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="المحادثات"><em>22</em>
+                                    <i class="la la-comments"></i></a>
+                            </div>
+                            <div class="px-2">
+                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="English">
+                                    <i class="la la-globe"></i></a>
+                            </div>
+                            <div class="px-2 mr-3">
+                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="خروج">
+                                    <i class="la la-power-off"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+        <!-- start of fixed header -->
+        <nav class="navbar navbar-default navbar-second">
+            <div class="container-fluid">
+                <div class="row row-custom">
+                    <div class="navbar-header d-flex">
+                        <div class="mobile-menu d-md-none ml-auto">
+                            <a class="nav-link nav-menu-main menu-toggle" href="#">
+                                <i class="la la-ellipsis-h"></i>
+                            </a>
+                        </div>
+                        <div class="mr-auto">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                                data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+                    </div>
+                    <div id="navbar" class="navbar-collapse collapse">
+
+                        <ul class="nav navbar-nav">
+                            <li><a href="#"></i>المعاملات</a></li>
+                            <li><a href="#">المهام <span class="notification_sticky">3</span></a></li>
+                            <li><a href="#">استقبال الادارة</a></li>
+                            <li><a href="#">تقارير</a></li>
+                            <li><a href="#">لوحة الإشراف</a></li>
+                            <li class="active"><a href="#">بيان التسليم</a></li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+    </div>
+    <div class="content_wrapper">
+        <div class="content_container">
+            <div class="">
+                <form>
+                    <div class="form-row">
+                        <div class="form-group col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                            <div class="row">
+                                <div class=" col-xs-4 pr-2">
+                                    <div class="input-group">
+                                        <input id="treeValueNumber" placeholder="رقم الجهة" type="text" class="form-control">
+                                    </div>
+                                </div>
+                                <div class=" col-xs-8 pr-2">
+                                    <div class="input-group">
+                                        <input id="treeValueName" placeholder="اسم جهة الوارد" type="text" class="form-control">
+                                        <div class="input-group-append cursor-pointer" data-toggle="modal" data-target="#myModal">
+                                            <span class="input-group-text hyperlink blue">
+                                                <a href="#"><i class="la la-filter"></i></a>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog medium-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h3 class="dark-color w-auto d-inline-block m-0">جهة الوارد</h3>
+                </div>
+                <div class="modal-body">
+                    <div class="content_container">
+                        <div class="">
+                            <form>
+                                <div class="form-row">
+                                    <div class="form-group col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                        <label for="">رقم الإدارة</label>
+                                        <input placeholder="رقم الإدارة" type="text" class="form-control">
+                                    </div>
+                                    <div class="form-group col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                                        <label for="">اسم الادارة</label>
+                                        <select id="inputState" class="form-control">
+                                            <option selected="">اختر</option>
+                                            <option>الكل</option>
+                                            <option>الكل</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="panel-group custom-tree px-4" role="tablist">
+                        <div class="panel panel-default">
+                            <div class="panel-heading" role="tab" id="collapseListGroupHeading1">
+                                <h4 class="panel-title dark-color">
+                                    <a class="collapsed" role="button" data-toggle="collapse" href="#collapseListGroup1"
+                                    aria-expanded="false" aria-controls="collapseListGroup1">
+                                    </a>
+                                    <label><span class="department-number mx-2">(2121222)</span><span class="department-name">1 اسم الإدارة الاولى</span></label>
+                                </h4>
+                            </div>
+                            <div id="collapseListGroup1" class="panel-collapse collapse" role="tabpanel"
+                                aria-labelledby="collapseListGroupHeading1" aria-expanded="false">
+                                <ul class="list-group">
+                                    <li class="list-group-item"><label><span class="department-number mx-2">(97755)</span><span class="department-name">1 اسم الإدارة الفرعية</span></label></li>
+                                    <li class="list-group-item"><label><span class="department-number mx-2">(5675444)</span><span class="department-name">2 اسم الإدارة الفرعية</span></label></li>
+                                    <li class="list-group-item has-sub">
+                                        <div class="panel-group" role="tablist">
+                                            <div class="panel panel-default">
+                                                <div class="panel-heading" role="tab" id="collapseListGroupHeading1">
+                                                    <h4 class="panel-title dark-color">
+                                                        <a class="collapsed" role="button" data-toggle="collapse"
+                                                            href="#collapseSubListGroup1" aria-expanded="false"
+                                                            aria-controls="collapseSubListGroup1">
+                                                        </a>
+                                                        <label><span class="department-number mx-2">(33322221)</span><span class="department-name">2 اسم الإدارة الاولى</span></label>
+                                                    </h4>
+                                                </div>
+                                                <div id="collapseSubListGroup1" class="panel-collapse collapse"
+                                                    role="tabpanel" aria-labelledby="collapseListGroupHeading1"
+                                                    aria-expanded="false">
+                                                    <ul class="list-group">
+                                                        <li class="list-group-item"><label><span class="department-number mx-2">(66763)</span><span class="department-name">3 اسم الإدارة الفرعية</span></label></li>
+                                                        <li class="list-group-item"><label><span class="department-number mx-2">(244345)</span><span class="department-name">4 اسم الإدارة الفرعية</span></label></li>
+                                                        <li class="list-group-item has-sub">
+                                                            <div class="panel-group" role="tablist">
+                                                                <div class="panel panel-default">
+                                                                    <div class="panel-heading" role="tab"
+                                                                        id="collapseListGroupHeading1">
+                                                                        <h4 class="panel-title dark-color">
+                                                                            <a class="collapsed" role="button"
+                                                                                data-toggle="collapse"
+                                                                                href="#collapseSubListGroup12"
+                                                                                aria-expanded="false"
+                                                                                aria-controls="collapseSubListGroup12">
+                                                                            </a>     
+                                                                            <label><span class="department-number mx-2">(11112456)</span><span class="department-name">3 اسم الإدارة الاولى</span></label>
+                                                                        </h4>
+                                                                    </div>
+                                                                    <div id="collapseSubListGroup12"
+                                                                        class="panel-collapse collapse" role="tabpanel"
+                                                                        aria-labelledby="collapseListGroupHeading1"
+                                                                        aria-expanded="false">
+                                                                        <ul class="list-group">
+                                                                            <li class="list-group-item"><label><span class="department-number mx-2">(8432456)</span><span class="department-name">5 اسم الإدارة الفرعية</span></label></li>
+                                                                            <li class="list-group-item"><label><span class="department-number mx-2">(322456)</span><span class="department-name">6 اسم الإدارة الفرعية</span></label></li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item"><label><span class="department-number mx-2">(3222123)</span><span class="department-name">7 اسم الإدارة الفرعية</span></label></li>
+                                    <li class="list-group-item"><label><span class="department-number mx-2">(656433)</span><span class="department-name">8 اسم الإدارة الفرعية</span></label></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="w-100 p-2 text-center">
+                        <nav aria-label="Page navigation">
+                            <ul class="pagination custom-pagination">
+                                <li class="change-page">
+                                    <a href="#" aria-label="Previous">
+                                        <i class="fa fa-caret-right"></i>
+                                    </a>
+                                </li>
+                                <li><a href="#">1</a></li>
+                                <li class="active"><a href="#">2</a></li>
+                                <li><a href="#">3</a></li>
+                                <li class="change-page">
+                                    <a href="#" aria-label="Next">
+                                        <i class="fa fa-caret-left"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <br>
+                    <div class="text-left">
+                        <button id="saveTreeValue" class="nbt btn-primary btn-lg mx-1 mb-2" data-dismiss="modal">موافق</button>
+                        <button class="btn btn-cancel btn-lg mx-1 mb-2"  data-dismiss="modal">الغاء</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+
+    <!-- jQuery -->
+    <script src="../assets/js/jquery.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../assets/js/bootstrap-select.js"></script>
+    <script src="../assets/js/jquery.matchHeight-min.js"></script>
+    <script src="../assets/js/aos.js"></script>
+    <script src="../assets/js/jquery.slimscroll.min.js"></script>
+    <script src="../assets/js/app.js"></script>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
+    <script>
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
+
+    <!-- Vertical Menu css-->
+    <script src="../assets/plugins/vertical-menu/vendors.min.js"></script>
+    <script src="../assets/plugins/vertical-menu/app-menu.min.js"></script>
+    <script src="../assets/plugins/vertical-menu/app.min.js"></script>
+
+    <!-- jquery-confirm JS -->
+    <script type="text/javascript" src="../assets/plugins/confirm/jquery-confirm.min.js"></script>
+
+
+    <!-- custom tree scripts -->
+    <script>
+        $(function () {
+            $('.custom-tree li.list-group-item:not(.has-sub)').click(function(){    
+                if(!$(this).hasClass('selected'))
+                {
+                    $('.custom-tree li.list-group-item:not(.has-sub)').removeClass('selected');
+                    $('.custom-tree .panel-title.dark-color').removeClass('selected');
+                    $('.custom-tree .panel-default>.panel-heading .panel-title.dark-color a').removeClass('active');
+                    $(this).addClass('selected');
+
+                    var treeOpenedParents = $('.custom-tree .panel-default>.panel-heading .panel-title.dark-color a:not(.collapsed)');
+                    for(i = 0 ; i < treeOpenedParents.length ; i++)
+                    {
+                        if($(treeOpenedParents[i]).parent().parent().parent().find('.selected').html())
+                        {
+                            $(treeOpenedParents[i]).addClass('active');   
+                        }
+                    }          
+                }
+                else
+                {
+                    $('.custom-tree li.list-group-item:not(.has-sub)').removeClass('selected');
+                    $('.custom-tree .panel-title.dark-color').removeClass('selected');
+                    $('.custom-tree .panel-default>.panel-heading .panel-title.dark-color a').removeClass('active');
+                }
+            });
+            $('.custom-tree .panel-title.dark-color label').click(function(){
+                if(!$(this).parent().hasClass('selected'))
+                {
+                    $('.custom-tree li.list-group-item:not(.has-sub)').removeClass('selected');
+                    $('.custom-tree .panel-title.dark-color').removeClass('selected');
+                    $('.custom-tree .panel-default>.panel-heading .panel-title.dark-color a').removeClass('active');
+                    $(this).parent().addClass('selected');
+
+                    var treeOpenedParents = $('.custom-tree .panel-default>.panel-heading .panel-title.dark-color a:not(.collapsed)');
+                    for(i = 0 ; i < treeOpenedParents.length ; i++)
+                    {
+                        if($(treeOpenedParents[i]).parent().parent().parent().find('.selected').html())
+                        {
+                            $(treeOpenedParents[i]).addClass('active');   
+                        }
+                    }
+                }
+                else
+                {
+                    $('.custom-tree li.list-group-item:not(.has-sub)').removeClass('selected');
+                    $('.custom-tree .panel-title.dark-color').removeClass('selected');
+                    $('.custom-tree .panel-default>.panel-heading .panel-title.dark-color a').removeClass('active');
+                }
+            });
+
+            $('#saveTreeValue').click(function(){
+                $('#treeValueName').val($('.custom-tree .selected').find('label .department-name').text());
+                $('#treeValueNumber').val($('.custom-tree .selected').find('label .department-number').text());
+            });
+
+        });
+    </script>
+
+
+</body>
+
+</html>

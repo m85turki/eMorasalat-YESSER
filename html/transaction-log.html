@@ -1,0 +1,1049 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link type="image/x-icon" rel="shortcut icon" href="./favicon.ico">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="theme-color" content="#0c7c5a">
+ <link type="image/x-icon" rel="shortcut icon" href="./favicon.ico">
+    
+    <!-- Bootstrap RTL -->
+    <link href="../assets/bootstrap/css/bootstrap.min.rtl.css" rel="stylesheet">
+    <link href="../assets/bootstrap/css/bootstrap.form.rtl.css" rel="stylesheet">
+    <link href="../assets/bootstrap/css/bootstrap.grid.rtl.css" rel="stylesheet">
+
+    <!-- Main -->
+    <link href="../assets/css/main.css" rel="stylesheet">
+
+    <!-- Vertical Menu -->
+    <link rel="stylesheet" type="text/css" href="../assets/plugins/vertical-menu/vertical-menu.min.css">
+
+    <!-- Confirm -->
+    <link rel="stylesheet" type="text/css" href="../assets/plugins/confirm/jquery-confirm.min.css" />
+
+    <!-- RTL -->
+    <link href="../assets/css/d-rtl.css" rel="stylesheet">
+   <title>مراسلات</title>
+
+</head>
+
+
+
+<body class="vertical-layout vertical-menu 2-columns   menu-flipped fixed-navbar " data-open="click"
+    data-menu="vertical-menu" data-col="2-columns" dir="rtl">
+    <div class="fixed-top">
+        <div class="top-header">
+            <div class="container-fluid">
+                <div class="d-flex flex-column flex-sm-row">
+                    <div class="">
+                        <a class="main_logo" href="#">
+                            <img src="../assets/images/logo-morasalat.png" title="" alt="">
+                        </a>
+                    </div>
+
+                    <div class="d-flex ml-sm-auto  mr-0 align-content-around flex-wrap h-side">
+                        <div class="dropdown px-1 px-md-3">
+                            <a id="drop1" href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <span>إسم الإدارة</span>
+                                <i class="la la-angle-down"></i>
+                            </a>
+
+                            <ul class="dropdown-menu fadeIn animated admins" aria-labelledby="drop1">
+                                <li><a class="pb-2" href="#">إسم الإدارة 1</a></li>
+                                <li role="separator" class="divider  mb-0"></li>
+                                <li><a class="pb-2" href="#">إسم الإدارة 2</a></li>
+                                <li role="separator" class="divider  mb-0"></li>
+                                <li><a class="pb-2" href="#">إسم الإدارة 3</a></li>
+                                <li class="mb-0"></li>
+                            </ul>
+                        </div>
+
+                        <div class="user-settings dropdown  px-1 px-md-3 ml-0 ml-md-5">
+                            <a id="drop1" href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <span class="h-avatar mx-2">
+                                    <img src="../assets/images/businessman.png">
+                                </span>
+                                <span>أشرف حسين</span>
+                                <i class="la la-angle-down"></i>
+                            </a>
+
+
+                            <ul class="dropdown-menu employee_dd fadeIn" aria-labelledby="drop1 w-100">
+                                <li class="pt-2 pb-2 pl-3"><a href="marking-signature.html"><i class="la la-file-image-o"></i>التوقيع والتأشير</a></li>
+                                <li role="separator" class="divider  mb-0 mt-0"></li>
+                                <li class="pt-2 pb-2 pl-3"><a href="assignment-paper.html"><i class="la la-file-text"></i>ورقة الإحالة</a></li>
+                                <li role="separator" class="divider  mb-0 mt-0"></li>
+                                <li class="pt-2 pb-2 pl-3"><a href="#"><i class="la la-list"></i>قائمة التوزيع</a></li>
+                                <li role="separator" class="divider  mb-0 mt-0"></li>
+                                <li class="pt-2 pb-2 pl-3"><a href="#"><i class="la la-line-chart"></i>المسارات</a></li>
+                                <li role="separator" class="divider  mb-0 mt-0"></li>
+                                <li class="pt-2 pb-2 pl-3"><a href="#"><i class="la la-user"></i>التفويض </a></li>
+
+                            </ul>
+
+                        </div>
+                        <div class="d-flex top-icons">
+                            <div class="searchbox px-2 flex-grow-1">
+                                <div class="h-search">
+                                    <i onclick="focusMethod()" data-toggle="tooltip" data-placement="bottom" title="" class="la la-search" data-original-title="البحث السريع"></i>
+                                    <input class="myTextField" type="text" name="search" placeholder="البحث هنا">
+                                </div>
+                                <script>
+                                    focusMethod = function getFocus() {
+                                        $('.myTextField').focus();
+                                    }
+                                </script>
+                            </div>
+                            <div class="notifications dropdown mt-2 px-4">
+                                <a href="#" class="dropdown-toggle la la-bell" data-toggle="dropdown" aria-haspopup="false" aria-expanded="true" data-placement="bottom" title="التنبيهات">
+                                    <em class="notification_sticky">22</em>
+                                </a>
+                                <ul class="dropdownposition dropdown-menu  fadeIn animated" aria-labelledby="drop1">
+
+                                    <li class=" pt-3"><a href="#" class="pt-0 pb-2 pr-3 pl-3"><i class="la la-bell"></i>التنبيهات</a></li>
+                                    <li role="separator" class="divider mb-0 mt-0"></li>
+                                    <li class="bgchange pt-3 pb-3 pr-3 pl-3">
+                                        <a href="#"><i class="la la-bell"></i>تم إرجاع معاملة</a>
+                                        <span class="pt-0 pb-2 pr-3 pl-3"> 28 تشرين الثاني 2018</span>
+                                    </li>
+                                    <li role="separator" class="divider mb-0 mt-0 p-0"></li>
+
+                                    <li class="bgchange pt-3 pb-3 pr-3 pl-3">
+                                        <a href="#"><i class="la la-bell"></i>تم استلام معاملة</a>
+                                        <span class="pt-0 pb-2 pr-3 pl-3"> 28 تشرين الثاني 2018</span>
+                                    </li>
+                                    <li role="separator" class="divider  mb-0 mt-0 p-0"></li>
+                                    <li class="pt-3 pb-3 pr-3 pl-3">
+                                        <a href="#"><i class="la la-bell"></i>تم استلام مهمة جديدة</a>
+                                        <span class="pt-0 pb-2 pr-3 pl-3"> 28 تشرين الثاني 2018</span>
+                                    </li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="notifications.html" class="text-center">إظهار المزيد </a></li>
+                                </ul>
+
+                            </div>
+                            <div class="px-3">
+                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="" class="chatbtn" data-original-title="المحادثات">
+                                    <em class="notification_sticky">22</em>
+                                    <i class="la la-comments "></i>
+                                </a>
+                            </div>
+                            <div class="px-3">
+                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="الدعم الفني">
+                                    <i class="la la-headphones"></i>
+                                </a>
+                            </div>
+                            <div class="px-3">
+                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="المساعدة">
+                                    <i class="la la-question-circle"></i>
+                                </a>
+                            </div>
+                            <div class="px-3">
+                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="English">
+                                    <i class="la la-globe"></i>
+                                </a>
+                            </div>
+                            <div class="px-3">
+                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="خروج">
+                                    <i class="la la-power-off"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+        <!-- start of fixed header -->
+        <nav class="navbar navbar-default navbar-second">
+            <div class="container-fluid">
+                <div class="row row-custom">
+                    <div class="navbar-header d-flex">
+                        <div class="mobile-menu d-md-none ml-auto">
+                            <a class="nav-link nav-menu-main menu-toggle is-active" href="#">
+                                <i class="la la-ellipsis-h"></i>
+                            </a>
+                        </div>
+                        <div class="ml-auto">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+                    </div>
+                    <div id="navbar" class="navbar-collapse collapse">
+
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a href="#">المعاملات</a></li>
+                            <li><a href="#">المهام <span class="notification_sticky">3</span></a></li>
+                            <li><a href="#">استقبال الادارة</a></li>
+                            <li><a href="#">تقارير</a></li>
+                            <li><a href="#">لوحة قياس مستوى الاداء</a></li>
+
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+    </div>
+
+
+
+    <!-- BEGIN: Vertical Menu -->
+    <div class="align-self-start main_sidebar">
+        <div class="d-none d-md-block text-left"><a class="nav-link nav-menu-main menu-toggle hidden-xs"
+                href="#"><i><img src="../assets/images/v-menu1.png"></i></a></div>
+
+        <div class=" main-menu menu-fixed menu-light menu-accordion menu-icon-left" data-scroll-to-active="true"
+            style="direction:ltr;">
+
+
+            <div class="main-menu-content">
+                <ul class="navigation navigation-main" id="main-menu-navigation" data-menu="menu-navigation">
+                    <li class="active nav-item">
+
+                        <a href="#"><i>
+                                <img src="../assets/images/v-menu2.png"></i>
+                            <span class="menu-title">معاملاتي</span>
+                            <span class="badge badge badge-primary badge-pill float-right mr-2">3</span>
+                        </a>
+
+                        <ul class="menu-content">
+                            <li><a class="menu-item" href="">قائمة فرعية</a>
+                            </li>
+                            <li><a class="menu-item" href="#">قائمة فرعية</a>
+                            </li>
+                            <li><a class="menu-item" href="#">قائمة فرعية</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+
+                        <a href="#"><i>
+                                <img src="../assets/images/v-menu3.png"></i>
+                            <span class="menu-title">مستلمة</span>
+                            <span class="badge badge badge-primary badge-pill float-right mr-2">3</span>
+                        </a>
+
+                        <ul class="menu-content">
+                            <li><a class="menu-item" href="">قائمة فرعية</a>
+                            </li>
+                            <li><a class="menu-item" href="#">قائمة فرعية</a>
+                            </li>
+                            <li><a class="menu-item" href="#">قائمة فرعية</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#"><i>
+                                <img src="../assets/images/v-menu4.png"></i>
+                            <span class="menu-title">منجزة</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#"><i>
+                                <img src="../assets/images/v-menu5.png"></i>
+                            <span class="menu-title">صادرة</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#"><i>
+                                <img src="../assets/images/v-menu6.png"></i>
+                            <span class="menu-title">مرسلة</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#"><i>
+                                <img src="../assets/images/v-menu7.png"></i>
+                            <span class="menu-title">قيد المتابعة</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#"><i>
+                                <img src="../assets/images/v-menu8.png"></i>
+                            <span class="menu-title">نسخ الكترونية</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- END: Vertical Menu -->
+    </div>
+    <div class="app-content content">
+        <div class="content_wrapper">
+            <h2 class="site-color main-title  pull-left">سجل المعاملة</h2>
+            <div class="pull-right close-icon">
+                <a class="circle-icon color-white" href="#"><i class="la la-close"></i></a>
+                <br />
+                <label>إغلاق</label>
+            </div>
+            <div class="content_container content_container--body white-container">
+                <!-- Nav tabs -->
+                <ul class="nav nav-tabs custom-nav-tabs mb-3 d-flex flex-wrap" role="tablist">
+                    <li role="presentation" class="flex-fill active">
+                        <a href="#tab-1" aria-controls="tab-1" role="tab" data-toggle="tab">
+                            <i class="icon-tab1"></i><br>
+                            بيانات <br> المعاملة
+                        </a>
+                    </li>
+                    <li role="presentation" class="flex-fill">
+                        <a href="#tab-2" aria-controls="tab-2" role="tab" data-toggle="tab">
+                            <i class="icon-tab2"></i><br>
+                            إحالات <br> المعاملة
+                        </a>
+                    </li>
+                    <li role="presentation" class="flex-fill">
+                        <a href="#tab-3" aria-controls="tab-3" role="tab" data-toggle="tab">
+                            <i class="icon-tab3"></i><br>
+                            ملحقات خطاب <br> اصل المعاملة
+                        </a>
+                    </li>
+                    <li role="presentation" class="flex-fill">
+                        <a href="#tab-4" aria-controls="tab-4" role="tab" data-toggle="tab">
+                            <i class="icon-tab4"></i><br>
+                            بيانات صاحب <br> العلاقة
+                        </a>
+                    </li>
+                    <li role="presentation" class="flex-fill">
+                        <a href="#tab-5" aria-controls="tab-5" role="tab" data-toggle="tab">
+                            <i class="icon-tab5"></i><br>
+                            النسخ الإلكترونية <br> الداخلية
+                        </a>
+                    </li>
+                    <li role="presentation" class="flex-fill">
+                        <a href="#tab-6" aria-controls="tab-6" role="tab" data-toggle="tab">
+                            <i class="icon-tab6"></i><br>
+                            النسخ الإلكترونية <br> الخارجية
+                        </a>
+                    </li>
+                    <li role="presentation" class="flex-fill">
+                        <a href="#tab-7" aria-controls="tab-7" role="tab" data-toggle="tab">
+                            <i class="icon-tab7"></i><br>
+                            سجل المعاملات <br> المرتبطة
+                        </a>
+                    </li>
+                    <li role="presentation" class="flex-fill">
+                        <a href="#tab-8" aria-controls="tab-8" role="tab" data-toggle="tab">
+                            <i class="icon-tab8"></i><br>
+                            سجل <br> الشروحات
+                        </a>
+                    </li>
+                    <li role="presentation" class="flex-fill">
+                        <a href="#tab-9" aria-controls="tab-9" role="tab" data-toggle="tab">
+                            <i class="icon-tab9"></i><br>
+                            سجل <br> المتابعة
+                        </a>
+                    </li>
+                    <li role="presentation" class="flex-fill">
+                        <a href="#tab-10" aria-controls="tab-10" role="tab" data-toggle="tab">
+                            <i class="icon-tab10"></i><br>
+                            سجل <br> المهام
+                        </a>
+                    </li>
+                </ul>
+                <!-- Tab panes -->
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane active" id="tab-1">
+						<div class="tasks_nav2">
+                        <ul class="nav nav-tabs  mb-3" role="tablist">
+                            <li role="presentation" class="active ml-0">
+                                <a href="#sub-tab-1" aria-controls="sub-tab-1" role="tab" data-toggle="tab" class="mr-0">
+                                    بيانات المعاملة الحالية
+                                </a>
+                            </li>
+                            <li role="presentation">
+                                <a href="#sub-tab-2" aria-controls="sub-tab-2" role="tab" data-toggle="tab" class="mr-0">
+                                    تعديلات المعاملة
+                                </a>
+                            </li>
+                            <li role="presentation">
+                                <a href="#sub-tab-3" aria-controls="sub-tab-3" role="tab" data-toggle="tab" class="mr-0">
+                                    حركات المعاملة
+                                </a>
+                            </li>
+                        </ul>
+							</div>
+                        <!-- Tab panes -->
+                        <div class="tab-content">
+                            <div role="tabpanel" class="tab-pane active" id="sub-tab-1">
+								       <div class="w-100 text-right">
+                                        <label class="cursor-pointer dark-color mx-2 filter-target">
+                                            <i class="sort-icons icon-filter mx-1"></i>تصفية
+                                        </label>
+                                        <label class="cursor-pointer dark-color mx-2 sort-target">
+                                            <i class="sort-icons icon-sort mx-1"></i>ترتيب حسب
+                                        </label>
+                                    </div>
+                             <div class="table-responsive">
+                                    <table class="grid table table-striped">
+                                        <thead>
+                                            <tr>
+                                                <th>الإدارة</th>
+                                                <th>الموظف</th>
+                                                <th>تاريخ التسليم</th>
+                                                <th>وصف المهمة</th>
+                                                <th>ملاحظات</th>
+                                                <th>الرد</th>
+                                             
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>الإدارة</td>
+                                                <td>الموظف</td>
+                                                <td>28 تشرين الثاني 2019</td>
+												 <td>وصف المهمة</td>
+												<td>ملاحظات </td>
+                                                <td>رد المعاملة</td>
+                                                
+                                            </tr>
+                                           <tr>
+                                                <td>الإدارة</td>
+                                                <td>الموظف</td>
+                                                <td>28 تشرين الثاني 2019</td>
+												 <td>وصف المهمة</td>
+												<td>ملاحظات </td>
+                                                <td>رد المعاملة</td>
+                                                
+                                            </tr>
+                                            <tr>
+                                                <td>الإدارة</td>
+                                                <td>الموظف</td>
+                                                <td>28 تشرين الثاني 2019</td>
+												 <td>وصف المهمة</td>
+												<td>ملاحظات </td>
+                                                <td><button class="btn btn-default gray"><i class="la la-paperclip"></i>file .pdf </button></td>
+                                            </tr>
+                                            <tr>
+                                                 <td>الإدارة</td>
+                                                <td>الموظف</td>
+                                                <td>28 تشرين الثاني 2019</td>
+												 <td>وصف المهمة</td>
+												<td>ملاحظات </td>
+                                                <td>رد المعاملة</td>
+                                            </tr>
+                                            <tr>
+                                                  <td>الإدارة</td>
+                                                <td>الموظف</td>
+                                                <td>28 تشرين الثاني 2019</td>
+												 <td>وصف المهمة</td>
+												<td>ملاحظات </td>
+                                                <td>رد المعاملة</td>
+                                            </tr>
+                                        </tbody>
+
+                                    </table>
+                                </div>
+                            </div>
+                            <div role="tabpanel" class="tab-pane" id="sub-tab-2">
+                                <div class="row m-0 my-2">
+                                    <div class="w-100 text-right">
+                                        <label class="cursor-pointer dark-color mx-2 filter-target">
+                                            <i class="sort-icons icon-filter mx-1"></i>تصفية
+                                        </label>
+                                        <label class="cursor-pointer dark-color mx-2 sort-target">
+                                            <i class="sort-icons icon-sort mx-1"></i>ترتيب حسب
+                                        </label>
+                                    </div>
+                                    <div class="filter-box filter">
+                                        <form>
+                                            <div class="form-row">
+                                                <div class="form-group col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                                                    <label for="">اسم الحقل</label>
+                                                    <input type="text" class="form-control">
+                                                </div>
+                                                <div class="form-group col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                                                    <label for="">القيم القديمة</label>
+                                                    <input type="text" class="form-control">
+                                                </div>
+                                                <div class="form-group col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                                                    <label for="">القيم الجديدة</label>
+                                                    <input type="text" class="form-control">
+                                                </div>
+                                                <div class="form-group col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                                                    <label for="">تاريخ الإنشاء</label>
+                                                    <div class="input-group" >
+                                                        <input type="text" class="form-control" id="datepicker">
+                                                        <div class="input-group-append">
+                                                            <span class="input-group-text hyperlink">
+                                                                <a href="#"><i class="far fa-calendar-alt"></i></a>
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                                                    <label for="">تاريخ التعديل</label>
+                                                    <div class="input-group">
+                                                        <input type="text" class="form-control" id="datepicker2">
+                                                        <div class="input-group-append">
+                                                            <span class="input-group-text hyperlink">
+                                                                <a href="#"><i class="far fa-calendar-alt"></i></a>
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                                                    <label for="">المستخدم الذي قام بالإنشاء</label>
+                                                    <select placeholder="اختر" id="inputState" class="form-control">
+                                                        <option selected="">اختر</option>
+                                                        <option>.....</option>
+                                                    </select>
+                                                </div>
+                                                <div class="form-group col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                                                    <label for="">المستخدم الذي قام بالتعديل</label>
+                                                    <select placeholder="اختر" id="inputState" class="form-control">
+                                                        <option selected="">اختر</option>
+                                                        <option>.....</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <div class="filter-box sort">
+                                        <form>
+                                            <div class="form-row">
+                                                <div class="form-group col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                                    <label for="">تاريخ الإنشاء</label>
+                                                    <div class="input-group">
+                                                        <input type="text" class="form-control" id="datepicker3">
+                                                        <div class="input-group-append">
+                                                            <span class="input-group-text hyperlink">
+                                                                <a href="#"><i class="far fa-calendar-alt"></i></a>
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                                    <label for="">تاريخ التعديل</label>
+                                                    <div class="input-group">
+                                                        <input type="text" class="form-control" id="datepicker4">
+                                                        <div class="input-group-append">
+                                                            <span class="input-group-text hyperlink">
+                                                                <a href="#"><i class="far fa-calendar-alt"></i></a>
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="table-responsive">
+                                    <table class="grid table table-striped">
+                                        <thead>
+                                            <tr>
+                                                <th>اسم الحقل</th>
+                                                <th>قيمة الحقل القديمة</th>
+                                                <th>قيمة الحقل الجديدة</th>
+                                                <th>تاريخ الإنشاء</th>
+                                                <th>المستخدم الذي قام بلإنشاء</th>
+                                                <th>تاريخ\وقت التعديل</th>
+                                                <th>المستخدم الذي قام بالتعديل</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>اسم الحقل</td>
+                                                <td>قيمة الحقل القديمة</td>
+                                                <td>قيمة الحقل الجديدة</td>
+                                                <td>28 تشرين الثاني 2019</td>
+                                                <td>اسم الموظف</td>
+                                                <td>28 تشرين الثاني 2019 10:00pm</td>
+                                                <td>اسم الموظف</td>
+                                            </tr>
+                                            <tr>
+                                                <td>اسم الحقل</td>
+                                                <td>قيمة الحقل القديمة</td>
+                                                <td>قيمة الحقل الجديدة</td>
+                                                <td>28 تشرين الثاني 2019</td>
+                                                <td>اسم الموظف</td>
+                                                <td>28 تشرين الثاني 2019 10:00pm</td>
+                                                <td>اسم الموظف</td>
+                                            </tr>
+                                            <tr>
+                                                <td>اسم الحقل</td>
+                                                <td>قيمة الحقل القديمة</td>
+                                                <td>قيمة الحقل الجديدة</td>
+                                                <td>28 تشرين الثاني 2019</td>
+                                                <td>اسم الموظف</td>
+                                                <td>28 تشرين الثاني 2019 10:00pm</td>
+                                                <td>اسم الموظف</td>
+                                            </tr>
+                                            <tr>
+                                                <td>اسم الحقل</td>
+                                                <td>قيمة الحقل القديمة</td>
+                                                <td>قيمة الحقل الجديدة</td>
+                                                <td>28 تشرين الثاني 2019</td>
+                                                <td>اسم الموظف</td>
+                                                <td>28 تشرين الثاني 2019 10:00pm</td>
+                                                <td>اسم الموظف</td>
+                                            </tr>
+                                            <tr>
+                                                <td>اسم الحقل</td>
+                                                <td>قيمة الحقل القديمة</td>
+                                                <td>قيمة الحقل الجديدة</td>
+                                                <td>28 تشرين الثاني 2019</td>
+                                                <td>اسم الموظف</td>
+                                                <td>28 تشرين الثاني 2019 10:00pm</td>
+                                                <td>اسم الموظف</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                           <div class="w-100 p-2 text-center">
+                        <nav aria-label="Page navigation">
+                            <ul class="pagination custom-pagination">
+                                <li class="change-page">
+                                    <a href="#" aria-label="Previous">
+                                        <i class="fa fa-caret-right"></i>
+                                    </a>
+                                </li>
+                                <li class="blues_border"><a href="#" class="transparent_bg">1</a></li>
+								<li><span class="transparent_bg font_size12"> من
+									
+									<span class="light-blue pr-1">4</span>
+									</span>
+								</li>
+                                <li class="change-page">
+                                    <a href="#" aria-label="Next">
+                                        <i class="fa fa-caret-left"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                            </div>
+                            <div role="tabpanel" class="tab-pane" id="sub-tab-3">
+                                <div class="row m-0 my-2">
+                                    <div class="w-100 text-right">
+                                        <label class="cursor-pointer dark-color mx-2 filter-target">
+                                            <i class="sort-icons icon-filter mx-1"></i>تصفية
+                                        </label>
+                                        <label class="cursor-pointer dark-color mx-2 sort-target">
+                                            <i class="sort-icons icon-sort mx-1"></i>ترتيب حسب
+                                        </label>
+                                    </div>
+                                    <div class="filter-box filter">
+                                        <form>
+                                            <div class="form-row">
+                                                <div class="form-group col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                                                    <label for="">المستخدم الذي قام بالحركة</label>
+                                                    <select placeholder="اختر" id="inputState" class="form-control">
+                                                        <option selected="">اختر</option>
+                                                        <option>.....</option>
+                                                    </select>
+                                                </div>
+                                                <div class="form-group col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                                                    <label for="">نوع الحركة</label>
+                                                    <select placeholder="اختر" id="inputState" class="form-control">
+                                                        <option selected="">اختر</option>
+                                                        <option>.....</option>
+                                                    </select>
+                                                </div>
+                                                <div class="form-group col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                                                    <label for="">تاريخ الحركة</label>
+                                                    <div class="input-group">
+                                                        <input type="text" class="form-control">
+                                                        <div class="input-group-append">
+                                                            <span class="input-group-text hyperlink">
+                                                                <a href="#"><i class="far fa-calendar-alt"></i></a>
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <div class="filter-box sort">
+                                        <form>
+                                            <div class="form-row">
+                                                <div class="form-group col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                                                    <label for="">تاريخ الحركة</label>
+                                                    <div class="input-group">
+                                                        <input type="text" class="form-control">
+                                                        <div class="input-group-append">
+                                                            <span class="input-group-text hyperlink">
+                                                                <a href="#"><i class="far fa-calendar-alt"></i></a>
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                                <div class="table-responsive">
+                                    <table class="grid table table-striped">
+                                        <thead>
+                                            <tr>
+                                                <th>المستخدم الذي قام بالحركة</th>
+                                                <th>نوع الحركة</th>
+                                                <th>تاريخ\وقت الحركة</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>اسم المستخدم</td>
+                                                <td>نوع الحركة</td>
+                                                <td>28 تشرين الثاني 2019 10:00pm</td>
+                                            </tr>
+                                            <tr>
+                                                <td>اسم المستخدم</td>
+                                                <td>نوع الحركة</td>
+                                                <td>28 تشرين الثاني 2019 10:00pm</td>
+                                            </tr>
+                                            <tr>
+                                                <td>اسم المستخدم</td>
+                                                <td>نوع الحركة</td>
+                                                <td>28 تشرين الثاني 2019 10:00pm</td>
+                                            </tr>
+                                            <tr>
+                                                <td>اسم المستخدم</td>
+                                                <td>نوع الحركة</td>
+                                                <td>28 تشرين الثاني 2019 10:00pm</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                         <div class="w-100 p-2 text-center">
+                        <nav aria-label="Page navigation">
+                            <ul class="pagination custom-pagination">
+                                <li class="change-page">
+                                    <a href="#" aria-label="Previous">
+                                        <i class="fa fa-caret-right"></i>
+                                    </a>
+                                </li>
+                                <li class="blues_border"><a href="#" class="transparent_bg">1</a></li>
+								<li><span class="transparent_bg font_size12"> من
+									
+									<span class="light-blue pr-1">4</span>
+									</span>
+								</li>
+                                <li class="change-page">
+                                    <a href="#" aria-label="Next">
+                                        <i class="fa fa-caret-left"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div role="tabpanel" class="tab-pane" id="tab-2">
+                        <div class="row m-0 my-2">
+                            <div class="pull-right">
+                                <a href="#" class="dark-color mx-2">
+                                    <i class="sort-icons icon-filter mx-1"></i>تصفية
+                                </a>
+                                <a href="#" class="dark-color mx-2">
+                                    <i class="sort-icons icon-sort mx-1"></i>ترتيب حسب
+                                </a>
+                            </div>
+                        </div>
+                        <div class="table-responsive">
+                            <table class="grid table table-striped">
+                                <thead>
+                                    <tr>
+                                        <th>المرسل / الإدارة المرسلة</th>
+                                        <th>المرسل إليه / الإدارة المرسل إليها</th>
+                                        <th>تاريخ / وقت الإحالة</th>
+                                        <th>نوع الإجراء</th>
+                                        <th>نوع الإحالة</th>
+                                        <th>طريقة التسليم</th>
+                                        <th>ملاحظات الإحالة</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>اسم المرسل / الإدارة المرسلة</td>
+                                        <td>اسم المرسل إليه / الإدارة المرسل إليها</td>
+                                        <td>28 تشرين الثاني 2019 10:00pm</td>
+                                        <td>نوع الإجراء</td>
+                                        <td>نوع الإحالة</td>
+                                        <td>طريقة التسليم</td>
+                                        <td>ملاحظات الإحالة</td>
+                                    </tr>
+                                    <tr>
+                                        <td>اسم المرسل / الإدارة المرسلة</td>
+                                        <td>اسم المرسل إليه / الإدارة المرسل إليها</td>
+                                        <td>28 تشرين الثاني 2019 10:00pm</td>
+                                        <td>نوع الإجراء</td>
+                                        <td>نوع الإحالة</td>
+                                        <td>طريقة التسليم</td>
+                                        <td>ملاحظات الإحالة</td>
+                                    </tr>
+                                    <tr>
+                                        <td>اسم المرسل / الإدارة المرسلة</td>
+                                        <td>اسم المرسل إليه / الإدارة المرسل إليها</td>
+                                        <td>28 تشرين الثاني 2019 10:00pm</td>
+                                        <td>نوع الإجراء</td>
+                                        <td>نوع الإحالة</td>
+                                        <td>طريقة التسليم</td>
+                                        <td>ملاحظات الإحالة</td>
+                                    </tr>
+                                    <tr>
+                                        <td>اسم المرسل / الإدارة المرسلة</td>
+                                        <td>اسم المرسل إليه / الإدارة المرسل إليها</td>
+                                        <td>28 تشرين الثاني 2019 10:00pm</td>
+                                        <td>نوع الإجراء</td>
+                                        <td>نوع الإحالة</td>
+                                        <td>طريقة التسليم</td>
+                                        <td>ملاحظات الإحالة</td>
+                                    </tr>
+                                    <tr>
+                                        <td>اسم المرسل / الإدارة المرسلة</td>
+                                        <td>اسم المرسل إليه / الإدارة المرسل إليها</td>
+                                        <td>28 تشرين الثاني 2019 10:00pm</td>
+                                        <td>نوع الإجراء</td>
+                                        <td>نوع الإحالة</td>
+                                        <td>طريقة التسليم</td>
+                                        <td>ملاحظات الإحالة</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <div class="w-100 p-2 text-center">
+                            <nav aria-label="Page navigation">
+                                <ul class="pagination custom-pagination">
+                                    <li class="change-page">
+                                        <a href="#" aria-label="Previous">
+                                            <i class="fa fa-caret-right"></i>
+                                        </a>
+                                    </li>
+                                    <li><a href="#">1</a></li>
+                                    <li class="active"><a href="#">2</a></li>
+                                    <li><a href="#">3</a></li>
+                                    <li class="change-page">
+                                        <a href="#" aria-label="Next">
+                                            <i class="fa fa-caret-left"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <div role="tabpanel" class="tab-pane" id="tab-3">.rrrrrrrrrrrrr</div>
+                    <div role="tabpanel" class="tab-pane" id="tab-4">yyyyyyyyyy.</div>
+                    <div role="tabpanel" class="tab-pane" id="tab-5">yyyyyveerveryyyyy.</div>
+                    <div role="tabpanel" class="tab-pane" id="tab-6">ascscsd.</div>
+                    <div role="tabpanel" class="tab-pane" id="tab-7">yyyydfvdfvdfyyyyyy.</div>
+                    <div role="tabpanel" class="tab-pane" id="tab-8">yyyyycxv xcvffdvdyyyyy.</div>
+                    <div role="tabpanel" class="tab-pane" id="tab-9">yyyyycxv xcvffdvdyyyyy.</div>
+                    <div role="tabpanel" class="tab-pane" id="tab-10">
+                        <ul class="nav nav-tabs custom-sub-nav-tabs mb-3" role="tablist">
+                            <li role="presentation" class="active">
+                                <a href="#sub-tab-10-1" aria-controls="sub-tab-1" role="tab" data-toggle="tab">
+                                    بيانات المهام الحالية
+                                </a>
+                            </li>
+                            <li role="presentation">
+                                <a href="#sub-tab-10-2" aria-controls="sub-tab-2" role="tab" data-toggle="tab">
+                                    تعديلات المعاملة
+                                </a>
+                            </li>
+                            <li role="presentation">
+                                <a href="#sub-tab-10-3" aria-controls="sub-tab-3" role="tab" data-toggle="tab">
+                                    حركات المعاملة
+                                </a>
+                            </li>
+                        </ul>
+                        <!-- Tab panes -->
+                        <div class="tab-content">
+                            <div role="tabpanel" class="tab-pane active" id="sub-tab-10-1">xzczxczxczx</div>
+                            <div role="tabpanel" class="tab-pane" id="sub-tab-10-2">
+                                <div class="row m-0 my-2">
+                                    <div class="pull-right">
+                                        <a href="#" class="dark-color mx-2">
+                                            <i class="sort-icons icon-filter mx-1"></i>تصفية </a>
+                                        <a href="#" class="dark-color mx-2">
+                                            <i class="sort-icons icon-sort mx-1"></i>ترتيب حسب
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="table-responsive">
+                                    <table class="grid table table-striped">
+                                        <thead>
+                                            <tr>
+                                                <th>الإدارة</th>
+                                                <th>الموظف</th>
+                                                <th>تاريخ التسليم</th>
+                                                <th>وصف المهمة</th>
+                                                <th>ملاحظات</th>
+                                                <th>الرد</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>الإدارة</td>
+                                                <td>الموظف</td>
+                                                <td>28 تشرين الثاني 2019</td>
+                                                <td>وصف المهمة</td>
+                                                <td>ملاحظات</td>
+                                                <td>رد المعاملة</td>
+                                            </tr>
+                                            <tr>
+                                                <td>الإدارة</td>
+                                                <td>الموظف</td>
+                                                <td>28 تشرين الثاني 2019</td>
+                                                <td>وصف المهمة</td>
+                                                <td>ملاحظات</td>
+                                                <td>رد المعاملة</td>
+                                            </tr>
+                                            <tr>
+                                                <td>الإدارة</td>
+                                                <td>الموظف</td>
+                                                <td>28 تشرين الثاني 2019</td>
+                                                <td>وصف المهمة</td>
+                                                <td>ملاحظات</td>
+                                                <td><button class="btn btn-light-gray"><i
+                                                            class="fa fa-paperclip mx-1"></i>file.pdf</button></td>
+                                            </tr>
+                                            <tr>
+                                                <td>الإدارة</td>
+                                                <td>الموظف</td>
+                                                <td>28 تشرين الثاني 2019</td>
+                                                <td>وصف المهمة</td>
+                                                <td>ملاحظات</td>
+                                                <td>-</td>
+                                            </tr>
+                                            <tr>
+                                                <td>الإدارة</td>
+                                                <td>الموظف</td>
+                                                <td>28 تشرين الثاني 2019</td>
+                                                <td>وصف المهمة</td>
+                                                <td>ملاحظات</td>
+                                                <td>-</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="w-100 p-2 text-center">
+                                    <nav aria-label="Page navigation">
+                                        <ul class="pagination custom-pagination">
+                                            <li class="change-page">
+                                                <a href="#" aria-label="Previous">
+                                                    <i class="fa fa-caret-right"></i>
+                                                </a>
+                                            </li>
+                                            <li><a href="#">1</a></li>
+                                            <li class="active"><a href="#">2</a></li>
+                                            <li><a href="#">3</a></li>
+                                            <li class="change-page">
+                                                <a href="#" aria-label="Next">
+                                                    <i class="fa fa-caret-left"></i>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                            <div role="tabpanel" class="tab-pane" id="sub-tab-10-3">.rrrrrrrrrrrrr</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="btn btn-dark-blue pull-right mb-2">طباعة السجل</button>
+        </div>
+    </div>
+
+
+
+<!--QBS JQuery-->
+<link href="../assets/js/jquery-ui-1.9.2/css/base/jquery-ui-1.9.2.custom.css" rel="stylesheet">
+
+    <!-- jQuery -->
+    <script src="../assets/js/jquery.js"></script>
+<script src="../assets/js/jquery-ui-1.9.2/js/jquery-ui-1.9.2.custom.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../assets/js/bootstrap-select.js"></script>
+    <script src="../assets/js/jquery.matchHeight-min.js"></script>
+    <script src="../assets/js/aos.js"></script>
+    <script src="../assets/js/jquery.slimscroll.min.js"></script>
+    <script src="../assets/js/app.js"></script>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
+    <script>
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
+
+    <!-- Select2 JS -->
+    <script src="../assets/plugins/select2/select2.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.select2-with').select2();
+        });
+        $('.select2-without').select2({
+            minimumResultsForSearch: -1
+        });
+    </script>
+<!--QBS Script -->
+<script>
+
+		$(function() {
+		$( "#datepicker" ).datepicker();
+	});
+	</script>
+	<script type="text/javascript">
+		$(function() {
+		$( "#datepicker2").datepicker();
+	});
+	</script>	
+
+<script>
+
+		$(function() {
+		$( "#datepicker3" ).datepicker();
+	});
+	</script>
+	<script type="text/javascript">
+		$(function() {
+		$( "#datepicker4").datepicker();
+	});
+	</script>	
+	<!---->
+	<!---->
+
+    <!-- sort and filter scripts-->
+    <script>
+        $(document).ready(function () {
+            $('.filter-target').click(function () {
+				debugger;
+                $(this).parent().parent().find('.filter-box.filter').slideToggle('fast');
+                $('.sort-target').removeClass("active");
+                $(this).toggleClass("active");
+                $('.filter-box.sort').hide();
+            });
+            $('.sort-target').click(function () {
+                $(this).parent().parent().find('.filter-box.sort').slideToggle('fast');
+                $('.filter-target').removeClass("active");
+                $(this).toggleClass("active");
+                $('.filter-box.filter').hide();
+            });
+        });
+    </script>
+    <!-- Vertical Menu css-->
+    <script src="../assets/plugins/vertical-menu/vendors.min.js"></script>
+    <script src="../assets/plugins/vertical-menu/app-menu.min.js"></script>
+    <script src="../assets/plugins/vertical-menu/app.min.js"></script>
+
+</body>
+
+</html>

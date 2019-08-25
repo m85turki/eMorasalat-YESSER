@@ -1,0 +1,934 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link type="image/x-icon" rel="shortcut icon" href="./favicon.ico">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="theme-color" content="#0c7c5a">
+    <title>مراسلات</title> 
+
+    <link type="image/x-icon" rel="shortcut icon" href="./favicon.ico">
+    
+    <!-- Bootstrap RTL -->
+    <link href="../assets/bootstrap/css/bootstrap.min.rtl.css" rel="stylesheet">
+    <link href="../assets/bootstrap/css/bootstrap.form.rtl.css" rel="stylesheet">
+    <link href="../assets/bootstrap/css/bootstrap.grid.rtl.css" rel="stylesheet">
+
+    <!-- Main -->
+    <link href="../assets/css/main.css" rel="stylesheet">
+
+    <!-- Vertical Menu -->
+    <link rel="stylesheet" type="text/css" href="../assets/plugins/vertical-menu/vertical-menu.min.css">
+
+    <!-- Confirm -->
+    <link rel="stylesheet" type="text/css" href="../assets/plugins/confirm/jquery-confirm.min.css" />
+
+    <!-- RTL -->
+    <link href="../assets/css/d-rtl.css" rel="stylesheet">
+
+
+</head>
+
+
+
+<body class="vertical-layout vertical-menu 2-columns   menu-flipped fixed-navbar" data-open="click"
+    data-menu="vertical-menu" data-col="2-columns" dir="rtl">
+    <div class="fixed-top">
+        <div class="top-header">
+            <div class="container-fluid">
+                <div class="d-flex flex-column flex-sm-row">
+                    <div class="">
+                        <a class="main_logo" href="#">
+                            <img src="../assets/images/logo-morasalat.png" title="" alt="">
+                        </a>
+                    </div>
+
+                    <div class="d-flex ml-sm-auto  mr-0 align-content-around flex-wrap h-side">
+                        <div class="dropdown px-1 px-md-3">
+                            <a id="drop1" href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <span>إسم الإدارة</span>
+                                <i class="la la-angle-down"></i>
+                            </a>
+
+                            <ul class="dropdown-menu fadeIn animated admins" aria-labelledby="drop1">
+                                <li><a class="pb-2" href="#">إسم الإدارة 1</a></li>
+                                <li role="separator" class="divider  mb-0"></li>
+                                <li><a class="pb-2" href="#">إسم الإدارة 2</a></li>
+                                <li role="separator" class="divider  mb-0"></li>
+                                <li><a class="pb-2" href="#">إسم الإدارة 3</a></li>
+                                <li class="mb-0"></li>
+                            </ul>
+                        </div>
+
+                        <div class="user-settings dropdown  px-1 px-md-3 ml-0 ml-md-5">
+                            <a id="drop1" href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <span class="h-avatar mx-2">
+                                    <img src="../assets/images/businessman.png">
+                                </span>
+                                <span>أشرف حسين</span>
+                                <i class="la la-angle-down"></i>
+                            </a>
+
+
+                            <ul class="dropdown-menu employee_dd fadeIn" aria-labelledby="drop1 w-100">
+                                <li class="pt-2 pb-2 pl-3"><a href="marking-signature.html"><i class="la la-file-image-o"></i>التوقيع والتأشير</a></li>
+                                <li role="separator" class="divider  mb-0 mt-0"></li>
+                                <li class="pt-2 pb-2 pl-3"><a href="assignment-paper.html"><i class="la la-file-text"></i>ورقة الإحالة</a></li>
+                                <li role="separator" class="divider  mb-0 mt-0"></li>
+                                <li class="pt-2 pb-2 pl-3"><a href="#"><i class="la la-list"></i>قائمة التوزيع</a></li>
+                                <li role="separator" class="divider  mb-0 mt-0"></li>
+                                <li class="pt-2 pb-2 pl-3"><a href="#"><i class="la la-line-chart"></i>المسارات</a></li>
+                                <li role="separator" class="divider  mb-0 mt-0"></li>
+                                <li class="pt-2 pb-2 pl-3"><a href="#"><i class="la la-user"></i>التفويض </a></li>
+
+                            </ul>
+
+                        </div>
+                        <div class="d-flex top-icons">
+                            <div class="searchbox px-2 flex-grow-1">
+                                <div class="h-search">
+                                    <i onclick="focusMethod()" data-toggle="tooltip" data-placement="bottom" title="" class="la la-search" data-original-title="البحث السريع"></i>
+                                    <input class="myTextField" type="text" name="search" placeholder="البحث هنا">
+                                </div>
+                                <script>
+                                    focusMethod = function getFocus() {
+                                        $('.myTextField').focus();
+                                    }
+                                </script>
+                            </div>
+                            <div class="notifications dropdown mt-2 px-4">
+                                <a href="#" class="dropdown-toggle la la-bell" data-toggle="dropdown" aria-haspopup="false" aria-expanded="true" data-placement="bottom" title="التنبيهات">
+                                    <em class="notification_sticky">22</em>
+                                </a>
+                                <ul class="dropdownposition dropdown-menu  fadeIn animated" aria-labelledby="drop1">
+
+                                    <li class=" pt-3"><a href="#" class="pt-0 pb-2 pr-3 pl-3"><i class="la la-bell"></i>التنبيهات</a></li>
+                                    <li role="separator" class="divider mb-0 mt-0"></li>
+                                    <li class="bgchange pt-3 pb-3 pr-3 pl-3">
+                                        <a href="#"><i class="la la-bell"></i>تم إرجاع معاملة</a>
+                                        <span class="pt-0 pb-2 pr-3 pl-3"> 28 تشرين الثاني 2018</span>
+                                    </li>
+                                    <li role="separator" class="divider mb-0 mt-0 p-0"></li>
+
+                                    <li class="bgchange pt-3 pb-3 pr-3 pl-3">
+                                        <a href="#"><i class="la la-bell"></i>تم استلام معاملة</a>
+                                        <span class="pt-0 pb-2 pr-3 pl-3"> 28 تشرين الثاني 2018</span>
+                                    </li>
+                                    <li role="separator" class="divider  mb-0 mt-0 p-0"></li>
+                                    <li class="pt-3 pb-3 pr-3 pl-3">
+                                        <a href="#"><i class="la la-bell"></i>تم استلام مهمة جديدة</a>
+                                        <span class="pt-0 pb-2 pr-3 pl-3"> 28 تشرين الثاني 2018</span>
+                                    </li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="notifications.html" class="text-center">إظهار المزيد </a></li>
+                                </ul>
+
+                            </div>
+                            <div class="px-3">
+                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="" class="chatbtn" data-original-title="المحادثات">
+                                    <em class="notification_sticky">22</em>
+                                    <i class="la la-comments "></i>
+                                </a>
+                            </div>
+                            <div class="px-3">
+                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="الدعم الفني">
+                                    <i class="la la-headphones"></i>
+                                </a>
+                            </div>
+                            <div class="px-3">
+                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="المساعدة">
+                                    <i class="la la-question-circle"></i>
+                                </a>
+                            </div>
+                            <div class="px-3">
+                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="English">
+                                    <i class="la la-globe"></i>
+                                </a>
+                            </div>
+                            <div class="px-3">
+                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="خروج">
+                                    <i class="la la-power-off"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+        <!-- start of fixed header -->
+        <nav class="navbar navbar-default navbar-second">
+            <div class="container-fluid">
+                <div class="row row-custom">
+                    <div class="navbar-header d-flex">
+                        <div class="mobile-menu d-md-none ml-auto">
+                            <a class="nav-link nav-menu-main menu-toggle is-active" href="#">
+                                <i class="la la-ellipsis-h"></i>
+                            </a>
+                        </div>
+                        <div class="ml-auto">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+                    </div>
+                    <div id="navbar" class="navbar-collapse collapse">
+
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a href="#">المعاملات</a></li>
+                            <li><a href="#">المهام <span class="notification_sticky">3</span></a></li>
+                            <li><a href="#">استقبال الادارة</a></li>
+                            <li><a href="#">تقارير</a></li>
+                            <li><a href="#">لوحة قياس مستوى الاداء</a></li>
+
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+    </div>
+
+
+
+    <!-- BEGIN: Vertical Menu -->
+    <div class="align-self-start main_sidebar">
+        <div class="d-none d-md-block text-left"><a class="nav-link nav-menu-main menu-toggle hidden-xs"
+                href="#"><i><img src="../assets/images/v-menu1.png"></i></a></div>
+
+        <div class=" main-menu menu-fixed menu-light menu-accordion menu-icon-left" data-scroll-to-active="true"
+            style="direction:ltr;">
+
+
+            <div class="main-menu-content">
+                <ul class="navigation navigation-main" id="main-menu-navigation" data-menu="menu-navigation">
+                    <li class="active nav-item">
+
+                        <a href="#"><i>
+                                <img src="../assets/images/v-menu2.png"></i>
+                            <span class="menu-title">معاملاتي</span>
+                            <span class="badge badge badge-primary badge-pill float-left mr-2">3</span>
+                        </a>
+
+                        <ul class="menu-content">
+                            <li><a class="menu-item" href="">قائمة فرعية</a>
+                            </li>
+                            <li><a class="menu-item" href="#">قائمة فرعية</a>
+                            </li>
+                            <li><a class="menu-item" href="#">قائمة فرعية</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+
+                        <a href="#"><i>
+                                <img src="../assets/images/v-menu3.png"></i>
+                            <span class="menu-title">مستلمة</span>
+                            <span class="badge badge badge-primary badge-pill float-left mr-2">3</span>
+                        </a>
+
+                        <ul class="menu-content">
+                            <li><a class="menu-item" href="">قائمة فرعية</a>
+                            </li>
+                            <li><a class="menu-item" href="#">قائمة فرعية</a>
+                            </li>
+                            <li><a class="menu-item" href="#">قائمة فرعية</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#"><i>
+                                <img src="../assets/images/v-menu4.png"></i>
+                            <span class="menu-title">منجزة</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#"><i>
+                                <img src="../assets/images/v-menu5.png"></i>
+                            <span class="menu-title">صادرة</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#"><i>
+                                <img src="../assets/images/v-menu6.png"></i>
+                            <span class="menu-title">مرسلة</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#"><i>
+                                <img src="../assets/images/v-menu7.png"></i>
+                            <span class="menu-title">قيد المتابعة</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#"><i>
+                                <img src="../assets/images/v-menu8.png"></i>
+                            <span class="menu-title">نسخ الكترونية</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- END: Vertical Menu -->
+    </div>
+    <div class="app-content content">
+        <div class="content_wrapper">
+			<div class="row m-0 treaty_row">
+				<div class="col-lg-10 col-xs-10">
+            <span class="site-color main-title2  pull-left ">تعديل المعاملة</span>
+					</div>
+			</div>
+			<div class="row m-0 treaty_row2 mb-4">
+				<div class="col-lg-3 col-xs-12 col-sm-4">
+					<span><span class="site-color">رقم المعاملة:</span>
+				
+				2342343</span>
+					</div>
+				<div class="col-lg-3 col-xs-12 col-sm-4">
+			<span><span class="site-color">التاريخ:</span>
+				28 تشرين الثاني 2018</span>
+					</div>
+					<div class="col-lg-3 col-xs-12 col-sm-4">
+						<span>
+							<span class="site-color">الوصف:</span>
+				وصف المعاملة</span>
+					</div>
+				<div class="col-lg-3">
+				</div>	
+		
+			</div>
+            <div class="content_container content_container--body white-container p-0">
+				<div class="inner-header gray header-position pt-3 pb-3 pr-2">
+					<nav class="navbar navbar-expand-lg navbar-light bg-light mb-0">
+
+  <div class="collapse navbar-collapse nav-for-treat" id="navbarNav">
+    <ul class="float-left d-inline-flex nav-border">
+      <li class="border-left pl-1">
+		  <i class="fas fa-file-signature pl-1"></i>
+		  <a class="p-2" href="#" >إرجاع المعاملة</a>
+      </li>
+      <li class="border-left">
+		    <i class="fas fa-file-signature pl-1"></i>
+        <a class="p-2" href="#">الإحالات المباشرة</a>
+      </li>
+      <li>
+		  <i class="fas fa-file-signature pl-1"></i>
+        <a class="p-2" href="#">الإحالة باستخدام ورق الإحالة</a>
+      </li>
+ 
+    </ul>
+  </div>
+</nav>
+					
+					
+				</div>
+                <!-- Nav tabs -->
+                <ul class="nav nav-tabs custom-nav-tabs mb-3 d-flex flex-wrap edit_paper_tabs" role="tablist">
+                    <li role="presentation" class="flex-fill active">
+                        <a href="#tab-1" aria-controls="tab-1" role="tab" data-toggle="tab">
+                            <i class="icon-tab1"></i><br>
+                            البيانات <br> الأساسية
+                        </a>
+                    </li>
+                    <li role="presentation" class="flex-fill">
+                        <a href="#tab-2" aria-controls="tab-2" role="tab" data-toggle="tab">
+                            <i class="icon-tab2"></i><br>
+                            ملحقات أصل <br> المعاملة
+                        </a>
+                    </li>
+                    <li role="presentation" class="flex-fill">
+                        <a href="#tab-3" aria-controls="tab-3" role="tab" data-toggle="tab">
+                            <i class="icon-tab3"></i><br>
+                            بيانات صاحب <br> العلاقة
+                        </a>
+                    </li>
+                    <li role="presentation" class="flex-fill">
+                        <a href="#tab-4" aria-controls="tab-4" role="tab" data-toggle="tab">
+                            <i class="icon-tab4"></i><br>
+                          نسخ الكترونية <br> لإدارة داخلية
+                        </a>
+                    </li>
+                    <li role="presentation" class="flex-fill">
+                        <a href="#tab-5" aria-controls="tab-5" role="tab" data-toggle="tab">
+                            <i class="icon-tab5"></i><br>
+                            نسخ الكترونية <br> لإدارة خارجية
+                        </a>
+                    </li>
+                    <li role="presentation" class="flex-fill">
+                        <a href="#tab-6" aria-controls="tab-6" role="tab" data-toggle="tab">
+                            <i class="icon-tab6"></i><br>
+                           ربط بمعاملات <br> سابقة
+                        </a>
+                    </li>
+                    <li role="presentation" class="flex-fill">
+                        <a href="#tab-7" aria-controls="tab-7" role="tab" data-toggle="tab">
+                            <i class="icon-tab7"></i><br>
+                            مهام <br> المعاملة
+                        </a>
+                    </li>
+                    <li role="presentation" class="flex-fill">
+                        <a href="#tab-8" aria-controls="tab-8" role="tab" data-toggle="tab">
+                            <i class="icon-tab8"></i><br>
+                            متابعة <br> المعاملة
+                        </a>
+                    </li>
+                    <li role="presentation" class="flex-fill">
+                        <a href="#tab-9" aria-controls="tab-9" role="tab" data-toggle="tab">
+                            <i class="icon-tab9"></i><br>
+                            شرح <br> المعاملة
+                        </a>
+                    </li>
+                    <li role="presentation" class="flex-fill">
+                        <a href="#tab-10" aria-controls="tab-10" role="tab" data-toggle="tab">
+                            <i class="icon-tab10"></i><br>
+                            محادثات <br> المعاملة
+                        </a>
+                    </li>
+                </ul>
+                <!-- Tab panes -->
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane active" id="tab-1">
+                        <!-- Tab panes -->
+                        <div class="tab-content">
+                            <div role="tabpanel" class="tab-pane active" id="sub-tab-1">
+                                <div class="row m-0 mb-3 mt-3 tablet_responsive">
+                                    <div class="col-lg-3 col-sm-12 col-xs-12 mb-3">
+                                        <label class="w-100 dark-color">
+											
+                                            
+											نوع جهة الوارد
+                                        <span class="stark">*</span>
+										</label>
+                                       <select id="report_type" class="form-control">
+                                    <option value="management" selected>الجهة الأولى</option>
+                                    <option value="employee">الجهة الثانية</option>
+                                </select>
+									</div>
+															<div class="col-lg-6 col-sm-12 col-xs-12 mb-3">
+										<div class="row m-0">
+										<div class="col-lg-4 col-sm-4 p-0">
+											  <div class="input-group">
+												           <label class="w-100 dark-color">
+                                           
+															   جهة الوارد
+                                        <span class="stark">*</span>
+												  </label>
+     <input placeholder="رقم الجهة" type="text" class="form-control">
+											</div>
+										</div>
+												<div class="col-lg-7 col-sm-6 col-xs-12 res_col">
+		
+												           <label class="w-100 dark-color">
+                                           جهة الوارد
+                                        </label>
+     <div class="input-group filter_input">
+
+                                        <input id="treeValueName" placeholder="اسم جهة الواردة" type="text" class="form-control">
+                                      		   <div class="input-group-append cursor-pointer" data-toggle="modal" data-target="#myModal"> 
+                                                <a href="#"><i class="fas fa-filter fa-flip-horizontal"></i></a>  
+                                        </div>
+										
+                                    </div>
+											</div>
+											<div class="col-lg-1 col-sm-2 pl-lg-0 pr-2  nested_col">
+											          <label class="w-100 transparent">
+                                                     trans
+										</label>
+									<button type="submit" class="btnwidth treaty_btn">
+										<i class="la la-plus"></i>
+										 
+												</button>
+											
+											</div>
+										</div>
+										
+									</div>
+									       <div class="col-lg-3 col-sm-12 col-xs-12 mb-3">
+                               <label class="w-100 dark-color">
+                                            درجة السرية
+                                        <span class="stark">*</span>
+										</label>
+                             <input placeholder="رقم الجهة" type="text" class="form-control">
+									</div>
+								
+								</div>
+                                <div class="row m-0 mb-3 tablet_responsive">
+									             <div class="col-lg-3 col-sm-4 col-xs-12 mb-3 ">
+                                        <label class="w-100 dark-color">
+                                            موقعة من
+                                        </label>
+                                       <select  class="form-control">
+                                    <option  selected>محمد محمود</option>
+                                    <option >محمد محمود</option>
+                                </select>
+									</div>
+												             <div class="col-lg-3 col-sm-4 col-xs-12 mb-3">
+                                        <label class="w-100 dark-color">
+                                            نوع الخطاب
+                                        <span class="stark">*</span>
+																 </label>
+                                       <select  class="form-control">
+                                    <option value="management" selected>النوع الأول</option>
+                                    <option value="employee">النوع الثاني </option>
+                                </select>
+									</div>
+									      <div class="col-lg-3 col-xs-12 col-sm-4 mb-3 ">
+                                        <label class="w-100 dark-color">
+                                            طريقة الاستلام
+                                        <span class="stark">*</span>
+										</label>
+                                       <select  class="form-control">
+                                    <option  selected>الطريقة الأولى</option>
+                                    <option >الطريقة الثانية</option>
+                                </select>
+									</div>
+										             <div class="col-lg-3 col-xs-12 col-sm-4 mb-3 ">
+                                        <label class="w-100 dark-color">
+                                            درجة الأهمية
+                                        <span class="stark">*</span>
+													 </label>
+                                       <select  class="form-control">
+                                    <option  selected>عادي</option>
+                                    <option>مهم</option>
+                                </select>
+									</div>
+									 </div>
+                                    
+								           <div class="row m-0 mb-3">      
+                      
+												             <div class="col-lg-3 col-sm-4 col-xs-12 mb-3">
+                                        <label class="w-100 dark-color">
+                                            التصنيف الموضوعي
+                                       <span class="stark">*</span>
+																 
+																 </label>
+                                       <select  class="form-control">
+                                    <option selected>التصنيف الأول</option>
+                                    <option >التصنيف الثاني</option>
+                                </select>
+									</div>
+											          <div class="col-lg-3 col-sm-4 col-xs-12 mb-3 ">
+                                        <label class="w-100 dark-color">
+                                            قائمة التوزيع
+                                        </label>
+                                       <select  class="form-control">
+                                    <option  selected>القائمة الأولى</option>
+                                    <option>القائمة الثانية</option>
+                                </select>
+									</div>
+											                   <div class="col-lg-3 col-sm-4 col-xs-12 mb-3 ">
+                                        <label class="w-100 dark-color">
+                                            دلائل البحث
+                                        </label>
+                                    <div class="input-group">
+     <input placeholder="معاملة" type="text" class="form-control">
+										</div>
+									</div>
+											   <div class="col-lg-3 col-sm-4 col-xs-12 mb-3 ">   
+											    <form>
+<label class="w-100 dark-color">فيها موعد</label>
+      <input type="radio" class="radio-inline" name="radio1" id="inlineRadio1" checked>
+   	 <label class="mb-0 dark-color pr-5" for="inlineRadio1">نعم</label>
+	
+ <input type="radio" class="radio-inline pr-5"  id="inlineRadio2" name="radio1">
+	    <label class="mb-0 dark-color mt-0" for="inlineRadio1">لا</label>
+
+  </form>
+											   </div>
+											   
+								</div>
+                                    	
+
+																                <div class="row m-0">
+        					             <div class="col-lg-6 col-sm-8 col-xs-12  mb-3 ">
+                                      
+													   <div class="input-group w-100">
+    <div class="form-group w-100">
+		<label class="w-100 dark-color" >الوصف 
+		<span class="stark">*</span>
+			</label>
+		<textarea class="form-control" rows="5" id="text">النص </textarea>
+</div>
+	   
+														   
+													 </div>
+									</div>
+									             <div class="col-lg-6 col-sm-8 col-xs-12  mb-3 ">
+                                      
+													   <div class="input-group w-100">
+    <div class="form-group w-100">
+  <label class="w-100 dark-color" >ملاحظات</label>
+  <textarea class="form-control" rows="5" id="comment">ملاحظات</textarea>
+</div>
+	   
+														   
+													 </div>
+									</div>
+				
+									
+                                    </div>
+								                                   
+								   <div class="row m-0">
+                                    <div class="col-lg-3 col-xs-12 col-sm-4 mb-3 ">
+                                        <label class="w-100">
+                                            تاريخ الموعد
+                                        </label>
+									<div class="input-group">
+                                    <input type="text" class="form-control hasDatepicker" id="datepicker">
+                                    <div class="input-group-append">
+                                        <span class="input-group-text hyperlink">
+                                            <a href="#"><i class="far fa-calendar"></i></a>
+                                        </span>
+                                    </div>
+                                </div>
+									</div>
+									             <div class="col-lg-5 col-sm-8 mb-3 ">
+                                      <div class="input-group date">
+                
+                   
+                </div>
+											
+									</div>
+									   <div class="col-lg-4 col-xs-12 col-sm-4 ">
+										   <label class="w-100 transparent">
+                                            transparent text
+                                        </label>
+                                        <label class="w-100 stark">
+                                            يرجى تعبئة الحقول التي تحتوي على إشارة *
+                                        </label>
+									
+									
+									   </div>
+				
+									</div>	
+                                    </div>
+						
+							<hr>
+							<div class="row m-0">
+						<div class="col-lg-12 col-sm-12 mb-3 edit_paper_icons">
+                                        <label class="w-100">
+                                            خطاب اصل المعاملة
+                                        </label>
+                                        <div class="w-100 mb-3">
+                                            <ul class="attach-file-icon-list">
+                                                <li>
+                                                    <button>
+                                                        <i class="icon-toolbar1"></i>
+                                                    </button>
+                                                </li>
+                                                <li>
+                                                    <button>
+                                                        <i class="icon-toolbar2"></i>
+                                                    </button>
+                                                </li>
+                                                <li>
+                                                    <button>
+                                                        <i class="icon-toolbar3">
+                                                            <span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span><span class="path6"></span><span class="path7"></span><span class="path8"></span><span class="path9"></span><span class="path10"></span><span class="path11"></span><span class="path12"></span><span class="path13"></span><span class="path14"></span><span class="path15"></span><span class="path16"></span><span class="path17"></span><span class="path18"></span><span class="path19"></span><span class="path20"></span>
+                                                        </i>
+                                                    </button>
+                                                </li>
+                                            </ul>
+                                            <ul class="attach-file-icon-list">
+                                                <li>
+                                                    <button>
+                                                        <i class="icon-toolbar4"></i>
+                                                    </button>
+                                                </li>
+                                                <li>
+                                                    <button>
+                                                        <i class="icon-toolbar5"></i>
+                                                    </button>
+                                                </li>
+                                            </ul>
+                                            <ul class="attach-file-icon-list">
+                                                <li>
+                                                    <button>
+                                                        <i class="icon-toolbar6"></i>
+                                                    </button>
+                                                </li>
+                                                <li>
+                                                    <button>
+                                                        <i class="icon-toolbar7"></i>
+                                                    </button>
+                                                </li>
+                                                <li>
+                                                    <button>
+                                                        <i class="icon-toolbar8"></i>
+                                                    </button>
+                                                </li>
+                                                <li>
+                                                    <button>
+                                                        <i class="icon-toolbar9"></i>
+                                                    </button>
+                                                </li>
+                                                <li>
+                                                    <button>
+                                                        <i class="icon-toolbar10"></i>
+                                                    </button>
+                                                </li>
+                                                <li>
+                                                    <button>
+                                                        <i class="icon-toolbar11"></i>
+                                                    </button>
+                                                </li>
+                                                <li class="active">
+                                                    <button>
+                                                        <i class="icon-toolbar12"></i>
+                                                    </button>
+                                                </li>
+                                            </ul>
+											<div class="resp_icon">
+                                            <ul class="attach-file-icon-list">
+                                                <li>
+                                                    <button>
+                                                        <i class="icon-toolbar13"></i>
+                                                    </button>
+                                                </li>
+                                            </ul>
+                                            <ul class="attach-file-icon-list">
+                                                <li>
+                                                    <button>
+                                                        <i class="icon-toolbar14"></i>
+                                                    </button>
+                                                </li>
+                                            </ul>
+                                            <ul class="attach-file-icon-list">
+                                                <li>
+                                                    <button>
+                                                        <i class="icon-toolbar15"></i>
+                                                    </button>
+                                                </li>
+                                            </ul>
+                                            <ul class="attach-file-icon-list">
+                                                <li>
+                                                    <button>
+                                                        <i class="icon-toolbar16"></i>
+                                                    </button>
+                                                </li>
+                                            </ul>
+												</div>
+                                        </div>
+                                        <div class="w-100 my-3 white-container p-5 text-center">
+                                            here put attachments .....
+                                        </div>
+                                    </div>
+							 </div>
+								
+							
+			
+									
+								</div> 
+                               
+                            </div>
+					 <div role="tabpanel" class="tab-pane pr-4 pl-4 mb-5" id="tab-10">
+				
+					<div class="table-responsive conversations">
+						 	<div class="row m-0">
+							<label class="blue-color">3 محادثات</label>
+							<a class="btn btn-st1 btn-lg  pull-right"  href="#" >
+								<i class="fas fa-comments fa-flip-horizontal"></i>
+								بدء المحادثة
+								</a>
+								<div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content modal_chat2">
+		<div class="modal-header chat">
+                    <div class="pull-right close-icon_chat">
+                <a class="circle-icon color-white d-block" href="#"><i class="la la-close"></i></a>
+                
+                <label>إغلاق</label>
+            </div>
+                    <label class="purple3 w-auto d-inline-block m-0">محادثة المعاملة </label>
+			<small class="pl-3">
+			<span class="dark-color">التاريخ: </span>
+				28 تشرين الثاني 2019
+			
+			</small>
+                </div>
+		
+		<div class="gray pt-3 pb-3 pr-1 pl-1 pop_chat2">
+		<span class="h-avatar mx-2 first_person">
+                                    <img src="../assets/images/businessman.png">
+                                </span>
+			<span class="h-avatar mx-2 second_person">
+                                    <img src="../assets/images/businessman.png">
+                                </span>
+			<div class="person-label pl-2">
+			<label class="dark-color">الشخص1</label>,<label class="dark-color p-0">الشخص2</label>
+				</div>
+		</div>
+		<div class="modal-body">
+     <div class="day_message">
+	 	<div class="sendertext">
+			 <img class="circle-img2 mx-1" src="../assets/images/s1zgf6qt3qsrmp59oe6z.jpg">
+			<p>
+			مرحبا كيف حالك؟	
+			</p>
+			<label class="message-time">02:00 PM</label>
+			
+		 </div>
+		 <div class="recievedtext">
+			 <label class="message-time">02:11 PM</label>
+			  <img class="circle-img3 mx-1" src="../assets/images/FischerForPersonalWebsite.jpg">
+			 <p>أنا بخير وانت؟		 		 
+			 </p>
+		  	
+			 
+		 </div>
+		 
+	  </div>
+			     <div class="day_message">
+	 	<div class="sendertext">
+			 <img class="circle-img2 mx-1" src="../assets/images/s1zgf6qt3qsrmp59oe6z.jpg">
+			<p>
+			مرحبا كيف حالك؟	
+			</p>
+			<label class="message-time">02:00 PM</label>
+			
+		 </div>
+		 <div class="recievedtext">
+			 <label class="message-time">02:11 PM</label>
+			  <img class="circle-img3 mx-1" src="../assets/images/FischerForPersonalWebsite.jpg">
+			 <p>أنا بخير وانت؟		 		 
+			 </p>
+		  	
+			 
+		 </div>
+		 
+	  </div>
+                </div>
+    </div>
+  </div>
+</div>
+							
+						</div> 
+                            <table class="grid table mt-4 chat_table">
+                                <thead>
+                                    <tr>
+                                        <th>أطراف المحادثة</th>
+                                     <th></th>
+                                        <th>تاريخ المحادثة</th>
+                                        <th></th>
+										 <th></th>
+                                        
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>الشخص 1 ، الشخص 2</td>
+										<td></td>
+                                        <td>28 تشرين الثاني 2018</td>
+										<td></td>
+                                        <td>
+										<a class="btn btn-st1 pull-right" data-toggle="modal" data-target=".bd-example-modal-lg" href="#">
+											عرض المحادثة
+											</a>
+										</td>
+                                    </tr>
+                                       <tr>
+                                        <td>الشخص 1 ، الشخص 2</td>
+										<td></td>
+                                        <td>28 تشرين الثاني 2018</td>
+										<td></td>
+                                        <td>
+										<a class="btn btn-st1 pull-right" data-toggle="modal" data-target=".bd-example-modal-lg" href="#">
+											عرض المحادثة
+											</a>
+										</td>
+                                    </tr>
+                                      <tr>
+                                        <td>الشخص 1 ، الشخص 2</td>
+										<td></td>
+                                        <td>28 تشرين الثاني 2018</td>
+										<td></td>
+                                       <td>
+										<a class="btn btn-st1 pull-right" data-toggle="modal" data-target=".bd-example-modal-lg" href="#">
+											عرض المحادثة
+											</a>
+										</td>
+                                    </tr>
+                              
+                           
+                                </tbody>
+                            </table>
+                        </div>
+					
+					
+					
+					</div>
+                        </div>
+                    </div>
+                </div>
+		
+            </div>
+         
+   
+
+<!--QBS JQuery-->
+<link href="../assets/js/jquery-ui-1.9.2/css/base/jquery-ui-1.9.2.custom.css" rel="stylesheet">
+    <!-- jQuery -->
+    <script src="../assets/js/jquery.js"></script>
+    <script src="../assets/js/jquery-ui-1.9.2/js/jquery-ui-1.9.2.custom.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../assets/js/bootstrap-select.js"></script>
+    <script src="../assets/js/jquery.matchHeight-min.js"></script>
+    <script src="../assets/js/aos.js"></script>
+    <script src="../assets/js/jquery.slimscroll.min.js"></script>
+    <script src="../assets/js/app.js"></script>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
+    <script>
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
+
+<!--QBS Script -->
+<script>
+
+		$(function() {
+		$("#datepicker").datepicker();
+	});
+	</script>
+
+    <!-- sort and filter scripts-->
+    <script>
+        $(document).ready(function () {
+            $('.filter-target').click(function () {
+                $(this).parent().parent().find('.filter-box.filter').slideToggle('fast');
+                $('.sort-target').removeClass("active");
+                $(this).toggleClass("active");
+                $('.filter-box.sort').hide();
+            });
+            $('.sort-target').click(function () {
+                $(this).parent().parent().find('.filter-box.sort').slideToggle('fast');
+                $('.filter-target').removeClass("active");
+                $(this).toggleClass("active");
+                $('.filter-box.filter').hide();
+            });
+        });
+    </script>
+    <!-- Vertical Menu css-->
+    <script src="../assets/plugins/vertical-menu/vendors.min.js"></script>
+    <script src="../assets/plugins/vertical-menu/app-menu.min.js"></script>
+    <script src="../assets/plugins/vertical-menu/app.min.js"></script>
+
+</body>
+
+</html>

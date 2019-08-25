@@ -1,0 +1,1253 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link type="image/x-icon" rel="shortcut icon" href="./favicon.ico">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="theme-color" content="#0c7c5a">
+    <title>مراسلات</title>
+<link type="image/x-icon" rel="shortcut icon" href="./favicon.ico">
+    
+    <!-- Bootstrap RTL -->
+    <link href="../assets/bootstrap/css/bootstrap.min.rtl.css" rel="stylesheet">
+    <link href="../assets/bootstrap/css/bootstrap.form.rtl.css" rel="stylesheet">
+    <link href="../assets/bootstrap/css/bootstrap.grid.rtl.css" rel="stylesheet">
+
+    <!-- Main -->
+    <link href="../assets/css/main.css" rel="stylesheet">
+
+    <!-- Vertical Menu -->
+    <link rel="stylesheet" type="text/css" href="../assets/plugins/vertical-menu/vertical-menu.min.css">
+
+    <!-- Confirm -->
+    <link rel="stylesheet" type="text/css" href="../assets/plugins/confirm/jquery-confirm.min.css" />
+
+    <!-- RTL -->
+    <link href="../assets/css/d-rtl.css" rel="stylesheet">
+
+
+</head>
+
+
+<body class="vertical-layout vertical-menu 2-columns   menu-flipped fixed-navbar " data-open="click"
+    data-menu="vertical-menu" data-col="2-columns" dir="rtl">
+    <div class="fixed-top">
+        <div class="top-header">
+            <div class="container-fluid">
+                <div class="d-flex flex-column flex-sm-row">
+                    <div class="">
+                        <a class="main_logo" href="#">
+                            <img src="../assets/images/logo-morasalat.png" title="" alt="">
+                        </a>
+                    </div>
+
+                    <div class="d-flex ml-sm-auto  mr-0 align-content-around flex-wrap h-side">
+                        <div class="dropdown px-1 px-md-3">
+                            <a id="drop1" href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <span>إسم الإدارة</span>
+                                <i class="la la-angle-down"></i>
+                            </a>
+
+                            <ul class="dropdown-menu fadeIn animated admins" aria-labelledby="drop1">
+                                <li><a class="pb-2" href="#">إسم الإدارة 1</a></li>
+                                <li role="separator" class="divider  mb-0"></li>
+                                <li><a class="pb-2" href="#">إسم الإدارة 2</a></li>
+                                <li role="separator" class="divider  mb-0"></li>
+                                <li><a class="pb-2" href="#">إسم الإدارة 3</a></li>
+                                <li class="mb-0"></li>
+                            </ul>
+                        </div>
+
+                        <div class="user-settings dropdown  px-1 px-md-3 ml-0 ml-md-5">
+                            <a id="drop1" href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <span class="h-avatar mx-2">
+                                    <img src="../assets/images/businessman.png">
+                                </span>
+                                <span>أشرف حسين</span>
+                                <i class="la la-angle-down"></i>
+                            </a>
+
+
+                            <ul class="dropdown-menu employee_dd fadeIn" aria-labelledby="drop1 w-100">
+                                <li class="pt-2 pb-2 pl-3"><a href="marking-signature.html"><i class="la la-file-image-o"></i>التوقيع والتأشير</a></li>
+                                <li role="separator" class="divider  mb-0 mt-0"></li>
+                                <li class="pt-2 pb-2 pl-3"><a href="assignment-paper.html"><i class="la la-file-text"></i>ورقة الإحالة</a></li>
+                                <li role="separator" class="divider  mb-0 mt-0"></li>
+                                <li class="pt-2 pb-2 pl-3"><a href="#"><i class="la la-list"></i>قائمة التوزيع</a></li>
+                                <li role="separator" class="divider  mb-0 mt-0"></li>
+                                <li class="pt-2 pb-2 pl-3"><a href="#"><i class="la la-line-chart"></i>المسارات</a></li>
+                                <li role="separator" class="divider  mb-0 mt-0"></li>
+                                <li class="pt-2 pb-2 pl-3"><a href="#"><i class="la la-user"></i>التفويض </a></li>
+
+                            </ul>
+
+                        </div>
+                        <div class="d-flex top-icons">
+                            <div class="searchbox px-2 flex-grow-1">
+                                <div class="h-search">
+                                    <i onclick="focusMethod()" data-toggle="tooltip" data-placement="bottom" title="" class="la la-search" data-original-title="البحث السريع"></i>
+                                    <input class="myTextField" type="text" name="search" placeholder="البحث هنا">
+                                </div>
+                                <script>
+                                    focusMethod = function getFocus() {
+                                        $('.myTextField').focus();
+                                    }
+                                </script>
+                            </div>
+                            <div class="notifications dropdown mt-2 px-4">
+                                <a href="#" class="dropdown-toggle la la-bell" data-toggle="dropdown" aria-haspopup="false" aria-expanded="true" data-placement="bottom" title="التنبيهات">
+                                    <em class="notification_sticky">22</em>
+                                </a>
+                                <ul class="dropdownposition dropdown-menu  fadeIn animated" aria-labelledby="drop1">
+
+                                    <li class=" pt-3"><a href="#" class="pt-0 pb-2 pr-3 pl-3"><i class="la la-bell"></i>التنبيهات</a></li>
+                                    <li role="separator" class="divider mb-0 mt-0"></li>
+                                    <li class="bgchange pt-3 pb-3 pl-3 pr-3">
+                                        <a href="#"><i class="la la-bell"></i>تم إرجاع معاملة</a>
+                                        <span class="pt-0 pb-2 pr-3 pl-3"> 28 تشرين الثاني 2018</span>
+                                    </li>
+                                    <li role="separator" class="divider mb-0 mt-0 p-0"></li>
+
+                                    <li class="bgchange pt-3 pb-3 pr-3 pl-3">
+                                        <a href="#"><i class="la la-bell"></i>تم استلام معاملة</a>
+                                        <span class="pt-0 pb-2 pr-3 pl-3"> 28 تشرين الثاني 2018</span>
+                                    </li>
+                                    <li role="separator" class="divider  mb-0 mt-0 p-0"></li>
+                                    <li class="pt-3 pb-3 pr-3 pl-3">
+                                        <a href="#"><i class="la la-bell"></i>تم استلام مهمة جديدة</a>
+                                        <span class="pt-0 pb-2 pr-3 pl-3"> 28 تشرين الثاني 2018</span>
+                                    </li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="notifications.html" class="text-center">إظهار المزيد </a></li>
+                                </ul>
+
+                            </div>
+                            <div class="px-3">
+                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="" class="chatbtn" data-original-title="المحادثات">
+                                    <em class="notification_sticky">22</em>
+                                    <i class="la la-comments "></i>
+                                </a>
+                            </div>
+                            <div class="px-3">
+                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="الدعم الفني">
+                                    <i class="la la-headphones"></i>
+                                </a>
+                            </div>
+                            <div class="px-3">
+                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="المساعدة">
+                                    <i class="la la-question-circle"></i>
+                                </a>
+                            </div>
+                            <div class="px-3">
+                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="English">
+                                    <i class="la la-globe"></i>
+                                </a>
+                            </div>
+                            <div class="px-3">
+                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="خروج">
+                                    <i class="la la-power-off"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+        <!-- start of fixed header -->
+        <nav class="navbar navbar-default navbar-second">
+            <div class="container-fluid">
+                <div class="row row-custom">
+                    <div class="navbar-header d-flex">
+                        <div class="mobile-menu d-md-none mr-auto">
+                            <a class="nav-link nav-menu-main menu-toggle is-active" href="#">
+                                <i class="la la-ellipsis-h"></i>
+                            </a>
+                        </div>
+                        <div class="mr-auto">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+                    </div>
+                    <div id="navbar" class="navbar-collapse collapse">
+
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a href="#">المعاملات</a></li>
+                            <li><a href="#">المهام <span class="notification_sticky">3</span></a></li>
+                            <li><a href="#">استقبال الادارة</a></li>
+                            <li><a href="#">تقارير</a></li>
+                            <li><a href="#">لوحة قياس مستوى الاداء</a></li>
+
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+    </div>
+    <div class="content_all">
+            <div class="d-flex mb-3 mx-5 mx-xs-3   header-container">
+                <div class="filter-link">
+                    <h3 class="site-color">البحث</h3>
+                </div>
+            </div>
+
+        <div class="content_container">
+            <div class="">
+                <form>
+                    <div class="form-row">
+						<div class="search_fields mx-5">
+						 <div class="form-group col-lg-2 col-md-4 col-sm-6 col-xs-12 pl-lg-0">
+                            <label for="">اسم القسم</label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="form-group col-lg-2 col-md-4 col-sm-6 col-xs-12">
+                            <label for="">رقم المعاملة</label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="form-group col-lg-2 col-md-4 col-sm-6 col-xs-12">
+                            <label for="">نوع المعاملة</label>
+                            <select placeholder="اختر" id="inputState" class="form-control">
+                                <option selected="">الكل</option>
+                                <option>صادر خارجي</option>
+                                <option>وارد خارجي</option>
+                                <option>معاملة داخلية</option>
+                                <option>مسودة خطاب</option>
+                            </select>
+                        </div>
+						
+                        <div class="form-group col-lg-2 col-md-4 col-sm-6 col-xs-12">
+                            <label for="">وصف المعاملة</label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="form-group col-lg-3  col-sm-12 col-xs-12">
+								<div class="col-lg-5 col-sm-5 col-xs-12 mb-3 px-0 date1">
+									<label for="">التاريخ </label>
+									<div class="input-group mb-3">
+										<input type="text" class="form-control hasDatepicker" id="datepicker">
+										<div id="ui-datepicker-div"></div>
+										<div class="input-group-append">
+											<span class="input-group-text hyperlink">
+												<a href="#"><i class="far fa-calendar"></i></a>
+											</span>
+										</div>								
+									</div>
+								</div>
+								<div class="col-lg-2 col-xs-12 col-sm-2 px-0 mt-5">
+							<span class="gray2 pl-lg-3 pl-sm-5">إلى </span>
+								</div>
+								<div class="col-lg-5 col-sm-5 col-xs-12 mb-3 date2">
+									<label for="">التاريخ </label>
+									<div class="input-group mb-3">
+										<input type="text" class="form-control hasDatepicker" id="datepicker2">
+										<div class="input-group-append">
+											<span class="input-group-text hyperlink">
+												<a href="#"><i class="far fa-calendar fa-"></i></a>
+											</span>
+										</div>
+
+									</div>
+								</div>
+                        </div>
+						  <div class="form-group col-lg-1 col-md-4 col-sm-6 col-xs-12">
+							  <label class="transparent">بحث</label>
+						<button type="submit" class="btn btn-st3 w-auto">حفظ</button>
+						</div>
+                    </div>
+					</div>
+                    <hr>
+	            <div class="d-flex mb-3 mx-5 mx-xs-3   header-container">
+                <div class="filter-link">
+                    <h3 class="site-color">حقول إضافية</h3>
+                </div>
+            </div>
+                    <div class="form-row pb-3 mx-5">
+                        <label class="container_checkbox mr-2">
+                            مشتركة
+                            <input type="checkbox" name="" data-trigger="hidden_fields_one" class="trigger">
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="container_checkbox mr-2">
+                            اصحاب علاقة
+                            <input type="checkbox" name="" data-trigger="hidden_fields_two" class="trigger">
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="container_checkbox mr-2">
+                            الوارد
+                            <input type="checkbox" name="" data-trigger="hidden_fields_three" class="trigger">
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="container_checkbox mr-2">
+                             أسماء
+                            <input type="checkbox" name="" data-trigger="hidden_fields_four" class="trigger">
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="container_checkbox mr-2">
+                            الصادر
+                            <input type="checkbox" name="" data-trigger="hidden_fields_five" class="trigger">
+                            <span class="checkmark"></span>
+                        </label>
+                    </div>
+
+                    <div id="hidden_fields_one" class="hide_trigger">
+                        <h3 class="site-color sub-title mr-3">مشتركة</h3>
+                        <div class="form-row">
+                            <div class="form-group col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                <label for="">نوع الخطاب</label>
+                                <select class="form-control">
+                                    <option selected="">إختيار...</option>
+                                    <option>...</option>
+                                </select>
+                            </div>
+                            <div class="form-group col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                <label for="">درجة السرية</label>
+                                <select class="form-control">
+                                    <option selected="">إختيار...</option>
+                                    <option>...</option>
+                                </select>
+                            </div>
+                            <div class="form-group col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                <label for="">درجة الأهمية</label>
+                                <select class="form-control">
+                                    <option selected="">إختيار...</option>
+                                    <option>...</option>
+                                </select>
+                            </div>
+                            <div class="form-group col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                <label for="">طريقة الإستلام</label>
+                                <select class="form-control">
+                                    <option selected="">إختيار...</option>
+                                    <option>...</option>
+                                </select>
+                            </div>
+                            <div class="form-group col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                <label for="">فيها موعد</label>
+                                <select class="form-control">
+                                    <option selected="">إختيار...</option>
+                                    <option>نعم</option>
+                                    <option>لا</option>
+                                </select>
+                            </div>
+                            <div class="form-group col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                <label for="">تاريخ الموعد</label>
+                                <div class="input-group">
+                                    <input type="text" class="form-control">
+                                    <div class="input-group-append">
+                                        <span class="input-group-text hyperlink">
+                                            <a href="#"><i class="far fa-calendar-alt"></i></a>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                <label for="">التصنيف الموضوعي</label>
+                                <select class="form-control">
+                                    <option selected="">إختيار...</option>
+                                    <option>...</option>
+                                </select>
+                            </div>
+                            <div class="form-group col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                <label for="">الملاحظات</label>
+                                <input type="text" class="form-control">
+                            </div>
+                        </div>
+                    </div>
+                    <div id="hidden_fields_two" class="hide_trigger">
+                        <h3 class="site-color sub-title mr-3">اصحاب علاقة</h3>
+                        <div class="form-row">
+                            <div class="form-group col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                <label for="">الاسم الكامل</label>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="form-group col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                <label for="">رقم الهوية</label>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="form-group col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                <label for="">رقم الجوال</label>
+                                <input type="text" class="form-control">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="hidden_fields_three" class="hide_trigger">
+                        <h3 class="site-color sub-title mr-3">الوارد</h3>
+                        <div class="form-row">
+                            <div class="form-group col-lg-4 col-md-5 col-sm-6 col-xs-12">
+                                <label for="">نوع جهة الوارد</label>
+                                <select id="inputState" class="form-control">
+                                    <option selected="">إختيار...</option>
+                                    <option>...</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group col-lg-8 col-md-7 col-sm-6 col-xs-12">
+                                <label for="">جهة الوارد</label>
+                                <div class="row">
+                                    <div class=" col-xs-4 pl-2">
+                                        <input placeholder="رقم الوارد" type="text" class="form-control">
+                                    </div>
+                                    <div class=" col-xs-8 pl-2">
+                                        <div class="input-group">
+                                            <input placeholder="اسم جهة الوارد" type="text" class="form-control">
+                                            <div class="input-group-append">
+                                                <span class="input-group-text hyperlink blue">
+                                                    <a href="#"><i class="la la-filter"></i></a>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div><br>
+                            <div class="form-group col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                <label for="">تاريخ المعاملة الواردة</label>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="form-group col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                <label for="">رقم المعاملة الواردة</label>
+                                <input type="text" class="form-control">
+                            </div>
+                        </div>
+                    </div>
+                    <div id="hidden_fields_four" class="hide_trigger">
+                        <h3 class="site-color sub-title mr-3">معاملات محالة</h3>
+                        <div class="form-row">
+                            <div class="form-group col-lg-3 col-sm-6 col-xs-12">
+                                <label for="">من الإدارة</label>
+                                <input placeholder="رقم الجهة" type="text" class="form-control">
+                            </div>
+                            <div class="form-group col-lg-5 col-sm-6 col-xs-12">
+                                <label for="">نوع جهة الوارد</label>
+                                <div class="input-group">
+                                    <input placeholder="اسم جهة الوارد" type="text" class="form-control">
+                                    <div class="input-group-append">
+                                        <span class="input-group-text hyperlink blue">
+                                            <a href="#"><i class="la la-filter"></i></a>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group col-lg-4 col-sm-6 col-xs-12">
+                                <label for="">من الموظف</label>
+                                <select id="inputState" class="form-control">
+                                    <option selected="">إختيار...</option>
+                                    <option>...</option>
+                                </select>
+                            </div>
+                            <div class="form-group col-lg-3 col-sm-6 col-xs-12">
+                                <label for="">الى الإدارة</label>
+                                <input placeholder="رقم الجهة" type="text" class="form-control">
+                            </div>
+                            <div class="form-group col-lg-5 col-sm-6 col-xs-12">
+                                <label for="">نوع جهة الوارد</label>
+                                <div class="input-group">
+                                    <input placeholder="اسم جهة الوارد" type="text" class="form-control">
+                                    <div class="input-group-append">
+                                        <span class="input-group-text hyperlink blue">
+                                            <a href="#"><i class="la la-filter"></i></a>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group col-lg-4 col-sm-6 col-xs-12">
+                                <label for="">الى الموظف</label>
+                                <select id="inputState" class="form-control">
+                                    <option selected="">إختيار...</option>
+                                    <option>...</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="hidden_fields_five" class="hide_trigger">
+                        <h3 class="site-color sub-title mr-3">الصادر</h3>
+       <div class="form-row">
+								<div class="form-group col-lg-12 col-md-7 col-sm-6 col-xs-12">
+									<div class="row">
+										<div class=" col-xs-4 pl-2">
+									<label for="">جهة الصادر</label>
+										</div>
+										<div class=" col-xs-4 pl-2">
+									<label for="">اسم القسم</label>
+										</div>
+									</div>
+									<div class="row">
+										<div class=" col-xs-4 pl-2">
+											<input placeholder="رقم الجهة" type="text" class="form-control">
+										</div>
+										<div class=" col-xs-4 pl-2">
+									<select placeholder="اختر" id="inputState2" class="form-control">
+                                                        <option selected="">اختر</option>
+                                                        <option>.....</option>
+                                                    </select>
+										</div>
+										
+												<div class=" col-xs-4 pl-2">
+											<div class="input-group">
+												<input placeholder="اسم جهة الوارد" type="text" class="form-control">
+												<div class="input-group-append">
+													<span class="input-group-text hyperlink blue">
+														<a href="#"><i class="la la-filter"></i></a>
+													</span>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+										<div class="form-row">
+								<div class="form-group col-lg-12 col-md-7 col-sm-6 col-xs-12">
+										<div class="row">
+											<div class=" col-xs-4 pl-2">
+									<label for="">الوصف</label>
+											</div>
+													<div class=" col-xs-4 pl-2">
+									<label for="">اسم الموظف</label>
+											</div>
+														<div class=" col-xs-4 pl-2">
+									<label for="">تاريخ الصادر </label>
+											</div>
+									</div>
+									
+									<div class="row">
+										<div class="col-xs-4 pl-2">
+											<input type="text" class="form-control">
+										</div>
+										<div class="col-xs-4 pl-2">
+									<select placeholder="اختر" id="inputState2" class="form-control">
+                                                        <option selected="">اختر</option>
+                                                        <option>.....</option>
+                                                    </select>
+										</div>
+										<div class="col-xs-4 pl-2">
+											<input type="text" class="form-control">
+										</div>
+								
+									</div>
+								</div>
+							</div>
+                    </div>
+                    <hr class="m-0">
+
+                </form>
+
+            </div>
+         
+
+
+        </div>
+        <div class="content_container">
+            <div class="content_container content_container--header">
+                <div class="d-flex mb-3 mx-5 mx-xs-3 header-container">
+                    <div class="mr-auto filter-link">
+                        <h3 class="site-color">نتائج البحث <span class="ml-2">(<i>10</i>) معاملات</span></h3>
+                    </div>
+                    <div class="ml-auto text-right options">
+                        <div class="checkbox">
+                            <label for="selectAll">
+                                <input id="selectAll" type="checkbox" value="">
+                                <span class="cr"><i class="cr-icon glyphicon glyphicon-ok"></i></span>
+                                تحديد الكل
+                            </label>
+                        </div>
+                        <div class="toggling-menu">
+                            <a href="#" class="active"><i class="fa fa-th-large "></i></a>
+                            <a href="#"><i class="fa fa-bars"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="boxes">
+                <div class="d-flex flex-wrap align-content-start mx-4">
+                    <div class="box-grid search_box">
+                        <div class="box  animated zoomIn buttons-action">
+
+                            <div class="correspondence-t purple_header">
+                                <div class="d-flex">
+                                    <div class="">
+                                        معاملة داخلية
+                                    </div>
+                                    <div class="ml-auto d-flex">
+                                        <div class="checkbox">
+                                            <label>
+                                                <input type="checkbox" value="">
+                                                <span class="cr"><i class="cr-icon glyphicon glyphicon-ok"></i></span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="correspondence-h">
+                                <div class="title">
+                                    وزارة الداخلية
+                                </div>
+                                <div class="date">
+                                    28 تشرين الثاني 2018
+                                </div>
+                            </div>
+                            <div class="correspondence-b d-flex flex-wrap">
+                                <div class="f-line">
+                                    <div class="heading">الرقم</div>
+                                    <div>2233548</div>
+                                </div>
+                                <div class="f-line">
+                                    <div class="heading">الأهمية</div>
+                                    <div class="text-danger">عاجل</div>
+                                </div>
+                                <div class="f-line">
+                                    <div class="heading">السرية</div>
+                                    <div>عادي</div>
+                                </div>
+                                <div class="f-line">
+                                    <div class="heading">النوع</div>
+                                    <div>تعميم</div>
+                                </div>
+                                <div class="f-line">
+                                    <div class="heading">السرية</div>
+                                    <div>عادي</div>
+                                </div>
+                                <div class="f-line">
+                                    <div class="heading">التصنيف</div>
+                                    <div>عادي</div>
+                                </div>
+                                <div class="f-line w-medium">
+                                    <div class="heading">الإدارة المرسلة</div>
+                                    <div>الإدارة 1</div>
+                                </div>
+                                <div class="f-line w-medium">
+                                    <div class="heading">الإدارة المرسل اليها</div>
+                                    <div>الإدارة 2</div>
+                                </div>
+                                <div class="f-line w-medium">
+                                    <div class="heading">أيام التأخير</div>
+                                    <div>22</div>
+                                </div>
+                                <div class="f-line w-medium">
+                                    <div class="heading">الموعد المحدد</div>
+                                    <div>28 تشرين الثاني 2019</div>
+                                </div>
+                                <div class="f-line w-100">
+                                    <div class="heading">اسم الموظف</div>
+                                    <div>محمد محمود محمد محمود</div>
+                                </div>
+                    
+                            </div>
+                            <div class="correspondence-icon w-100 d-inline-block">
+                                <div class="d-inline-block">
+                                    <a class="circle color-blue" href="#"><i class="la la-pencil"></i></a>
+                                    <a class="circle color-red" href="#"><i class="la la-plus-square"></i></a>
+                                    <a class="circle color-gray" href="#"><i class="la la-file-text"></i></a>
+                                    <a class="circle color-orange" href="#"><i class="la la-print"></i></a>
+                                    <a class="circle color-green" href="#"><i class="la la-print"></i></a>
+                                </div>
+                                <div class="d-inline-block pull-right">
+                                    <div class="info">
+                                        <i class="la la-paperclip"></i>
+                                        <span class=""><span>10</span> مرفقات </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-grid search_box">
+                        <div class="box blue animated zoomIn buttons-action">
+
+                            <div class="correspondence-t blue_header">
+                                <div class="d-flex">
+                                    <div class="">
+                                        وارد ( أفراد )
+                                    </div>
+                                    <div class="ml-auto d-flex">
+                                        <div class="checkbox">
+                                            <label>
+                                                <input type="checkbox" value="">
+                                                <span class="cr"><i class="cr-icon glyphicon glyphicon-ok"></i></span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="correspondence-h">
+                                <div class="title">
+                                    وزارة الداخلية
+                                </div>
+                                <div class="date">
+                                    28 تشرين الثاني 2018
+                                </div>
+                            </div>
+                            <div class="correspondence-b d-flex flex-wrap">
+                                <div class="f-line">
+                                    <div class="heading">الرقم</div>
+                                    <div>2233548</div>
+                                </div>
+                                <div class="f-line">
+                                    <div class="heading">الأهمية</div>
+                                    <div class="text-danger">عاجل</div>
+                                </div>
+                                <div class="f-line">
+                                    <div class="heading">السرية</div>
+                                    <div>عادي</div>
+                                </div>
+                                <div class="f-line">
+                                    <div class="heading">النوع</div>
+                                    <div>تعميم</div>
+                                </div>
+                                <div class="f-line">
+                                    <div class="heading">السرية</div>
+                                    <div>عادي</div>
+                                </div>
+                                <div class="f-line">
+                                    <div class="heading">التصنيف</div>
+                                    <div>عادي</div>
+                                </div>
+                                <div class="f-line w-medium">
+                                    <div class="heading">الإدارة المرسلة</div>
+                                    <div>الإدارة 1</div>
+                                </div>
+                                <div class="f-line w-medium">
+                                    <div class="heading">الإدارة المرسل اليها</div>
+                                    <div>الإدارة 2</div>
+                                </div>
+                                <div class="f-line w-medium">
+                                    <div class="heading">أيام التأخير</div>
+                                    <div>22</div>
+                                </div>
+                                <div class="f-line w-medium">
+                                    <div class="heading">الموعد المحدد</div>
+                                    <div>28 تشرين الثاني 2019</div>
+                                </div>
+                                <div class="f-line w-100">
+                                    <div class="heading">اسم الموظف</div>
+                                    <div>محمد محمود محمد محمود</div>
+                                </div>
+                    
+                            </div>
+                            <div class="correspondence-icon w-100 d-inline-block">
+                                <div class="d-inline-block">
+                                    <a class="circle color-blue" href="#"><i class="la la-pencil"></i></a>
+                                    <a class="circle color-red" href="#"><i class="la la-plus-square"></i></a>
+                                    <a class="circle color-gray" href="#"><i class="la la-file-text"></i></a>
+                                    <a class="circle color-orange" href="#"><i class="la la-print"></i></a>
+                                    <a class="circle color-green" href="#"><i class="la la-print"></i></a>
+                                </div>
+                                <div class="d-inline-block pull-right">
+                                    <div class="info">
+                                        <i class="la la-paperclip"></i>
+                                        <span class=""><span>10</span> مرفقات </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-grid search_box">
+                        <div class="box blue animated zoomIn buttons-action">
+
+                            <div class="correspondence-t purple_header">
+                                <div class="d-flex">
+                                    <div class="">
+                                        معاملة داخلية 
+                                    </div>
+                                    <div class="ml-auto d-flex">
+                                        <div class="checkbox">
+                                            <label>
+                                                <input type="checkbox" value="">
+                                                <span class="cr"><i class="cr-icon glyphicon glyphicon-ok"></i></span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="correspondence-h">
+                                <div class="title">
+                                    وزارة الداخلية
+                                </div>
+                                <div class="date">
+                                    28 تشرين الثاني 2018
+                                </div>
+                            </div>
+                            <div class="correspondence-b d-flex flex-wrap">
+                                <div class="f-line">
+                                    <div class="heading">الرقم</div>
+                                    <div>2233548</div>
+                                </div>
+                                <div class="f-line">
+                                    <div class="heading">الأهمية</div>
+                                    <div class="text-danger">عاجل</div>
+                                </div>
+                                <div class="f-line">
+                                    <div class="heading">السرية</div>
+                                    <div>عادي</div>
+                                </div>
+                                <div class="f-line">
+                                    <div class="heading">النوع</div>
+                                    <div>تعميم</div>
+                                </div>
+                                <div class="f-line">
+                                    <div class="heading">السرية</div>
+                                    <div>عادي</div>
+                                </div>
+                                <div class="f-line">
+                                    <div class="heading">التصنيف</div>
+                                    <div>عادي</div>
+                                </div>
+                                <div class="f-line w-medium">
+                                    <div class="heading">الإدارة المرسلة</div>
+                                    <div>الإدارة 1</div>
+                                </div>
+                                <div class="f-line w-medium">
+                                    <div class="heading">الإدارة المرسل اليها</div>
+                                    <div>الإدارة 2</div>
+                                </div>
+                                <div class="f-line w-medium">
+                                    <div class="heading">أيام التأخير</div>
+                                    <div>22</div>
+                                </div>
+                                <div class="f-line w-medium">
+                                    <div class="heading">الموعد المحدد</div>
+                                    <div>28 تشرين الثاني 2019</div>
+                                </div>
+                                <div class="f-line w-100">
+                                    <div class="heading">اسم الموظف</div>
+                                    <div>محمد محمود محمد محمود</div>
+                                </div>
+                    
+                            </div>
+                            <div class="correspondence-icon w-100 d-inline-block">
+                                <div class="d-inline-block">
+                                    <a class="circle color-blue" href="#"><i class="la la-pencil"></i></a>
+                                    <a class="circle color-red" href="#"><i class="la la-plus-square"></i></a>
+                                    <a class="circle color-gray" href="#"><i class="la la-file-text"></i></a>
+                                    <a class="circle color-orange" href="#"><i class="la la-print"></i></a>
+                                    <a class="circle color-green" href="#"><i class="la la-print"></i></a>
+                                </div>
+                                <div class="d-inline-block pull-right">
+                                    <div class="info">
+                                        <i class="la la-paperclip"></i>
+                                        <span class=""><span>10</span> مرفقات </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-grid search_box">
+                        <div class="box blue animated zoomIn buttons-action">
+
+                            <div class="correspondence-t blue_header">
+                                <div class="d-flex">
+                                    <div class="">
+                                        وارد ( أفراد )
+                                    </div>
+                                    <div class="ml-auto d-flex">
+                                        <div class="checkbox">
+                                            <label>
+                                                <input type="checkbox" value="">
+                                                <span class="cr"><i class="cr-icon glyphicon glyphicon-ok"></i></span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="correspondence-h">
+                                <div class="title">
+                                    وزارة الداخلية
+                                </div>
+                                <div class="date">
+                                    28 تشرين الثاني 2018
+                                </div>
+                            </div>
+                            <div class="correspondence-b d-flex flex-wrap">
+                                <div class="f-line">
+                                    <div class="heading">الرقم</div>
+                                    <div>2233548</div>
+                                </div>
+                                <div class="f-line">
+                                    <div class="heading">الأهمية</div>
+                                    <div class="text-danger">عاجل</div>
+                                </div>
+                                <div class="f-line">
+                                    <div class="heading">السرية</div>
+                                    <div>عادي</div>
+                                </div>
+                                <div class="f-line">
+                                    <div class="heading">النوع</div>
+                                    <div>تعميم</div>
+                                </div>
+                                <div class="f-line">
+                                    <div class="heading">السرية</div>
+                                    <div>عادي</div>
+                                </div>
+                                <div class="f-line">
+                                    <div class="heading">التصنيف</div>
+                                    <div>عادي</div>
+                                </div>
+                                <div class="f-line w-medium">
+                                    <div class="heading">الإدارة المرسلة</div>
+                                    <div>الإدارة 1</div>
+                                </div>
+                                <div class="f-line w-medium">
+                                    <div class="heading">الإدارة المرسل اليها</div>
+                                    <div>الإدارة 2</div>
+                                </div>
+                                <div class="f-line w-medium">
+                                    <div class="heading">أيام التأخير</div>
+                                    <div>22</div>
+                                </div>
+                                <div class="f-line w-medium">
+                                    <div class="heading">الموعد المحدد</div>
+                                    <div>28 تشرين الثاني 2019</div>
+                                </div>
+                                <div class="f-line w-100">
+                                    <div class="heading">اسم الموظف</div>
+                                    <div>محمد محمود محمد محمود</div>
+                                </div>
+                    
+                            </div>
+                            <div class="correspondence-icon w-100 d-inline-block">
+                                <div class="d-inline-block">
+                                    <a class="circle color-blue" href="#"><i class="la la-pencil"></i></a>
+                                    <a class="circle color-red" href="#"><i class="la la-plus-square"></i></a>
+                                    <a class="circle color-gray" href="#"><i class="la la-file-text"></i></a>
+                                    <a class="circle color-orange" href="#"><i class="la la-print"></i></a>
+                                    <a class="circle color-green" href="#"><i class="la la-print"></i></a>
+                                </div>
+                                <div class="d-inline-block pull-right">
+                                    <div class="info">
+                                        <i class="la la-paperclip"></i>
+                                        <span class=""><span>10</span> مرفقات </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-grid search_box">
+                        <div class="box blue animated zoomIn buttons-action">
+
+                            <div class="correspondence-t blue_header">
+                                <div class="d-flex">
+                                    <div class="">
+                                        وارد ( أفراد )
+                                    </div>
+                                    <div class="ml-auto d-flex">
+                                        <div class="checkbox">
+                                            <label>
+                                                <input type="checkbox" value="">
+                                                <span class="cr"><i class="cr-icon glyphicon glyphicon-ok"></i></span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="correspondence-h">
+                                <div class="title">
+                                    وزارة الداخلية
+                                </div>
+                                <div class="date">
+                                    28 تشرين الثاني 2018
+                                </div>
+                            </div>
+                            <div class="correspondence-b d-flex flex-wrap">
+                                <div class="f-line">
+                                    <div class="heading">الرقم</div>
+                                    <div>2233548</div>
+                                </div>
+                                <div class="f-line">
+                                    <div class="heading">الأهمية</div>
+                                    <div class="text-danger">عاجل</div>
+                                </div>
+                                <div class="f-line">
+                                    <div class="heading">السرية</div>
+                                    <div>عادي</div>
+                                </div>
+                                <div class="f-line">
+                                    <div class="heading">النوع</div>
+                                    <div>تعميم</div>
+                                </div>
+                                <div class="f-line">
+                                    <div class="heading">السرية</div>
+                                    <div>عادي</div>
+                                </div>
+                                <div class="f-line">
+                                    <div class="heading">التصنيف</div>
+                                    <div>عادي</div>
+                                </div>
+                                <div class="f-line w-medium">
+                                    <div class="heading">الإدارة المرسلة</div>
+                                    <div>الإدارة 1</div>
+                                </div>
+                                <div class="f-line w-medium">
+                                    <div class="heading">الإدارة المرسل اليها</div>
+                                    <div>الإدارة 2</div>
+                                </div>
+                                <div class="f-line w-medium">
+                                    <div class="heading">أيام التأخير</div>
+                                    <div>22</div>
+                                </div>
+                                <div class="f-line w-medium">
+                                    <div class="heading">الموعد المحدد</div>
+                                    <div>28 تشرين الثاني 2019</div>
+                                </div>
+                                <div class="f-line w-100">
+                                    <div class="heading">اسم الموظف</div>
+                                    <div>محمد محمود محمد محمود</div>
+                                </div>
+                    
+                            </div>
+                            <div class="correspondence-icon w-100 d-inline-block">
+                                <div class="d-inline-block">
+                                    <a class="circle color-blue" href="#"><i class="la la-pencil"></i></a>
+                                    <a class="circle color-red" href="#"><i class="la la-plus-square"></i></a>
+                                    <a class="circle color-gray" href="#"><i class="la la-file-text"></i></a>
+                                    <a class="circle color-orange" href="#"><i class="la la-print"></i></a>
+                                    <a class="circle color-green" href="#"><i class="la la-print"></i></a>
+                                </div>
+                                <div class="d-inline-block pull-right">
+                                    <div class="info">
+                                        <i class="la la-paperclip"></i>
+                                        <span class=""><span>10</span> مرفقات </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-grid search_box">
+                        <div class="box blue animated zoomIn buttons-action">
+
+                            <div class="correspondence-t blue_header">
+                                <div class="d-flex">
+                                    <div class="">
+                                        وارد ( أفراد )
+                                    </div>
+                                    <div class="ml-auto d-flex">
+                                        <div class="checkbox">
+                                            <label>
+                                                <input type="checkbox" value="">
+                                                <span class="cr"><i class="cr-icon glyphicon glyphicon-ok"></i></span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="correspondence-h">
+                                <div class="title">
+                                    وزارة الداخلية
+                                </div>
+                                <div class="date">
+                                    28 تشرين الثاني 2018
+                                </div>
+                            </div>
+                            <div class="correspondence-b d-flex flex-wrap">
+                                <div class="f-line">
+                                    <div class="heading">الرقم</div>
+                                    <div>2233548</div>
+                                </div>
+                                <div class="f-line">
+                                    <div class="heading">الأهمية</div>
+                                    <div class="text-danger">عاجل</div>
+                                </div>
+                                <div class="f-line">
+                                    <div class="heading">السرية</div>
+                                    <div>عادي</div>
+                                </div>
+                                <div class="f-line">
+                                    <div class="heading">النوع</div>
+                                    <div>تعميم</div>
+                                </div>
+                                <div class="f-line">
+                                    <div class="heading">السرية</div>
+                                    <div>عادي</div>
+                                </div>
+                                <div class="f-line">
+                                    <div class="heading">التصنيف</div>
+                                    <div>عادي</div>
+                                </div>
+                                <div class="f-line w-medium">
+                                    <div class="heading">الإدارة المرسلة</div>
+                                    <div>الإدارة 1</div>
+                                </div>
+                                <div class="f-line w-medium">
+                                    <div class="heading">الإدارة المرسل اليها</div>
+                                    <div>الإدارة 2</div>
+                                </div>
+                                <div class="f-line w-medium">
+                                    <div class="heading">أيام التأخير</div>
+                                    <div>22</div>
+                                </div>
+                                <div class="f-line w-medium">
+                                    <div class="heading">الموعد المحدد</div>
+                                    <div>28 تشرين الثاني 2019</div>
+                                </div>
+                                <div class="f-line w-100">
+                                    <div class="heading">اسم الموظف</div>
+                                    <div>محمد محمود محمد محمود</div>
+                                </div>
+                    
+                            </div>
+                            <div class="correspondence-icon w-100 d-inline-block p-0">
+                                <div class="d-inline-block w-50">
+                                    <button type="button" class="w-100 btn btn-light-blue border-0 border-radius-0 p-3">استلام</button>
+                                </div>
+                                <div class="d-inline-block pull-right w-50">
+                                    <button type="button" class="w-100 btn btn-gray border-0 border-radius-0 p-3">إرجاع</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-grid search_box">
+                        <div class="box blue animated zoomIn buttons-action h-100 no-permission">
+                            <div class="correspondence-t blue_header">
+                                <div class="d-flex">
+                                    <div class="">
+                                        وارد ( أفراد )
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="correspondence-b">
+                                <i class="fa fa-exclamation"></i>
+                                <label>لا تمتلك الصلاحية للإطلاع على المعاملة</label>
+                            </div>
+                            <div class="correspondence-icon">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+   <div class="w-100 p-2 text-center">
+                        <nav aria-label="Page navigation">
+                            <ul class="pagination custom-pagination">
+                                <li class="change-page">
+                                    <a href="#" aria-label="Previous">
+                                        <i class="fa fa-caret-right"></i>
+                                    </a>
+                                </li>
+                                <li class="blues_border"><a href="#"  class="transparent_bg">1</a></li>
+								<li><span class="transparent_bg font_size12"> من
+									
+									<span class="light-blue pl-1">4</span>
+									</span>
+								</li>
+                                <li class="change-page">
+                                    <a href="#" aria-label="Next">
+                                        <i class="fa fa-caret-left"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+    </div>
+<!--QBS JQuery-->
+<link href="../assets/js/jquery-ui-1.9.2/css/base/jquery-ui-1.9.2.custom.css" rel="stylesheet">
+    <!-- jQuery -->
+    <script src="../assets/js/jquery.js"></script>
+<script src="../assets/js/jquery-ui-1.9.2/js/jquery-ui-1.9.2.custom.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../assets/js/bootstrap-select.js"></script>
+    <script src="../assets/js/jquery.matchHeight-min.js"></script>
+    <script src="../assets/js/aos.js"></script>
+    <script src="../assets/js/jquery.slimscroll.min.js"></script>
+    <script src="../assets/js/app.js"></script>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
+    <script>
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
+
+
+<!--QBS Script -->
+<script>
+
+		$(function() {
+		$( "#datepicker" ).datepicker();
+	});
+	</script>
+	<script type="text/javascript">
+		$(function() {
+		$( "#datepicker2").datepicker();
+	});
+	</script>	
+	<!---->
+	
+
+
+    <!-- Vertical Menu css-->
+    <script src="../assets/plugins/vertical-menu/vendors.min.js"></script>
+    <script src="../assets/plugins/vertical-menu/app-menu.min.js"></script>
+    <script src="../assets/plugins/vertical-menu/app.min.js"></script>
+
+    <!-- jquery-confirm JS -->
+    <script type="text/javascript" src="../assets/plugins/confirm/jquery-confirm.min.js"></script>
+
+    <script>
+        // confirmation
+        $('.dialog-delivery').on('click', function () {
+            $.confirm({
+                title: false,
+                theme: 'yasser-theme',
+                content: 'url:callback-delivery.html',
+                rtl: true,
+                //icon: 'fa fa-question-circle',
+                animation: 'scale',
+                closeAnimation: 'scale',
+                opacity: 1.0,
+                draggable: true,
+                //type: 'red',
+                closeIcon: true,
+                columnClass: 'col-md-12 col-md-offset-0 col-xs-12 col-xs-offset-0',
+                buttons: {
+
+                    print: {
+                        text: 'طباعة',
+                        btnClass: 'btn btn-primary btn-lg mx-1',
+                        keys: ['enter', 'space'],
+                        action: function () { }
+                    },
+                    export: {
+                        text: 'تصدير',
+                        btnClass: 'btn btn-primary btn-lg mx-1',
+                        keys: ['enter', 'space'],
+                        action: function () { }
+                    },
+
+
+                }
+            });
+        });
+
+    </script>
+
+    <!-- Checkbox hide -->
+    <script>
+        $(function () {
+            $('.hide_trigger').hide();
+            $('.trigger').change(function () {
+                var hide_triggerId = $(this).attr("data-trigger");
+                if ($(this).is(':checked')) {
+                    $("#" + hide_triggerId).fadeIn();
+                } else {
+                    $("#" + hide_triggerId).fadeOut();
+                }
+            });
+        });
+    </script>
+
+</body>
+
+</html>

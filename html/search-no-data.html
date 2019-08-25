@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link type="image/x-icon" rel="shortcut icon" href="./favicon.ico">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="theme-color" content="#0c7c5a">
+    <title>مراسلات</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="../assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../assets/bootstrap/css/bootstrap.min.rtl.css" rel="stylesheet">
+    <!-- Custom CSS sssssss -->
+
+    <!-- Bootstrap Upgrade CSS -->
+    <link href="../assets/bootstrap/css/bootstrap.form.rtl.css" rel="stylesheet">
+    <link href="../assets/bootstrap/css/bootstrap.grid.css" rel="stylesheet">
+    <!-- Custom CSS -->
+
+    <!-- Custom Fonts -->
+    <link href="../assets/css/fonts/fontawesome/css/all.css" rel="stylesheet" type="text/css">
+    <link href="../assets/css/fonts/line-awesome/css/line-awesome.min.css" rel="stylesheet">
+
+    <link href="../assets/css/bootstrap-select.min.css" rel="stylesheet">
+    <link href="../assets/css/animate.css" rel="stylesheet">
+    <link href="../assets/css/style.css" rel="stylesheet">
+    <link href="../assets/css/mob_style.css" rel="stylesheet">
+
+    <!-- New -->
+    <link href="../assets/css/new.css" rel="stylesheet">
+
+    <!-- Select2 CSS -->
+    <link href="../assets/plugins/select2/select2.min.css" rel="stylesheet" />
+
+    <!-- Vertical Menu css-->
+    <link rel="stylesheet" type="text/css" href="../assets/plugins/vertical-menu/vertical-menu.min.css">
+
+    <!-- Confirm CSS -->
+    <link rel="stylesheet" type="text/css" href="../assets/plugins/confirm/jquery-confirm.min.css" />
+
+    <!-- Dawood CSS -->
+    <link href="../assets/css/dawood-style.css" rel="stylesheet">
+
+</head>
+
+
+<body class="vertical-layout vertical-menu 2-columns   menu-flipped fixed-navbar " data-open="click"
+    data-menu="vertical-menu" data-col="2-columns" dir="rtl">
+    <div class="fixed-top">
+        <div class="top-header">
+            <div class="container-fluid">
+                <div class="d-flex flex-column flex-sm-row">
+                    <div class="">
+                        <a class="main_logo" href="#"><img src="../assets/images/logo-morasalat.png" title=""
+                                alt="" /></a>
+                    </div>
+
+                    <div class="d-flex mr-sm-auto  mr-0 align-content-around flex-wrap h-side">
+                        <div class="dropdown px-1 px-md-3 ">
+                            <a id="drop1" href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false">
+                                <span>إسم الإدارة</span>
+                                <i class="la la-angle-down"></i>
+                            </a>
+
+                            <ul class="dropdown-menu fadeIn animated" aria-labelledby="drop1">
+                                <li><a href="#">الإدارة 1</a></li>
+                                <li><a href="#">الإدارة 2</a></li>
+                                <li><a href="#">الإدارة 3</a></li>
+                            </ul>
+                        </div>
+                        <div class="dropdown  px-1 px-md-3 ml-0 ml-md-5">
+                            <a id="drop1" href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                                aria-expanded="false">
+                                <span class="h-avatar mx-2">
+                                    <img src="../assets/images/businessman.png">
+                                </span>
+                                <span>أشرف حسين</span>
+                                <i class="la la-angle-down"></i>
+                            </a>
+
+                            <ul class="dropdown-menu fadeIn animated" aria-labelledby="drop1">
+                                <li><a href="#">الاعدادات</a></li>
+                                <li><a href="#">التفضيلات</a></li>
+                                <li><a href="#">التغييرات</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">التعديلات</a></li>
+                            </ul>
+                        </div>
+                        <div class="d-flex">
+                            <div class="px-2 flex-grow-1">
+                                <div class="h-search">
+                                    <i onclick="focusMethod()" data-toggle="tooltip" data-placement="bottom"
+                                        title="البحث السريع" class="la la-search"></i>
+                                    <input class="myTextField" type="text" name="search" placeholder="البحث هنا">
+                                </div>
+                                <script>
+                                    focusMethod = function getFocus() {
+                                        $('.myTextField').focus();
+                                    }
+                                </script>
+                            </div>
+                            <div class="px-2">
+                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="التنبيهات"><em>22</em>
+                                    <i class="la la-bell"></i></a>
+                            </div>
+                            <div class="px-2">
+                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="المحادثات"><em>22</em>
+                                    <i class="la la-comments"></i></a>
+                            </div>
+                            <div class="px-2">
+                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="English">
+                                    <i class="la la-globe"></i></a>
+                            </div>
+                            <div class="px-2 mr-3">
+                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="خروج">
+                                    <i class="la la-power-off"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+        <!-- start of fixed header -->
+        <nav class="navbar navbar-default navbar-second">
+            <div class="container-fluid">
+                <div class="row row-custom">
+                    <div class="navbar-header d-flex">
+                        <div class="mobile-menu d-md-none ml-auto">
+                            <a class="nav-link nav-menu-main menu-toggle" href="#">
+                                <i class="la la-ellipsis-h"></i>
+                            </a>
+                        </div>
+                        <div class="mr-auto">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                                data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+                    </div>
+                    <div id="navbar" class="navbar-collapse collapse">
+
+                        <ul class="nav navbar-nav">
+                            <li><a href="#"></i>المعاملات</a></li>
+                            <li><a href="#">المهام <span class="notification_sticky">3</span></a></li>
+                            <li><a href="#">استقبال الادارة</a></li>
+                            <li><a href="#">تقارير</a></li>
+                            <li><a href="#">لوحة الإشراف</a></li>
+                            <li><a href="#">بيان التسليم</a></li>
+                            <li class="active"><a href="#">بحث</a></li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+    </div>
+    <div class="content_wrapper">
+        <h2 class="site-color main-title">البحث</h2>
+
+        <div class="content_container">
+            <div class="">
+                <form>
+                    <div class="form-row">
+                        <div class="form-group col-lg-2 col-md-4 col-sm-6 col-xs-12">
+                            <label for="">رقم المعاملة</label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="form-group col-lg-2 col-md-4 col-sm-6 col-xs-12">
+                            <label for="">نوع المعاملة</label>
+                            <select id="inputState" class="form-control">
+                                <option selected="">اختر</option>
+                                <option>واردد</option>
+                                <option>صادر</option>
+                                <option>معاملة داخلية</option>
+                            </select>
+                        </div>
+                        <div class="form-group col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                            <label for="">وصف المعاملة</label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="form-group col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                            <div class="col-sm-6 px-0 pl-md-2">
+                                <label for="">التاريخ من</label>
+                                <div class="input-group">
+                                    <input type="text" class="form-control">
+                                    <div class="input-group-append">
+                                        <span class="input-group-text hyperlink">
+                                            <a href="#"><i class="far fa-calendar-alt"></i></a>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="col-sm-6 px-0 pr-md-2">
+                                <label for="">التاريخ إلى</label>
+                                <div class="input-group">
+                                    <input type="text" class="form-control">
+                                    <div class="input-group-append">
+                                        <span class="input-group-text hyperlink">
+                                            <a href="#"><i class="far fa-calendar-alt"></i></a>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <h3 class="site-color mr-3">حقول إضافية</h3>
+                    <div class="form-row pb-3">
+                        <label class="container_checkbox mx-2">
+                            الوارد
+                            <input type="checkbox" checked="checked" name="" data-trigger="hidden_fields_one"
+                                class="trigger">
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="container_checkbox mx-2">
+                            الاحالات
+                            <input type="checkbox" name="" data-trigger="hidden_fields_two" class="trigger">
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="container_checkbox mx-2">
+                            اسماء
+                            <input type="checkbox" name="" data-trigger="hidden_fields_three" class="trigger">
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="container_checkbox mx-2">
+                            مشتركة
+                            <input type="checkbox" name="" data-trigger="hidden_fields_four" class="trigger">
+                            <span class="checkmark"></span>
+                        </label>
+                    </div>
+
+                    <div id="hidden_fields_one" class="">
+                        <h3 class="site-color sub-title mr-3">الوارد</h3>
+                        <div class="form-row">
+                            <div class="form-group col-lg-2 col-md-4 col-sm-6 col-xs-12">
+                                <label for="">نوع جهة الوارد</label>
+                                <select id="inputState" class="form-control">
+                                    <option selected="">إختيار...</option>
+                                    <option>...</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                <label for="">جهة الوارد</label>
+                                <div class="row">
+                                    <div class=" col-xs-4 pl-2">
+                                        <input type="text" class="form-control">
+                                    </div>
+                                    <div class=" col-xs-8 pr-2">
+                                        <div class="input-group">
+                                            <input type="text" class="form-control">
+                                            <div class="input-group-append">
+                                                <span class="input-group-text hyperlink blue">
+                                                    <a href="#"><i class="la la-filter"></i></a>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="hidden_fields_two" class="hide_trigger">
+                        <h3 class="site-color sub-title mr-3">الاحالات</h3>
+                    </div>
+                    <div id="hidden_fields_three" class="hide_trigger">
+                        <h3 class="site-color sub-title mr-3">اسماء</h3>
+                    </div>
+                    <div id="hidden_fields_four" class="hide_trigger">
+                        <h3 class="site-color sub-title mr-3">مشتركة</h3>
+                    </div>
+
+                    <hr class="m-0">
+
+                </form>
+
+            </div>
+            <div class="">
+                <form class="text-left p-3">
+                    <button type="submit" class="btn btn-dark-blue btn-lg mx-1">بحث</button>
+                </form>
+            </div>
+
+
+        </div>
+        <div class="content_container">
+            <div class="content_container content_container--header">
+                <div class="d-flex flex-column flex-lg-row">
+                    <div class="ml-auto filter-link">
+                        <h3 class="site-color mr-3">نتائج البحث <span class="mr-2">(<i>0</i>) معاملات</span></h3>
+                    </div>
+                </div>
+            </div>
+            <div class="no-data-section">
+                <i class="fa fa-exclamation"></i>
+                <label>لا يوجد معاملات <br> توافق مدخلات البحث </label>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="../assets/js/jquery.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../assets/js/bootstrap-select.js"></script>
+    <script src="../assets/js/jquery.matchHeight-min.js"></script>
+    <script src="../assets/js/aos.js"></script>
+    <script src="../assets/js/jquery.slimscroll.min.js"></script>
+    <script src="../assets/js/app.js"></script>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
+    <script>
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
+
+    <!-- Select2 JS -->
+    <script src="../assets/plugins/select2/select2.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.select2-with').select2();
+        });
+        $('.select2-without').select2({
+            minimumResultsForSearch: -1
+        });
+    </script>
+
+
+    <!-- Vertical Menu css-->
+    <script src="../assets/plugins/vertical-menu/vendors.min.js"></script>
+    <script src="../assets/plugins/vertical-menu/app-menu.min.js"></script>
+    <script src="../assets/plugins/vertical-menu/app.min.js"></script>
+
+    <!-- jquery-confirm JS -->
+    <script type="text/javascript" src="../assets/plugins/confirm/jquery-confirm.min.js"></script>
+
+    <script>
+        // confirmation
+        $('.dialog-delivery').on('click', function () {
+            $.confirm({
+                title: false,
+                theme: 'yasser-theme',
+                content: 'url:callback-delivery.html',
+                rtl: true,
+                //icon: 'fa fa-question-circle',
+                animation: 'scale',
+                closeAnimation: 'scale',
+                opacity: 1.0,
+                draggable: true,
+                //type: 'red',
+                closeIcon: true,
+                columnClass: 'col-md-12 col-md-offset-0 col-xs-12 col-xs-offset-0',
+                buttons: {
+
+                    print: {
+                        text: 'طباعة',
+                        btnClass: 'btn btn-primary btn-lg mx-1',
+                        keys: ['enter', 'space'],
+                        action: function () { }
+                    },
+                    export: {
+                        text: 'تصدير',
+                        btnClass: 'btn btn-primary btn-lg mx-1',
+                        keys: ['enter', 'space'],
+                        action: function () { }
+                    },
+
+
+                }
+            });
+        });
+
+    </script>
+
+    <!-- Checkbox hide -->
+    <script>
+        $(function () {
+            $('.hide_trigger').hide();
+            $('.trigger').change(function () {
+                var hide_triggerId = $(this).attr("data-trigger");
+                if ($(this).is(':checked')) {
+                    $("#" + hide_triggerId).fadeIn();
+                } else {
+                    $("#" + hide_triggerId).fadeOut();
+                }
+            });
+        });
+    </script>
+
+</body>
+
+</html>

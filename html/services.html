@@ -1,0 +1,1186 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link type="image/x-icon" rel="shortcut icon" href="./favicon.ico">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="theme-color" content="#0c7c5a">
+    <title>مراسلات</title>
+
+    <link type="image/x-icon" rel="shortcut icon" href="./favicon.ico">
+    
+    <!-- Bootstrap RTL -->
+    <link href="../assets/bootstrap/css/bootstrap.min.rtl.css" rel="stylesheet">
+    <link href="../assets/bootstrap/css/bootstrap.form.rtl.css" rel="stylesheet">
+    <link href="../assets/bootstrap/css/bootstrap.grid.rtl.css" rel="stylesheet">
+
+    <!-- Main -->
+    <link href="../assets/css/main.css" rel="stylesheet">
+
+    <!-- Vertical Menu -->
+    <link rel="stylesheet" type="text/css" href="../assets/plugins/vertical-menu/vertical-menu.min.css">
+
+    <!-- Confirm -->
+    <link rel="stylesheet" type="text/css" href="../assets/plugins/confirm/jquery-confirm.min.css" />
+
+    <!-- RTL -->
+    <link href="../assets/css/d-rtl.css" rel="stylesheet">
+
+    <style>
+        .add-management-form {
+            display: none;
+        }
+    </style>
+
+</head>
+
+
+<body class="vertical-layout vertical-menu 2-columns   menu-flipped fixed-navbar " data-open="click"
+    data-menu="vertical-menu" data-col="2-columns" dir="rtl">
+    <div class="fixed-top">
+        <div class="top-header">
+            <div class="container-fluid">
+                <div class="d-flex flex-column flex-sm-row">
+                    <div class="">
+                        <a class="main_logo" href="#">
+                            <img src="../assets/images/logo-morasalat.png" title="" alt="">
+                        </a>
+                    </div>
+
+                    <div class="d-flex ml-sm-auto  mr-0 align-content-around flex-wrap h-side">
+                        <div class="dropdown px-1 px-md-3">
+                            <a id="drop1" href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <span>إسم الإدارة</span>
+                                <i class="la la-angle-down"></i>
+                            </a>
+
+                            <ul class="dropdown-menu fadeIn animated admins" aria-labelledby="drop1">
+                                <li><a class="pb-2" href="#">إسم الإدارة 1</a></li>
+                                <li role="separator" class="divider  mb-0"></li>
+                                <li><a class="pb-2" href="#">إسم الإدارة 2</a></li>
+                                <li role="separator" class="divider  mb-0"></li>
+                                <li><a class="pb-2" href="#">إسم الإدارة 3</a></li>
+                                <li class="mb-0"></li>
+                            </ul>
+                        </div>
+
+                        <div class="user-settings dropdown  px-1 px-md-3 ml-0 ml-md-5">
+                            <a id="drop1" href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <span class="h-avatar mx-2">
+                                    <img src="../assets/images/businessman.png">
+                                </span>
+                                <span>أشرف حسين</span>
+                                <i class="la la-angle-down"></i>
+                            </a>
+
+
+                            <ul class="dropdown-menu employee_dd fadeIn" aria-labelledby="drop1 w-100">
+                                <li class="pt-2 pb-2 pl-3"><a href="marking-signature.html"><i class="la la-file-image-o"></i>التوقيع والتأشير</a></li>
+                                <li role="separator" class="divider  mb-0 mt-0"></li>
+                                <li class="pt-2 pb-2 pl-3"><a href="assignment-paper.html"><i class="la la-file-text"></i>ورقة الإحالة</a></li>
+                                <li role="separator" class="divider  mb-0 mt-0"></li>
+                                <li class="pt-2 pb-2 pl-3"><a href="#"><i class="la la-list"></i>قائمة التوزيع</a></li>
+                                <li role="separator" class="divider  mb-0 mt-0"></li>
+                                <li class="pt-2 pb-2 pl-3"><a href="#"><i class="la la-line-chart"></i>المسارات</a></li>
+                                <li role="separator" class="divider  mb-0 mt-0"></li>
+                                <li class="pt-2 pb-2 pl-3"><a href="#"><i class="la la-user"></i>التفويض </a></li>
+
+                            </ul>
+
+                        </div>
+                        <div class="d-flex top-icons">
+                            <div class="searchbox px-2 flex-grow-1">
+                                <div class="h-search">
+                                    <i onclick="focusMethod()" data-toggle="tooltip" data-placement="bottom" title="" class="la la-search" data-original-title="البحث السريع"></i>
+                                    <input class="myTextField" type="text" name="search" placeholder="البحث هنا">
+                                </div>
+                                <script>
+                                    focusMethod = function getFocus() {
+                                        $('.myTextField').focus();
+                                    }
+                                </script>
+                            </div>
+                            <div class="notifications dropdown mt-2 px-4">
+                                <a href="#" class="dropdown-toggle la la-bell" data-toggle="dropdown" aria-haspopup="false" aria-expanded="true" data-placement="bottom" title="التنبيهات">
+                                    <em class="notification_sticky">22</em>
+                                </a>
+                                <ul class="dropdownposition dropdown-menu  fadeIn animated" aria-labelledby="drop1">
+
+                                    <li class=" pt-3"><a href="#" class="pt-0 pb-2 pr-3 pl-3"><i class="la la-bell"></i>التنبيهات</a></li>
+                                    <li role="separator" class="divider mb-0 mt-0"></li>
+                                    <li class="bgchange pt-3 pb-3 pr-3 pl-3">
+                                        <a href="#"><i class="la la-bell"></i>تم إرجاع معاملة</a>
+                                        <span class="pt-0 pb-2 pr-3 pl-3"> 28 تشرين الثاني 2018</span>
+                                    </li>
+                                    <li role="separator" class="divider mb-0 mt-0 p-0"></li>
+
+                                    <li class="bgchange pt-3 pb-3 pr-3 pl-3">
+                                        <a href="#"><i class="la la-bell"></i>تم استلام معاملة</a>
+                                        <span class="pt-0 pb-2 pr-3 pl-3"> 28 تشرين الثاني 2018</span>
+                                    </li>
+                                    <li role="separator" class="divider  mb-0 mt-0 p-0"></li>
+                                    <li class="pt-3 pb-3 pr-3 pl-3">
+                                        <a href="#"><i class="la la-bell"></i>تم استلام مهمة جديدة</a>
+                                        <span class="pt-0 pb-2 pr-3 pl-3"> 28 تشرين الثاني 2018</span>
+                                    </li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="notifications.html" class="text-center">إظهار المزيد </a></li>
+                                </ul>
+
+                            </div>
+                            <div class="px-3">
+                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="" class="chatbtn" data-original-title="المحادثات">
+                                    <em class="notification_sticky">22</em>
+                                    <i class="la la-comments "></i>
+                                </a>
+                            </div>
+                            <div class="px-3">
+                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="الدعم الفني">
+                                    <i class="la la-headphones"></i>
+                                </a>
+                            </div>
+                            <div class="px-3">
+                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="المساعدة">
+                                    <i class="la la-question-circle"></i>
+                                </a>
+                            </div>
+                            <div class="px-3">
+                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="English">
+                                    <i class="la la-globe"></i>
+                                </a>
+                            </div>
+                            <div class="px-3">
+                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="خروج">
+                                    <i class="la la-power-off"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+        <!-- start of fixed header -->
+        <nav class="navbar navbar-default navbar-second">
+            <div class="container-fluid">
+                <div class="row row-custom">
+                    <div class="navbar-header d-flex">
+                        <div class="mobile-menu d-md-none ml-auto">
+                            <a class="nav-link nav-menu-main menu-toggle is-active" href="#">
+                                <i class="la la-ellipsis-h"></i>
+                            </a>
+                        </div>
+                        <div class="ml-auto">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+                    </div>
+                    <div id="navbar" class="navbar-collapse collapse">
+
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a href="#">المعاملات</a></li>
+                            <li><a href="#">المهام <span class="notification_sticky">3</span></a></li>
+                            <li><a href="#">استقبال الادارة</a></li>
+                            <li><a href="#">تقارير</a></li>
+                            <li><a href="#">لوحة قياس مستوى الاداء</a></li>
+
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+    </div>
+    <div class="content_wrapper">
+    	<h2 class="page-headline site-color main-title mt-5 mb-5">التفويض</h2>
+			  <button type="submit" class="btn btn-primary  pull-right" id="add-management-btn">
+										<i class="la la-plus rounded"></i>
+										 
+											 إضافة تفويض
+												
+										  </button>
+        <div class="content_container add-management-form">
+            <div class="">
+                <form>
+                    <div class="form-row">
+                        <div class="form-group col-lg-5 col-md-4 col-sm-6 col-xs-12">
+							<div class="row">
+								<div class=" col-xs-6 pl-2">
+                            <label for="">تاريخ بداية التفويض <span class="stark">*</span></label>
+								</div>
+								<div class=" col-xs-6 pl-2">
+							<label for="">تاريخ نهاية التفويض <span class="stark">*</span></label>
+								</div>
+							</div>
+                            <div class="row">
+                                <div class=" col-xs-6 pl-2">
+                                   <div class="input-group">
+                                    <input type="text" class="form-control hasDatepicker" id="datepicker">
+                                    <div class="input-group-append">
+                                        <span class="input-group-text hyperlink">
+                                            <a href="#"><i class="far fa-calendar"></i></a>
+                                        </span>
+                                    </div>
+                                </div>
+                                </div>
+                                <div class=" col-xs-6 pl-2">
+                              <div class="input-group">
+                                    <input type="text" class="form-control hasDatepicker" id="datepicker">
+                                    <div class="input-group-append">
+                                        <span class="input-group-text hyperlink">
+                                            <a href="#"><i class="far fa-calendar"></i></a>
+                                        </span>
+                                    </div>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+				
+                        
+						
+							
+						
+                    </div>
+                    <div class="form-row">
+                    	<div class="col-lg-12">
+                        <span class="validation-msg">يرجى تعبئة جميع الحقول التي تحتوي على إشارة *</span>
+                        </div>
+                    </div>
+                </form>
+
+            </div>
+            <div class="">
+                <form class="text-right pt-3 pb-3">
+                    <button type="button" class="btn btn-primary btn-lg mx-1 hide-form-btn">إضافة</button>
+                    <button type="button" class="btn btn-cancel btn-lg mx-1 hide-form-btn">الغاء</button>
+                </form>
+            </div>
+        </div>
+        <div class="content_container">
+           
+					
+			<div>
+
+  <!-- Nav tabs -->
+  <ul class="nav nav-tabs services-tabs" role="tablist">
+    <li role="presentation" class="active"><a href="#add" aria-controls="add" role="tab" data-toggle="tab">التفويضات المضافة</a></li>
+    <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">طلبات التفويض</a></li>
+    <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">التفويضات المقبولة</a></li>
+	  	<div class="text-right">
+                                        <label class="cursor-pointer dark-color mx-2 filter-target">
+                                            <i class="sort-icons icon-filter mx-1"></i>فلترة
+                                        </label>
+                                        <label class="cursor-pointer dark-color mx-2 sort-target">
+                                            <i class="sort-icons icon-sort mx-1"></i>ترتيب حسب
+                                        </label>
+                                    </div>
+  </ul>
+				                             <div class="filter-box filter">
+                                        <form>
+                                            <div class="form-row">
+                                                <div class="form-group col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                                                 <label for="">موظف مفوض له</label>
+                                                    <select placeholder="اختر" id="inputState" class="form-control">
+                                                        <option selected="">الكل</option>
+                                                        <option>.....</option>
+                                                    </select>
+                                                </div>
+                                                <div class="form-group col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                                                      <label for="">الإدارة المفوض لها</label>
+                                                    <select placeholder="اختر" id="inputState" class="form-control">
+                                                        <option selected="">الكل</option>
+                                                        <option>.....</option>
+                                                    </select>
+                                                </div>
+                                                <div class="form-group col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                                                     <label for="">حالة التفويض</label>
+                                                    <select placeholder="اختر" id="inputState" class="form-control">
+                                                        <option selected="">الكل</option>
+                                                        <option>.....</option>
+                                                    </select>
+                                                </div>
+                                                <div class="form-group col-lg-3 col-md-4 col-sm-6 col-xs-12">
+								<div class="col-sm-5 mb-3 px-0 date1">
+									<label for="">التاريخ </label>
+									<div class="input-group mb-3">
+										<input type="text" class="form-control hasDatepicker" id="datepicker">
+										<div id="ui-datepicker-div"></div>
+										<div class="input-group-append">
+											<span class="input-group-text hyperlink">
+												<a href="#"><i class="far fa-calendar"></i></a>
+											</span>
+										</div>								
+									
+								       </div>
+									</div>
+								<div class="col-sm-1 mb-3 px-0">
+							<span class="to_class">إلى </span>
+								</div>
+								<div class="col-sm-5 mb-3 date2">
+									<label for="">التاريخ </label>
+									<div class="input-group mb-3">
+										<input type="text" class="form-control hasDatepicker" id="datepicker2">
+										<div class="input-group-append">
+											<span class="input-group-text hyperlink">
+												<a href="#"><i class="far fa-calendar fa-"></i></a>
+											</span>
+										</div>
+
+									</div>
+								</div>
+							
+                                                    </div>
+                                                </div>
+                                      </form>
+                                            </div>
+                                        
+                                    </div>
+			
+
+  <!-- Tab panes -->
+  <div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="add">            		
+					<div class="table-responsive pt-2">
+                <table class="grid table table-striped assignment_table">
+					
+                    <thead>
+                        <tr>
+                            <th class="dark-color">تاريخ بداية التفويض</th>
+                            <th>تاريخ نهاية التفويض</th>
+							<th>الإدارة المفوض لها</th>
+                            <th>الموظف المفوض له</th>
+							 <th>حالة التفويض</th>
+							<th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>28 تشرين الثاني 2018</td>
+                           <td>28 تشرين الثاني 2018</td>
+                            <td>
+                          اسم الإدارة
+                            </td>
+							   <td>
+                          اسم الموظف
+                            </td>
+							<td>
+									مرفوض
+									</td>
+							<td>
+								<button type="submit" class="btn red_border pull-right"  data-dismiss="modal" data-toggle="modal" 
+									data-target="#successful_model">
+										 
+											  إلغاء التفويض
+												
+										  </button></td>
+                        </tr>
+                        <tr>
+                             <td>28 تشرين الثاني 2018</td>
+                            <td>28 تشرين الثاني 2018</td>
+                               <td>
+                          اسم الإدارة
+                            </td>
+								   <td>
+                          اسم الموظف
+                            </td>
+							<td>
+							مقبول
+							</td>
+								<td>
+								<button type="submit" class="btn  red_border pull-right"  data-dismiss="modal" data-toggle="modal" 
+									data-target="#successful_model">
+										 
+											  إلغاء التفويض
+												
+										  </button></td>
+                        </tr>
+                        <tr>
+                             <td>28 تشرين الثاني 2018</td>
+                            <td>28 تشرين الثاني 2018</td>
+                             <td>
+                          اسم الإدارة
+                            </td>
+								   <td>
+                          اسم الموظف
+                            </td>
+							<td>
+							مقبول
+							</td>
+							<td><span data-dismiss="modal" data-toggle="modal" data-target="#successful_model3">
+								سبب الرفض
+								<i class="fas fa-chevron-left pl-1 pr-1"></i>
+								</span>
+							</td>
+                        </tr>
+                        <tr>
+                             <td>28 تشرين الثاني 2018</td>
+                            <td>28 تشرين الثاني 2018</td>
+                            <td>
+                          اسم الإدارة
+                            </td>
+								   <td>
+                          اسم الموظف
+                            </td>
+							<td>
+									مرفوض
+									</td>
+								<td>
+								<button type="submit" class="btn  red_border pull-right"  data-dismiss="modal" data-toggle="modal" 
+									data-target="#successful_model">
+										 
+											  إلغاء التفويض
+												
+										  </button></td>
+                        </tr>
+						        <tr>
+                             <td>28 تشرين الثاني 2018</td>
+                           <td>28 تشرين الثاني 2018</td>
+                             <td>
+                          اسم الإدارة
+                            </td>
+							<td>
+                          اسم الموظف
+                            </td>
+							<td>
+									مرفوض
+									</td>
+										<td>
+								<button type="submit" class="btn red_border pull-right"  data-dismiss="modal" data-toggle="modal" 
+									data-target="#successful_model">
+										 
+											  إلغاء التفويض
+												
+										  </button></td>
+                        </tr>
+						        <tr>
+                             <td>28 تشرين الثاني 2018</td>
+                            <td>28 تشرين الثاني 2018</td>
+                            <td>
+                          اسم الإدارة
+                            </td>
+							<td>
+                          اسم الموظف
+                            </td>
+									<td>
+									مرفوض
+									</td>
+								<td><span data-dismiss="modal" data-toggle="modal" data-target="#successful_model3">
+								سبب الرفض
+								<i class="fas fa-chevron-left pl-1 pr-1"></i>
+								</span>
+							</td>
+                        </tr>
+						        <tr>
+                             <td>28 تشرين الثاني 2018</td>
+                            <td>28 تشرين الثاني 2018</td>
+                            <td>
+                                  
+                          اسم الإدارة
+                            
+                            </td>
+							<td>
+                          اسم الموظف
+                            </td>
+									<td>
+									مقبول
+									</td>
+									
+									<td>
+								<button type="submit" class="btn  red_border pull-right"  data-dismiss="modal" data-toggle="modal" 
+									data-target="#successful_model">
+										 
+											  إلغاء التفويض
+												
+										  </button></td>
+                        </tr>
+						        <tr>
+                             <td>28 تشرين الثاني 2018</td>
+                            <td>28 تشرين الثاني 2018</td>
+                               <td>
+                          اسم الإدارة
+                            </td>
+							<td>
+                          اسم الموظف
+                            </td>
+									<td>
+									مرفوض
+									</td>
+									<td>
+								<button type="submit" class="btn  red_border pull-right"  data-dismiss="modal" data-toggle="modal" 
+									data-target="#successful_model">
+										 
+											  إلغاء التفويض
+												
+										  </button></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+		</div>
+    <div role="tabpanel" class="tab-pane" id="profile">
+	  					<div class="table-responsive pt-2">
+                <table class="grid table table-striped assignment_table">
+					
+                    <thead>
+                        <tr>
+                            <th class="dark-color">تاريخ بداية التفويض</th>
+                            <th>تاريخ نهاية التفويض</th>
+							<th> الموظف المفوض</th>
+                            <th>الإدارة المفوض لها</th>
+							 <th> الموظف المفوض له</th>
+							<th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>28 تشرين الثاني 2018</td>
+                           <td>28 تشرين الثاني 2018</td>
+                            <td>
+                          اسم الموظف
+                            </td>
+							   <td>
+                          اسم الإدارة
+                            </td>
+										   <td>
+                          اسم الموظف
+                            </td>
+										<td class="pull-right">
+										<button type="submit" class="btn blue_border mr-4" data-dismiss="modal" data-toggle="modal" 
+									data-target="#accept_modal">
+										 
+											   قبول
+												
+										  </button>
+													<button type="submit" class="btn red_border pull-right"  data-dismiss="modal" data-toggle="modal" 
+									data-target="#refusal_model">
+										 
+											  رفض 
+												
+										  </button>
+										
+							</td>
+                        </tr>
+                        <tr>
+                             <td>28 تشرين الثاني 2018</td>
+                            <td>28 تشرين الثاني 2018</td>
+                              <td>
+                          اسم الموظف
+                            </td>
+							   <td>
+                          اسم الإدارة
+                            </td>
+										   <td>
+                          اسم الموظف
+                            </td>
+													<td class="pull-right">
+											<button type="submit" class="btn blue_border mr-4" data-dismiss="modal" data-toggle="modal" 
+									data-target="#accept_modal">
+										 
+											   قبول
+												
+										  </button>
+											<button type="submit" class="btn red_border pull-right"  data-dismiss="modal" data-toggle="modal" 
+									data-target="#refusal_model">
+										 
+											  رفض 
+												
+										  </button>
+										
+							</td>
+                        </tr>
+                        <tr>
+                             <td>28 تشرين الثاني 2018</td>
+                            <td>28 تشرين الثاني 2018</td>
+                               <td>
+                          اسم الموظف
+                            </td>
+							   <td>
+                          اسم الإدارة
+                            </td>
+						 <td>
+                          اسم الموظف
+                            </td>
+											<td class="pull-right">
+											<button type="submit" class="btn blue_border mr-4" data-dismiss="modal" data-toggle="modal" 
+									data-target="#accept_modal">
+										 
+											   قبول
+												
+										  </button>
+													<button type="submit" class="btn red_border pull-right"  data-dismiss="modal" data-toggle="modal" 
+									data-target="#refusal_model">
+										 
+											  رفض 
+												
+										  </button>
+										
+							</td>
+                        </tr>
+                        <tr>
+                             <td>28 تشرين الثاني 2018</td>
+                            <td>28 تشرين الثاني 2018</td>
+                               <td>
+                          اسم الموظف
+                            </td>
+							   <td>
+                          اسم الإدارة
+                            </td>
+							<td>
+                          اسم الموظف
+                            </td>
+											<td class="pull-right">
+											<button type="submit" class="btn blue_border mr-4" data-dismiss="modal" data-toggle="modal" 
+									data-target="#accept_modal">
+										 
+											   قبول
+												
+										  </button>
+													<button type="submit" class="btn red_border pull-right"  data-dismiss="modal" data-toggle="modal" 
+									data-target="#refusal_model">
+										 
+											  رفض 
+												
+										  </button>
+										
+							</td>
+                        </tr>
+						        <tr>
+                             <td>28 تشرين الثاني 2018</td>
+                           <td>28 تشرين الثاني 2018</td>
+                              <td>
+                          اسم الموظف
+                            </td>
+							   <td>
+                          اسم الإدارة
+                            </td>
+							<td>
+                          اسم الموظف
+                            </td>
+																<td class="pull-right">
+											<button type="submit" class="btn blue_border mr-4" data-dismiss="modal" data-toggle="modal" 
+									data-target="#accept_modal">
+										 
+											   قبول
+												
+										  </button>
+												<button type="submit" class="btn red_border pull-right"  data-dismiss="modal" data-toggle="modal" 
+									data-target="#refusal_model">
+										 
+											  رفض 
+												
+										  </button>
+										
+							</td>
+                        </tr>
+						        <tr>
+                             <td>28 تشرين الثاني 2018</td>
+                            <td>28 تشرين الثاني 2018</td>
+                               <td>
+                          اسم الموظف
+                            </td>
+							   <td>
+                          اسم الإدارة
+                            </td>
+							<td>
+                          اسم الموظف
+                            </td>
+											<td class="pull-right">
+											<button type="submit" class="btn blue_border mr-4" data-dismiss="modal" data-toggle="modal" 
+									data-target="#accept_modal">
+										 
+											   قبول
+												
+										  </button>
+												<button type="submit" class="btn red_border pull-right"  data-dismiss="modal" data-toggle="modal" 
+									data-target="#refusal_model">
+										 
+											  رفض 
+												
+										  </button>
+										
+							</td>
+                        </tr>
+						        <tr>
+                             <td>28 تشرين الثاني 2018</td>
+                            <td>28 تشرين الثاني 2018</td>
+                                 <td>
+                          اسم الموظف
+                            </td>
+							   <td>
+                          اسم الإدارة
+                            </td>
+						    <td>
+                          اسم الموظف
+                            </td>
+									
+													<td class="pull-right">
+											<button type="submit" class="btn blue_border mr-4" data-dismiss="modal" data-toggle="modal" 
+									data-target="#accept_modal">
+										 
+											   قبول
+												
+										  </button>
+												<button type="submit" class="btn red_border pull-right"  data-dismiss="modal" data-toggle="modal" 
+									data-target="#refusal_model">
+										 
+											  رفض 
+												
+										  </button>
+										
+							</td>
+                        </tr>
+						        <tr>
+                             <td>28 تشرين الثاني 2018</td>
+                            <td>28 تشرين الثاني 2018</td>
+                                  <td>
+                          اسم الموظف
+                            </td>
+							   <td>
+                          اسم الإدارة
+                            </td>
+							<td>
+                          اسم الموظف
+                            </td>
+											<td class="pull-right">
+											<button type="submit" class="btn blue_border mr-4" data-dismiss="modal" data-toggle="modal" 
+									data-target="#accept_modal">
+										 
+											   قبول
+												
+										  </button>
+													<button type="submit" class="btn red_border pull-right"  data-dismiss="modal" data-toggle="modal" 
+									data-target="#refusal_model">
+										 
+											  رفض 
+												
+										  </button>
+										
+							</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+	  
+	  
+	  
+	  </div>
+    <div role="tabpanel" class="tab-pane" id="messages">
+	  		<div class="table-responsive pt-2">
+                <table class="grid table table-striped assignment_table">
+					
+                    <thead>
+                        <tr>
+                            <th class="dark-color">تاريخ بداية التفويض</th>
+                            <th>تاريخ نهاية التفويض</th>
+							<th>الإدارة المفوض لها</th>
+							<th> الموظف المفوض</th>
+							 <th> حالة التفويض</th>
+							<th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>28 تشرين الثاني 2018</td>
+                           <td>28 تشرين الثاني 2018</td>
+							   <td>
+                          اسم الإدارة
+                            </td>
+							       <td>
+                          اسم الموظف
+                            </td>
+										   <td>
+											   <div class="light">
+                        <i class="la la-lightbulb-o pl-1"></i>
+											   مفعل
+                            </div>
+												   
+												   </td>
+					
+                        </tr>
+                        <tr>
+                             <td>28 تشرين الثاني 2018</td>
+                            <td>28 تشرين الثاني 2018</td>
+                         	   <td>
+                          اسم الإدارة
+                            </td>
+							       <td>
+                          اسم الموظف
+                            </td>
+										   <td>
+											   <div  class="dark_red">
+                          <i class="fas fa-ban pl-1"></i>
+                               ملغي
+                           </div
+												   
+												   </td>
+				
+                        </tr>
+                        <tr>
+                             <td>28 تشرين الثاني 2018</td>
+                            <td>28 تشرين الثاني 2018</td>
+                          	   <td>
+                          اسم الإدارة
+                            </td>
+							       <td>
+                          اسم الموظف
+                            </td>
+						 <td>
+							 <div class="dark_purple">
+                         <i class="fas fa-hourglass-end pl-1"></i> 
+							 قيد التفعيل
+							 </div>
+							  
+                            </td>
+					
+                        </tr>
+                        <tr>
+                             <td>28 تشرين الثاني 2018</td>
+                            <td>28 تشرين الثاني 2018</td>
+                          	   <td>
+                          اسم الإدارة
+                            </td>
+							       <td>
+                          اسم الموظف
+                            </td>
+							<td>
+											   <div class="light">
+                        <i class="la la-lightbulb-o pl-1"></i>
+											   مفعل
+                            </div>
+								</td>
+				
+                        </tr>
+						        <tr>
+                             <td>28 تشرين الثاني 2018</td>
+                           <td>28 تشرين الثاني 2018</td>
+                         	   <td>
+                          اسم الإدارة
+                            </td>
+							       <td>
+                          اسم الموظف
+                            </td>
+									   <td>
+											   <div  class="dark_red">
+                          <i class="fas fa-ban pl-1"></i>
+                               ملغي
+										   </div>
+												   
+												   </td>
+					
+                        </tr>
+						        <tr>
+                             <td>28 تشرين الثاني 2018</td>
+                            <td>28 تشرين الثاني 2018</td>
+                          	   <td>
+                          اسم الإدارة
+                            </td>
+							       <td>
+                          اسم الموظف
+                            </td>
+							<td>
+	 <div class="dark_purple">
+                         <i class="fas fa-hourglass-end pl-1"></i> 
+							 قيد التفعيل
+							 </div> 
+                            </td>
+					
+                        </tr>
+						        <tr>
+                             <td>28 تشرين الثاني 2018</td>
+                            <td>28 تشرين الثاني 2018</td>
+                            	   <td>
+                          اسم الإدارة
+                            </td>
+							       <td>
+                          اسم الموظف
+                            </td>
+						   	<td>
+											   <div class="light">
+                        <i class="la la-lightbulb-o pl-1"></i>
+											   مفعل
+                            </div>
+								</td>
+									
+				
+                        </tr>
+						        <tr>
+                             <td>28 تشرين الثاني 2018</td>
+                            <td>28 تشرين الثاني 2018</td>
+                          	   <td>
+                          اسم الإدارة
+                            </td>
+							       <td>
+                          اسم الموظف
+                            </td>
+									   <td>
+											   <div  class="dark_red">
+                          <i class="fas fa-ban pl-1"></i>
+                               ملغي
+										   </div>
+												   
+												   </td>
+					
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+	  
+	  
+	  
+	  </div>
+    <div role="tabpanel" class="tab-pane" id="settings">...</div>
+  </div>
+
+</div>
+			<!---Modal --->
+			<div class="services_modals">
+	   <div class="modal fade" id="successful_model" role="dialog">
+        <div class="modal-dialog small-dialog">
+			        <div class="modal-content">
+                <div class="modal-body mt-5">
+                           <h3 class="dark-color w-auto d-inline-block m-0"> هل أنت متأكد من إلغاء التفويض ؟ </h3>
+                  
+						</div>
+					
+                    <br>
+                <div class="row mb-60">
+					<div class="col-xs-2 pl-0">
+					</div>
+					 <div class="col-xs-4 pl-0">
+                            <button class="btn btn-cancel btn-lg mx-1 mb-2 w-100 ml-0" data-dismiss="modal">الغاء</button>
+                        </div>
+                        <div class="col-xs-4 pl-0">
+                            <button class="nbt btn-primary btn-lg mx-1 mb-2 w-100 mr-0" data-dismiss="modal" data-toggle="modal" data-target="#successful_model2" id="successful_btn2">نعم</button>
+                        </div>
+					<div class="col-xs-2 pl-0">
+                    </div>
+                </div>
+		</div>
+	</div>				
+			</div>              
+ 
+				
+    <div class="modal fade" id="successful_model2" role="dialog">
+        <div class="modal-dialog small-dialog">
+			        <div class="modal-content">
+                <div class="modal-body mt-5">
+                           <h3 class="dark-color w-auto d-inline-block m-0">تم إلغاء التفويض بنجاح</h3>
+                  
+						</div>
+					
+                    <br>
+                    <div class="row m-0">
+						<div class="col-xs-5"></div>
+                        <div class="col-xs-4 pl-0">
+                            <button class="btn btn-primary mb-2 mb-5" data-dismiss="modal">
+								موافق
+								</button>
+                        </div>
+						<div class="col-xs-2"></div>
+
+                    </div>
+                </div>
+		</div>
+	</div>
+	    <div class="modal fade" id="successful_model3" role="dialog">
+        <div class="modal-dialog small-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content MyModel2Contant">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h3 class="purple3 w-auto d-inline-block m-0 pt-2 pb-2">سبب رفض التفويض</h3>
+                </div>
+                <div class="modal-body p-3">
+					خصثب ثت بهثت قخهبت هخثت ببسينرؤ شتثخه تر ثقهت خرت هخثهتقر ختثخ تترخ ثترش ختثقهخترخهثقت رخهثرهخش تثرثقهر سيمتسيتر ستر خصثب ثت 
+					بهثت قخهبت هخثت ببسينرؤ شتثخه تر ثقهت خرت هخثهتقر ختثخ تترخ ثترش ختثقهخترخهثقت رخهثرهخش تثرثقهر سيمتسيتر ستر خصثب ثت بهثت قخهبت هخثت ببسينرؤ شتثخه تر ثقهت خرت هخثهتقر ختثخ تترخ ثترش ختثقهخترخهثقت رخهثرهخش تثرثقهر سيمتسيتر ستر خصثب ثت بهثت قخهبت هخثت ببسينرؤ شتثخه تر ثقهت خرت هخثهتقر ختثخ تترخ ثترش ختثقهخترخهثقت رخهثرهخش تثرثقهر سيمتسيتر ستر خصثب ثت بهثت قخهبت هخثت ببسينرؤ شتثخه تر ثقهت خرت هخثهتقر ختثخ تترخ ثترش ختثقهخترخهثقت رخهثرهخش تثرثقهر سيمتسيتر ستر
+					
+					خصثب ثت بهثت قخهبت هخثت ببسينرؤ شتثخه تر ثقهت خرت هخثهتقر ختثخ تترخ ثترش ختثقهخترخهثقت رخهثرهخش تثرثقهر سيمتسيتر ستر خصثب ثت بهثت قخهبت هخثت ببسينرؤ شتثخه تر ثقهت خرت هخثهتقر ختثخ تترخ ثترش ختثقهخترخهثقت رخهثرهخش تثرثقهر سيمتسيتر ستر خصثب ثت بهثت قخهبت هخثت ببسينرؤ شتثخه تر ثقهت خرت هخثهتقر ختثخ تترخ
+            </div>
+			          </div>
+				</div>
+				</div>
+				    <div class="modal fade" id="refusal_model" role="dialog">
+        <div class="modal-dialog small-dialog">
+			        <div class="modal-content">
+                <div class="modal-body mt-3 pl-4">
+                           <h3 class="dark-color w-auto d-block m-0 text-left">  يرجى كتابة سبب الرفض </h3>
+                  <textarea rows="7" class="w-100 mt-4 text_area_border"></textarea>
+						</div>
+					
+                    
+                         <div class="row mb-4">
+					<div class="col-xs-3 pr-0">
+					</div>
+					 <div class="col-xs-4 pr-0">
+                            <button class="btn btn-cancel btn-lg mx-1 mb-2 w-100 mr-0" data-dismiss="modal">إلغاء</button>
+                        </div>
+                        <div class="col-xs-4 pr-0">
+                            <button class="nbt btn-primary btn-lg mx-1 mb-2 w-100 ml-0" data-dismiss="modal" data-toggle="modal" data-target="#refusal_model2">ارسال</button>
+                        </div>
+					<div class="col-xs-1 pl-0">
+                    </div>
+                </div>
+                </div>
+		</div>
+	</div>
+				    <div class="modal fade" id="refusal_model2" role="dialog">
+        <div class="modal-dialog small-dialog">
+			        <div class="modal-content">
+                <div class="modal-body mt-5">
+                           <h3 class="dark-color w-auto d-inline-block m-0">تم إرسال سبب الرفض  بنجاح</h3>
+                  
+						</div>
+					
+                    <br>
+                    <div class="row m-0">
+						<div class="col-xs-5"></div>
+                        <div class="col-xs-4 pl-0">
+                            <button class="btn btn-primary mb-2 mb-5" data-dismiss="modal">
+								موافق
+								</button>
+                        </div>
+						<div class="col-xs-2"></div>
+
+                    </div>
+                </div>
+		</div>
+	</div>
+					   <div class="modal fade" id="accept_modal" role="dialog">
+        <div class="modal-dialog small-dialog">
+			        <div class="modal-content">
+                <div class="modal-body mt-5">
+                           <h3 class="dark-color w-auto d-inline-block m-0"> هل أنت متأكد من قبول التفويض ؟ </h3>
+                  
+						</div>
+					
+                    <br>
+                <div class="row mb-60">
+					<div class="col-xs-2 pr-0">
+					</div>
+					 <div class="col-xs-4 pr-0">
+                            <button class="btn btn-cancel btn-lg  mb-2 w-100 ml-0" data-dismiss="modal">الغاء</button>
+                        </div>
+                        <div class="col-xs-4 pr-0">
+                            <button class="nbt btn-primary btn-lg mb-2 w-100 mr-0" data-dismiss="modal" data-toggle="modal" data-target="#accept_modal2">نعم</button>
+                        </div>
+					<div class="col-xs-2">
+                    </div>
+                </div>
+		</div>
+	</div>				
+			</div> 
+								    <div class="modal fade" id="accept_modal2" role="dialog">
+        <div class="modal-dialog small-dialog">
+			        <div class="modal-content">
+                <div class="modal-body mt-5">
+                           <h3 class="dark-color w-auto d-inline-block m-0">تم قبول التفويض بنجاح </h3>
+                  
+						</div>
+					
+                    <br>
+                    <div class="row m-0">
+						<div class="col-xs-4"></div>
+                        <div class="col-xs-4">
+                            <button class=" btn-primary btn-lg  mb-5 w-100" data-dismiss="modal">
+								موافق
+								</button>
+                        </div>
+						<div class="col-xs-4"></div>
+
+                    </div>
+                </div>
+		</div>
+	</div>
+				
+<div class="w-100 p-2 text-center">
+                        <nav aria-label="Page navigation">
+                            <ul class="pagination custom-pagination">
+                                <li class="change-page">
+                                    <a href="#" aria-label="Previous">
+                                        <i class="fa fa-caret-right"></i>
+                                    </a>
+                                </li>
+                                <li class="blues_border"><a href="#"  class="transparent_bg">1</a></li>
+								<li><span class="transparent_bg font_size12"> من
+									
+									<span class="light-blue pl-1">4</span>
+									</span>
+								</li>
+                                <li class="change-page">
+                                    <a href="#" aria-label="Next">
+                                        <i class="fa fa-caret-left"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+        </div>
+    </div>
+	
+    <!-- jQuery -->
+    <script src="../assets/js/jquery.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../assets/js/bootstrap-select.js"></script>
+    <script src="../assets/js/jquery.matchHeight-min.js"></script>
+    <script src="../assets/js/aos.js"></script>
+    <script src="../assets/js/jquery.slimscroll.min.js"></script>
+    <script src="../assets/js/app.js"></script>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
+    <!-- Vertical Menu css-->
+    <script src="../assets/plugins/vertical-menu/vendors.min.js"></script>
+    <script src="../assets/plugins/vertical-menu/app-menu.min.js"></script>
+    <script src="../assets/plugins/vertical-menu/app.min.js"></script>
+
+    <!-- jquery-confirm JS -->
+    <script type="text/javascript" src="../assets/plugins/confirm/jquery-confirm.min.js"></script>
+
+    <!-- hide or show management form -->
+    <script>
+        $('#add-management-btn').click(() => {
+            $('#add-management-btn').hide();
+            $('.add-management-form').slideToggle();
+        });
+        $('.hide-form-btn').click(() => {
+            $('#add-management-btn').show();
+            $('.add-management-form').slideToggle();
+        });
+    </script>
+		    <!-- sort and filter scripts-->
+    <script>
+        $(document).ready(function () {
+            $('.filter-target').click(function () {
+                $('.filter-box.filter').slideToggle('fast');
+                $('.sort-target').removeClass("active");
+                $(this).toggleClass("active");
+                $('.filter-box.sort').hide();
+            });
+            $('.sort-target').click(function () {
+                $(this).parent().parent().find('.filter-box.sort').slideToggle('fast');
+                $('.filter-target').removeClass("active");
+                $(this).toggleClass("active");
+                $('.filter-box.filter').hide();
+            });
+        });
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,64 @@
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>How to show Hide Elements By click on checkbox in Jquery </title>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <style type="text/css">
+        .box {
+            color: black;
+            display: none;
+            margin-top: 20px;
+        }
+
+        .check {
+            background: #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <label><input type="checkbox" name="" value="checke"> Click on the check box</label>
+    </div>
+    <div class="checke box">
+        XX
+    </div>
+    <script type="text/javascript">
+        $(document).ready(function() {
+
+            $('input[type="checkbox"]').click(function() {
+
+                var inputValue = $(this).attr("value");
+                $("." + inputValue).toggle();
+
+            });
+
+        });
+    </script>
+
+<script type="text/javascript">
+    $(function () {
+        $('#chkStatus').change(function () {
+
+            if ($('#chkStatus').is(':checked'))
+            $("#testdiv").fadeIn();
+            else
+            $('#testdiv').fadeOut();
+
+
+        });
+    });
+</script>
+</body>
+</html>
