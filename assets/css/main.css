@@ -10,6 +10,9 @@
 @import "./animate.css";
 
 /* Style */
+@import "./slick.css";
+@import "./jquery-ui.min.css";
+
 @import "./essential-for-others.css";
 @import "./qbs.css";
 
@@ -99,7 +102,6 @@
     font-style: normal;
     color: #ffffff;
     position: absolute;
-    right: -10px;
     top: 0px;
     background: #EC4561;
     border-radius: 7px;
