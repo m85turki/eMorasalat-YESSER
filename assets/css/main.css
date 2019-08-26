@@ -122,7 +122,7 @@
     position: relative;
 }
 
-.h-side .dropdown>a i{
+.h-side .dropdown> i{
     font-size: 8pt;
     font-weight: bold;
 }
@@ -137,6 +137,20 @@
     color: #61669B;
     position: relative;
 }
+.h-side .dropdown a li div {
+	    font-size: 11pt;
+    color: #61669B;
+    position: relative;
+}
+
+.notifications .dropdown-menu a li span {
+    padding: 3px!important;
+    padding-right: 4px!important;
+}
+.dropdown-menu a li{
+	padding:3px 20px;
+}
+
 
 .h-avatar {
     display: inline-block;
@@ -1950,8 +1964,8 @@ position :relative;
 {
     background-color: #F7F7F7;
 }
-.notification-row.new-notification:hover{
-	background-color: #e4e1e1;
+.notification-row .new-notification:hover{
+	background-color: #e4e1e1 !important;
 }
 .notification-title
 {

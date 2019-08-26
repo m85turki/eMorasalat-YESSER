@@ -72,15 +72,6 @@ h3.site-color .new-notifications-count{
     padding-top: 0;
     overflow: hidden;
 }
-
-    .dropdownposition li:first-child:hover {
-        background-color: white;
-    }
-
-    .dropdownposition li:first-child a:hover {
-        background-color: white;
-    }
-
 .notifications .dropdown-menu li {
     padding-top: 0px;
 }
@@ -641,9 +632,7 @@ select {
     border-radius: 3%;
 }
 
-    .dropdownposition li:hover {
-        background-color:#F7F7F7;;
-    }
+
 .dropdownposition .new-notification:hover{
 	background-color: #e4e1e1;
 }
@@ -660,7 +649,7 @@ select {
     }
 
 .bgchange {
-    background-color: #f0f4f8;
+    background-color: #fafafa;
 }
 
 .closewindow {
@@ -723,10 +712,10 @@ select {
     color:#636363 !important;
 }
 .light-gray2{
-	color:#afb1be;
+	color:#afb1be!important;
 }
-.dropdownposition li a .light-gray2{
-	font-size: 12px;
+.dropdownposition   li div div .light-gray2{
+	font-size: 12px!important;
 }
 .black {
     color: black;
@@ -745,6 +734,9 @@ select {
 	width: auto;
 	background-color: transparent;
 	
+}
+.font-13{
+	font-size: 13px !important;
 }
 .light-blue{
 	color:#498fe1 !important;
