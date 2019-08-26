@@ -1950,6 +1950,9 @@ position :relative;
 {
     background-color: #F7F7F7;
 }
+.notification-row.new-notification:hover{
+	background-color: #e4e1e1;
+}
 .notification-title
 {
     font-size:20px;
