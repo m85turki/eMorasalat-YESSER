@@ -66,6 +66,10 @@ h3.site-color .new-notifications-count{
     display: block;
     line-height: 20px;
 }
+.icon-user-settings-5{
+    font-size: 30px;
+    color: white;
+}
 
 .dropdownposition {
     padding-bottom: 0;
@@ -242,6 +246,9 @@ color:#2881e6;
  .header-container h3 {
     font-size: 26px!important;
 }
+.icon-user-settings-4{
+	font-size: 30px;
+}
   
 
 .purple {
@@ -252,6 +259,9 @@ color:#2881e6;
     width: 300px;
     background-color: #262b56;
     border-radius: 7px 7px 0px 0px;
+}
+.btn-st1 a label{
+	color:white;
 }
 .fa-filter {
     font-size: 16px;
@@ -510,6 +520,11 @@ color:#2881e6;
     border-radius: 50%;
     border: 0.5px solid red;
     color: red;
+}
+.icon-user-settings-6 {
+	font-size:30px;
+	color:red;
+	vertical-align: middle;
 }
 
 .rounded4 {
@@ -919,7 +934,7 @@ padding-top:82px;
     color: gray;
 }
 
-.attach-file-icon-list li button .fa-eraser, .attach-file-icon-list li button .fa-pencil-alt {
+.attach-file-icon-list li button .icon-user-settings-1, .attach-file-icon-list li button .icon-user-settings-2 {
     font-size: 20px;
 }
 
@@ -938,7 +953,7 @@ padding-top:82px;
     background-color: #4a90e2 !important;
 }
 
-.attach-file-icon-list li button .fa-pencil-alt {
+.attach-file-icon-list li button .icon-user-settings-2 {
     color: white;
 }
 
