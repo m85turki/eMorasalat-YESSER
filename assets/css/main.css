@@ -115,6 +115,10 @@
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
 }
+.outline-red{
+ outline-color: red!important;
+ border:1px solid red;
+	}
 
 .h-side .dropdown>a{
     font-size: 12pt;
@@ -339,6 +343,7 @@ input:focus:-ms-input-placeholder {
     max-width: 25px;
     vertical-align: middle;
 }
+
 
 .filter-link a{
     display: inline-block;
@@ -1633,7 +1638,7 @@ position :relative;
     content: "\f0d8";
     font-family: 'Font Awesome 5 Free';
     position: absolute;
-    bottom: -8px;
+    bottom: 100px;
     right: 6px;
     color: #fff;
     font-size: 27px;
@@ -1641,6 +1646,7 @@ position :relative;
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
     background: #0000000d;
+		z-index: 10000000;
 }
 /** end filter and sort **/
 /*** pagination **/

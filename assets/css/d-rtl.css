@@ -1293,9 +1293,6 @@ div.checkbox label span {
   padding-right: 0px !important;
 }
 
-.stark {
-  text-align: left;
-}
 
 .select2-container--default[dir="rtl"] .select2-selection--single .select2-selection__arrow {
   left: 8px;
