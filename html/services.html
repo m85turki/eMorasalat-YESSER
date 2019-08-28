@@ -207,8 +207,6 @@
                     <h3 class="site-color"> التفويض  </h3>
                 </div>
             </div>
-	<button type="submit" class="btn btn-st1 mt-xs-4 w-xs-100 pull-right" id="add-management-btn">
-							<i class="icon-user-settings-5 pr-3"></i>إضافة تفويض</button>
         <div class="content_container add-management-form">
             <div class="">
                 <form>
@@ -272,19 +270,25 @@
 			<div>
 
   <!-- Nav tabs -->
+				<div class="d-flex">
   <ul class="nav nav-tabs services-tabs" role="tablist">
     <li role="presentation" class="active"><a href="#add" aria-controls="add" role="tab" data-toggle="tab">التفويضات المضافة</a></li>
     <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">طلبات التفويض</a></li>
     <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">التفويضات المقبولة</a></li>
-	  	<div class="text-right">
-                                        <label class="cursor-pointer dark-color mx-2 filter-target">
+	    </ul>
+	  	<div class="ml-auto">
+                                        <span class="cursor-pointer dark-color mx-2 filter-target">
                                             <i class="sort-icons icon-filter mx-1"></i>فلترة
-                                        </label>
-                                        <label class="cursor-pointer dark-color mx-2 sort-target">
+                                        </span>
+                                        <span class="cursor-pointer dark-color mx-2 sort-target">
                                             <i class="sort-icons icon-sort mx-1"></i>ترتيب حسب
-                                        </label>
+                                        </span>
+				<button type="submit" class="btn btn-st1 mt-xs-4 w-xs-100 pull-right" id="add-management-btn">
+							<i class="icon-user-settings-5 pr-3"></i>إضافة تفويض</button>
+			
                                     </div>
-  </ul>
+
+					</div>
 				                             <div class="filter-box filter">
                                         <form>
                                             <div class="form-row">
@@ -361,6 +365,7 @@
                             <th>الموظف المفوض له</th>
 							 <th>حالة التفويض</th>
 							<th></th>
+							<th></th>
                         </tr>
                     </thead>
                     <tbody>
@@ -383,6 +388,8 @@
 											  إلغاء التفويض
 												
 										  </button></td>
+							<td>
+									</td>
                         </tr>
                         <tr>
                              <td>28 تشرين الثاني 2018</td>
@@ -403,7 +410,10 @@
 											  إلغاء التفويض
 												
 										  </button></td>
+							<td>
+							</td>
                         </tr>
+						
                         <tr>
                              <td>28 تشرين الثاني 2018</td>
                             <td>28 تشرين الثاني 2018</td>
@@ -416,10 +426,12 @@
 							<td>
 							مقبول
 							</td>
-							<td><span data-dismiss="modal" data-toggle="modal" data-target="#successful_model3">
+							<td class="pull-right"><span data-dismiss="modal" data-toggle="modal" data-target="#successful_model3">
 								سبب الرفض
 								<i class="fas fa-chevron-left pl-1 pr-1"></i>
 								</span>
+							</td>
+							<td>
 							</td>
                         </tr>
                         <tr>
@@ -441,6 +453,7 @@
 											  إلغاء التفويض
 												
 										  </button></td>
+							<td></td>
                         </tr>
 						        <tr>
                              <td>28 تشرين الثاني 2018</td>
@@ -461,6 +474,8 @@
 											  إلغاء التفويض
 												
 										  </button></td>
+									<td>
+									</td>
                         </tr>
 						        <tr>
                              <td>28 تشرين الثاني 2018</td>
@@ -474,11 +489,13 @@
 									<td>
 									مرفوض
 									</td>
-								<td><span data-dismiss="modal" data-toggle="modal" data-target="#successful_model3">
+								<td class="pull-right"><span data-dismiss="modal" data-toggle="modal" data-target="#successful_model3">
 								سبب الرفض
 								<i class="fas fa-chevron-left pl-1 pr-1"></i>
 								</span>
 							</td>
+									<td>
+									</td>
                         </tr>
 						        <tr>
                              <td>28 تشرين الثاني 2018</td>
@@ -502,6 +519,8 @@
 											  إلغاء التفويض
 												
 										  </button></td>
+									<td>
+									</td>
                         </tr>
 						        <tr>
                              <td>28 تشرين الثاني 2018</td>
@@ -522,6 +541,8 @@
 											  إلغاء التفويض
 												
 										  </button></td>
+									<td>
+									</td>
                         </tr>
                     </tbody>
                 </table>
@@ -805,6 +826,8 @@
                             </div>
 												   
 												   </td>
+							<td>
+							</td>
 					
                         </tr>
                         <tr>
@@ -820,9 +843,11 @@
 											   <div  class="dark_red">
                           <i class="fas fa-ban pl-1"></i>
                                ملغي
-                           </div
+											   </div>
 												   
 												   </td>
+							<td>
+							</td>
 				
                         </tr>
                         <tr>
@@ -841,6 +866,8 @@
 							 </div>
 							  
                             </td>
+							<td>
+							</td>
 					
                         </tr>
                         <tr>
@@ -858,6 +885,8 @@
 											   مفعل
                             </div>
 								</td>
+							<td>
+							</td>
 				
                         </tr>
 						        <tr>
@@ -876,6 +905,8 @@
 										   </div>
 												   
 												   </td>
+									<td>
+									</td>
 					
                         </tr>
 						        <tr>
@@ -893,7 +924,8 @@
 							 قيد التفعيل
 							 </div> 
                             </td>
-					
+					<td>
+									</td>
                         </tr>
 						        <tr>
                              <td>28 تشرين الثاني 2018</td>
@@ -910,6 +942,8 @@
 											   مفعل
                             </div>
 								</td>
+									<td>
+									</td>
 									
 				
                         </tr>
@@ -929,6 +963,8 @@
 										   </div>
 												   
 												   </td>
+									<td>
+									</td>
 					
                         </tr>
                     </tbody>
