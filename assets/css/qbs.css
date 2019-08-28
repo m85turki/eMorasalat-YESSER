@@ -3098,6 +3098,13 @@ table > thead > tr {
 	.to_class{
 		right:40px;
 	}
+	.pl-sm-0{
+		padding-right: 0px !important;
+	}
+		.pr-sm-0{
+		padding-left:0px !important;
+	}
+
 	}
 
 @media(max-width:514px) {
