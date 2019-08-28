@@ -1893,6 +1893,9 @@ position :relative;
 {
     max-width: 400px;
 }
+.small-dialog-gray{
+	max-width: 400px;
+}
 /** end modal **/
 /** header notifications **/
 .header-notifications
