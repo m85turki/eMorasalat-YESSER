@@ -351,7 +351,7 @@ input:focus:-ms-input-placeholder {
 
 .filter-link a{
     display: inline-block;
-    margin: 0px 10px;
+    margin: 0px 5px;
     font-size: 16px;
     text-decoration: none;
 }
@@ -1689,7 +1689,7 @@ position :relative;
 }
 /** main tabs **/
 .custom-nav-tabs.nav-tabs>li {
-    min-width: 95px;
+    min-width: 80px;
     text-align: center;
 }
 .custom-nav-tabs.nav-tabs>li>a {

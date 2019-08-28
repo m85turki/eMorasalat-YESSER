@@ -944,9 +944,10 @@ padding-top:82px;
     color: gray;
 }
 
-.attach-file-icon-list li button .icon-user-settings-1, .attach-file-icon-list li button .icon-user-settings-2 {
+.attach-file-icon-list li button .icon-user-settings-1, .attach-file-icon-list li button .icon-user-settings-2,.attach-file-icon-list li button .icon-user-settings-1 {
     font-size: 20px;
 }
+
 
 .attach-file-icon-list li .pencil, .attach-file-icon-list li .eraser {
     height: 40px;
@@ -1122,6 +1123,7 @@ padding-top:82px;
     border-radius: 5px;
     resize: none;
 }
+
 
 /*-----------------------------------------------------------------*/
 
@@ -1599,6 +1601,10 @@ hr {
 
 .pagination > li > a, .pagination > li > span {
     color: #262f6b;
+}
+.header-margin{
+	margin-top:20px;
+	margin-bottom: 10px;
 }
 
 @media(min-width:992px) {
@@ -3114,7 +3120,9 @@ table > thead > tr {
 		.pr-sm-0{
 		padding-left:0px !important;
 	}
-
+	.close-icon .circle-icon{
+		margin-top:20px !important;
+	}
 	}
 
 @media(max-width:514px) {
@@ -3226,7 +3234,7 @@ table > thead > tr {
 	}
 	 .header-container h3 {
     font-size: 20px!important;
-    padding-top: 25px;
+    margin-top: 45px;
 }
 	.mx-xs-3{
 		margin:1rem 1rem!important;
@@ -3280,6 +3288,9 @@ table > thead > tr {
 	}
 	.add-error-border{
 		font-size: 8px;
+	}
+	.close-icon .circle-icon{
+		margin-top:45px !important;
 	}
 
 }
