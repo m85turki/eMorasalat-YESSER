@@ -3266,7 +3266,12 @@ table > thead > tr {
 	.ml-xs-0 {
 		margin-right: 0px!important;
 	}
-
+	.mt-xs-2{
+		margin-top: 0.5rem;
+	}
+	.add-error-border{
+		font-size: 8px;
+	}
 
 }
 
