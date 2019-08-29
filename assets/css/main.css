@@ -371,7 +371,6 @@ input:focus:-ms-input-placeholder {
 
 .filter-link a.active{
     color: #4A90E2;
-    border-bottom: 5px solid #4A90E2;
 }
 
 
