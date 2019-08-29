@@ -1,7 +1,13 @@
 ﻿@charset "UTF-8";
 
+/* Font */
+@import "../fonts/cairo/cairo.css";
+
+/* Style */
 @import "./jquery-ui.min.css";
+@import "./Site_ar.css";    	
 @import "../bootstrap/css/bootstrap.min.rtl.css";
+
 
 textarea {
     resize: none;
