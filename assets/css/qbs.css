@@ -635,6 +635,7 @@ h3.site-color .new-notifications-count{
     background-color: #f7f7f7;
     width: 100%;
     border-top: 1px solid #dedede;
+	text-align: start;
 }
 
 .btnwidth2 {
@@ -981,6 +982,9 @@ padding-top:82px;
     border-radius: 0.25rem;
     position: relative;
 	text-align: center;
+}
+.sig_after_drawn img{
+	max-width: 100%;
 }
 
 
