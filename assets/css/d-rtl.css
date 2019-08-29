@@ -909,7 +909,7 @@ body.vertical-layout.vertical-menu.menu-collapsed.menu-flipped .navbar .navbar-h
   body.vertical-layout.vertical-menu.menu-flipped .content,
   body.vertical-layout.vertical-menu.menu-flipped .footer,
   body.vertical-layout.vertical-menu.menu-flipped .navbar .navbar-container {
-      margin: 0 270px 0px 20px;
+      margin: 0 270px 0px 0px;
   }
   body.vertical-layout.vertical-menu.menu-flipped .navbar .navbar-header {
       float: right

@@ -3287,6 +3287,7 @@ table > thead > tr {
 	}
 	.add-error-border{
 		font-size: 8px;
+		padding:5px;
 	}
 	.close-icon .circle-icon{
 		margin-top:45px !important;
