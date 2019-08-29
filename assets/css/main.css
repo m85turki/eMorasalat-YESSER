@@ -230,6 +230,12 @@
     position: relative;
     z-index: 9;
 }
+.input-group-text.hyperlink.white{
+	background-color:white!important;
+}
+.fa-filter:hover{
+	color:#355781;
+}
 
 @media only screen and (min-width: 550px){
 .h-search input {

@@ -179,6 +179,12 @@ h3.site-color .new-notifications-count{
     background-color: #4A91E3;
     border-color: #488cdc;
 }
+.correspondence-icon .icon-user-settings-3:hover,.correspondence-icon .icon-user-settings-3:focus{
+	color:#706de1;
+}
+.correspondence-icon .icon-user-settings-6:hover,.correspondence-icon .icon-user-settings-6:focus{
+	color:#b00101;
+}
   
   .btn-st1:hover {
     color: #fff;
@@ -300,9 +306,6 @@ h3.site-color .new-notifications-count{
 .fa-filter {
     font-size: 16px;
     color: #6aa3ea;
-    position: relative;
-    left: 25px;
-    top: 8px;
     z-index: 3;
 }
 
@@ -3294,6 +3297,9 @@ table > thead > tr {
 	}
 	.close-icon .circle-icon{
 		margin-top:45px !important;
+	}
+	.pr-xs-3{
+		padding-left:1rem; 
 	}
 
 }
