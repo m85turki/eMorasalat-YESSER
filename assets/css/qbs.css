@@ -976,12 +976,13 @@ padding-top:82px;
 
 
 .sig_after_drawn {
-    height: 230px;
     background-color: white;
     border: 1px solid #dedede;
     border-radius: 0.25rem;
     position: relative;
+	text-align: center;
 }
+
 
 .pd_button {
     padding: 50px;
