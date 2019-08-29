@@ -2339,6 +2339,12 @@ border-color:#4C91E3;
 /** end chat **/
 
 
+body.vertical-layout.vertical-menu.menu-flipped .jconfirm .content,
+body.vertical-layout.vertical-menu.menu-flipped .jconfirm .footer,
+body.vertical-layout.vertical-menu.menu-flipped .jconfirm .navbar .navbar-container {
+    margin: 0 0px 0px 0px;
+}
+
 
 
 
