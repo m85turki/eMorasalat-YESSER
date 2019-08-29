@@ -19,6 +19,9 @@ h3.site-color .new-notifications-count{
 .notification-row h4 {
     font-size: 18px;
 }
+.notification-row:first-child{
+	    border-top: 0;
+}
 
 .validation-msg {
     font-size: 13px;
@@ -79,6 +82,11 @@ h3.site-color .new-notifications-count{
     padding-bottom: 0;
     padding-top: 0;
     overflow: hidden;
+}
+.paint-div{
+	 height: 270px;
+    border-radius: 0.25rem;
+	width: 100%;
 }
 .notifications .dropdown-menu li {
     padding-top: 0px;
