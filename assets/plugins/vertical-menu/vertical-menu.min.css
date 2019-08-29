@@ -141,7 +141,7 @@ html body.fixed-navbar {
     }
 }
 
-html body .content {
+/* html body .content {
     padding: 0;
     position: relative;
     -webkit-transition: .3s ease all;
@@ -154,7 +154,8 @@ html body .content {
     min-height: -webkit-calc(100% - 32px);
     min-height: -moz-calc(100% - 32px);
     min-height: calc(100% - 32px)
-}
+} */
+
 
 html body .content .content-wrapper {
     padding: 1.8rem
