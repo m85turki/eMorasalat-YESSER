@@ -1655,7 +1655,7 @@ position :relative;
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
     background: #0000000d;
-		z-index: 10000000;
+	z-index: 10000000;
 }
 /** end filter and sort **/
 /*** pagination **/
