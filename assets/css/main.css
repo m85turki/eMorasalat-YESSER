@@ -2345,6 +2345,9 @@ body.vertical-layout.vertical-menu.menu-flipped .jconfirm .navbar .navbar-contai
     margin: 0 0px 0px 0px;
 }
 
+.inline-radio > .radio {
+    display: inline-block;
+}
 
 
 
