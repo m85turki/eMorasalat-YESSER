@@ -241,6 +241,7 @@ h3.site-color .new-notifications-count{
 
 .btn-st2:focus, .btn-st2.focus {
     box-shadow: 0 0 0 0.2rem rgb(248, 246, 246, 0.5);
+	color:#2881e6;
 }
 
 .btn-st2.disabled, .btn-st2:disabled {
@@ -298,7 +299,10 @@ h3.site-color .new-notifications-count{
     right: 50%;
 }
 
-
+.pagination{
+	margin-top:20px!important;
+	margin-bottom: 0px !important;
+}
 .purple {
     z-index: 1000000;
     height: 30px;
@@ -1058,7 +1062,6 @@ padding-top:82px;
 .hyperlink2 {
     background-color: white;
     color: #595959;
-    border-right: 0!important;
 }
 .search-employee-input .input-group .form-control {
     border-left: 0!important;

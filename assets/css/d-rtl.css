@@ -1125,10 +1125,6 @@ body.vertical-layout.vertical-menu.menu-collapsed.menu-flipped .navbar .navbar-h
   text-align: right;
 }
 
-.chat_table thead tr th {
-  padding-right: 0;
-}
-
 .tasks {
   float: right;
 }
