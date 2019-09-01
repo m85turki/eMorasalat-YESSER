@@ -115,6 +115,9 @@ h3.site-color .new-notifications-count{
 .mr-6{
 	margin-right:4.5rem!important;
 }
+.w-25{
+	width: 25%;
+}
 .dropdownposition:hover{
 	cursor: pointer;
 }
@@ -134,6 +137,11 @@ h3.site-color .new-notifications-count{
 
 .chat_list .list-group-item, .popchat .list-group-item {
     background-color: #f5f5f5;
+}
+.box2{
+	border:1px solid #cecece;
+	padding:10px;
+	border-radius: 0.25rem;
 }
 
 .firstcard .list-group-item {
@@ -1104,6 +1112,9 @@ padding-top:82px;
 .first_person {
     z-index: 3;
 }
+.pink{
+	color:#ec4461;
+}
 
 .second_person {
     z-index: 1px;
@@ -1131,6 +1142,9 @@ padding-top:82px;
     border-radius: 5px;
     resize: none;
 }
+.users .box-grid{
+	width: 33.33%;
+}
 
 
 /*-----------------------------------------------------------------*/
@@ -1152,6 +1166,13 @@ padding-top:82px;
     border-style: solid;
     border-width: 0;
     background: #F8F8FA;
+}
+ .users{
+	height: 100% !important;
+}
+
+.green{
+	color:#6ac258;
 }
 
 .navbar-default .navbar-nav > li {
@@ -2181,10 +2202,9 @@ textarea.form-control {
     background: #f8f8f8;
 }
 
-.gray2 {
-    color: gray;
+.gray4{
+	color:#B1B1B1;
 }
-
 
 @media(min-width:1600px) {
     .col-xlg-2 {
