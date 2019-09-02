@@ -190,11 +190,11 @@
                     <div id="navbar" class="navbar-collapse collapse">
 
                         <ul class="nav navbar-nav">
-                            <li class="active"><a href="#">المعاملات</a></li>
-                            <li><a href="#">المهام <span class="notification_sticky">3</span></a></li>
-                            <li><a href="#">استقبال الادارة</a></li>
-                            <li><a href="#">تقارير</a></li>
-                            <li><a href="#">لوحة قياس مستوى الاداء</a></li>
+                            <li class="active"><a href="#">المستخدمين والأدوار</a></li>
+                            <li><a href="#">الهيكل التنظيمي <span class="notification_sticky">3</span></a></li>
+                            <li><a href="#"> الخدمات</a></li>
+                            <li><a href="#">القوائم المعرفة</a></li>
+                            <li><a href="#"> الاعدادات </a></li>
 
                         </ul>
 
@@ -208,7 +208,7 @@
 
 
     <!-- BEGIN: Vertical Menu -->
-    <div class="align-self-start main_sidebar">
+    <div class="align-self-start main_sidebar users">
         <div class="d-none d-md-block text-left">
             <a class="nav-link nav-menu-main menu-toggle hidden-xs"
                href="#"><i><img src="../assets/images/v-menu1.png"></i></a>
@@ -224,14 +224,14 @@
 
                         <a href="#">
                             <i>
-                                <img src="../assets/images/v-menu2.png">
+                                <i class="fas fa-user-friends"></i>
                             </i>
                             <span>المستخدمين</span>
                         </a>
 					</li>
 					<li class="active nav-item">
 						<a href="#">
-						<img src="../assets/images/v-menu2.png"
+						<i class="fas fa-redo"></i>
 						<span>الأدوار</span>
 					</a>
 					</li>
@@ -273,20 +273,16 @@
 				<div class="filter-box filter mx-5 mx-xs-3">
                                         <form>
                                             <div class="form-row">
-                                                <div class="form-group col-lg-4 col-sm-6 col-xs-12">
-                                                 <label for="">اسم المسار</label>
-                                                <input placeholder="..." type="text" class="form-control">
-                                                </div>
-                                                <div class="form-group col-lg-4  col-sm-6 col-xs-12">
-                                                      <label for="">درجة السرية</label>
-                                                    <select placeholder="اختر" id="inputState" class="form-control">
+                                             <div class="form-group col-lg-4  col-sm-6 col-xs-12">
+                                                     <label for=""> الإدارة </label>
+                                                    <select placeholder="اختر" id="inputState3" class="form-control">
                                                         <option selected="">الكل</option>
                                                         <option>.....</option>
                                                     </select>
                                                 </div>
                                                 <div class="form-group col-lg-4  col-sm-6 col-xs-12">
-                                                     <label for="">درجة الأهمية </label>
-                                                    <select placeholder="اختر" id="inputState3" class="form-control">
+                                                     <label for=""> الحالة </label>
+                                                    <select placeholder="اختر" id="inputState2" class="form-control">
                                                         <option selected="">الكل</option>
                                                         <option>.....</option>
                                                     </select>
@@ -302,7 +298,7 @@
                                                  <label for="">ترتيب حسب الأبجدية </label>
 												<select placeholder="اختر" id="inputState2" class="form-control">
                                                     <option selected="">الكل</option>
-                                                    <option>أ-ي</option>
+                                                    <option selected="">أ-ي</option>
                                                     </select>
                                                 </div>
 
@@ -311,30 +307,35 @@
                                             </div>
 				
 
-                            <div class="boxes">
+                            <div class="boxes users">
                                 <div class="d-flex flex-wrap mx-4 mx-xs-3">
                                      <div class="box-grid two">
                                         <div class="box animated zoomIn buttons-action">
 
-                                            <div class="correspondence-t">
-                                                <div class="d-flex">
-                                                    <div class="">
-                                                        مسودة خطاب
-                                                    </div>
-                                                </div>
-                                            </div>
                                             <div class="correspondence-b d-flex flex-wrap">
                                                 <div class="f-line w-100">
-                                                    <div class="heading">اسم المسار</div>
-                                                    <div>2233548</div>
+                                                    <div class="heading">معاملة داخلية </div>
+                                                    <div>محمد عبدالعزيز</div>
                                                 </div>
-                                                <div class="f-line w-medium">
-                                                    <div class="heading">السرية</div>
-                                                    <div>عادي</div>
+                                                <div class="f-line w-100">
+                                                    <div class="heading">الاسم الكامل</div>
+                                                    <div>عبدالله بن عبدالعزيز</div>
+                                                </div>
+												 <div class="f-line w-100">
+                                                    <div class="heading"> أيام التأخير </div>
+                                                    <div>name@gmail.com</div>
+                                                </div>
+												 <div class="f-line w-100">
+                                                    <div class="heading"> رقم الهاتف  </div>
+                                                    <div>09843204980988</div>
+                                                </div>
+												  <div class="f-line w-medium">
+                                                    <div class="heading">الدور</div>
+                                                    <div>19</div>
                                                 </div>
 												 <div class="f-line w-medium">
-                                                    <div class="heading">الأهمية</div>
-                                                    <div>مهم جداً</div>
+                                                    <div class="heading">الادارة</div>
+                                                    <div> اسم الادارة</div>
                                                 </div>
                                             </div>
                                             <div class="correspondence-icon w-100 d-inline-block">
@@ -342,10 +343,18 @@
                                                     <a class="circle color-blue" href="#">
                                                         <i class="la la-pencil"></i>
                                                     </a>
+													<a class="circle color-yellow" href="#">
+													<i class="la la-lightbulb-o"></i>
+													</a>
                                                     <a class="circle color-red" href="#">
                                                         <i class="la la-trash"></i>
                                                     </a>
+
                                                 </div>
+														<div class="pull-right pink">
+													<i class="fas fa-ban"></i>
+														<span class="pl-1">غير فعال</span>
+														</div>
 
                                             </div>
                                         </div>
@@ -353,25 +362,30 @@
                                     <div class="box-grid two">
                                         <div class="box animated zoomIn buttons-action">
 
-                                            <div class="correspondence-t">
-                                                <div class="d-flex">
-                                                    <div class="">
-                                                        مسودة خطاب
-                                                    </div>
-                                                </div>
-                                            </div>
                                             <div class="correspondence-b d-flex flex-wrap">
                                                 <div class="f-line w-100">
-                                                    <div class="heading">اسم المسار</div>
-                                                    <div>2233548</div>
+                                                    <div class="heading">معاملة داخلية </div>
+                                                    <div>محمد عبدالعزيز</div>
                                                 </div>
-                                                <div class="f-line w-medium">
-                                                    <div class="heading">السرية</div>
-                                                    <div>عادي</div>
+                                                <div class="f-line w-100">
+                                                    <div class="heading">الاسم الكامل</div>
+                                                    <div>عبدالله بن عبدالعزيز</div>
+                                                </div>
+												 <div class="f-line w-100">
+                                                    <div class="heading"> أيام التأخير </div>
+                                                    <div>name@gmail.com</div>
+                                                </div>
+												 <div class="f-line w-100">
+                                                    <div class="heading"> رقم الهاتف  </div>
+                                                    <div>09843204980988</div>
+                                                </div>
+												  <div class="f-line w-medium">
+                                                    <div class="heading">الدور</div>
+                                                    <div>19</div>
                                                 </div>
 												 <div class="f-line w-medium">
-                                                    <div class="heading">الأهمية</div>
-                                                    <div>مهم جداً</div>
+                                                    <div class="heading">الادارة</div>
+                                                    <div> اسم الادارة</div>
                                                 </div>
                                             </div>
                                             <div class="correspondence-icon w-100 d-inline-block">
@@ -379,10 +393,17 @@
                                                     <a class="circle color-blue" href="#">
                                                         <i class="la la-pencil"></i>
                                                     </a>
+														<a class="circle color-yellow" href="#">
+													<i class="la la-lightbulb-o"></i>
+													</a>
                                                     <a class="circle color-red" href="#">
-                                                       <i class="la la-trash"></i>
+                                                        <i class="la la-trash"></i>
                                                     </a>
                                                 </div>
+													<div class="pull-right green">
+													<i class="fas fa-check-circle"></i>
+														<span class="pl-1"> فعال</span>
+														</div>
 
                                             </div>
                                         </div>
@@ -390,25 +411,30 @@
                                      <div class="box-grid two">
                                         <div class="box animated zoomIn buttons-action">
 
-                                            <div class="correspondence-t">
-                                                <div class="d-flex">
-                                                    <div class="">
-                                                        مسودة خطاب
-                                                    </div>
-                                                </div>
-                                            </div>
                                             <div class="correspondence-b d-flex flex-wrap">
                                                 <div class="f-line w-100">
-                                                    <div class="heading">اسم المسار</div>
-                                                    <div>2233548</div>
+                                                    <div class="heading">معاملة داخلية </div>
+                                                    <div>محمد عبدالعزيز</div>
                                                 </div>
-                                                <div class="f-line w-medium">
-                                                    <div class="heading">السرية</div>
-                                                    <div>عادي</div>
+                                                <div class="f-line w-100">
+                                                    <div class="heading">الاسم الكامل</div>
+                                                    <div>عبدالله بن عبدالعزيز</div>
+                                                </div>
+												 <div class="f-line w-100">
+                                                    <div class="heading"> أيام التأخير </div>
+                                                    <div>name@gmail.com</div>
+                                                </div>
+												 <div class="f-line w-100">
+                                                    <div class="heading"> رقم الهاتف  </div>
+                                                    <div>09843204980988</div>
+                                                </div>
+												  <div class="f-line w-medium">
+                                                    <div class="heading">الدور</div>
+                                                    <div>19</div>
                                                 </div>
 												 <div class="f-line w-medium">
-                                                    <div class="heading">الأهمية</div>
-                                                    <div>مهم جداً</div>
+                                                    <div class="heading">الادارة</div>
+                                                    <div> اسم الادارة</div>
                                                 </div>
                                             </div>
                                             <div class="correspondence-icon w-100 d-inline-block">
@@ -416,149 +442,48 @@
                                                     <a class="circle color-blue" href="#">
                                                         <i class="la la-pencil"></i>
                                                     </a>
+																	<a class="circle color-yellow" href="#">
+													<i class="la la-lightbulb-o"></i>
+													</a>
                                                     <a class="circle color-red" href="#">
                                                         <i class="la la-trash"></i>
                                                     </a>
-                                                </div>
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                     <div class="box-grid two">
-                                        <div class="box  animated zoomIn buttons-action">
-
-                                            <div class="correspondence-t">
-                                                <div class="d-flex">
-                                                    <div class="">
-                                                        مسودة خطاب
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="correspondence-b d-flex flex-wrap">
-                                                <div class="f-line w-100">
-                                                    <div class="heading">اسم المسار</div>
-                                                    <div>2233548</div>
-                                                </div>
-                                                <div class="f-line w-medium">
-                                                    <div class="heading">السرية</div>
-                                                    <div>عادي</div>
-                                                </div>
-												 <div class="f-line w-medium">
-                                                    <div class="heading">الأهمية</div>
-                                                    <div>مهم جداً</div>
-                                                </div>
-                                            </div>
-                                            <div class="correspondence-icon w-100 d-inline-block">
-                                                <div class="d-inline-block">
-                                                    <a class="circle color-blue" href="#">
-                                                        <i class="la la-pencil"></i>
-                                                    </a>
-                                                    <a class="circle color-red" href="#">
-                                                        <i class="la la-trash"></i>
-                                                    </a>
-                                                </div>
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                     <div class="box-grid two">
-                                        <div class="box animated zoomIn buttons-action">
-
-                                            <div class="correspondence-t">
-                                                <div class="d-flex">
-                                                    <div class="">
-                                                        مسودة خطاب
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="correspondence-b d-flex flex-wrap">
-                                                <div class="f-line w-100">
-                                                    <div class="heading">اسم المسار</div>
-                                                    <div>2233548</div>
-                                                </div>
-                                                <div class="f-line w-medium">
-                                                    <div class="heading">السرية</div>
-                                                    <div>عادي</div>
-                                                </div>
-												 <div class="f-line w-medium">
-                                                    <div class="heading">الأهمية</div>
-                                                    <div>مهم جداً</div>
-                                                </div>
-                                            </div>
-                                            <div class="correspondence-icon w-100 d-inline-block">
-                                                <div class="d-inline-block">
-                                                    <a class="circle color-blue" href="#">
-                                                        <i class="la la-pencil"></i>
-                                                    </a>
-                                                    <a class="circle color-red" href="#">
-                                                        <i class="la la-trash"></i>
-                                                    </a>
-                                                </div>
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                     <div class="box-grid two">
-                                        <div class="box animated zoomIn buttons-action">
-
-                                            <div class="correspondence-t">
-                                                <div class="d-flex">
-                                                    <div class="">
-                                                        مسودة خطاب
-
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="correspondence-b d-flex flex-wrap">
-                                                <div class="f-line w-100">
-                                                    <div class="heading">اسم المسار</div>
-                                                    <div>2233548</div>
-                                                </div>
-                                                <div class="f-line w-medium">
-                                                    <div class="heading">السرية</div>
-                                                    <div>عادي</div>
-                                                </div>
-												 <div class="f-line w-medium">
-                                                    <div class="heading">الأهمية</div>
-                                                    <div>مهم جداً</div>
-                                                </div>
-                                            </div>
-                                            <div class="correspondence-icon w-100 d-inline-block">
-                                                <div class="d-inline-block">
-                                                    <a class="circle color-blue" href="#">
-                                                        <i class="la la-pencil"></i>
-                                                    </a>
-                                                    <a class="circle color-red" href="#">
-                                                        <i class="la la-trash"></i>
-                                                    </a>
-                                                </div>
-
-                                            </div>
-                                        </div>
-                                    </div>
 									
-									 <div class="box-grid two">
+                                                </div>
+	<div class="pull-right pink">
+													<i class="fas fa-ban"></i>
+														<span class="pl-1">غير فعال</span>
+														</div>
+                                            </div>
+                                        </div>
+                                    </div>
+  <div class="box-grid two">
                                         <div class="box animated zoomIn buttons-action">
 
-                                            <div class="correspondence-t">
-                                                <div class="d-flex">
-                                                    <div class="">
-                                                        مسودة خطاب
-                                                    </div>
-                                                </div>
-                                            </div>
                                             <div class="correspondence-b d-flex flex-wrap">
                                                 <div class="f-line w-100">
-                                                    <div class="heading">اسم المسار</div>
-                                                    <div>2233548</div>
+                                                    <div class="heading">معاملة داخلية </div>
+                                                    <div>محمد عبدالعزيز</div>
                                                 </div>
-                                                <div class="f-line w-medium">
-                                                    <div class="heading">السرية</div>
-                                                    <div>عادي</div>
+                                                <div class="f-line w-100">
+                                                    <div class="heading">الاسم الكامل</div>
+                                                    <div>عبدالله بن عبدالعزيز</div>
+                                                </div>
+												 <div class="f-line w-100">
+                                                    <div class="heading"> أيام التأخير </div>
+                                                    <div>name@gmail.com</div>
+                                                </div>
+												 <div class="f-line w-100">
+                                                    <div class="heading"> رقم الهاتف  </div>
+                                                    <div>09843204980988</div>
+                                                </div>
+												  <div class="f-line w-medium">
+                                                    <div class="heading">الدور</div>
+                                                    <div>19</div>
                                                 </div>
 												 <div class="f-line w-medium">
-                                                    <div class="heading">الأهمية</div>
-                                                    <div>مهم جداً</div>
+                                                    <div class="heading">الادارة</div>
+                                                    <div> اسم الادارة</div>
                                                 </div>
                                             </div>
                                             <div class="correspondence-icon w-100 d-inline-block">
@@ -566,36 +491,48 @@
                                                     <a class="circle color-blue" href="#">
                                                         <i class="la la-pencil"></i>
                                                     </a>
+																<a class="circle color-yellow" href="#">
+													<i class="la la-lightbulb-o"></i>
+													</a>
                                                     <a class="circle color-red" href="#">
                                                         <i class="la la-trash"></i>
                                                     </a>
                                                 </div>
+														<div class="pull-right pink">
+													<i class="fas fa-ban"></i>
+														<span class="pl-1">غير فعال</span>
+														</div>
 
                                             </div>
                                         </div>
                                     </div>
-									 <div class="box-grid two">
-                                        <div class="box  animated zoomIn buttons-action">
+                                    <div class="box-grid two">
+                                        <div class="box animated zoomIn buttons-action">
 
-                                            <div class="correspondence-t">
-                                                <div class="d-flex">
-                                                    <div class="">
-                                                        مسودة خطاب
-                                                    </div>
-                                                </div>
-                                            </div>
                                             <div class="correspondence-b d-flex flex-wrap">
                                                 <div class="f-line w-100">
-                                                    <div class="heading">اسم المسار</div>
-                                                    <div>2233548</div>
+                                                    <div class="heading">معاملة داخلية </div>
+                                                    <div>محمد عبدالعزيز</div>
                                                 </div>
-                                                <div class="f-line w-medium">
-                                                    <div class="heading">السرية</div>
-                                                    <div>عادي</div>
+                                                <div class="f-line w-100">
+                                                    <div class="heading">الاسم الكامل</div>
+                                                    <div>عبدالله بن عبدالعزيز</div>
+                                                </div>
+												 <div class="f-line w-100">
+                                                    <div class="heading"> أيام التأخير </div>
+                                                    <div>name@gmail.com</div>
+                                                </div>
+												 <div class="f-line w-100">
+                                                    <div class="heading"> رقم الهاتف  </div>
+                                                    <div>09843204980988</div>
+                                                </div>
+												  <div class="f-line w-medium">
+                                                    <div class="heading">الدور</div>
+                                                    <div>19</div>
                                                 </div>
 												 <div class="f-line w-medium">
-                                                    <div class="heading">الأهمية</div>
-                                                    <div>مهم جداً</div>
+                                                    <div class="heading">الادارة</div>
+                                                    <div> اسم الادارة</div>
                                                 </div>
                                             </div>
                                             <div class="correspondence-icon w-100 d-inline-block">
@@ -603,11 +540,65 @@
                                                     <a class="circle color-blue" href="#">
                                                         <i class="la la-pencil"></i>
                                                     </a>
+														<a class="circle color-yellow" href="#">
+													<i class="la la-lightbulb-o"></i>
+													</a>
                                                     <a class="circle color-red" href="#">
-                                                       <i class="la la-trash"></i>
+                                                        <i class="la la-trash"></i>
                                                     </a>
                                                 </div>
+	<div class="pull-right pink">
+													<i class="fas fa-ban"></i>
+														<span class="pl-1">غير فعال</span>
+														</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                     <div class="box-grid two">
+                                        <div class="box animated zoomIn buttons-action">
 
+                                            <div class="correspondence-b d-flex flex-wrap">
+                                                <div class="f-line w-100">
+                                                    <div class="heading">معاملة داخلية </div>
+                                                    <div>محمد عبدالعزيز</div>
+                                                </div>
+                                                <div class="f-line w-100">
+                                                    <div class="heading">الاسم الكامل</div>
+                                                    <div>عبدالله بن عبدالعزيز</div>
+                                                </div>
+												 <div class="f-line w-100">
+                                                    <div class="heading"> أيام التأخير </div>
+                                                    <div>name@gmail.com</div>
+                                                </div>
+												 <div class="f-line w-100">
+                                                    <div class="heading"> رقم الهاتف  </div>
+                                                    <div>09843204980988</div>
+                                                </div>
+												  <div class="f-line w-medium">
+                                                    <div class="heading">الدور</div>
+                                                    <div>19</div>
+                                                </div>
+												 <div class="f-line w-medium">
+                                                    <div class="heading">الادارة</div>
+                                                    <div> اسم الادارة</div>
+                                                </div>
+                                            </div>
+                                            <div class="correspondence-icon w-100 d-inline-block">
+                                                <div class="d-inline-block">
+                                                    <a class="circle color-blue" href="#">
+                                                        <i class="la la-pencil"></i>
+                                                    </a>
+													<a class="circle color-yellow" href="#">
+													<i class="la la-lightbulb-o"></i>
+													</a>
+                                                    <a class="circle color-red" href="#">
+                                                        <i class="la la-trash"></i>
+                                                    </a>
+                                                </div>
+<div class="pull-right green">
+													<i class="fas fa-check-circle"></i>
+														<span class="pl-1"> فعال</span>
+														</div>
                                             </div>
                                         </div>
                                     </div>

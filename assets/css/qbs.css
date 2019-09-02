@@ -115,6 +115,9 @@ h3.site-color .new-notifications-count{
 .mr-6{
 	margin-right:4.5rem!important;
 }
+.w-25{
+	width: 25%;
+}
 .dropdownposition:hover{
 	cursor: pointer;
 }
@@ -134,6 +137,11 @@ h3.site-color .new-notifications-count{
 
 .chat_list .list-group-item, .popchat .list-group-item {
     background-color: #f5f5f5;
+}
+.box2{
+	border:1px solid #cecece;
+	padding:10px;
+	border-radius: 0.25rem;
 }
 
 .firstcard .list-group-item {
@@ -233,6 +241,7 @@ h3.site-color .new-notifications-count{
 
 .btn-st2:focus, .btn-st2.focus {
     box-shadow: 0 0 0 0.2rem rgb(248, 246, 246, 0.5);
+	color:#2881e6;
 }
 
 .btn-st2.disabled, .btn-st2:disabled {
@@ -290,7 +299,10 @@ h3.site-color .new-notifications-count{
     right: 50%;
 }
 
-
+.pagination{
+	margin-top:20px!important;
+	margin-bottom: 0px !important;
+}
 .purple {
     z-index: 1000000;
     height: 30px;
@@ -744,6 +756,10 @@ select {
 .gray2 {
     color:#636363 !important;
 }
+
+.gray3{
+	color:#b0b0b0;
+}
 .light-gray2{
 	color:#afb1be!important;
 }
@@ -1050,7 +1066,6 @@ padding-top:82px;
 .hyperlink2 {
     background-color: white;
     color: #595959;
-    border-right: 0!important;
 }
 .search-employee-input .input-group .form-control {
     border-left: 0!important;
@@ -1104,6 +1119,9 @@ padding-top:82px;
 .first_person {
     z-index: 3;
 }
+.pink{
+	color:#ec4461;
+}
 
 .second_person {
     z-index: 1px;
@@ -1131,6 +1149,9 @@ padding-top:82px;
     border-radius: 5px;
     resize: none;
 }
+.users .box-grid{
+	width: 33.33%;
+}
 
 
 /*-----------------------------------------------------------------*/
@@ -1152,6 +1173,13 @@ padding-top:82px;
     border-style: solid;
     border-width: 0;
     background: #F8F8FA;
+}
+ .users{
+	height: 100% !important;
+}
+
+.green{
+	color:#6ac258;
 }
 
 .navbar-default .navbar-nav > li {
@@ -1526,7 +1554,7 @@ div.checkbox {
 }
 
 .bold {
-    font-weight: 700;
+    font-weight: 600;
 }
 
 a.bold{
@@ -1572,6 +1600,13 @@ hr {
 
 .box {
     margin-bottom: 20px;
+}
+input[type=radio]{
+	width: 1em !important;
+	height:1em !important;
+}
+input[type=radio]:checked:after{
+   background: #2196F3!important;
 }
 
     .box .checkbox {
@@ -2181,10 +2216,9 @@ textarea.form-control {
     background: #f8f8f8;
 }
 
-.gray2 {
-    color: gray;
+.gray4{
+	color:#B1B1B1;
 }
-
 
 @media(min-width:1600px) {
     .col-xlg-2 {

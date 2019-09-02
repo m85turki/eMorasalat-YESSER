@@ -438,6 +438,9 @@ input:focus:-ms-input-placeholder {
     .correspondence-icon a.circle.color-orange{
         background: #ef8600;
     }
+.correspondence-icon a.circle.color-yellow{
+	background:#d06901;
+}
 
     .correspondence-icon a.circle.color-blue:hover{
         background: rgba(59, 25, 126, 0.75);
