@@ -2210,7 +2210,7 @@
                                 <li class="list-group-item showpopchat">
 
                                     <a href="#">
-                                        <span class="h-avatar mx-2">
+                                        <span class="h-avatar2 mx-2">
                                             <img src="../assets/images/businessman.png">
                                         </span>
                                         <span>
@@ -2222,7 +2222,7 @@
                                 </li>
                                 <li class="list-group-item showpopchat">
                                     <a href="#">
-                                        <span class="h-avatar mx-2">
+                                        <span class="h-avatar2 mx-2">
                                             <img src="../assets/images/businessman.png">
                                         </span>
                                         <span>
@@ -2234,7 +2234,7 @@
                                 <li class="list-group-item showpopchat">
 
                                     <a href="#">
-                                        <span class="h-avatar mx-2">
+                                        <span class="h-avatar2 mx-2">
                                             <img src="../assets/images/businessman.png">
                                         </span>
                                         <span>
@@ -2247,7 +2247,7 @@
 
                                 <li class="list-group-item showpopchat">
                                     <a href="#">
-                                        <span class="h-avatar mx-2">
+                                        <span class="h-avatar2 mx-2">
                                             <img src="../assets/images/businessman.png">
                                         </span>
                                         <span>اسم الموظف</span>
@@ -2261,7 +2261,7 @@
 
                                 <li class="list-group-item showpopchat">
                                     <a href="#">
-                                        <span class="h-avatar mx-2">
+                                        <span class="h-avatar2 mx-2">
                                             <img src="../assets/images/businessman.png">
                                         </span>
                                         <span>
@@ -2273,7 +2273,7 @@
 
                                 <li class="list-group-item showpopchat">
                                     <a href="#">
-                                        <span class="h-avatar mx-2">
+                                        <span class="h-avatar2 mx-2">
                                             <img src="../assets/images/businessman.png">
                                         </span>
                                         <span>
@@ -2289,15 +2289,15 @@
 
 
                         <div class="popchat">
-                            <div class="the_user">
-                                <span class="h-avatar mx-2">
+                            <div class="the_user d-flex align-items-center">
+                                <span class="h-avatar2 mx-2">
                                     <img src="../assets/images/businessman.png">
                                 </span>
                                 <span>
                                     اسم الموظف
                                 </span>
 
-                                <button type="submit" class="savebutton pull-right">حفظ المحادثة</button>
+                                <button type="submit" class="btn  btn-st2 ml-auto">حفظ المحادثة</button>
 
                             </div>
                             <div class="for-scroll">
@@ -2474,34 +2474,39 @@
     </script>
     <!----QBS JQuery ----->
     <script>
-        $(function () {
-            $(".chatbtn").click(function () {
-                $(".carddiv").css("width", "252");
-                $(".carddiv").fadeIn();
-                $(".firstcard").fadeIn();
-            });
+        $(function(){
+  $(".chatbtn").click(function(){
+	  $(".carddiv").css("width","252");
+		   $(".carddiv").fadeIn();
+	  $(".firstcard").fadeIn();
+	  $(this).addClass("active_notification");
+	   });
+		   
+	$(".showpopchat").click(function(){
+		$(".carddiv").css("width","600");
+		$(".sendfield").css("display","flex");
+		$(".popchat").fadeIn();
+		$(".purple").css("width","600");
+		$("li").removeClass("highlight");
+		$(this).toggleClass("highlight");
+		$(".purple .la-close").css("left","5px");			
+	});
 
-            $(".showpopchat").click(function () {
-                $(".carddiv").css("width", "600");
-                $(".sendfield").css("display", "flex");
-                $(".popchat").fadeIn();
-                $(".purple").css("width", "600");
-                $(this).css("background-color", "#eee");
-                $(".purple .la-close").css("left", "5px");
-            });
+	$(".purple .la-close").click(function(){
+		if($(".popchat").css('display') == 'block'){
+		$(".popchat").css("display","none");
+			$(".carddiv").css("width","300");
+			$(".purple").css("width","300");
+			$("li").removeClass("highlight");
+      
 
-            $(".purple .la-close").click(function () {
-                if ($(".popchat").css('display') == 'block') {
-                    $(".popchat").css("display", "none");
-                    $(".carddiv").css("width", "300");
-                    $(".purple").css("width", "300");
-                    $(".showpopchat").css("background-color", "white");
-                }
-                else {
-                    $(".carddiv").css("display", "none");
-                }
-            });
-        });
+		}
+		else{
+			  $(".carddiv").css("display","none");
+			$("a.chatbtn").removeClass("active_notification");
+		}
+	});
+  });
 
     </script>
     <!----->

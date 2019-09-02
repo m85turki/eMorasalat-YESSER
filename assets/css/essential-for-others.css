@@ -364,6 +364,7 @@ a, a:hover, a:focus {
 .full-screen-icon.la-expand {
     color: #4C91E3;
     border-color: #4C91E3;
+	overflow-y: auto;
 }
 
 .border-box {
