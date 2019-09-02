@@ -181,7 +181,9 @@ h3.site-color .new-notifications-count{
     font-size: 20px;
 	
 }
-
+.chat-section div:first-child button{
+	display: none;
+}
 .btn-st1{
 	color: #fff;
     background-color: #4A91E3;
@@ -396,6 +398,7 @@ h3.site-color .new-notifications-count{
     width: 100%;
     display: inline-block;
     margin-bottom: 10px;
+	position: relative;
 }
 
 .sendertext p {
@@ -454,7 +457,7 @@ h3.site-color .new-notifications-count{
     border-radius: 10px;
     border: 0;
     width: 100%;
-    text-indent: 5px;
+    text-indent: 10px;
 }
 
 .sendfield {
@@ -1090,6 +1093,13 @@ padding-top:82px;
 
 .day_message {
     padding-bottom: 30px;
+	max-height: 260px;
+	overflow-y: scroll;
+	overflow-x:hidden;
+	
+}
+.chat-section{
+	position: relative;
 }
 
 .close-icon-treaty {
@@ -3319,6 +3329,10 @@ table > thead > tr {
 	.mt-xs-2{
 		margin-top: 0.5rem;
 	}
+	.mx-xs-1{
+		margin-right:0.25rem !important;
+		margin-left:0.25rem !important;
+	}
 	.add-error-border{
 		font-size: 8px;
 		padding:5px;
@@ -3329,6 +3343,12 @@ table > thead > tr {
 	.pr-xs-3{
 		padding-left:1rem; 
 	}
+	.note-section {
+		display:none !important;
+	}
+	.chat-section div:first-child button{
+	display:inline-flex;
+}
 
 }
 
