@@ -2304,7 +2304,7 @@ li.list-group-item.has-sub:not(:first-child)::before {
     border-radius: 10px;
 	position: absolute;
     bottom: 0px;
-    width: 95%;
+    width: 100%;
 	background-color: white;
 }
 .message-input input
