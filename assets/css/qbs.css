@@ -756,6 +756,10 @@ select {
 .gray2 {
     color:#636363 !important;
 }
+
+.gray3{
+	color:#b0b0b0;
+}
 .light-gray2{
 	color:#afb1be!important;
 }
@@ -1550,7 +1554,7 @@ div.checkbox {
 }
 
 .bold {
-    font-weight: 700;
+    font-weight: 600;
 }
 
 a.bold{
@@ -1596,6 +1600,13 @@ hr {
 
 .box {
     margin-bottom: 20px;
+}
+input[type=radio]{
+	width: 1em !important;
+	height:1em !important;
+}
+input[type=radio]:checked:after{
+   background: #2196F3!important;
 }
 
     .box .checkbox {

@@ -96,7 +96,11 @@
                                 </div>
                                 <script>
                                     focusMethod = function getFocus() {
+										debugger;
+										var x =1;
                                         $('.myTextField').focus();
+										x++;
+										x++;
                                     }
                                 </script>
                             </div>
@@ -288,31 +292,31 @@
 			
 
 <div class=" pl-5">
-				<div class="">رقم المعاملة</div>
-				<div class="">1234123</div>
+				<div class="gray3">رقم المعاملة</div>
+				<div class="site-color">1234123</div>
 			</div><div class=" pl-5">
-				<div class="">تاريخ المعاملة</div>
-				<div class="">28 تشرين الثاني 2018</div>
+				<div class="gray3">التاريخ </div>
+				<div class="site-color">28 تشرين الثاني 2018</div>
 			</div>
 	</div>
 	</div>
             <div class="white-container mx-5">
-				<div class="inner-header header-position">
-					<nav class="navbar navbar-expand-lg navbar-light bg-light mb-0">
+				<div class="inner-header">
+					<nav class="navbar navbar-expand-lg mb-0">
 
   <div class="collapse navbar-collapse p-0 nav-for-treat" id="navbarNav">
     <ul class="float-left d-inline-flex nav-border">
-      <li class="border-left pl-1">
+      <li class="border-left">
 		  <i class="fas fa-file-signature pl-1"></i>
-		  <a class="p-2" href="#" >إرجاع المعاملة</a>
+		  <a class="p-2 site-color" href="#" >إرجاع المعاملة</a>
       </li>
       <li class="border-left">
 		    <i class="fas fa-file-signature pl-1"></i>
-        <a class="p-2" href="#">الإحالات المباشرة</a>
+        <a class="p-2 site-color" href="#">الإحالات المباشرة</a>
       </li>
-      <li>
+      <li class="">
 		  <i class="fas fa-file-signature pl-1"></i>
-        <a class="" href="#">الإحالة باستخدام ورق الإحالة</a>
+        <a class="site-color" href="#">الإحالة باستخدام ورق الإحالة</a>
       </li>
  
     </ul>
@@ -390,7 +394,7 @@
                         <!-- Tab panes -->
                         <div class="tab-content">
                             <div role="tabpanel" class="tab-pane active" id="sub-tab-1">
-                                <div class="row mb-3 mt-3 tablet_responsive">
+                                <div class="row mb-3 mt-3">
                                     <div class="col-lg-3 col-sm-12 col-xs-12 mb-3">
                                         <label class="w-100">
 											
@@ -404,7 +408,7 @@
                                 </select>
 									</div>
 															<div class="col-lg-6 col-sm-12 col-xs-12 mb-3">
-										<div class="row">
+										<div class="row m-0">
 										<div class="col-lg-3 col-sm-4 p-0">
 											  <div class="input-group">
 												           <label class="w-100">
@@ -451,7 +455,7 @@
 									</div>
 								
 								</div>
-                                <div class="row mb-3 tablet_responsive">
+                                <div class="row mb-3">
 									             <div class="col-lg-3 col-sm-4 col-xs-12 mb-3 ">
                                         <label class="w-100">
                                             موقعة من
@@ -537,11 +541,10 @@
 											   
 								</div>
                                     	
-
-																                <div class="row">
-        					             <div class="col-lg-6 col-sm-8 col-xs-12  mb-3 ">
+  <div class="row">
+  <div class="col-lg-6 col-sm-8 col-xs-12  mb-3 ">
                                       
-													   <div class="input-group w-100">
+	 <div class="input-group w-100">
     <div class="form-group w-100">
 		<label class="w-100" >الوصف 
 		<span class="stark">*</span>
@@ -573,7 +576,7 @@
                                             تاريخ الموعد
                                         </label>
 									<div class="input-group">
-                                    <input type="text" class="form-control hasDatepicker" id="datepicker">
+                                    <input type="text" class="form-control" id="datepicker">
                                     <div class="input-group-append">
                                         <span class="input-group-text hyperlink">
                                             <a href="#"><i class="far fa-calendar"></i></a>
@@ -738,12 +741,14 @@
                 
                 <label>إغلاق</label>
             </div>
-                    <label class="purple3 w-auto d-inline-block m-0">محادثة المعاملة </label>
+			<div>
+                    <label class="purple3  d-inline-block">محادثة المعاملة </label>
 			<small class="pl-3">
-			<span class="dark-color">التاريخ: </span>
-				28 تشرين الثاني 2019
+			<span class="gray3">التاريخ: </span>
+				<span class="site-color">28 تشرين الثاني 2019</span>
 			
 			</small>
+				</div>
                 </div>
 		
 		<div class="gray pt-3 pb-3 pr-1 pl-1 pop_chat2">
