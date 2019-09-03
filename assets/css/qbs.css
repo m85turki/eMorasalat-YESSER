@@ -186,7 +186,8 @@ h3.site-color .new-notifications-count{
 	padding-right:65px;
     color: #a2a2a2;
     position: relative;
-    bottom: 15px
+    bottom: 15px;
+	margin-bottom: 0px;
 }
 
 .btn-cancel{
@@ -1141,6 +1142,7 @@ padding-top:82px;
 
 .showpopchat {
     position: relative;
+	padding:5px 5px !important;
 }
 
 .first_person {
