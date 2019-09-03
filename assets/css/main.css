@@ -641,9 +641,11 @@ input:focus:-ms-input-placeholder {
 @media (min-width: 1320px){
     .box-grid{
         width: 25%;
-        padding: 1rem;
-    }
+        padding: 1rem 5px !important;
+        margin-bottom: 10px;
 }
+    }
+
 
 @media (min-width: 1680px){
     .box-grid{

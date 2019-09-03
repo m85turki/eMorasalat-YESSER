@@ -311,8 +311,11 @@
     </div>
     <div class="app-content content">
         <div class="content_wrapper">
-            <h2 class="site-color main-title  pull-left">معاملاتي</h2>
-            <div class="btn-options pull-right">
+           <div class="d-flex mb-3 mx-5 mx-xs-3 header-container">
+                <div class="filter-link">
+                    <h3 class="site-color m-0"> معاملاتي </h3>
+                </div>
+			              <div class="btn-options ml-auto">
                 <a class="btn-site" href="#">
                     <img src="../assets/images/option1.png">
                     انشاء صادر
@@ -326,13 +329,15 @@
                     انشاء معاملة داخلية
                 </a>
             </div>
+            </div>
+ 
 
             <div class="content_container site_border">
 
 
 
-                <div class="content_container content_container--header">
-                    <div class="row m-0">
+                <div class="content_container--header">
+                    <div class="row mx-5">
                         <ul class="col-lg-6 nav nav-tabs custom-sub-nav-tabs mb-3" role="tablist">
                             <li role="presentation" class="active">
                                 <a href="#sub-tab-1" aria-controls="sub-tab-1" role="tab" data-toggle="tab">
@@ -350,7 +355,7 @@
                                 </a>
                             </li>
                         </ul>
-                        <div class="col-lg-6 ml-auto text-right options">
+                        <div class="col-lg-6 text-right options p-0">
                             <div class="checkbox">
                                 <label for="selectAll">
                                     <input id="selectAll" type="checkbox" value="">
@@ -358,15 +363,15 @@
                                     تحديد الكل
                                 </label>
                             </div>
-
-                            <a class="dashed-circle" href="#">
+   <a class="dashed-circle filter-target" href="#">
+					<i class="icon-filter"></i>
+                                فلترة
+                            </a>
+                          <a class="dashed-circle sort-target" href="#">
+								<i class="icon-sort"></i>
                                 ترتيب حسب
-                                <i class="uicon icon_filter"></i>
                             </a>
-                            <a class="dashed-circle" href="#">
-                                تصفية
-                                <i class="uicon icon_order"></i>
-                            </a>
+                    
                             <div class="toggling-menu">
                                 <a href="#" class="active"><i class="fa fa-th-large "></i></a>
                                 <a href="#"><i class="fa fa-bars"></i></a>
@@ -379,7 +384,7 @@
                     <div class="tab-content">
                         <div role="tabpanel" class="tab-pane active" id="sub-tab-1">
                             <div class="boxes">
-                                <div class="d-flex flex-wrap align-content-start">
+                                <div class="d-flex flex-wrap align-content-start mx-5">
                                     <div class="box-grid two">
                                         <div class="box bluedark animated zoomIn buttons-action">
 
@@ -443,97 +448,7 @@
                                                 </div>
 
                                             </div>
-                                            <div class="correspondence-icon w-100 d-inline-block">
-                                                <div class="d-inline-block">
-                                                    <a class="circle color-blue" href="#">
-                                                        <i class="la la-pencil"></i>
-                                                    </a>
-                                                    <a class="circle color-red" href="#">
-                                                        <i class="la la-plus-square"></i>
-                                                    </a>
-                                                    <a class="circle color-gray" href="#">
-                                                        <i class="la la-file-text"></i>
-                                                    </a>
-                                                    <a class="circle color-green" href="#">
-                                                        <i class="la la-pencil"></i>
-                                                    </a>
-                                                    <a class="circle color-orange" href="#">
-                                                        <i class="la la-plus-square"></i>
-                                                    </a>
-                                                </div>
-                                                <div class="d-inline-block pull-right">
-                                                    <div class="info">
-                                                        <i class="la la-paperclip"></i>
-                                                        <span class=""><span>10</span> مرفقات </span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="box-grid two">
-                                        <div class="box blue animated zoomIn buttons-action">
-
-                                            <div class="correspondence-t">
-                                                <div class="d-flex">
-                                                    <div class="">
-                                                        وارد ( أفراد )
-                                                    </div>
-                                                    <div class="ml-auto d-flex">
-                                                        <div class="checkbox">
-                                                            <label>
-                                                                <input type="checkbox" value="">
-                                                                <span class="cr">
-                                                                    <i class="cr-icon glyphicon glyphicon-ok"></i>
-                                                                </span>
-                                                            </label>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="correspondence-h">
-                                                <div class="title">
-                                                    وزارة الداخلية
-                                                </div>
-                                                <div class="date">
-                                                    28 تشرين الثاني 2018
-                                                </div>
-                                            </div>
-                                            <div class="correspondence-b d-flex flex-wrap">
-                                                <div class="f-line">
-                                                    <div class="heading">الرقم</div>
-                                                    <div>2233548</div>
-                                                </div>
-                                                <div class="f-line">
-                                                    <div class="heading">الأهمية</div>
-                                                    <div class="text-danger">عاجل</div>
-                                                </div>
-                                                <div class="f-line">
-                                                    <div class="heading">السرية</div>
-                                                    <div>عادي</div>
-                                                </div>
-                                                <div class="f-line">
-                                                    <div class="heading">النوع</div>
-                                                    <div>تعميم</div>
-                                                </div>
-                                                <div class="f-line">
-                                                    <div class="heading">السرية</div>
-                                                    <div>عادي</div>
-                                                </div>
-                                                <div class="f-line">
-                                                    <div class="heading">التصنيف</div>
-                                                    <div>عادي</div>
-                                                </div>
-                                                <div class="f-line">
-                                                    <div class="heading">أيام التأخير</div>
-                                                    <div>22</div>
-                                                </div>
-                                                <div class="f-line w-big">
-                                                    <div class="heading">الموعد المحدد</div>
-                                                    <div>28 تشرين الثاني 2019</div>
-                                                </div>
-
-                                            </div>
-                                            <div class="correspondence-icon w-100 d-inline-block">
+                                            <div class="correspondence-icon w-100 d-inline-block p-2">
                                                 <div class="d-inline-block">
                                                     <a class="circle color-blue" href="#">
                                                         <i class="la la-pencil"></i>
@@ -617,7 +532,7 @@
                                                 </div>
 
                                             </div>
-                                            <div class="correspondence-icon w-100 d-inline-block">
+                                            <div class="correspondence-icon w-100 d-inline-block p-2">
                                                 <div class="d-inline-block">
                                                     <a class="circle color-blue" href="#">
                                                         <i class="la la-pencil"></i>
@@ -701,7 +616,7 @@
                                                 </div>
 
                                             </div>
-                                            <div class="correspondence-icon w-100 d-inline-block">
+                                            <div class="correspondence-icon w-100 d-inline-block p-2">
                                                 <div class="d-inline-block">
                                                     <a class="circle color-blue" href="#">
                                                         <i class="la la-pencil"></i>
@@ -785,7 +700,7 @@
                                                 </div>
 
                                             </div>
-                                            <div class="correspondence-icon w-100 d-inline-block">
+                                            <div class="correspondence-icon w-100 d-inline-block p-2">
                                                 <div class="d-inline-block">
                                                     <a class="circle color-blue" href="#">
                                                         <i class="la la-pencil"></i>
@@ -869,7 +784,91 @@
                                                 </div>
 
                                             </div>
-                                            <div class="correspondence-icon w-100 d-inline-block">
+                                            <div class="correspondence-icon w-100 d-inline-block p-2">
+                                                <div class="d-inline-block">
+                                                    <a class="circle color-blue" href="#">
+                                                        <i class="la la-pencil"></i>
+                                                    </a>
+                                                    <a class="circle color-red" href="#">
+                                                        <i class="la la-plus-square"></i>
+                                                    </a>
+                                                    <a class="circle color-gray" href="#">
+                                                        <i class="la la-file-text"></i>
+                                                    </a>
+                                                </div>
+                                                <div class="d-inline-block pull-right">
+                                                    <div class="info">
+                                                        <i class="la la-paperclip"></i>
+                                                        <span class=""><span>10</span> مرفقات </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="box-grid two">
+                                        <div class="box blue animated zoomIn buttons-action">
+
+                                            <div class="correspondence-t">
+                                                <div class="d-flex">
+                                                    <div class="">
+                                                        وارد ( أفراد )
+                                                    </div>
+                                                    <div class="ml-auto d-flex">
+                                                        <div class="checkbox">
+                                                            <label>
+                                                                <input type="checkbox" value="">
+                                                                <span class="cr">
+                                                                    <i class="cr-icon glyphicon glyphicon-ok"></i>
+                                                                </span>
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="correspondence-h">
+                                                <div class="title">
+                                                    وزارة الداخلية
+                                                </div>
+                                                <div class="date">
+                                                    28 تشرين الثاني 2018
+                                                </div>
+                                            </div>
+                                            <div class="correspondence-b d-flex flex-wrap">
+                                                <div class="f-line">
+                                                    <div class="heading">الرقم</div>
+                                                    <div>2233548</div>
+                                                </div>
+                                                <div class="f-line">
+                                                    <div class="heading">الأهمية</div>
+                                                    <div class="text-danger">عاجل</div>
+                                                </div>
+                                                <div class="f-line">
+                                                    <div class="heading">السرية</div>
+                                                    <div>عادي</div>
+                                                </div>
+                                                <div class="f-line">
+                                                    <div class="heading">النوع</div>
+                                                    <div>تعميم</div>
+                                                </div>
+                                                <div class="f-line">
+                                                    <div class="heading">السرية</div>
+                                                    <div>عادي</div>
+                                                </div>
+                                                <div class="f-line">
+                                                    <div class="heading">التصنيف</div>
+                                                    <div>عادي</div>
+                                                </div>
+                                                <div class="f-line">
+                                                    <div class="heading">أيام التأخير</div>
+                                                    <div>22</div>
+                                                </div>
+                                                <div class="f-line w-big">
+                                                    <div class="heading">الموعد المحدد</div>
+                                                    <div>28 تشرين الثاني 2019</div>
+                                                </div>
+
+                                            </div>
+                                            <div class="correspondence-icon w-100 d-inline-block p-2">
                                                 <div class="d-inline-block">
                                                     <a class="circle color-blue" href="#">
                                                         <i class="la la-pencil"></i>
@@ -896,7 +895,7 @@
                         </div>
                         <div role="tabpanel" class="tab-pane" id="sub-tab-2">
                             <div class="boxes">
-                                <div class="d-flex flex-wrap align-content-start">
+                                <div class="d-flex flex-wrap align-content-start mx-5">
                                     <div class="box-grid two">
                                         <div class="box bluedark animated zoomIn buttons-action">
 
@@ -960,97 +959,7 @@
                                                 </div>
 
                                             </div>
-                                            <div class="correspondence-icon w-100 d-inline-block">
-                                                <div class="d-inline-block">
-                                                    <a class="circle color-blue" href="#">
-                                                        <i class="la la-pencil"></i>
-                                                    </a>
-                                                    <a class="circle color-red" href="#">
-                                                        <i class="la la-plus-square"></i>
-                                                    </a>
-                                                    <a class="circle color-gray" href="#">
-                                                        <i class="la la-file-text"></i>
-                                                    </a>
-                                                    <a class="circle color-green" href="#">
-                                                        <i class="la la-pencil"></i>
-                                                    </a>
-                                                    <a class="circle color-orange" href="#">
-                                                        <i class="la la-plus-square"></i>
-                                                    </a>
-                                                </div>
-                                                <div class="d-inline-block pull-right">
-                                                    <div class="info">
-                                                        <i class="la la-paperclip"></i>
-                                                        <span class=""><span>10</span> مرفقات </span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="box-grid two">
-                                        <div class="box blue animated zoomIn buttons-action">
-
-                                            <div class="correspondence-t">
-                                                <div class="d-flex">
-                                                    <div class="">
-                                                        وارد ( أفراد )
-                                                    </div>
-                                                    <div class="ml-auto d-flex">
-                                                        <div class="checkbox">
-                                                            <label>
-                                                                <input type="checkbox" value="">
-                                                                <span class="cr">
-                                                                    <i class="cr-icon glyphicon glyphicon-ok"></i>
-                                                                </span>
-                                                            </label>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="correspondence-h">
-                                                <div class="title">
-                                                    وزارة الداخلية
-                                                </div>
-                                                <div class="date">
-                                                    28 تشرين الثاني 2018
-                                                </div>
-                                            </div>
-                                            <div class="correspondence-b d-flex flex-wrap">
-                                                <div class="f-line">
-                                                    <div class="heading">الرقم</div>
-                                                    <div>2233548</div>
-                                                </div>
-                                                <div class="f-line">
-                                                    <div class="heading">الأهمية</div>
-                                                    <div class="text-danger">عاجل</div>
-                                                </div>
-                                                <div class="f-line">
-                                                    <div class="heading">السرية</div>
-                                                    <div>عادي</div>
-                                                </div>
-                                                <div class="f-line">
-                                                    <div class="heading">النوع</div>
-                                                    <div>تعميم</div>
-                                                </div>
-                                                <div class="f-line">
-                                                    <div class="heading">السرية</div>
-                                                    <div>عادي</div>
-                                                </div>
-                                                <div class="f-line">
-                                                    <div class="heading">التصنيف</div>
-                                                    <div>عادي</div>
-                                                </div>
-                                                <div class="f-line">
-                                                    <div class="heading">أيام التأخير</div>
-                                                    <div>22</div>
-                                                </div>
-                                                <div class="f-line w-big">
-                                                    <div class="heading">الموعد المحدد</div>
-                                                    <div>28 تشرين الثاني 2019</div>
-                                                </div>
-
-                                            </div>
-                                            <div class="correspondence-icon w-100 d-inline-block">
+                                            <div class="correspondence-icon w-100 d-inline-block p-2">
                                                 <div class="d-inline-block">
                                                     <a class="circle color-blue" href="#">
                                                         <i class="la la-pencil"></i>
@@ -1134,7 +1043,7 @@
                                                 </div>
 
                                             </div>
-                                            <div class="correspondence-icon w-100 d-inline-block">
+                                            <div class="correspondence-icon w-100 d-inline-block p-2">
                                                 <div class="d-inline-block">
                                                     <a class="circle color-blue" href="#">
                                                         <i class="la la-pencil"></i>
@@ -1218,7 +1127,7 @@
                                                 </div>
 
                                             </div>
-                                            <div class="correspondence-icon w-100 d-inline-block">
+                                            <div class="correspondence-icon w-100 d-inline-block p-2">
                                                 <div class="d-inline-block">
                                                     <a class="circle color-blue" href="#">
                                                         <i class="la la-pencil"></i>
@@ -1302,7 +1211,7 @@
                                                 </div>
 
                                             </div>
-                                            <div class="correspondence-icon w-100 d-inline-block">
+                                            <div class="correspondence-icon w-100 d-inline-block p-2">
                                                 <div class="d-inline-block">
                                                     <a class="circle color-blue" href="#">
                                                         <i class="la la-pencil"></i>
@@ -1386,7 +1295,7 @@
                                                 </div>
 
                                             </div>
-                                            <div class="correspondence-icon w-100 d-inline-block">
+                                            <div class="correspondence-icon w-100 d-inline-block p-2">
                                                 <div class="d-inline-block">
                                                     <a class="circle color-blue" href="#">
                                                         <i class="la la-pencil"></i>
@@ -1470,7 +1379,7 @@
                                                 </div>
 
                                             </div>
-                                            <div class="correspondence-icon w-100 d-inline-block">
+                                            <div class="correspondence-icon w-100 d-inline-block p-2">
                                                 <div class="d-inline-block">
                                                     <a class="circle color-blue" href="#">
                                                         <i class="la la-pencil"></i>
@@ -1554,7 +1463,91 @@
                                                 </div>
 
                                             </div>
-                                            <div class="correspondence-icon w-100 d-inline-block">
+                                            <div class="correspondence-icon w-100 d-inline-block p-2">
+                                                <div class="d-inline-block">
+                                                    <a class="circle color-blue" href="#">
+                                                        <i class="la la-pencil"></i>
+                                                    </a>
+                                                    <a class="circle color-red" href="#">
+                                                        <i class="la la-plus-square"></i>
+                                                    </a>
+                                                    <a class="circle color-gray" href="#">
+                                                        <i class="la la-file-text"></i>
+                                                    </a>
+                                                </div>
+                                                <div class="d-inline-block pull-right">
+                                                    <div class="info">
+                                                        <i class="la la-paperclip"></i>
+                                                        <span class=""><span>10</span> مرفقات </span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="box-grid two">
+                                        <div class="box blue animated zoomIn buttons-action">
+
+                                            <div class="correspondence-t">
+                                                <div class="d-flex">
+                                                    <div class="">
+                                                        وارد ( أفراد )
+                                                    </div>
+                                                    <div class="ml-auto d-flex">
+                                                        <div class="checkbox">
+                                                            <label>
+                                                                <input type="checkbox" value="">
+                                                                <span class="cr">
+                                                                    <i class="cr-icon glyphicon glyphicon-ok"></i>
+                                                                </span>
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="correspondence-h">
+                                                <div class="title">
+                                                    وزارة الداخلية
+                                                </div>
+                                                <div class="date">
+                                                    28 تشرين الثاني 2018
+                                                </div>
+                                            </div>
+                                            <div class="correspondence-b d-flex flex-wrap">
+                                                <div class="f-line">
+                                                    <div class="heading">الرقم</div>
+                                                    <div>2233548</div>
+                                                </div>
+                                                <div class="f-line">
+                                                    <div class="heading">الأهمية</div>
+                                                    <div class="text-danger">عاجل</div>
+                                                </div>
+                                                <div class="f-line">
+                                                    <div class="heading">السرية</div>
+                                                    <div>عادي</div>
+                                                </div>
+                                                <div class="f-line">
+                                                    <div class="heading">النوع</div>
+                                                    <div>تعميم</div>
+                                                </div>
+                                                <div class="f-line">
+                                                    <div class="heading">السرية</div>
+                                                    <div>عادي</div>
+                                                </div>
+                                                <div class="f-line">
+                                                    <div class="heading">التصنيف</div>
+                                                    <div>عادي</div>
+                                                </div>
+                                                <div class="f-line">
+                                                    <div class="heading">أيام التأخير</div>
+                                                    <div>22</div>
+                                                </div>
+                                                <div class="f-line w-big">
+                                                    <div class="heading">الموعد المحدد</div>
+                                                    <div>28 تشرين الثاني 2019</div>
+                                                </div>
+
+                                            </div>
+                                            <div class="correspondence-icon w-100 d-inline-block p-2">
                                                 <div class="d-inline-block">
                                                     <a class="circle color-blue" href="#">
                                                         <i class="la la-pencil"></i>
@@ -1583,7 +1576,7 @@
                         </div>
                         <div role="tabpanel" class="tab-pane" id="sub-tab-3">
                             <div class="boxes">
-                                <div class="d-flex flex-wrap align-content-start">
+                                <div class="d-flex flex-wrap align-content-start mx-5">
                                     <div class="box-grid two">
                                         <div class="box bluedark animated zoomIn buttons-action">
 
@@ -1647,97 +1640,7 @@
                                                 </div>
 
                                             </div>
-                                            <div class="correspondence-icon w-100 d-inline-block">
-                                                <div class="d-inline-block">
-                                                    <a class="circle color-blue" href="#">
-                                                        <i class="la la-pencil"></i>
-                                                    </a>
-                                                    <a class="circle color-red" href="#">
-                                                        <i class="la la-plus-square"></i>
-                                                    </a>
-                                                    <a class="circle color-gray" href="#">
-                                                        <i class="la la-file-text"></i>
-                                                    </a>
-                                                    <a class="circle color-green" href="#">
-                                                        <i class="la la-pencil"></i>
-                                                    </a>
-                                                    <a class="circle color-orange" href="#">
-                                                        <i class="la la-plus-square"></i>
-                                                    </a>
-                                                </div>
-                                                <div class="d-inline-block pull-right">
-                                                    <div class="info">
-                                                        <i class="la la-paperclip"></i>
-                                                        <span class=""><span>10</span> مرفقات </span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="box-grid two">
-                                        <div class="box blue animated zoomIn buttons-action">
-
-                                            <div class="correspondence-t">
-                                                <div class="d-flex">
-                                                    <div class="">
-                                                        وارد ( أفراد )
-                                                    </div>
-                                                    <div class="ml-auto d-flex">
-                                                        <div class="checkbox">
-                                                            <label>
-                                                                <input type="checkbox" value="">
-                                                                <span class="cr">
-                                                                    <i class="cr-icon glyphicon glyphicon-ok"></i>
-                                                                </span>
-                                                            </label>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="correspondence-h">
-                                                <div class="title">
-                                                    وزارة الداخلية
-                                                </div>
-                                                <div class="date">
-                                                    28 تشرين الثاني 2018
-                                                </div>
-                                            </div>
-                                            <div class="correspondence-b d-flex flex-wrap">
-                                                <div class="f-line">
-                                                    <div class="heading">الرقم</div>
-                                                    <div>2233548</div>
-                                                </div>
-                                                <div class="f-line">
-                                                    <div class="heading">الأهمية</div>
-                                                    <div class="text-danger">عاجل</div>
-                                                </div>
-                                                <div class="f-line">
-                                                    <div class="heading">السرية</div>
-                                                    <div>عادي</div>
-                                                </div>
-                                                <div class="f-line">
-                                                    <div class="heading">النوع</div>
-                                                    <div>تعميم</div>
-                                                </div>
-                                                <div class="f-line">
-                                                    <div class="heading">السرية</div>
-                                                    <div>عادي</div>
-                                                </div>
-                                                <div class="f-line">
-                                                    <div class="heading">التصنيف</div>
-                                                    <div>عادي</div>
-                                                </div>
-                                                <div class="f-line">
-                                                    <div class="heading">أيام التأخير</div>
-                                                    <div>22</div>
-                                                </div>
-                                                <div class="f-line w-big">
-                                                    <div class="heading">الموعد المحدد</div>
-                                                    <div>28 تشرين الثاني 2019</div>
-                                                </div>
-
-                                            </div>
-                                            <div class="correspondence-icon w-100 d-inline-block">
+                                            <div class="correspondence-icon w-100 d-inline-block p-2">
                                                 <div class="d-inline-block">
                                                     <a class="circle color-blue" href="#">
                                                         <i class="la la-pencil"></i>
@@ -1821,7 +1724,7 @@
                                                 </div>
 
                                             </div>
-                                            <div class="correspondence-icon w-100 d-inline-block">
+                                            <div class="correspondence-icon w-100 d-inline-block p-2">
                                                 <div class="d-inline-block">
                                                     <a class="circle color-blue" href="#">
                                                         <i class="la la-pencil"></i>
@@ -1905,7 +1808,7 @@
                                                 </div>
 
                                             </div>
-                                            <div class="correspondence-icon w-100 d-inline-block">
+                                            <div class="correspondence-icon w-100 d-inline-block p-2">
                                                 <div class="d-inline-block">
                                                     <a class="circle color-blue" href="#">
                                                         <i class="la la-pencil"></i>
@@ -1989,7 +1892,80 @@
                                                 </div>
 
                                             </div>
-                                            <div class="correspondence-icon w-100 d-inline-block">
+                                                                   <div class="correspondence-icon w-100 d-inline-block p-0">
+                                <div class="d-inline-block w-50">
+                                    <button type="button" class="w-100 btn btn-light-blue border-0 border-radius-0 p-3">استلام</button>
+                                </div>
+                                <div class="d-inline-block pull-right w-50">
+                                    <button type="button" class="w-100 btn btn-gray border-0 border-radius-0 p-3">إرجاع</button>
+                                </div>
+                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="box-grid two">
+                                        <div class="box blue animated zoomIn buttons-action">
+
+                                            <div class="correspondence-t">
+                                                <div class="d-flex">
+                                                    <div class="">
+                                                        وارد ( أفراد )
+                                                    </div>
+                                                    <div class="ml-auto d-flex">
+                                                        <div class="checkbox">
+                                                            <label>
+                                                                <input type="checkbox" value="">
+                                                                <span class="cr">
+                                                                    <i class="cr-icon glyphicon glyphicon-ok"></i>
+                                                                </span>
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="correspondence-h">
+                                                <div class="title">
+                                                    وزارة الداخلية
+                                                </div>
+                                                <div class="date">
+                                                    28 تشرين الثاني 2018
+                                                </div>
+                                            </div>
+                                            <div class="correspondence-b d-flex flex-wrap">
+                                                <div class="f-line">
+                                                    <div class="heading">الرقم</div>
+                                                    <div>2233548</div>
+                                                </div>
+                                                <div class="f-line">
+                                                    <div class="heading">الأهمية</div>
+                                                    <div class="text-danger">عاجل</div>
+                                                </div>
+                                                <div class="f-line">
+                                                    <div class="heading">السرية</div>
+                                                    <div>عادي</div>
+                                                </div>
+                                                <div class="f-line">
+                                                    <div class="heading">النوع</div>
+                                                    <div>تعميم</div>
+                                                </div>
+                                                <div class="f-line">
+                                                    <div class="heading">السرية</div>
+                                                    <div>عادي</div>
+                                                </div>
+                                                <div class="f-line">
+                                                    <div class="heading">التصنيف</div>
+                                                    <div>عادي</div>
+                                                </div>
+                                                <div class="f-line">
+                                                    <div class="heading">أيام التأخير</div>
+                                                    <div>22</div>
+                                                </div>
+                                                <div class="f-line w-big">
+                                                    <div class="heading">الموعد المحدد</div>
+                                                    <div>28 تشرين الثاني 2019</div>
+                                                </div>
+
+                                            </div>
+                                            <div class="correspondence-icon w-100 d-inline-block p-2">
                                                 <div class="d-inline-block">
                                                     <a class="circle color-blue" href="#">
                                                         <i class="la la-pencil"></i>
@@ -2073,7 +2049,7 @@
                                                 </div>
 
                                             </div>
-                                            <div class="correspondence-icon w-100 d-inline-block">
+                                            <div class="correspondence-icon w-100 d-inline-block p-2">
                                                 <div class="d-inline-block">
                                                     <a class="circle color-blue" href="#">
                                                         <i class="la la-pencil"></i>
@@ -2157,27 +2133,14 @@
                                                 </div>
 
                                             </div>
-                                            <div class="correspondence-icon w-100 d-inline-block">
-                                                <div class="d-inline-block">
-                                                    <a class="circle color-blue" href="#">
-                                                        <i class="la la-pencil"></i>
-                                                    </a>
-                                                    <a class="circle color-red" href="#">
-                                                        <i class="la la-plus-square"></i>
-                                                    </a>
-                                                    <a class="circle color-gray" href="#">
-                                                        <i class="la la-file-text"></i>
-                                                    </a>
-                                                </div>
-                                                <div class="d-inline-block pull-right">
-                                                    <div class="info">
-                                                        <i class="la la-paperclip"></i>
-                                                        <span class=""><span>10</span> مرفقات </span>
-                                                    </div>
-
-                                                </div>
-
-                                            </div>
+                                            <div class="correspondence-icon w-100 d-inline-block p-0">
+                                <div class="d-inline-block w-50">
+                                    <button type="button" class="w-100 btn btn-light-blue border-0 border-radius-0 p-3">استلام</button>
+                                </div>
+                                <div class="d-inline-block pull-right w-50">
+                                    <button type="button" class="w-100 btn btn-gray border-0 border-radius-0 p-3">إرجاع</button>
+                                </div>
+                            </div>
 
                                         </div>
 
@@ -2207,19 +2170,19 @@
                             </div>
                             <ul class="list-group list-group-flush chat_list">
 
-                                <li class="list-group-item showpopchat">
+                                <li class="list-group-item showpopchat highlight">
 
-                                    <a href="#">
-                                        <span class="h-avatar2 mx-2">
-                                            <img src="../assets/images/businessman.png">
-                                        </span>
-                                        <span>
-                                            اسم الموظف
-                                        </span>
-                                        <label class="roundedred2 font-bold">3</label>
-                                    </a>
-                                    <p class="chat_text">خطاب أصل المعاملة 1231234</p>
-                                </li>
+			  <a href="#">
+		<span class="h-avatar2 mx-2">
+									<img src="../assets/images/s1zgf6qt3qsrmp59oe6z.jpg">
+								</span>
+		<span>اسم الموظف
+		</span> 
+			<label class="roundedred2 font-bold">3</label>	
+		  
+		  <p class="chat_text">خطاب أصل المعاملة 1231234</p>
+				  </a>
+		</li>
                                 <li class="list-group-item showpopchat">
                                     <a href="#">
                                         <span class="h-avatar2 mx-2">
@@ -2398,17 +2361,28 @@
                 </div>
             </div>
         </div>
-        <div class="text-center">
-            <nav aria-label="Page navigation">
-                <ul class="pagination">
-                    <li class="page-item"><a class="page-link" href="#">السابق</a></li>
-                    <li class="page-item"><a class="page-link" href="#">1</a></li>
-                    <li class="page-item"><a class="page-link" href="#">2</a></li>
-                    <li class="page-item"><a class="page-link" href="#">3</a></li>
-                    <li class="page-item"><a class="page-link" href="#">التالي</a></li>
-                </ul>
-            </nav>
-        </div>
+<div class="w-100 p-2 text-center my-2">
+                        <nav aria-label="Page navigation">
+                            <ul class="pagination custom-pagination">
+                                <li class="change-page">
+                                    <a href="#" aria-label="Previous">
+                                        <i class="fa fa-caret-right"></i>
+                                    </a>
+                                </li>
+                                <li class="blues_border"><a href="#" class="transparent_bg">1</a></li>
+								<li><span class="transparent_bg font_size12"> من
+									
+									<span class="light-blue pl-1">4</span>
+									</span>
+								</li>
+                                <li class="change-page">
+                                    <a href="#" aria-label="Next">
+                                        <i class="fa fa-caret-left"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
 
     </div>
 

@@ -353,7 +353,6 @@ h3.site-color .new-notifications-count{
 }
 
 .firstcard .list-group-item {
-    background-color: #f8f8f8;
     display: block;
     word-wrap: break-word;
 }
@@ -1047,6 +1046,9 @@ padding-top:82px;
     padding-top: 30px;
 }
 
+.highlight {
+    background-color: #eee!important;
+}
 .search_fields .search_btn_width {
     height: 35px;
     text-align: center;
