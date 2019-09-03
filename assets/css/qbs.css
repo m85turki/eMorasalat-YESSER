@@ -209,7 +209,8 @@ h3.site-color .new-notifications-count{
     background-color: #4A91E3;
     border-color: #488cdc;
 }
-.correspondence-icon .icon-user-settings-3:hover,.correspondence-icon .icon-user-settings-3:focus{
+.correspondence-icon .icon-user-settings-3:hover,.correspondence-icon .icon-user-settings-3:focus,
+.table-icon .icon-user-settings-3:hover,.table-icon .icon-user-settings-3:focus {
 	color:#706de1;
 }
 .correspondence-icon .icon-user-settings-6:hover,.correspondence-icon .icon-user-settings-6:focus{
@@ -311,7 +312,7 @@ h3.site-color .new-notifications-count{
 .form-header{
 	padding-top:15px;
 }
-.correspondence-icon .icon-user-settings-3{
+.correspondence-icon .icon-user-settings-3,.table-icon .icon-user-settings-3{
 	color:#3b197e;
 	font-size: 30px;
 	vertical-align: middle;
@@ -1300,7 +1301,7 @@ padding-top:82px;
     overflow: hidden;
 }
 #ChatModal .modal-body p{
-	max-height: 200px;
+	max-height: 300px;
 	overflow-y: scroll;
 	overflow-x: auto;
 }
@@ -3376,6 +3377,9 @@ table > thead > tr {
 	.pr-xs-3{
 		padding-left:1rem; 
 	}
+	.pl-xs-5{
+	     padding-right: 3rem 
+	}
 	.note-section {
 		display:none !important;
 	}
@@ -3383,6 +3387,9 @@ table > thead > tr {
 	.chat-section div:first-child button{
 	display:inline-flex;
 }
+	 .header-container{
+		display: block !important;
+	}
 
 }
 

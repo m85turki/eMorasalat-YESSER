@@ -1408,7 +1408,7 @@ html body .app-content.content
 }
 .bg-white
 {
-    background-color: #fff;
+    background-color: #fff !important;
 }
 .dark-color {
     color: #262B56;
@@ -1542,6 +1542,7 @@ color:#ff3636;
 .btn
 {
     outline: 0;
+	min-width: 90px;
 }
 .btn:focus
 {
