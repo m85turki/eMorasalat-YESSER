@@ -404,7 +404,7 @@ input:focus:-ms-input-placeholder {
     width: auto;
 }
 
-.correspondence-icon a.circle{
+.correspondence-icon a.circle,.table-icon a.circle {
     border-radius: 50%;
     color: #F7F7F7;
     width: 27px; height: 27px;
@@ -440,7 +440,7 @@ input:focus:-ms-input-placeholder {
     .correspondence-icon a.circle.color-orange{
         background: #ef8600;
     }
-.correspondence-icon a.circle.color-yellow{
+.correspondence-icon a.circle.color-yellow,.table-icon  a.circle.color-yellow{
 	background:#d06901;
 }
 
