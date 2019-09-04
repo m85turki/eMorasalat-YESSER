@@ -2366,5 +2366,35 @@ body.vertical-layout.vertical-menu.menu-flipped .jconfirm .navbar .navbar-contai
     display: inline-block;
 }
 
+/* bootstrap form */
+.form-row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+    .form-row > .col, .form-row > [class*="col-"] {
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+
+.clearfix::after {
+    display: block;
+    clear: both;
+    content: "";
+}
+
+.input-group .AutPosition {
+    position: relative;
+    position: relative;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    width: 1%;
+    margin-bottom: 0;
+}
+
+.calendars-popup {
+    z-index:99999999 !important;
+}
 
 
