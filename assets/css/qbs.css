@@ -953,9 +953,6 @@ border:0;
     color: #666da8;
 }
 
-.ui-state-active, .ui-widget-content .ui-state-active {
-    background-color: #4b91e3 !important;
-}
 
 .to_class {
     color: #B1B1B1;
@@ -2338,7 +2335,7 @@ textarea.form-control {
 }
 
 .validation-error {
-    display: inline-block;
+    display: inline;
     color: #fe0000;
     font-size: 13px;
     width: 100%;
