@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link type="image/x-icon" rel="shortcut icon" href="./favicon.ico">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="theme-color" content="#0c7c5a">
+    <title>مراسلات</title>
+
+<link type="image/x-icon" rel="shortcut icon" href="./favicon.ico">
+    
+    <!-- Bootstrap RTL -->
+    <link href="../assets/bootstrap/css/bootstrap.min.rtl.css" rel="stylesheet">
+    <link href="../assets/bootstrap/css/bootstrap.form.rtl.css" rel="stylesheet">
+    <link href="../assets/bootstrap/css/bootstrap.grid.rtl.css" rel="stylesheet">
+
+    <!-- Main -->
+    <link href="../assets/css/main.css" rel="stylesheet">
+
+    <!-- Vertical Menu -->
+    <link rel="stylesheet" type="text/css" href="../assets/plugins/vertical-menu/vertical-menu.min.css">
+
+    <!-- Confirm -->
+    <link rel="stylesheet" type="text/css" href="../assets/plugins/confirm/jquery-confirm.min.css" />
+
+    <!-- RTL -->
+    <link href="../assets/css/d-rtl.css" rel="stylesheet">
+    <style>
+        .add-management-form {
+            display: none;
+        }
+    </style>
+
+</head>
+
+
+<body class="vertical-layout vertical-menu 2-columns   menu-flipped fixed-navbar " data-open="click"
+    data-menu="vertical-menu" data-col="2-columns" dir="rtl">
+    <div class="fixed-top">
+        <div class="top-header">
+            <div class="container-fluid">
+                <div class="d-flex flex-column flex-sm-row">
+                    <div class="">
+                        <a class="main_logo" href="#">
+                            <img src="../assets/images/logo-morasalat.png" title="" alt="">
+                        </a>
+                    </div>
+
+                    <div class="d-flex ml-sm-auto  ml-0 align-content-around flex-wrap h-side">
+                        <div class="dropdown px-1 px-md-3">
+                            <a id="drop1" href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <span>إسم الإدارة</span>
+                                <i class="la la-angle-down"></i>
+                            </a>
+
+                            <ul class="dropdown-menu fadeIn animated admins" aria-labelledby="drop1">
+                                <li><a class="pb-2" href="#">إسم الإدارة 1</a></li>
+                                <li role="separator" class="divider  mb-0"></li>
+                                <li><a class="pb-2" href="#">إسم الإدارة 2</a></li>
+                                <li role="separator" class="divider  mb-0"></li>
+                                <li><a class="pb-2" href="#">إسم الإدارة 3</a></li>
+                                <li class="mb-0"></li>
+                            </ul>
+                        </div>
+
+                        <div class="user-settings dropdown  px-1 px-md-3 ml-0 ml-md-5">
+                            <a id="drop1" href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <span class="h-avatar mx-2">
+                                    <img src="../assets/images/businessman.png">
+                                </span>
+                                <span>أشرف حسين</span>
+                                <i class="la la-angle-down"></i>
+                            </a>
+
+
+                            <ul class="dropdown-menu employee_dd fadeIn" aria-labelledby="drop1 w-100">
+                                <li class="pt-2 pb-2 pl-3"><a href="marking-signature.html"><i class="la la-file-image-o"></i>التوقيع والتأشير</a></li>
+                                <li role="separator" class="divider  mb-0 mt-0"></li>
+                                <li class="pt-2 pb-2 pl-3"><a href="assignment-paper.html"><i class="la la-file-text"></i>ورقة الإحالة</a></li>
+                                <li role="separator" class="divider  mb-0 mt-0"></li>
+                                <li class="pt-2 pb-2 pl-3"><a href="#"><i class="la la-list"></i>قائمة التوزيع</a></li>
+                                <li role="separator" class="divider  mb-0 mt-0"></li>
+                                <li class="pt-2 pb-2 pl-3"><a href="#"><i class="la la-line-chart"></i>المسارات</a></li>
+                                <li role="separator" class="divider  mb-0 mt-0"></li>
+                                <li class="pt-2 pb-2 pl-3"><a href="#"><i class="la la-user"></i>التفويض </a></li>
+
+                            </ul>
+
+                        </div>
+                        <div class="d-flex top-icons">
+                            <div class="searchbox px-2 flex-grow-1">
+                                <div class="h-search">
+                                    <i onclick="focusMethod()" data-toggle="tooltip" data-placement="bottom" title="" class="la la-search" data-original-title="البحث السريع"></i>
+                                    <input class="myTextField" type="text" name="search" placeholder="البحث هنا">
+                                </div>
+                                <script>
+                                    focusMethod = function getFocus() {
+                                        $('.myTextField').focus();
+                                    }
+                                </script>
+                            </div>
+                            <div class="notifications dropdown mt-2 px-4">
+                                <a href="#" class="dropdown-toggle la la-bell" data-toggle="dropdown" aria-haspopup="false" aria-expanded="true" data-placement="bottom" title="التنبيهات">
+                                    <em class="notification_sticky">22</em>
+                                </a>
+                                <ul class="dropdownposition dropdown-menu  fadeIn animated" aria-labelledby="drop1">
+
+                                    <li class=" pt-3"><a href="#" class="pt-0 pb-2 pr-3 pl-3"><i class="la la-bell"></i>التنبيهات</a></li>
+                                    <li role="separator" class="divider mb-0 mt-0"></li>
+                                    <li class="bgchange pt-3 pb-3 pr-3 pl-3">
+                                        <a href="#"><i class="la la-bell"></i>تم إرجاع معاملة</a>
+                                        <span class="pt-0 pb-2 pr-3 pl-3"> 28 تشرين الثاني 2018</span>
+                                    </li>
+                                    <li role="separator" class="divider mb-0 mt-0 p-0"></li>
+
+                                    <li class="bgchange pt-3 pb-3 pr-3 pl-3">
+                                        <a href="#"><i class="la la-bell"></i>تم استلام معاملة</a>
+                                        <span class="pt-0 pb-2 pr-3 pl-3"> 28 تشرين الثاني 2018</span>
+                                    </li>
+                                    <li role="separator" class="divider  mb-0 mt-0 p-0"></li>
+                                    <li class="pt-3 pb-3 pr-3 pl-3">
+                                        <a href="#"><i class="la la-bell"></i>تم استلام مهمة جديدة</a>
+                                        <span class="pt-0 pb-2 pr-3 pl-3"> 28 تشرين الثاني 2018</span>
+                                    </li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="notifications.html" class="text-center">إظهار المزيد </a></li>
+                                </ul>
+
+                            </div>
+                            <div class="px-3">
+                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="" class="chatbtn" data-original-title="المحادثات">
+                                    <em class="notification_sticky">22</em>
+                                    <i class="la la-comments "></i>
+                                </a>
+                            </div>
+                            <div class="px-3">
+                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="الدعم الفني">
+                                    <i class="la la-headphones"></i>
+                                </a>
+                            </div>
+                            <div class="px-3">
+                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="المساعدة">
+                                    <i class="la la-question-circle"></i>
+                                </a>
+                            </div>
+                            <div class="px-3">
+                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="English">
+                                    <i class="la la-globe"></i>
+                                </a>
+                            </div>
+                            <div class="px-3">
+                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="خروج">
+                                    <i class="la la-power-off"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+        <!-- start of fixed header -->
+        <nav class="navbar navbar-default navbar-second">
+            <div class="container-fluid">
+                <div class="row row-custom">
+                    <div class="navbar-header d-flex">
+                        <div class="mobile-menu d-md-none ml-auto">
+                            <a class="nav-link nav-menu-main menu-toggle is-active" href="#">
+                                <i class="la la-ellipsis-h"></i>
+                            </a>
+                        </div>
+                        <div class="ml-auto">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+                    </div>
+                    <div id="navbar" class="navbar-collapse collapse">
+
+             <ul class="nav navbar-nav">
+                            <li><a href="#">المستخدمين والأدوار</a></li>
+                            <li><a href="#">الهيكل التنظيمي <span class="notification_sticky">3</span></a></li>
+                            <li><a href="#"> الخدمات</a></li>
+                            <li class="active"><a href="#">القوائم المعرفة</a></li>
+                            <li><a href="#"> الاعدادات </a></li>
+
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+    </div>
+    <div class="content_all">
+    	            <div class="mb-3 mx-5 mx-xs-3 header-container d-flex">
+                    <h3 class="site-color"> تعديل ربط </h3>
+					<div class="close-icon mt-0 ml-auto">
+                <a class="circle-icon color-white" href="#"><i class="la la-close"></i></a>
+                <br>
+                <span class="gray2">إغلاق</span>
+            </div>
+            </div>
+
+
+        <div class="content_container">
+             <div class="row white-container mx-5 mx-xs-3">
+                <form>
+                      <div class="form-row mt-4">
+                        <div class="form-group col-lg-3 col-sm-6 col-xs-12">
+                             <label for=""> نوع الربط بالعربي </label>  
+							<input placeholder="" type="text" class="form-control" value="نوع الربط بالعربي">
+                              </div>
+						
+             <div class="form-group col-lg-3 col-sm-6 col-xs-12">
+				 <label for=""> نوع الربط بالانجليزي </label>  
+						<input placeholder="" type="text" class="form-control" value="title">
+				   
+                              </div>
+                        </div>
+				 </form>
+                    </div>
+					
+
+			</div>
+		</div>
+
+<button class="btn btn-lg btn-st1 pull-right mx-5 mb-4" data-dismiss="modal"	>حفظ</button>
+								
+
+    <!-- jQuery -->
+    <script src="../assets/js/jquery.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../assets/js/bootstrap-select.js"></script>
+    <script src="../assets/js/jquery.matchHeight-min.js"></script>
+    <script src="../assets/js/aos.js"></script>
+    <script src="../assets/js/jquery.slimscroll.min.js"></script>
+    <script src="../assets/js/app.js"></script>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
+    <!-- Vertical Menu css-->
+    <script src="../assets/plugins/vertical-menu/vendors.min.js"></script>
+    <script src="../assets/plugins/vertical-menu/app-menu.min.js"></script>
+    <script src="../assets/plugins/vertical-menu/app.min.js"></script>
+
+    <!-- jquery-confirm JS -->
+    <script type="text/javascript" src="../assets/plugins/confirm/jquery-confirm.min.js"></script>
+
+    <!-- hide or show management form -->
+    <script>
+        $('#add-management-btn').click(() => {
+            $('#add-management-btn').hide();
+            $('.add-management-form').slideToggle();
+        });
+        $('.hide-form-btn').click(() => {
+            $('#add-management-btn').show();
+            $('.add-management-form').slideToggle();
+        });
+    </script>
+
+</body>
+
+</html>
