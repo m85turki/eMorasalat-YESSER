@@ -2393,4 +2393,8 @@ body.vertical-layout.vertical-menu.menu-flipped .jconfirm .navbar .navbar-contai
     margin-bottom: 0;
 }
 
+.calendars-popup {
+    z-index:99999999 !important;
+}
+
 
