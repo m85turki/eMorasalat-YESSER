@@ -91,9 +91,13 @@ h3.site-color .new-notifications-count{
     display: block;
     line-height: 20px;
 }
-#add-management-btn .icon-user-settings-5{
+#add-management-btn .icon-buttons-add,.adds .icon-buttons-add{
     font-size: 26px;
     color: white;
+	vertical-align: middle;
+}
+.upload .icon-buttons-attach {
+	 font-size: 26px;
 	vertical-align: middle;
 }
 
@@ -209,11 +213,11 @@ h3.site-color .new-notifications-count{
     background-color: #4A91E3;
     border-color: #488cdc;
 }
-.correspondence-icon .icon-user-settings-3:hover,.correspondence-icon .icon-user-settings-3:focus,
-.table-icon .icon-user-settings-3:hover,.table-icon .icon-user-settings-3:focus {
+.correspondence-icon .icon-tables-edit:hover,.correspondence-icon .icon-tables-edit:focus,
+.table-icon .icon-tables-edit:hover,.table-icon .icon-tables-edit:focus {
 	color:#706de1;
 }
-.correspondence-icon .icon-user-settings-6:hover,.correspondence-icon .icon-user-settings-6:focus{
+.correspondence-icon .icon-tables-delete:hover,.correspondence-icon .icon-tables-delete:focus{
 	color:#b00101;
 }
   
@@ -312,7 +316,7 @@ h3.site-color .new-notifications-count{
 .form-header{
 	padding-top:15px;
 }
-.correspondence-icon .icon-user-settings-3,.table-icon .icon-user-settings-3{
+.correspondence-icon .icon-tables-edit,.table-icon .icon-tables-edit{
 	color:#3b197e;
 	font-size: 30px;
 	vertical-align: middle;
@@ -581,7 +585,7 @@ h3.site-color .new-notifications-count{
     border: 1px solid #4a91e3;
 }
 
-.icon-user-settings-6 {
+.icon-tables-delete {
 	font-size:30px;
 	color:red;
 	vertical-align: middle;
@@ -918,7 +922,7 @@ border:0;
     margin-top: 30px;
 }
 
-.edit_paper_icons .attach-file-icon-list li button i {
+.attach-file-icon-list .icon-signature-bar-pen li button i {
     font-size: 25px;
 }
 
@@ -980,7 +984,7 @@ padding-top:82px;
     color: gray;
 }
 
-.attach-file-icon-list li button .icon-user-settings-1, .attach-file-icon-list li button .icon-user-settings-2,.attach-file-icon-list li button .icon-user-settings-1 {
+.attach-file-icon-list li button .icon-signature-bar-eraser, .attach-file-icon-list li button .icon-signature-bar-pen,.attach-file-icon-list li button .icon-signature-bar-eraser1 {
     font-size: 20px;
 }
 
@@ -1000,7 +1004,7 @@ padding-top:82px;
     background-color: #4a90e2 !important;
 }
 
-.attach-file-icon-list li button .icon-user-settings-2 {
+.attach-file-icon-list li button .icon-signature-bar-pen {
     color: white;
 }
 
