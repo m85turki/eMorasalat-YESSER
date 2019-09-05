@@ -9,9 +9,9 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <meta name="theme-color" content="#0c7c5a">
-    <title>مراسلات</title> 
+    <title>مراسلات</title>
 
-    <link type="image/x-icon" rel="shortcut icon" href="./favicon.ico">
+<link type="image/x-icon" rel="shortcut icon" href="./favicon.ico">
     
     <!-- Bootstrap RTL -->
     <link href="../assets/bootstrap/css/bootstrap.min.rtl.css" rel="stylesheet">
@@ -29,13 +29,16 @@
 
     <!-- RTL -->
     <link href="../assets/css/d-rtl.css" rel="stylesheet">
-
+    <style>
+        .add-management-form {
+            display: none;
+        }
+    </style>
 
 </head>
 
 
-
-<body class="vertical-layout vertical-menu 2-columns   menu-flipped fixed-navbar" data-open="click"
+<body class="vertical-layout vertical-menu 2-columns   menu-flipped fixed-navbar " data-open="click"
     data-menu="vertical-menu" data-col="2-columns" dir="rtl">
     <div class="fixed-top">
         <div class="top-header">
@@ -47,7 +50,7 @@
                         </a>
                     </div>
 
-                    <div class="d-flex ml-sm-auto  mr-0 align-content-around flex-wrap h-side">
+                    <div class="d-flex ml-sm-auto  ml-0 align-content-around flex-wrap h-side">
                         <div class="dropdown px-1 px-md-3">
                             <a id="drop1" href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <span>إسم الإدارة</span>
@@ -96,11 +99,7 @@
                                 </div>
                                 <script>
                                     focusMethod = function getFocus() {
-										debugger;
-										var x =1;
                                         $('.myTextField').focus();
-										x++;
-										x++;
                                     }
                                 </script>
                             </div>
@@ -108,7 +107,28 @@
                                 <a href="#" class="dropdown-toggle la la-bell" data-toggle="dropdown" aria-haspopup="false" aria-expanded="true" data-placement="bottom" title="التنبيهات">
                                     <em class="notification_sticky">22</em>
                                 </a>
+                                <ul class="dropdownposition dropdown-menu  fadeIn animated" aria-labelledby="drop1">
 
+                                    <li class=" pt-3"><a href="#" class="pt-0 pb-2 pr-3 pl-3"><i class="la la-bell"></i>التنبيهات</a></li>
+                                    <li role="separator" class="divider mb-0 mt-0"></li>
+                                    <li class="bgchange pt-3 pb-3 pr-3 pl-3">
+                                        <a href="#"><i class="la la-bell"></i>تم إرجاع معاملة</a>
+                                        <span class="pt-0 pb-2 pr-3 pl-3"> 28 تشرين الثاني 2018</span>
+                                    </li>
+                                    <li role="separator" class="divider mb-0 mt-0 p-0"></li>
+
+                                    <li class="bgchange pt-3 pb-3 pr-3 pl-3">
+                                        <a href="#"><i class="la la-bell"></i>تم استلام معاملة</a>
+                                        <span class="pt-0 pb-2 pr-3 pl-3"> 28 تشرين الثاني 2018</span>
+                                    </li>
+                                    <li role="separator" class="divider  mb-0 mt-0 p-0"></li>
+                                    <li class="pt-3 pb-3 pr-3 pl-3">
+                                        <a href="#"><i class="la la-bell"></i>تم استلام مهمة جديدة</a>
+                                        <span class="pt-0 pb-2 pr-3 pl-3"> 28 تشرين الثاني 2018</span>
+                                    </li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="notifications.html" class="text-center">إظهار المزيد </a></li>
+                                </ul>
 
                             </div>
                             <div class="px-3">
@@ -165,7 +185,7 @@
                     </div>
                     <div id="navbar" class="navbar-collapse collapse">
 
-                 <ul class="nav navbar-nav">
+             <ul class="nav navbar-nav">
                             <li><a href="#">المستخدمين والأدوار</a></li>
                             <li><a href="#">الهيكل التنظيمي <span class="notification_sticky">3</span></a></li>
                             <li><a href="#"> الخدمات</a></li>
@@ -180,185 +200,55 @@
         </nav>
 
     </div>
-
-
-
-    <!-- BEGIN: Vertical Menu -->
-    <div class="align-self-start main_sidebar">
-        <div class="d-none d-md-block text-left"><a class="nav-link nav-menu-main menu-toggle hidden-xs"
-                href="#"><i><img src="../assets/images/v-menu1.png"></i></a></div>
-
-        <div class=" main-menu menu-fixed menu-light menu-accordion menu-icon-left" data-scroll-to-active="true"
-            style="direction:ltr;">
-
-
-            <div class="main-menu-content">
-                <ul class="navigation navigation-main" id="main-menu-navigation" data-menu="menu-navigation">
-                    <li class="nav-item">
-
-                        <a href="#"><i>
-                                <img src="../assets/images/v-menu2.png"></i>
-                            <span class="menu-title">الصناديق</span>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-
-                        <a href="#"><i>
-                                <img src="../assets/images/v-menu3.png"></i>
-                            <span class="menu-title">المرفقات</span>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#"><i>
-                                <img src="../assets/images/v-menu4.png"></i>
-                            <span class="menu-title">درجة الأهمية</span>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#"><i>
-                                <img src="../assets/images/v-menu5.png"></i>
-                            <span class="menu-title">درجة السرية</span>
-                        </a>
-                    </li>
-                    <li class="active nav-item">
-                        <a href="#"><i>
-                                <img src="../assets/images/v-menu6.png"></i>
-                            <span class="menu-title">نوع الخطاب</span>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#"><i>
-                                <img src="../assets/images/v-menu7.png"></i>
-                            <span class="menu-title">التصنيف الموضوعي</span>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="#"><i>
-                                <img src="../assets/images/v-menu8.png"></i>
-                            <span class="menu-title">أنواع الربط </span>
-                        </a>
-                    </li>
-					          <li class="nav-item">
-                        <a href="#"><i>
-                                <img src="../assets/images/v-menu8.png"></i>
-                            <span class="menu-title">الإجراءات </span>
-                        </a>
-                    </li>
-										          <li class="nav-item">
-                        <a href="#"><i>
-                                <img src="../assets/images/v-menu8.png"></i>
-                            <span class="menu-title">مرفقات ملحقات أصل المعاملة </span>
-                        </a>
-                    </li>
-			     <li class="nav-item">
-                        <a href="#"><i>
-                                <img src="../assets/images/v-menu8.png"></i>
-                            <span class="menu-title">المراسلين</span>
-                        </a>
-                    </li>
-					 <li class="nav-item">
-                        <a href="outer-sides.html"><i>
-                                <img src="../assets/images/v-menu8.png"></i>
-                            <span class="menu-title">الجهات الخارجية</span>
-                        </a>
-                    </li>
-									 <li class="nav-item">
-                        <a href="#"><i>
-                                <img src="../assets/images/v-menu8.png"></i>
-                            <span class="menu-title">النماذج</span>
-                        </a>
-                    </li>
-                </ul>
+    <div class="content_all">
+    	            <div class="mb-3 mx-5 mx-xs-3 header-container d-flex">
+                    <h3 class="site-color"> إضافة مرفق </h3>
+					<div class="close-icon mt-0 ml-auto">
+                <a class="circle-icon color-white" href="#"><i class="la la-close"></i></a>
+                <br>
+                <span class="gray2">إغلاق</span>
             </div>
-        </div>
-        <!-- END: Vertical Menu -->
-    </div>
-    <div class="app-content content">
-        <div class="content_wrapper">
-<div class="d-flex mb-3 mx-5 mx-xs-3 header-container">
-					<h3 class="site-color m-0">نوع الخطاب </h3>
             </div>
-            <div class="white-container mx-5">
-				<div class="d-flex mt-2">
-				<h3 class="black mb-4 mt-0">جدول نوع الخطاب </h3>
-				<span class="roundedred ml-3">7</span><span class="pl-2">سجلات</span>
+
+
+        <div class="content_container">
+             <div class="row white-container mx-5 mx-xs-3">
+                <form>
+                      <div class="form-row mt-4">
+                        <div class="form-group col-lg-3 col-sm-6 col-xs-12">
+                             <label for="">  نوع المرفق بالعربي <span class="stark">*</span></label>  
+							<input placeholder="" type="text" class="form-control">
+                              </div>
+						
+             <div class="form-group col-lg-3 col-sm-6 col-xs-12">
+				 <label for=""> نوع المرفق بالانجليزي<span class="stark">*</span> </label>  
+						<input placeholder="" type="text" class="form-control">
+				   
+                              </div>
+                        </div>
+					<div class="form-row mt-4">
+					<div class="form-group col-lg-3 col-sm-6 col-xs-12">
+						<label> تصنيف المرفق  <span class="stark">*</span></label>	
+		<select class="form-control">
+                                    <option selected=""> تصنيف المرفق</option>
+                                    <option>تصنيف المرفق2</option>
+                                </select>
+						
+						</div>
 					</div>
-             <div class="table-responsive">
-                     <table class="table">
-                                <thead>
-									<tr class="bg-white">
-										<th>#</th>
-                                        <th>اسم الخطاب بالعربي</th>
-										 <th>اسم الخطاب بالانجليزي</th>
-										</tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-										<td>1</td>
-                                         <td> اسم الخطاب بالعربي</td>
-										 <td>Title</td>
-                                    </tr>
-                                       <tr>
-										<td>2</td>
-                                         <td> اسم الخطاب بالعربي</td>
-										   <td>Title</td>
-                                    </tr>
-                                             <tr>
-										<td>3</td>
-                                             <td> اسم الخطاب بالعربي</td>
-												 <td>Title</td>
-                                    </tr>
-			                                    <tr>
-										<td>4</td>
-                                           <td> اسم الخطاب بالعربي</td>
-											<td>Title</td>
-                                    </tr>
-							         <tr>
-										<td>5</td>
-                                       <td> اسم الخطاب بالعربي</td>
-										 <td>Title</td>
-                                    </tr>
-                                       <tr>
-										<td>6</td>
-                                        <td> اسم الخطاب بالعربي</td>
-										   <td>Title</td>
-                                    </tr>
-                                             <tr>
-										<td>7</td>
-                                      <td> اسم الخطاب بالعربي</td>
-									  <td>Title</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                <!-- Tab panes -->
-			</div>
-						<div class="w-100 p-2 text-center my-2">
-                        <nav aria-label="Page navigation">
-                            <ul class="pagination custom-pagination">
-                                <li class="change-page">
-                                    <a href="#" aria-label="Previous">
-                                        <i class="fa fa-caret-right"></i>
-                                    </a>
-                                </li>
-                                <li class="blues_border"><a href="#" class="transparent_bg">1</a></li>
-								<li><span class="transparent_bg font_size12"> من
-									
-									<span class="light-blue pl-1">4</span>
-									</span>
-								</li>
-                                <li class="change-page">
-                                    <a href="#" aria-label="Next">
-                                        <i class="fa fa-caret-left"></i>
-                                    </a>
-                                </li>
-                            </ul>
-                        </nav>
+				 </form>
+				 					<small class=" stark pull-left my-4">
+                                            يرجى تعبئة جميع الحقول التي تحتوي على إشارة *
+                                        </small>
                     </div>
-		</div>
-			
-	</div>
+					
 
-	</div>
+			</div>
+		</div>
+
+<button class="btn btn-lg btn-st1 pull-right mx-5 mb-4" data-dismiss="modal"	>حفظ</button>
+								
+
     <!-- jQuery -->
     <script src="../assets/js/jquery.js"></script>
     <!-- Bootstrap Core JavaScript -->
@@ -375,21 +265,25 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 	<![endif]-->
 
-    <script>
-        $(function () {
-            $('[data-toggle="tooltip"]').tooltip()
-        })
-    </script>
-
-<!--QBS Script -->
-
-
-    <!-- sort and filter scripts-->
-
     <!-- Vertical Menu css-->
     <script src="../assets/plugins/vertical-menu/vendors.min.js"></script>
     <script src="../assets/plugins/vertical-menu/app-menu.min.js"></script>
     <script src="../assets/plugins/vertical-menu/app.min.js"></script>
+
+    <!-- jquery-confirm JS -->
+    <script type="text/javascript" src="../assets/plugins/confirm/jquery-confirm.min.js"></script>
+
+    <!-- hide or show management form -->
+    <script>
+        $('#add-management-btn').click(() => {
+            $('#add-management-btn').hide();
+            $('.add-management-form').slideToggle();
+        });
+        $('.hide-form-btn').click(() => {
+            $('#add-management-btn').show();
+            $('.add-management-form').slideToggle();
+        });
+    </script>
 
 </body>
 

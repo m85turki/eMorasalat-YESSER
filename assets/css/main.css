@@ -2164,7 +2164,6 @@ li.list-group-item.has-sub:not(:first-child)::before {
 .custom-tree .panel-default>.panel-heading .panel-title.dark-color.selected label
 {
  color: #3291E9;
- background: #F7F9FA;
 }
 .panel>.panel-collapse>.list-group:last-child .list-group-item:last-child {
     padding-left: 0;
