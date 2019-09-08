@@ -122,13 +122,9 @@
    border:1px solid red;
 	}
 .outline-red:focus{
-	border-color:rgba(255, 0, 0, 0.75);
-    outline: 0;
-    -webkit-box-shadow: 0 0 0 0.2rem rgba(255, 0, 0, 0.25);
-    box-shadow: 0 0 0 0.2rem rgba(255, 0, 0, 0.25);
+	border:red;
+    box-shadow: 1px 1px 1px 2px red;
 }
-
-
 
 .h-side .dropdown>a{
     font-size: 12pt;
@@ -412,7 +408,6 @@ input:focus:-ms-input-placeholder {
     border-radius: 50%;
     color: #F7F7F7;
     width: 27px; height: 27px;
-    font-size: 14pt;
     text-align: center;
     vertical-align: middle;
     line-height: 2.2rem;

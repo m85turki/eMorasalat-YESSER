@@ -101,15 +101,7 @@ h3.site-color .new-notifications-count{
     display: block;
     line-height: 20px;
 }
-#add-management-btn .icon-buttons-add,.adds .icon-buttons-add{
-    font-size: 26px;
-    color: white;
-	vertical-align: middle;
-}
-.upload .icon-buttons-attach {
-	 font-size: 26px;
-	vertical-align: middle;
-}
+
 
 .dropdownposition {
     padding-bottom: 0;
@@ -1482,11 +1474,6 @@ padding-top:82px;
         color: #4A90E2;
     }
 
-    .dashed-circle i {
-        font-size: 20px;
-        vertical-align:top;
-        line-height: 36px;
-    }
 
 .toggling-menu {
     display: inline-block;
@@ -1509,10 +1496,6 @@ padding-top:82px;
             color: #4A90E2;
         }
 
-        .toggling-menu > a i {
-            font-size: 26px;
-            vertical-align: middle;
-        }
 
 .select {
     display: inline-block;
