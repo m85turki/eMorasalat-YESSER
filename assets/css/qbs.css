@@ -667,10 +667,6 @@ h3.site-color .new-notifications-count{
 .btnwidth2 {
     height: 40px;
 }
-.gray-header{
-	background-color: #f8f8f8;
-}
-
 
 select {
     background-color: #f5f7fa;
@@ -1199,6 +1195,10 @@ padding-top:82px;
 .icon-filter-form{
 	color:#4e92e3;
 	vertical-align: middle;
+}
+.highlight-blue{
+	color:#63adfd;
+	font-weight: 600;
 }
 /*-----------------------------------------------------------------*/
 
