@@ -309,7 +309,7 @@ h3.site-color .new-notifications-count{
 	color:#2881e6;
 }
 
- .header-container h3 {
+ .header-container h3,.header-container2 h3 {
     font-size: 26px!important;
 }
 
@@ -342,11 +342,7 @@ h3.site-color .new-notifications-count{
 .btn-st1 a label{
 	color:white;
 }
-.fa-filter {
-    font-size: 16px;
-    color: #6aa3ea;
-    z-index: 3;
-}
+
 
 .chat_list {
     width: 300px;
@@ -1201,8 +1197,7 @@ padding-top:82px;
 	margin-left: 1rem;
 }
 .icon-filter-form{
-	color:#639fe6;
-	font-size: 22px;
+	color:#4e92e3;
 	vertical-align: middle;
 }
 /*-----------------------------------------------------------------*/
@@ -3381,12 +3376,10 @@ table > thead > tr {
 		margin-left:0.25rem !important;
 	}
 	.add-error-border{
-		font-size: 8px;
+		font-size: 7px;
 		padding:5px;
 	}
-	.close-icon .circle-icon{
-		margin-top:45px !important;
-	}
+
 	.pr-xs-3{
 		padding-left:1rem; 
 	}
@@ -3405,6 +3398,9 @@ table > thead > tr {
 	}
 	.mr-lg-3{
 		margin-left: 0px;
+	}
+	.mt-xs-4{
+		margin-top: 2rem!important;
 	}
 
 }
