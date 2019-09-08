@@ -1641,7 +1641,6 @@ color:#ff3636;
 .filter-target.active, .sort-target.active
 {
     color:#337ab7;
-    font-weight: 600;
 }
 .filter-target, .sort-target
 {
