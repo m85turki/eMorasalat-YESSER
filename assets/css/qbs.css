@@ -225,6 +225,9 @@ h3.site-color .new-notifications-count{
 .icon-st2 .icon-tables-edit{
 	color:#007d62 !important;
 }
+.icon-st2 .icon-tables-edit:hover,.icon-st2 .icon-tables-edit:focus{
+	color:#02a482;
+}
   
   .btn-st1:hover {
     color: #fff;
