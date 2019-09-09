@@ -1381,11 +1381,7 @@ html body .app-content.content
 {
     overflow: inherit;
 }
-.close-icon
-{
-    margin-top:-10px;
-    padding-bottom:10px;
-}
+
 .bg-unset
 {
     background:unset!important;
@@ -1629,19 +1625,20 @@ color:#ff3636;
 {
     display: none;
     margin-bottom: 10px;
-    box-shadow: 0px 0px 10px -1px #00000040;
+
 }
-.filter-target.active, .sort-target.active
+.filter-target.active, .sort-target.active,.search-target.active
 {
     color:#337ab7;
 
 }
-.filter-target, .sort-target
+.filter-target, .sort-target,.search-target
 {
 position :relative;
 }
 .filter-target.active::before, 
-.sort-target.active::before {
+.sort-target.active::before,
+.search-target.active::before {
     content: "\f0d8";
     font-family: 'Font Awesome 5 Free';
     position: absolute;

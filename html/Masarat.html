@@ -315,7 +315,11 @@
             <div class="content_container site_border">
 					     <div class="mx-5 mx-xs-3 header-container d-flex d-flex flex-column flex-md-row align-items-md-center">
                     <h3 class="site-color m-0 p-xs-0">المسارات </h3>
-                <div class="filter-link d-flex d-flex  d-xs-block ml-md-auto mr-lg-3">
+                <div class="filter-link d-flex d-xs-block ml-md-auto mr-lg-3 mt-xs-4">
+						<a class="dashed-circle search-target" href="#">
+					<i class="fas fa-search"></i>
+                                بحث
+                            </a>
 					<a class="dashed-circle filter-target" href="#">
 					<i class="icon-filter"></i>
                                 فلترة
@@ -334,8 +338,25 @@
 
 						
                     </div>
+			<div class="filter-box search mx-5 mx-xs-3 white-container mt-2 pb-2">
+                                        <form>
+                                            <div class="form-row">
+                                                <div class="form-group col-lg-6 col-sm-8 col-xs-12">
+													<div class="col-lg-8 col-xs-12 col-sm-8 mb-xs-4">
+                                                 <label for="">اسم المسار</label>
+                                                <input placeholder="..." type="text" class="form-control">
+													</div>
+													<div class="col-lg-4 col-sm-4 pl-0 col-xs-12">
+														<label class="transparent">اسم المسار</label>
+												<button class="btn btn-st1 my-auto">بحث</button>
+														</div>
+                                                </div>
 
-				<div class="filter-box filter mx-5 mx-xs-3 white-container mt-2">
+												</div>
+
+                                      </form>
+                                            </div>
+				<div class="filter-box filter mx-5 mx-xs-3 white-container mt-2 pb-2">
                                         <form>
                                             <div class="form-row">
                                                 <div class="form-group col-lg-4 col-sm-6 col-xs-12">
@@ -360,7 +381,7 @@
                                                 </div>
                                       </form>
                                             </div>
-							<div class="filter-box sort mx-5 mx-xs-3 white-container mt-2">
+							<div class="filter-box sort mx-5 mx-xs-3 white-container mt-2 pb-2">
                                         <form>
                                             <div class="form-row">
                                                 <div class="form-group col-lg-4 col-sm-6 col-xs-12">
@@ -374,6 +395,7 @@
                                                 </div>
                                       </form>
                                             </div>
+				
 				
 
                             <div class="boxes">
@@ -772,14 +794,27 @@
             $('.filter-target').click(function () {
                 $('.filter-box.filter').slideToggle('fast');
                 $('.sort-target').removeClass("active");
+				 $('.search-target').removeClass("active");
                 $(this).toggleClass("active");
                 $('.filter-box.sort').hide();
+				$('.filter-box.search').hide();
+				
             });
             $('.sort-target').click(function () {
                 $('.filter-box.sort').slideToggle('fast');
                 $('.filter-target').removeClass("active");
                 $(this).toggleClass("active");
                 $('.filter-box.filter').hide();
+				$('.filter-box.search').hide();
+            });
+			 $('.search-target').click(function () {
+                $('.filter-box.search').slideToggle('fast');
+                $('.sort-target').removeClass("active");
+				 $('.filter-target').removeClass("active");
+                $(this).toggleClass("active");
+				 $('.filter-box.filter').hide();
+                $('.filter-box.sort').hide();
+				 
             });
         });
     </script>

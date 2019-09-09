@@ -1244,6 +1244,9 @@ padding-top:82px;
 	color:#63adfd;
 	font-weight: 600;
 }
+.saves h3{
+	line-height: 1.8;
+}
 /*-----------------------------------------------------------------*/
 
 @media(min-width:1024px) {
@@ -3405,11 +3408,15 @@ table > thead > tr {
 	.mt-xs-4{
 		margin-top:1.5rem;
 	}
+
 	.ml-xs-0 {
 		margin-right: 0px!important;
 	}
 	.mt-xs-2{
 		margin-top: 0.5rem;
+	}
+	.mb-xs-4{
+		margin-bottom:1.5rem;
 	}
 	.mx-xs-1{
 		margin-right:0.25rem !important;
