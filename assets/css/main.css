@@ -1527,10 +1527,8 @@ color:#ff3636;
     border:1px solid #DBDBDB;
 }
 /*** buttons **/
-.btn
-{
-    outline: 0;
-	min-width: 90px;
+.btn{
+    padding: 0.475rem 0.75rem;
 }
 .btn:focus
 {
