@@ -3449,7 +3449,9 @@ table > thead > tr {
 	.mt-xs-4{
 		margin-top: 2rem!important;
 	}
-
+	.mt-xs-3{
+		margin-top: 1.5rem!important;
+	}
 }
 
 
