@@ -304,6 +304,17 @@ h3.site-color .new-notifications-count{
 	color:white;
 }
 
+.btn-st4{
+	background-color: #f8f8f8;
+	color:black;
+	border:1px solid #dedede;
+}
+
+.btn-st4:hover,.btn-st4:focus{
+	background-color:#dedede;
+	color:black;
+}
+
 .upload-btn-wrapper .btn:hover,.upload-btn-wrapper .btn:focus{
 	background-color:#f8f6f6;
 	color:#2881e6;
@@ -320,6 +331,36 @@ h3.site-color .new-notifications-count{
 	color:#3b197e;
 	font-size: 30px;
 	vertical-align: middle;
+}
+.table-icon .icon-tables-lamp{
+	color:#d8832d;
+	font-size: 30px;
+	vertical-align: middle;
+}
+.table-icon .icon-tables-lamp:hover,.table-icon .icon-tables-lamp:focus{
+	color:#f4ad66;
+}
+
+.table-icon .icon-tables-unlock{
+	color:#4377a9;
+	font-size: 30px;
+	vertical-align: middle;
+}
+.table-icon .icon-tables-unlock:hover,.table-icon .icon-tables-unlock:focus{
+color:#7db8f1;
+}
+.table-icon .icon-tables-lock{
+	color:#dfdfdf;
+	font-size: 30px;
+	vertical-align: middle;
+}
+.table-icon .icon-tables-lamp-off{
+	color:#dfdfdf;
+	font-size: 30px;
+	vertical-align: middle;
+}
+.table-icon .icon-tables-lamp-off:hover,.table-icon .icon-tables-lamp-off:focus,.table-icon .icon-tables-lock:hover,.table-icon .icon-tables-lock:focus{
+	color:#f0efef;
 }
 .pull-center{
    position: relative;
