@@ -573,7 +573,7 @@ color:#7db8f1;
     border: 1px solid #e8e8e8;
 }
 
-.alert {
+/* .alert {
     font-size: 18px;
     display: flex;
     margin-top: 10px;
@@ -581,7 +581,7 @@ color:#7db8f1;
 
     .alert p:nth-child(2) {
         margin-top: 0px;
-    }
+    } */
 
 .smalls {
     display: block;
@@ -2358,10 +2358,6 @@ textarea.form-control {
     border-radius: 6px;
     border: 1px solid #E5E5E5;
 }
-
-    .filter-box .form-group, .order-box .form-group {
-        margin-bottom: 20px;
-    }
 
 .options-list {
     position: relative;
