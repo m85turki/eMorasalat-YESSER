@@ -3375,7 +3375,7 @@ table > thead > tr {
 		width: 100%!important;
 	}
 	.d-block-xs{
-	display:block;
+	display:block !important;
 }
 	.notif-col {
     width: 50%;
