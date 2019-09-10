@@ -1248,6 +1248,9 @@ padding-top:82px;
 .saves h3{
 	line-height: 1.8;
 }
+.border-left i{
+	font-size: 18px;
+}
 /*-----------------------------------------------------------------*/
 
 @media(min-width:1024px) {
@@ -3252,6 +3255,8 @@ table > thead > tr {
 		margin-top:20px !important;
 	}
 
+
+
 	}
 
 @media(max-width:576px) {
@@ -3453,6 +3458,10 @@ table > thead > tr {
 	.mt-xs-3{
 		margin-top: 1.5rem!important;
 	}
+		.ml-xs-0{
+		margin-right: 0;
+	}
+
 }
 
 
