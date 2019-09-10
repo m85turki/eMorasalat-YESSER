@@ -3254,7 +3254,9 @@ table > thead > tr {
 	.close-icon .circle-icon{
 		margin-top:20px !important;
 	}
-
+	.mt-sm-4{
+		margin-top:1.5rem;
+	}
 
 
 	}
@@ -3446,10 +3448,13 @@ table > thead > tr {
 	.chat-section div:first-child button{
 	display:inline-flex;
 }
+	.chat-section div:nth-child(2){
+		text-align: center !important;
+	}
 	 .header-container{
 		display: block !important;
 	}
-	.mr-lg-3{
+	/*.mr-lg-3{
 		margin-left: 0px;
 	}
 	.mt-xs-4{
@@ -3458,9 +3463,8 @@ table > thead > tr {
 	.mt-xs-3{
 		margin-top: 1.5rem!important;
 	}
-		.ml-xs-0{
-		margin-right: 0;
-	}
+		
+	}*/
 
 }
 

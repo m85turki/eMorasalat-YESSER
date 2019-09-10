@@ -2292,7 +2292,7 @@ li.list-group-item.has-sub:not(:first-child)::before {
     border-radius: 10px;
 	position: absolute;
     bottom: 0px;
-    width: 100%;
+    width: 98%;
 	background-color: white;
 }
 
