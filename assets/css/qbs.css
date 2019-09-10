@@ -219,14 +219,15 @@ h3.site-color .new-notifications-count{
 .table-icon .icon-tables-edit:hover,.table-icon .icon-tables-edit:focus {
 	color:#706de1;
 }
-.correspondence-icon .icon-tables-delete:hover,.correspondence-icon .icon-tables-delete:focus{
-	color:#b00101;
+.icon-tables-delete:hover,.icon-tables-delete:focus{
+
+	color:#fc5757;
 }
 .icon-st2 .icon-tables-edit{
 	color:#007d62 !important;
 }
 .icon-st2 .icon-tables-edit:hover,.icon-st2 .icon-tables-edit:focus{
-	color:#02a482;
+	color:#09ab89 !important;
 }
   
   .btn-st1:hover {
@@ -3253,7 +3254,7 @@ table > thead > tr {
 
 	}
 
-@media(max-width:514px) {
+@media(max-width:576px) {
     .signaturebuttons {
         margin-bottom: 20px;
     }

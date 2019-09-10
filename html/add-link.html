@@ -201,14 +201,13 @@
 
     </div>
     <div class="content_all">
-    	            <div class="mb-3 mx-5 mx-xs-3 header-container d-flex">
-                    <h3 class="site-color"> إضافة ربط </h3>
-					<div class="close-icon mt-0 ml-auto">
+    	            <div class="mb-3 mx-5 mx-xs-3 header-container2 d-flex align-items-center">
+                    <h3 class="site-color mt-xs-4">إضافة ربط </h3>
+					<div class="close-icon mt-0 ml-auto"  data-toggle="tooltip" data-placement="bottom" title="إغلاق">
                 <a class="circle-icon color-white" href="#"><i class="la la-close"></i></a>
-                <br>
-                <span class="gray2">إغلاق</span>
             </div>
             </div>
+
 
 
         <div class="content_container">
@@ -216,11 +215,11 @@
                 <form>
                       <div class="form-row mt-4">
                         <div class="form-group col-lg-3 col-sm-6 col-xs-12">
-                             <label for=""> نوع الربط بالعربي<span class="stark">*</span> </label>  
-							<input placeholder="" type="text" class="form-control outline-red">
-							              <small class="stark">
-                                            يرجى تعبئة الحقل 
-                                        </small>
+                    <label for=""> نوع الربط بالعربي <span class="red-color">*</span></label>     
+                                    <input placeholder="..." type="text" class="is-invalid form-control">
+                                    <div class="invalid-feedback">
+                                        يرجى تعبئة الحقل
+                                      </div>
                               </div>
 						
              <div class="form-group col-lg-3 col-sm-6 col-xs-12">
@@ -230,9 +229,9 @@
                               </div>
                         </div>
 				 </form>
-				 					<small class=" stark pull-left my-4">
-                                            يرجى تعبئة جميع الحقول التي تحتوي على إشارة *
-                                        </small>
+				 		<div class="mt-2 text-danger">
+                                            يرجى تعبئة الحقول التي تحتوي على إشارة *
+                                     </div>
                     </div>
 					
 

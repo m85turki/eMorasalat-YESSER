@@ -351,9 +351,7 @@ input:focus:-ms-input-placeholder {
 
 
 .filter-link a{
-    display: inline-block;
     margin: 0px 5px;
-    font-size: 16px;
     text-decoration: none;
 }
 .filter-link .dashed-circle{
