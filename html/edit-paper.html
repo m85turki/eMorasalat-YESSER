@@ -96,11 +96,9 @@
                                 </div>
                                 <script>
                                     focusMethod = function getFocus() {
-										debugger;
-										var x =1;
+
                                         $('.myTextField').focus();
-										x++;
-										x++;
+
                                     }
                                 </script>
                             </div>
@@ -394,7 +392,7 @@
                         <div class="tab-content">
                             <div role="tabpanel" class="tab-pane active" id="sub-tab-1">
                                 <div class="form-row">
-                                    <div class="form-group col-lg-3 col-md-3 col-sm-12 col-xs-12 mb-3">
+                                    <div class="form-group col-lg-3 col-md-4 col-sm-12 col-xs-12 mb-3">
                                         <label class="w-100">
 											
                                             
@@ -406,14 +404,15 @@
                                     <option value="employee">الجهة الثانية</option>
                                 </select>
 									</div>
-                           <div class="form-group col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                           <div class="form-group col-lg-6 col-md-4 col-sm-12 col-xs-12">
                             <label for="">جهة الوارد <span class="red-color">*</span></label>
                             <div class="row">
-                                <div class=" col-lg-3 col-md-3 col-sm-4 col-xs-4 ">
+                                <div class=" col-lg-4 col-md-4 col-sm-4 col-xs-4 pr-0">
                                     <input placeholder="رقم الجهة" type="text" class="form-control">
                                 </div>
-                                <div class=" col-lg-7 col-md-7 col-sm-8 col-xs-8">
-                            	<div class="input-group">
+                                <div class=" col-lg-8 col-md-8 col-sm-8 col-xs-8">
+                                 <div class="d-flex">
+								<div class="input-group flex-grown-1">
                                             <input type="text" class="form-control" placeholder="اسم الجهة الواردة ">
                                             <div class="input-group-append">
                                                 <span class="input-group-text hyperlink white">
@@ -421,19 +420,18 @@
                                                 </span>
                                             </div>
                                         </div>
-                                </div>
-								<div class="col-lg-2 col-md-2 col-sm-12 col-xs-12 mt-4 mt-lg-auto">
-									<button type="submit" class="btnwidth treaty_btn w-100">
+									 <button type="submit" class="btnwidth ml-3 treaty_btn flex-shrink-1">
 										<i class="la la-plus"></i>
 										 
 												</button>
-											
-											</div>
+									</div>
+                                </div>
+
                             </div>
                         </div>										
 
 										
-									       <div class="form-group col-lg-3 col-md-3 col-sm-12 col-xs-12 mb-3">
+									       <div class="form-group col-lg-3 col-md-4 col-sm-12 col-xs-12 mb-3">
                                <label class="w-100">
                                             درجة السرية
                                         <span class="stark">*</span>
@@ -441,9 +439,7 @@
                              <input placeholder=" الكل" type="text" class="form-control">
 									</div>
 								
-								</div>
-                                <div class="form-row">
-									             <div class="form-group col-lg-3 col-md-3 col-sm-4 col-xs-12 mb-3 ">
+									             <div class="form-group col-lg-3 col-md-4 col-sm-4 col-xs-12 mb-3 ">
                                         <label class="w-100">
                                             موقعة من
                                         </label>
@@ -452,8 +448,8 @@
                                     <option >محمد محمود</option>
                                 </select>
 									</div>
-												             <div class="form-group col-lg-3 col-md-3 col-sm-4 col-xs-12 mb-3">
-                                        <label class="w-100 dark-color">
+												             <div class="form-group col-lg-3 col-md-4 col-sm-4 col-xs-12 mb-3">
+                                        <label class="w-100">
                                             نوع الخطاب
                                         <span class="stark">*</span>
 																 </label>
@@ -462,7 +458,7 @@
                                     <option value="employee">النوع الثاني </option>
                                 </select>
 									</div>
-									      <div class="form-group col-lg-3 col-md-3 col-xs-12 col-sm-4 mb-3 ">
+									      <div class="form-group col-lg-3 col-md-4 col-xs-12 col-sm-4 mb-3 ">
                                         <label class="w-100">
                                             طريقة الاستلام
                                         <span class="stark">*</span>
@@ -472,7 +468,7 @@
                                     <option >الطريقة الثانية</option>
                                 </select>
 									</div>
-										             <div class="form-group col-lg-3 col-md-3 col-sm-12 col-xs-12  mb-3 ">
+										             <div class="form-group col-lg-3 col-md-4 col-sm-12 col-xs-12  mb-3 ">
                                         <label class="w-100">
                                             درجة الأهمية
                                         <span class="stark">*</span>
@@ -482,11 +478,9 @@
                                     <option>مهم</option>
                                 </select>
 									</div>
-									 </div>
-                                    
-								           <div class="form-row">      
+                                       
                       
-												             <div class="form-group col-lg-3 col-md-3 col-sm-4 col-xs-12 mb-3">
+												             <div class="form-group col-lg-3 col-md-4 col-sm-4 col-xs-12 mb-3">
                                         <label class="w-100 dark-color">
                                             التصنيف الموضوعي
                                        <span class="stark">*</span>
@@ -497,7 +491,7 @@
                                     <option >التصنيف الثاني</option>
                                 </select>
 									</div>
-											          <div class="form-group col-lg-3 col-md-3 col-sm-4 col-xs-12 mb-3 ">
+											          <div class="form-group col-lg-3 col-md-4 col-sm-4 col-xs-12 mb-3 ">
                                         <label class="w-100">
                                             قائمة التوزيع
                                         </label>
@@ -506,7 +500,7 @@
                                     <option>القائمة الثانية</option>
                                 </select>
 									</div>
-											                   <div class="form-group col-lg-3 col-md-3 col-sm-4 col-xs-12 mb-3 ">
+											                   <div class="form-group col-lg-3 col-md-4 col-sm-4 col-xs-12 mb-3 ">
                                         <label class="w-100">
                                             دلائل البحث
                                         </label>
@@ -514,7 +508,7 @@
      <input placeholder="معاملة" type="text" class="form-control">
 										</div>
 									</div>
-											   <div class="form-group col-lg-3 col-md-3 col-sm-4 col-xs-12 mb-3 ">   
+											   <div class="form-group col-lg-3 col-md-4 col-sm-4 col-xs-12 mb-3 ">   
 											    <form>
 <label class="w-100">فيها موعد</label>
       <input type="radio" class="radio-inline" name="radio1" id="inlineRadio1" checked>
@@ -526,9 +520,8 @@
   </form>
 											   </div>
 											   
-								</div>
+
                                     	
-  <div class="form-row">
   <div class="form-group col-lg-6 col-md-6 col-sm-12 col-xs-12  mb-3 ">
                                       
 	 <div class="input-group w-100">
@@ -553,11 +546,7 @@
 														   
 													 </div>
 									</div>
-				
-									
-                                    </div>
-								                                   
-								   <div class="form-row">
+			
                                     <div class="form-group col-lg-3 col-md-6 col-xs-12 col-sm-12 mb-3 ">
                                         <label class="w-100">
                                             تاريخ الموعد
@@ -571,17 +560,15 @@
                                     </div>
                                 </div>
 									</div>
-									             <div class="form-group col-lg-5 col-sm-8 mb-3 ">
+									             <div class="form-group col-lg-5 col-md-6 col-sm-8 mb-3 ">
                                       <div class="input-group date">
                 
                    
                 </div>
 											
 									</div>
-									   <div class="form-group col-lg-4 col-xs-12 col-sm-4 ">
-										   <label class="w-100 transparent">
-                                            transparent text
-                                        </label>
+									   <div class="form-group col-lg-12 col-md-12 col-xs-12 col-sm-4 ">
+
                                       <div class="mt-2 text-danger pull-right">
                                             يرجى تعبئة الحقول التي تحتوي على إشارة *
                                      </div>
@@ -589,12 +576,10 @@
 									
 									   </div>
 				
-									</div>	
                                     </div>
 						
 							<hr>
-							<div class="form-row">
-						<div class="form-group col-lg-12 col-sm-12 mb-3 edit_paper_icons">
+						<div class="form-group col-lg-12 col-md-12 col-sm-12 mb-3 edit_paper_icons">
                                         <label class="w-100">
                                             خطاب اصل المعاملة
                                         </label>
@@ -702,7 +687,7 @@
                                             here put attachments .....
                                         </div>
                                     </div>
-							 </div>
+							 </div> 
 								
 							
 			
