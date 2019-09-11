@@ -319,6 +319,35 @@ h3.site-color .new-notifications-count{
 	color:black;
 }
 
+.btn-st5 {
+    color: white;
+    background-color: #00a867;
+	border-radius: 7px;
+}
+
+.btn-st5:hover {
+    background-color: #0ed88a;
+    border-color: #0ed88a;
+}
+
+.btn-st5:focus, .btn-st5.focus {
+    box-shadow: 0 0 0 0.2rem rgb(248, 246, 246, 0.5);
+	color:white;
+}
+
+.btn-st5.disabled, .btn-st5:disabled {
+    color: #fff;
+    background-color: #d5d6d6;
+}
+
+.btn-st5:not(:disabled):not(.disabled):active, .btn-st5:not(:disabled):not(.disabled).active,
+.show > .btn-st2.dropdown-toggle {
+    color: white;
+    background-color: #0ed88a;
+}
+
+
+
 .upload-btn-wrapper .btn:hover,.upload-btn-wrapper .btn:focus{
 	background-color:#f8f6f6;
 	color:#2881e6;
@@ -1212,10 +1241,7 @@ padding-top:82px;
     height: 36.5px;
     background-color: #01a767;
     border-radius: 7px;
-    width: 35px;
-    border: 0px;
-    color: white;
-    text-align: center;
+
     padding: 5px;
 }
     .btnwidth .la-plus {
@@ -3251,13 +3277,10 @@ table > thead > tr {
 		.pr-sm-0{
 		padding-left:0px !important;
 	}
-	.close-icon .circle-icon{
-		margin-top:20px !important;
-	}
+
 	.mt-sm-4{
 		margin-top:1.5rem;
 	}
-
 
 	}
 
