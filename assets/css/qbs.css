@@ -1199,7 +1199,7 @@ padding-top:82px;
 
 .day_message {
     padding-bottom: 30px;
-	max-height: 300px;
+	max-height: calc(100% - 100px) !important;
 	overflow-y: scroll;
 	overflow-x:hidden;
 	
@@ -1285,7 +1285,9 @@ padding-top:82px;
 	line-height: 1.8;
 }
 
-
+.height-co-100{
+ height: calc(100vh - 214px) !important;
+}
 /*-----------------------------------------------------------------*/
 
 @media(min-width:1024px) {
@@ -1327,7 +1329,7 @@ padding-top:82px;
 .bgchange {
     background-color: #f0f4f8;
 }
-.nav-for-treat span:hover,.nav-for-treat a:hover{
+.nav-for-treat a:hover{
 	color: #4f98ed;
 }
 
