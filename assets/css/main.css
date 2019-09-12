@@ -231,6 +231,9 @@
 .icon-filter-form:hover{
 	color:#355781;
 }
+.nav-tabs>li>a{
+	margin-left: 0 !important;
+}
 
 @media only screen and (min-width: 550px){
 .h-search input {

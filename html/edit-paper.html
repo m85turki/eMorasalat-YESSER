@@ -284,44 +284,39 @@
     </div>
     <div class="app-content content">
         <div class="content_wrapper">
- <div class="d-flex flex-column flex-sm-row align-items-center  mx-5 mx-xs-3 header-container">
+ <div class="d-flex flex-column flex-sm-row mx-5 mx-xs-3 mb-3 header-container">
         <h3 class="site-color">تعديل المعاملة</h3>
-
-<div class="pl-sm-5 d-inline-block">
+<div class="d-flex">
+<div class="pl-sm-5">
 				<div class="gray3">رقم المعاملة</div>
 				<div class="site-color">1234123</div>
 			</div>
-	 <div class="pl-5 d-inline-block">
+	 <div class="pl-5">
 				<div class="gray3">التاريخ </div>
 				<div class="site-color">28 تشرين الثاني 2018</div>
 			</div>
 	</div>
+	</div>
 
             <div class="white-container mx-5 mx-xs-3">
 				<div class="inner-header">
-					<nav class="navbar navbar-expand-lg mb-0">
-
-  <div class="navbar p-0 nav-for-treat" id="navbarNav">
-    <ul class="float-left d-inline-flex nav-border">
-      <li class="border-left">
+    <div class="d-flex nav-for-treat align-items-center mb-3">
+		<div class="ml-auto ">
+      <span class="border-left pr-2">
 		  <i class="icon-edit-top-1 pl-1"></i>
-		  <a class="p-2 site-color" href="#" >إرجاع المعاملة</a>
-      </li>
-      <li class="border-left">
+		  <a class="site-color" href="#" >إرجاع المعاملة</a>
+      </span>
+      <span class="border-left pr-2">
 		    <i class="icon-tab2 pl-1"></i>
-        <a class="p-2 site-color" href="#">الإحالات المباشرة</a>
-      </li>
-      <li class="">
+        <a class="site-color" href="#">الإحالات المباشرة</a>
+      </span>
+      <span class="pr-2">
 		  <i class="icon-edit-top-2 pl-1"></i>
-        <a class="p-2 site-color" href="#">الإحالة باستخدام ورق الإحالة</a>
-      </li>
- 
-    </ul>
-  </div>
-</nav>
-					
-					
-				</div>
+        <a class="site-color" href="#">الإحالة باستخدام ورق الإحالة</a>
+      </span>
+			</div>
+    </div>
+					</div>
                 <!-- Nav tabs -->
                 <ul class="nav nav-tabs custom-nav-tabs mb-3 d-flex flex-wrap edit_paper_tabs" role="tablist">
                     <li role="presentation" class="flex-fill active">
@@ -392,7 +387,7 @@
                         <div class="tab-content">
                             <div role="tabpanel" class="tab-pane active" id="sub-tab-1">
                                 <div class="form-row">
-                                    <div class="form-group col-lg-3 col-md-4 col-sm-12 col-xs-12 mb-3">
+                                    <div class="form-group col-lg-3 col-md-6 col-sm-12 col-xs-12 mb-3">
                                         <label class="w-100">
 											
                                             
@@ -404,7 +399,7 @@
                                     <option value="employee">الجهة الثانية</option>
                                 </select>
 									</div>
-                           <div class="form-group col-lg-6 col-md-4 col-sm-12 col-xs-12">
+                           <div class="form-group col-lg-6 col-md-6 col-sm-12 col-xs-12">
                             <label for="">جهة الوارد <span class="red-color">*</span></label>
                              <div class="row">
                                 <div class=" col-lg-4 col-md-4 col-sm-4 col-xs-4 pr-0 ">
@@ -577,7 +572,7 @@
                                     </div>
 						
 							<hr>
-						<div class="form-group col-lg-12 col-md-12 col-sm-12 mb-3 edit_paper_icons">
+						<div class="form-group col-lg-12 col-md-12 col-sm-12 mb-3">
                                         <label class="w-100">
                                             خطاب اصل المعاملة
                                         </label>
@@ -681,9 +676,37 @@
                                             </ul>
 												</div>
                                         </div>
-                                        <div class="w-100 my-3 white-container p-5 text-center">
-                                            here put attachments .....
+                                        <div class="w-100 my-3 attachment py-2 px-2 text-center">
+										<div class="attachment-content p-2 mb-4">here put attachments ...</div>
+	
                                         </div>
+																	<div class="d-flex ">
+											<div class="chat-icon mx-2" data-toggle="modal" data-target="#myModal">
+                    <i class="icon-tab11"></i>
+                    <span class="new-chats-count">2</span>
+                </div>
+												<nav aria-label="Page navigation" class="flex-grow-1 text-center">
+                            <ul class="pagination chat custom-pagination mt-0">
+                                <li class="change-page">
+                                    <a href="#" aria-label="Previous">
+                                        <i class="fa fa-caret-right"></i>
+                                    </a>
+                                </li>
+                                <li class="blues_border"><a href="#" class="transparent_bg">1</a></li>
+								<li><span class="transparent_bg font_size12"> من
+									
+									<span class="light-blue pl-1">4</span>
+									</span>
+								</li>
+                                <li class="change-page">
+                                    <a href="#" aria-label="Next">
+                                        <i class="fa fa-caret-left"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+												<div class="btn btn-st1 my-auto ml-auto">حفظ المرفق</div>
+											</div>
                                     </div>
 							 </div> 
 								
@@ -693,7 +716,106 @@
 								</div> 
                                
                             </div>
-					 <div role="tabpanel" class="tab-pane mb-5" id="tab-10">
+					 <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h3 class="dark-color w-auto d-inline-block m-0">قائمة الموظفين</h3>
+                </div>
+                <div class="modal-body">
+                    <div class="content_container">
+                        <div class="search-employee-input d-inline-block">
+                            <div class="input-group mb-3">
+                                <input type="text" class="form-control">
+                                <div class="input-group-append">
+                                    <span class="input-group-text hyperlink2">
+                                        <a href="#"><i class="fa fa-search"></i></a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="correspondence-icon bg-white d-inline-block px-0 mx-1">
+                            <a class="circle color-light-gray border-box2" href="#"><i class="la la-close gray-color font-22P"></i></a>
+                        </div>
+                        <div class="chat-row">
+                            <div class="w-100">
+                                <img class="circle-img" src="../assets/images/s1zgf6qt3qsrmp59oe6z.jpg">
+                                <span class="status online"></span>
+                                <label class="dark-color font-bold mx-1">اسم الموظف</label>
+                            </div>
+                        </div>
+                        <div class="chat-row">
+                            <div class="w-100">
+                                <img class="circle-img" src="../assets/images/58eee8948af578501f8b54db-750-563.jpg">
+                                <span class="status offline"></span>
+                                <label class="dark-color font-bold mx-1">اسم الموظف</label>
+                            </div>
+                        </div>
+                        <div class="chat-row">
+                            <div class="w-100">
+                                <img class="circle-img" src="../assets/images/businessman.png">
+                                <span class="status offline"></span>
+                                <label class="dark-color font-bold mx-1">اسم الموظف</label>
+                            </div>
+                        </div>
+                        <div class="chat-row My_selected">
+                            <div class="w-100">
+                                <img class="circle-img" src="../assets/images/FischerForPersonalWebsite.jpg">
+                                <span class="status online"></span>
+                                <label class="dark-color font-bold mx-1">اسم الموظف</label>
+                            </div>
+                        </div>
+                        <div class="chat-row">
+                            <div class="w-100">
+                                <img class="circle-img" src="../assets/images/s1zgf6qt3qsrmp59oe6z.jpg">
+                                <span class="status online"></span>
+                                <label class="dark-color font-bold mx-1">اسم الموظف</label>
+                            </div>
+                        </div>
+                        <div class="chat-row">
+                            <div class="w-100">
+                                <img class="circle-img" src="../assets/images/businessman.png">
+                                <span class="status online"></span>
+                                <label class="dark-color font-bold mx-1">اسم الموظف</label>
+                            </div>
+                        </div>
+                    </div>
+<div class="w-100 p-2 text-center">
+                        <nav aria-label="Page navigation">
+                            <ul class="pagination chat custom-pagination">
+                                <li class="change-page">
+                                    <a href="#" aria-label="Previous">
+                                        <i class="fa fa-caret-right"></i>
+                                    </a>
+                                </li>
+                                <li class="blues_border"><a href="#"  class="transparent_bg">1</a></li>
+								<li><span class="transparent_bg font_size12"> من
+									
+									<span class="light-blue pl-1">4</span>
+									</span>
+								</li>
+                                <li class="change-page">
+                                    <a href="#" aria-label="Next">
+                                        <i class="fa fa-caret-left"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="text-right chat_button py-2">
+                        <button class="btn btn-st1 btn-lg mx-1" 
+                            data-dismiss="modal">موافق</button>
+                        <button class="btn btn-st2 btn-lg mx-1" data-dismiss="modal">الغاء</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+					 <div role="tabpanel" class="tab-pane" id="tab-10">
 				
 					<div class="table-responsive conversations">
 						 	<div class="row m-0">
@@ -790,7 +912,7 @@
 </div>
 							
 						</div> 
-                            <table class="grid table mt-4 chat_table">
+                            <table class="grid table chat_table table-striped">
                                 <thead>
                                     <tr>
                                         <th>أطراف المحادثة</th>
@@ -808,7 +930,7 @@
                                         <td>28 تشرين الثاني 2018</td>
 										<td></td>
                                         <td class="pr-0">
-										<a class="btn btn-st1 pull-right" data-toggle="modal" data-target=".bd-example-modal-lg" href="#">
+										<a class="btn btn-st6 pull-right" data-toggle="modal" data-target=".bd-example-modal-lg" href="#">
 											عرض المحادثة
 											</a>
 										</td>
@@ -819,7 +941,7 @@
                                         <td>28 تشرين الثاني 2018</td>
 										<td></td>
                                         <td class="pr-0">
-										<a class="btn btn-st1 pull-right" data-toggle="modal" data-target=".bd-example-modal-lg" href="#">
+										<a class="btn btn-st6 pull-right" data-toggle="modal" data-target=".bd-example-modal-lg" href="#">
 											عرض المحادثة
 											</a>
 										</td>
@@ -830,7 +952,7 @@
                                         <td>28 تشرين الثاني 2018</td>
 										<td></td>
                                        <td class="pr-0">
-										<a class="btn btn-st1 pull-right" data-toggle="modal" data-target=".bd-example-modal-lg" href="#">
+										<a class="btn btn-st6 pull-right" data-toggle="modal" data-target=".bd-example-modal-lg" href="#">
 											عرض المحادثة
 											</a>
 										</td>
