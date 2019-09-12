@@ -806,7 +806,7 @@ select {
     position: absolute;
 }
 	.border-box{
-		max-height:450px;
+		max-height:calc(100%-10px);
 		overflow-y: scroll;
 		overflow-x: auto;
 	}
@@ -1179,12 +1179,12 @@ padding-top:82px;
 .search-employee-input .input-group .form-control {
     border-left: 0!important;
 }
-.message-time {
+.read-check {
     margin-bottom: 0px;
     font-size: 12px;
     vertical-align: bottom;
     display: inline-block;
-    color: #999;
+    color: #0084FF;
 }
 
 .align-right-time {
@@ -1199,7 +1199,7 @@ padding-top:82px;
 
 .day_message {
     padding-bottom: 30px;
-	max-height: calc(100% - 100px) !important;
+	max-height: calc(100% - 119px) !important;
 	overflow-y: scroll;
 	overflow-x:hidden;
 	
@@ -1287,6 +1287,14 @@ padding-top:82px;
 
 .height-co-100{
  height: calc(100vh - 214px) !important;
+}
+.date{
+	color:#a5a5a5;
+	text-align: center;
+}
+.show_message{
+	max-height: calc(100%-132px);
+	overflow-y: scroll;
 }
 /*-----------------------------------------------------------------*/
 
