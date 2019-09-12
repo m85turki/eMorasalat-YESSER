@@ -1725,7 +1725,7 @@ position :relative;
     background-color: #f7f7f9;
     border: 1px solid #f1f2f5;
     position:relative;
-    border-top: 3px solid #f1f2f5;
+    border-top: 2px solid #f1f2f5;
 }
 .custom-nav-tabs.nav-tabs>li.active>a::before
 {
