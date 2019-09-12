@@ -2311,8 +2311,10 @@ li.list-group-item.has-sub:not(:first-child)::before {
     box-shadow: unset!important;
     margin: 0;
 	max-height: 80px;
-	height:35px;
-	overflow-x: hidden;
+	height:38px;
+    overflow-x: hidden;
+    padding-top:7px;
+    padding-right: 15px;
 }
 
 .message-input i

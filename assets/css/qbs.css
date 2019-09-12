@@ -1330,11 +1330,9 @@ padding-top:82px;
 .nav-for-treat span:hover,.nav-for-treat a:hover{
 	color: #4f98ed;
 }
-.attachment{
-	border-radius: 0.25rem;
-}
+
 .attachment-content{
-	border:2px solid #4990e2;
+	border:1px solid #4990e2;
 }
 
 @media(max-width:897px ) and (min-width: 394px) {
