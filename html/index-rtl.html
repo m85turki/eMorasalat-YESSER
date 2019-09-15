@@ -310,12 +310,11 @@
         <!-- END: Vertical Menu -->
     </div>
     <div class="app-content content">
-        <div class="content_wrapper">
-           <div class="d-flex mb-3 mx-5 mx-xs-3 header-container">
+           <div class="d-flex align-items-center mx-5 mx-xs-3 header-container">
                 <div class="filter-link">
-                    <h3 class="site-color m-0"> معاملاتي </h3>
+                    <h3 class="site-color"> معاملاتي </h3>
                 </div>
-			              <div class="btn-options ml-auto">
+			              <div class="btn-options ml-auto align-self-end">
                 <a class="btn-site" href="#">
                     <img src="../assets/images/option1.png">
                     انشاء صادر
@@ -337,8 +336,8 @@
 
 
                 <div class="content_container--header">
-                    <div class="row mx-5">
-                        <ul class="col-lg-6 nav nav-tabs custom-sub-nav-tabs" role="tablist">
+                    <div class="d-flex mx-5 my-2">
+                        <ul class="nav nav-tabs custom-sub-nav-tabs" role="tablist">
                             <li role="presentation" class="active">
                                 <a href="#sub-tab-1" aria-controls="sub-tab-1" role="tab" data-toggle="tab">
                                     الكل (6 معاملات)
@@ -355,31 +354,29 @@
                                 </a>
                             </li>
                         </ul>
-                        <div class="col-lg-6 text-right options p-0">
-                            <div class="checkbox">
-                                <label for="selectAll">
-                                    <input id="selectAll" type="checkbox" value="">
-                                    <span class="cr"><i class="cr-icon glyphicon glyphicon-ok"></i></span>
-                                    تحديد الكل
-                                </label>
-                            </div>
-   <a class="dashed-circle filter-target" href="#">
+                        <div class="ml-auto options p-0">
+<div class="filter-link d-flex d-xs-block ml-md-auto mr-lg-3 mt-xs-3">
+						<a class="dashed-circle search-target" href="#">
+					<i class="fas fa-search"></i>
+                                بحث
+                            </a>
+					<a class="dashed-circle filter-target" href="#">
 					<i class="icon-filter"></i>
                                 فلترة
                             </a>
-                          <a class="dashed-circle sort-target" href="#">
+                            <a class="dashed-circle sort-target" href="#">
 								<i class="icon-sort"></i>
                                 ترتيب حسب
                             </a>
-                    
                             <div class="toggling-menu">
-                                <a href="#" class="active"><i class="fa fa-th-large "></i></a>
-                                <a href="#"><i class="fa fa-bars"></i></a>
+                                <a href="#" class="active"><i class="icon-grid"></i></a>
+                                <a href="#"><i class="icon-list"></i></a>
                             </div>
+                        </div>
                         </div>
                     </div>
                 </div>
-                <div class="content_container content_container--body">
+                <div class="content_container">
                     <!-- Tab panes -->
                     <div class="tab-content">
                         <div role="tabpanel" class="tab-pane active" id="sub-tab-1">
@@ -2344,7 +2341,7 @@
 
                 </div>
             </div>
-        </div>
+
 <div class="w-100 p-2 text-center my-2">
                         <nav aria-label="Page navigation">
                             <ul class="pagination custom-pagination">
