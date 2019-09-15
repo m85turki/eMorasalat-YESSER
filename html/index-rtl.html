@@ -36,6 +36,8 @@
 
     <!-- RTL -->
     <link href="../assets/css/d-rtl.css" rel="stylesheet">
+	   <!-- Scroll -->
+   <link rel="stylesheet" href="../assets/plugins/scrollbar/trackpad-scroll-emulator.css" />
 
 </head>
 
@@ -2136,29 +2138,30 @@
                                 <i class="la la-close"></i>
                             </div>
                             <div class="topnav">
-                                <label class="dark-color pt-1 pb-1">المحادثة بخصوص المعاملة 1231234</label>
+                                <span class="py-1">المحادثة بخصوص المعاملة 1231234</span>
 
                                 <input type="search">
 
 
                                 <i class="fa fa-search"></i>
                             </div>
-                            <ul class="list-group list-group-flush chat_list">
+                            <div class="list-group list-group-flush chat_list tse-scrollable demo1">
+								<div class="tse-content">
                               <a href="#">
-                                <li class="list-group-item showpopchat highlight">
+                                <div class="showpopchat highlight">
 
 		<span class="h-avatar2 mx-2">
 									<img src="../assets/images/s1zgf6qt3qsrmp59oe6z.jpg">
 								</span>
 		<span class="dark-color">اسم الموظف
 		</span> 
-		  			<label class="roundedred2 font-bold">3</label>	
+		  			<span class="roundedred2 font-bold">3</span>	
 		  <p class="chat_text">خطاب أصل المعاملة 1231234</p>
 				  
-		                    </li>
+		                    </div>
 								  </a>
-                                                              <a href="#">
-                                <li class="list-group-item showpopchat">
+                       <a href="#">
+                                <div class="showpopchat">
 
 		<span class="h-avatar2 mx-2">
 									<img src="../assets/images/businessman.png">
@@ -2168,10 +2171,10 @@
 		  
 		  <p class="chat_text">خطاب أصل المعاملة 1231234</p>
 				  
-		                    </li>
+		                    </div>
 								  </a>
                                  <a href="#">
-                                <li class="list-group-item showpopchat">
+                                <div class="showpopchat">
 
 		<span class="h-avatar2 mx-2">
 									<img src="../assets/images/businessman.png">
@@ -2181,11 +2184,11 @@
 		  
 		  <p class="chat_text">خطاب أصل المعاملة 1231234</p>
 				  
-		                    </li>
+		                    </div>
 								  </a>
 
                                    <a href="#">
-                                <li class="list-group-item showpopchat">
+                                <div class="showpopchat">
 
 		<span class="h-avatar2 mx-2">
 									<img src="../assets/images/businessman.png">
@@ -2195,7 +2198,7 @@
 		  
 		  <p class="chat_text">خطاب أصل المعاملة 1231234</p>
 				  
-		                    </li>
+		                    </div>
 								  </a>
 
 
@@ -2203,7 +2206,7 @@
 
 
                                    <a href="#">
-                                <li class="list-group-item showpopchat">
+                                <div class="showpopchat">
 
 		<span class="h-avatar2 mx-2">
 									<img src="../assets/images/businessman.png">
@@ -2213,11 +2216,11 @@
 		  
 		  <p class="chat_text">خطاب أصل المعاملة 1231234</p>
 				  
-		                    </li>
+		                    </div>
 								  </a>
 
                                     <a href="#">
-                                <li class="list-group-item showpopchat">
+                                <div class="showpopchat">
 
 		<span class="h-avatar2 mx-2">
 									<img src="../assets/images/businessman.png">
@@ -2227,9 +2230,10 @@
 		  
 		  <p class="chat_text">خطاب أصل المعاملة 1231234</p>
 				  
-		                    </li>
+		                    </div>
 								  </a>
-                            </ul>
+									</div>
+                            </div>
                         </div>
 
 
@@ -2242,12 +2246,12 @@
                                 <span>
                                     اسم الموظف
                                 </span>
-
-                                <button type="submit" class="btn  btn-st2 ml-auto">حفظ المحادثة</button>
-
+                         <div class="ml-auto">
+                            <button type="submit" class="btn  btn-st2">حفظ المحادثة</button>
+                         </div>
                             </div>
-                            <div class="for-scroll">
-                                <div class="">
+                            <div class="for-scroll  tse-scrollable demo1">
+								<div class="tse-content">
                                     <div class="sendertext">
                                         <div class="sender-p" data-toggle="tooltip" data-placement="top" title="" data-original-title="2:20pm">
                                             مرحبا كيف حالك؟	
@@ -2266,11 +2270,9 @@
 
                                     </div>
 
-                                </div>
                                 <div class="title">
                                     <label>اليوم</label>
                                 </div>
-                                <div class="">
                                     <div class="sendertext">
                                         <div class="sender-p" data-toggle="tooltip" data-placement="top" title="" data-original-title="2:20pm">
                                             مرحبا كيف حالك؟	
@@ -2290,8 +2292,6 @@
 
                                     </div>
 
-                                </div>
-                                <div class="">
                                     <div class="sendertext">
                                         <div class="sender-p" data-toggle="tooltip" data-placement="top" title="" data-original-title="2:20pm">
                                             مرحبا كيف حالك؟	
@@ -2309,8 +2309,6 @@
 
                                     </div>
 
-                                </div>
-                                <div class="">
                                     <div class="sendertext">
                                         <div class="sender-p" data-toggle="tooltip" data-placement="top" title="" data-original-title="2:20pm">
                                             مرحبا كيف حالك؟	
@@ -2329,7 +2327,7 @@
 
                                     </div>
 
-                                </div>
+									</div>
                             </div>
 
 
@@ -2450,7 +2448,7 @@
 		$(".sendfield").css("display","flex");
 		$(".popchat").fadeIn();
 		$(".purple").css("width","600");
-		$("li").removeClass("highlight");
+		$(".showpopchat").removeClass("highlight");
 		$(this).toggleClass("highlight");
 		$(".purple .la-close").css("left","5px");			
 	});
@@ -2473,6 +2471,29 @@
 
     </script>
     <!----->
+		<script src="../assets/plugins/scrollbar/jquery.trackpad-scroll-emulator.min.js"></script>
+  <script>
+  $(document).ready(function() {
+    // Initialize scrollers.
+    $('.demo1').TrackpadScrollEmulator();
+    // Demonstration of changing the vertical scroller content and dimensions.
+    $('.add-more').on('click', function(e){
+      e.preventDefault();
+      $('.demo1 .tse-content').append('<p class="odd">Additional content 1</p><p>Additional content 2</p><p p class="odd">Additional content 3</p><p>Additional content 4</p>');
+      $('.demo1').TrackpadScrollEmulator('recalculate');
+    });
+    $('.toggle-height').on('click', function(e){
+      e.preventDefault();
+      if ($('.demo1').height() === 400) {
+        $('.demo1').height(300);
+      } else {
+        $('.demo1').height(400);
+      }
+      $('.demo1').TrackpadScrollEmulator('recalculate');
+    });
+
+  });
+  </script>
 </body>
 
 </html>

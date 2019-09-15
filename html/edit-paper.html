@@ -29,7 +29,8 @@
 
     <!-- RTL -->
     <link href="../assets/css/d-rtl.css" rel="stylesheet">
-
+   <!-- Scroll -->
+   <link rel="stylesheet" href="../assets/plugins/scrollbar/trackpad-scroll-emulator.css" />
 
 </head>
 
@@ -869,8 +870,8 @@
 				</div>
 		</div>
 		<div class="modal-body">
-     <div class="show_message">
-            <div class=" mb-2">
+     <div class="show_message tse-scrollable demo1">
+            <div class="tse-content mb-2">
                     <div class="date">10 Aug ,2019,3:42 pm</div>
               <div class="sendertext">
                  <div class="sender-p" data-toggle="tooltip" data-placement="top" title="" data-original-title="2:20pm">
@@ -960,9 +961,9 @@
                                         <td>28 تشرين الثاني 2018</td>
 										<td></td>
                                         <td class="pr-0">
-										<a class="btn btn-st6 pull-right" data-toggle="modal" data-target=".bd-example-modal-lg" href="#">
+										<button class="btn btn-st2 pull-right" data-toggle="modal" data-target=".bd-example-modal-lg" href="#">
 											عرض المحادثة
-											</a>
+											</button>
 										</td>
                                     </tr>
                                        <tr>
@@ -971,9 +972,9 @@
                                         <td>28 تشرين الثاني 2018</td>
 										<td></td>
                                         <td class="pr-0">
-										<a class="btn btn-st6 pull-right" data-toggle="modal" data-target=".bd-example-modal-lg" href="#">
+										<button class="btn btn-st2 pull-right" data-toggle="modal" data-target=".bd-example-modal-lg" href="#">
 											عرض المحادثة
-											</a>
+											</button>
 										</td>
                                     </tr>
                                       <tr>
@@ -982,9 +983,9 @@
                                         <td>28 تشرين الثاني 2018</td>
 										<td></td>
                                        <td class="pr-0">
-										<a class="btn btn-st6 pull-right" data-toggle="modal" data-target=".bd-example-modal-lg" href="#">
+										<button class="btn btn-st2 pull-right" data-toggle="modal" data-target=".bd-example-modal-lg" href="#">
 											عرض المحادثة
-											</a>
+											</button>
 										</td>
                                     </tr>
                               
@@ -1007,6 +1008,7 @@
 
 <!--QBS JQuery-->
 <link href="../assets/js/jquery-ui-1.9.2/css/base/jquery-ui-1.9.2.custom.css" rel="stylesheet">
+
     <!-- jQuery -->
     <script src="../assets/js/jquery.js"></script>
     <script src="../assets/js/jquery-ui-1.9.2/js/jquery-ui-1.9.2.custom.js"></script>
@@ -1037,6 +1039,7 @@
 		$("#datepicker").datepicker();
 	});
 	</script>
+	
 
     <!-- sort and filter scripts-->
     <script>
@@ -1059,7 +1062,30 @@
     <script src="../assets/plugins/vertical-menu/vendors.min.js"></script>
     <script src="../assets/plugins/vertical-menu/app-menu.min.js"></script>
     <script src="../assets/plugins/vertical-menu/app.min.js"></script>
+<!--scroll-->
+	<script src="../assets/plugins/scrollbar/jquery.trackpad-scroll-emulator.min.js"></script>
+  <script>
+  $(document).ready(function() {
+    // Initialize scrollers.
+    $('.demo1').TrackpadScrollEmulator();
+    // Demonstration of changing the vertical scroller content and dimensions.
+    $('.add-more').on('click', function(e){
+      e.preventDefault();
+      $('.demo1 .tse-content').append('<p class="odd">Additional content 1</p><p>Additional content 2</p><p p class="odd">Additional content 3</p><p>Additional content 4</p>');
+      $('.demo1').TrackpadScrollEmulator('recalculate');
+    });
+    $('.toggle-height').on('click', function(e){
+      e.preventDefault();
+      if ($('.demo1').height() === 400) {
+        $('.demo1').height(300);
+      } else {
+        $('.demo1').height(400);
+      }
+      $('.demo1').TrackpadScrollEmulator('recalculate');
+    });
 
+  });
+  </script>
 </body>
 
 </html>

@@ -228,36 +228,37 @@
             </div>
 			
          </div>
+		 <div class="recievedtext">
+			 <div class="circle-img3">
+			  <img class="w-100 " src="../assets/images/businessman.png">
+		</div>
+		 <div class="recieve-p" data-toggle="tooltip" data-placement="top" title="2:22pm">
+			 
+			 أنا بخير وانت؟		 		 
+	     </div>
+		  	
+			 
+		 </div>
+
          <div class="sendertext">
 			<div class="sender-p" data-toggle="tooltip" data-placement="top" title="2:20pm">
 			مرحبا كيف حالك؟	
             </div>
 			
          </div>
-         <div class="sendertext">
-			<div class="sender-p" data-toggle="tooltip" data-placement="top" title="2:20pm">
-			مرحبا كيف حالك؟	
-            </div>
-			
-         </div>
-         <div class="sendertext">
-			<div class="sender-p" data-toggle="tooltip" data-placement="top" title="2:20pm">
-			مرحبا كيف حالك؟	
-            </div>
-			
-         </div>
-         <div class="sendertext">
-			<div class="sender-p" data-toggle="tooltip" data-placement="top" title="2:20pm">
-			مرحبا كيف حالك؟	
-            </div>
-			
-         </div>
-         <div class="sendertext">
-			<div class="sender-p" data-toggle="tooltip" data-placement="top" title="2:20pm">
-			مرحبا كيف حالك؟	
-            </div>
-			
-         </div>
+
+		 <div class="recievedtext">
+			 <div class="circle-img3">
+			  <img class="w-100 " src="../assets/images/businessman.png">
+				 </div>
+			 <div class="recieve-p" data-toggle="tooltip" data-placement="top" title="2:22pm">
+			 
+			 أنا بخير وانت؟		 		 
+	     </div>
+		  	
+			 
+		 </div>
+
          <div class="sendertext">
 			<div class="sender-p" data-toggle="tooltip" data-placement="top" title="2:20pm">
 			مرحبا كيف حالك؟	
@@ -309,8 +310,8 @@
                         <i class="la la-send la-flip-horizontal"></i>
                     </div>
                 </div>
-                <div class="note-section col-lg-8  col-sm-12 col-xs-12 p-0 d-flex align-self-stretch bg-white">
-                    <div class="border-box p-2 align-self-stretch">
+                <div class="note-section col-lg-8  col-sm-12 col-xs-12 p-0 d-flex align-self-stretch bg-white tse-scrollable demo1">
+                    <div class="border-box p-2 align-self-stretch tse-content">
                         <i class="full-screen-icon la la-expand dark-color p-2 border-box mb-1 cursor-pointer"></i>
                         <i class="full-screen-icon fa fa-compress dark-color p-2 border-box mb-1 cursor-pointer"></i>
                         <p>
@@ -536,7 +537,6 @@
   $(document).ready(function() {
     // Initialize scrollers.
     $('.demo1').TrackpadScrollEmulator();
-    $('.demo2').TrackpadScrollEmulator();
     // Demonstration of changing the vertical scroller content and dimensions.
     $('.add-more').on('click', function(e){
       e.preventDefault();
@@ -552,21 +552,7 @@
       }
       $('.demo1').TrackpadScrollEmulator('recalculate');
     });
-    // Demonstration of changing the horizontal scroller content and dimensions.
-    $('.add-more-horiz').on('click', function(e){
-      e.preventDefault();
-      $('.demo2 .tse-content .boxes').append('<div class="box">A</div><div class="box">B</div><div class="box">C</div><div class="box">D</div>');
-      $('.demo2').TrackpadScrollEmulator('recalculate');
-    });
-    $('.toggle-width').on('click', function(e){
-      e.preventDefault();
-      if ($('.demo2').width() === 600) {
-        $('.demo2').width(500);
-      } else {
-        $('.demo2').width(600);
-      }
-      $('.demo2').TrackpadScrollEmulator('recalculate');
-    });
+
   });
   </script>
 
