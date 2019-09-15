@@ -1201,8 +1201,6 @@ padding-top:82px;
 
 .day_message {
 	max-height: calc(100% - 121px) !important;
-	overflow-y: scroll;
-    overflow-x:hidden;
     padding-left:15px !important;
     height:100%;
 	
