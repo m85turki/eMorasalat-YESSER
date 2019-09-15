@@ -1296,9 +1296,13 @@ padding-top:82px;
 	text-align: center;
 }
 .show_message{
-	max-height: calc(100%-132px);
-	overflow-y: scroll;
+
+    padding-left: 15px;
+    max-height: 350px;
+    overflow-y: scroll;
+    
 }
+
 .white-notification{
 	color:white;
 }
