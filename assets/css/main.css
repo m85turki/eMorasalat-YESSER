@@ -1489,12 +1489,15 @@ color:#ff3636;
     background-color: #F8F8F8;
     padding:10px 5px;
 }
-.circle-img
+ .circle-img
 {
-    width:60px;
-    height:60px;
-    border-radius: 50%;
+    width:50px;
+    height:50px;
+	border-radius: 50%;
+	overflow: hidden;
 }
+
+
 .sort-icons
 {
     font-size: 20px;
@@ -1888,10 +1891,6 @@ position :relative;
     min-width: 90%;
 }
 
-.small-dialog
-{
-    max-width: 400px;
-}
 .small-dialog-gray{
 	max-width: 400px;
 }
@@ -2259,8 +2258,8 @@ li.list-group-item.has-sub:not(:first-child)::before {
 }
 .message-row .circle-img
 {
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     display: inline-block;
     vertical-align: top;
 }
@@ -2315,6 +2314,8 @@ li.list-group-item.has-sub:not(:first-child)::before {
     overflow-x: hidden;
     padding-top:7px;
     padding-right: 15px;
+    max-height: 300px;
+    resize: none;
 }
 
 .message-input i

@@ -99,7 +99,7 @@
                             </div>
                             <div class="notifications dropdown mt-2 px-4">
                                 <a href="#" class="dropdown-toggle la la-bell" data-toggle="dropdown" aria-haspopup="false" aria-expanded="true" data-placement="bottom" title="التنبيهات">
-                                    <em class="notification_sticky">22</em>
+                                    <em class="notification_sticky"></em>
                                 </a>
                                 <ul class="dropdownposition dropdown-menu  fadeIn animated" aria-labelledby="drop1">
 
@@ -127,8 +127,8 @@
                             </div>
                             <div class="px-3">
                                 <a href="#" data-toggle="tooltip" data-placement="bottom" title="" class="chatbtn" data-original-title="المحادثات">
-                                    <em class="notification_sticky">22</em>
-                                    <i class="la la-comments "></i>
+                                    <em class="notification_sticky"></em>
+                                    <i class="la la-comments white-notification "></i>
                                 </a>
                             </div>
                             <div class="px-3">
@@ -204,10 +204,12 @@
             <div class="d-flex h-100">
                 <div class="chat-section col-lg-4 col-sm-12 col-xs-12 align-self-stretch px-0">
                     <div class="d-flex align-items-center">
-                        <img class="circle-img" src="../assets/images/FischerForPersonalWebsite.jpg">
+                        <div class="circle-img">
+                        <img class="w-100" src="../assets/images/businessman.png">
+                        </div>
 						<span class="dark-color mx-3">عبد العزيز الدهاسي </span>
 						<div class="ml-auto">
-						<button class="btn btn-st1  w-100" data-toggle="modal" data-target="#ChatModal">
+						<button class="btn btn-st1 d-inline-block d-sm-none w-100" data-toggle="modal" data-target="#ChatModal">
 							عرض المشاركة
 						
 								</button>
@@ -216,44 +218,47 @@
                     <hr class="my-2">
            <div class="day_message mb-2">
 			   <div class="date">10 Aug ,2019,3:42 pm</div>
-	 	<div class="sendertext" data-toggle="tooltip" data-placement="top" title="2:20pm">
-  
-			 <img class="circle-img2 mx-1" src="../assets/images/s1zgf6qt3qsrmp59oe6z.jpg">
-			<p>
+	 	<div class="sendertext">
+			<div class="sender-p" data-toggle="tooltip" data-placement="top" title="2:20pm">
 			مرحبا كيف حالك؟	
-			</p>
-			<span class="read-check"><i class="fas fa-check-double"></i></span>
+            </div>
 			
 		 </div>
-		 <div class="recievedtext" data-toggle="tooltip" data-placement="top" title="2:20pm">
-			  <img class="circle-img3 mx-1" src="../assets/images/FischerForPersonalWebsite.jpg">
-			 <p>أنا بخير وانت؟		 		 
-			 </p>
+		 <div class="recievedtext">
+			 <div class="circle-img3">
+			  <img class="w-100 " src="../assets/images/businessman.png">
+				 </div>
+			 <div class="recieve-p" data-toggle="tooltip" data-placement="top" title="2:22pm">
+			 
+			 أنا بخير وانت؟		 		 
+			</div>
 		  	
 			 
 		 </div>
 		 <div class="date">18 Aug ,2019,1:42 pm</div>
-	 	<div class="sendertext" data-toggle="tooltip" data-placement="top" title="2:40pm">
-			 <img class="circle-img2 mx-1" src="../assets/images/s1zgf6qt3qsrmp59oe6z.jpg">
-			<p>
-			مرحبا كيف حالك؟	
-			</p>
-			<span class="read-check"><i class="fas fa-check-double"></i></span>
+	 	<div class="sendertext">
+			<div class="sender-p" data-toggle="tooltip" data-placement="top" title="2:20pm">
+                مرحبا كيف حالك؟	
+                </div>
 			
 		 </div>
-		 <div class="recievedtext" data-toggle="tooltip" data-placement="top" title="2:50pm">
-			  <img class="circle-img3 mx-1" src="../assets/images/FischerForPersonalWebsite.jpg">
-			 <p>أنا بخير وانت؟		 		 
-			 </p>
+		 <div class="recievedtext">
+			   <div class="circle-img3">
+			  <img class="w-100 " src="../assets/images/businessman.png">
+				 </div>
+			  <div class="recieve-p" data-toggle="tooltip" data-placement="top" title="2:22pm">
+				  أنا بخير وانت؟		 		 
+			 </div>
 		  	
 			 
 		 </div>
-			    	<div class="sendertext" data-toggle="tooltip" data-placement="top" title="2:50pm">
-			 <img class="circle-img2 mx-1" src="../assets/images/s1zgf6qt3qsrmp59oe6z.jpg">
-			<p>
-			مرحبا كيف حالك؟	
-			</p>
-			<span class="read-check "><i class="fas fa-check"></i></span>
+			    	<div  class="sendertext">
+                        <div class="sender-p" data-toggle="tooltip" data-placement="top" title="2:20pm">
+                            مرحبا كيف حالك؟	
+                            </div>
+						<span class="read-check"><i class="fas fa-check-double"></i></span>
+						<span class="read-check-gray"><i class="fas fa-check-double"></i></span>
+						<span class="read-check-gray "><i class="fas fa-check"></i></span>
 			
 		 </div>
 
@@ -460,20 +465,12 @@
     <script src="../assets/plugins/vertical-menu/app-menu.min.js"></script>
     <script src="../assets/plugins/vertical-menu/app.min.js"></script>
 <!--QBS Blugin-->
-<script>
- var textarea = null;
-        window.addEventListener("load", function() {
-            textarea = window.document.querySelector("textarea");
-            textarea.addEventListener("keypress", function() {
-                if(textarea.scrollTop != 0){
-                    textarea.style.height = textarea.scrollHeight + "px";
-                }
-            }, false);
-        }, false);
-	</script>
+<script type="text/javascript" src="../assets/js/resize-textarea/autosize.js"></script>
     <!-- jquery-confirm JS -->
     <script type="text/javascript" src="../assets/plugins/confirm/jquery-confirm.min.js"></script>
-
+<script>
+		autosize(document.querySelectorAll('textarea'));
+	</script>
    <!-- full screen scripts -->
    <script>
         $(document).ready(function(){
