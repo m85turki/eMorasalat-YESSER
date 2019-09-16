@@ -460,7 +460,7 @@ color:#7db8f1;
 }
 
 .popchat {
-    border-radius: 7px 0px 0px 0px;
+    border-radius: 0px 7px 0px 0px;
     width: 50%;
     height: 100%;
     display: none;
