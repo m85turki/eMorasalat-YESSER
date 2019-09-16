@@ -2230,7 +2230,7 @@ li.list-group-item.has-sub:not(:first-child)::before {
     height: 12px;
     width: 12px;
     right: 40px;
-    top: 45px;
+    top: 35px;
     border-radius: 50%;
     border: 1px solid #f7f7f7;
 }
