@@ -534,8 +534,8 @@ color:#7db8f1;
     position: absolute;
 }
 .circle-img3 {
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
     display: inline-block;
     vertical-align: center;
@@ -602,7 +602,7 @@ color:#7db8f1;
     color: white;
     border-radius: 18px;
     border-top-left-radius: 0;
-    margin-left: 50px;
+    margin-left: 40px;
 }
 .recievedtext2 {
     background-color: white;
