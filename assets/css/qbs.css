@@ -456,7 +456,7 @@ color:#7db8f1;
 }
 
 .topnav {
-    background-color: white;
+    background-color: rgb(161, 142, 142);
 }
 
 .popchat {
@@ -1303,7 +1303,7 @@ padding-top:82px;
 }
 
 .white-notification{
-	color:white;
+	color:white !important;
 }
 .note-section{
 	height:100% !important;
