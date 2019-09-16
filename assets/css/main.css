@@ -2300,7 +2300,7 @@ li.list-group-item.has-sub:not(:first-child)::before {
 }
 
 .popchat .message-input{
-	bottom: 15px;
+	bottom: 45px;
 }
 .message-input textarea
 {
