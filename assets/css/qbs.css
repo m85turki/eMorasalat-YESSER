@@ -460,7 +460,7 @@ color:#7db8f1;
 }
 
 .popchat {
-    border: 0px;
+    border-radius: 7px 0px 0px 0px;
     width: 50%;
     height: 100%;
     display: none;
@@ -1308,6 +1308,7 @@ padding-top:82px;
 .note-section{
 	height:100% !important;
 }
+
 /*-----------------------------------------------------------------*/
 
 @media(min-width:1024px) {
@@ -3319,9 +3320,10 @@ table > thead > tr {
 	.mt-sm-4{
 		margin-top:1.5rem;
 	}
-	.carddiv{
-		width:90% !important;
-	}
+    .carddiv{
+        width: 100% !important;
+        right:0 !important;
+    }
 	}
 
 @media(max-width:576px) {
@@ -3516,9 +3518,10 @@ table > thead > tr {
 		display: block !important;
 	}
 	.message-input{
-    bottom: -10px !important;
+    bottom: 5px !important;
 		width:100%!important;
-	}
+    }
+ 
 	/*.mr-lg-3{
 		margin-left: 0px;
 	}
@@ -3549,8 +3552,4 @@ table > thead > tr {
     width:0;
     height: 100%;
     opacity: 0;
-}
-@media(min-width:576px) {
-	
-	
 }
