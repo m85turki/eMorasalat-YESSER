@@ -36,8 +36,8 @@ h3.site-color .new-notifications-count{
     position: relative;
     overflow: hidden;
     vertical-align: middle;
-    width: 48px;
-    height: 48px;
+    width: 40px;
+    height: 40px;
     line-height: 32px;
     border-radius: 25px;
 }
@@ -149,47 +149,43 @@ h3.site-color .new-notifications-count{
 	bottom:10px;
 	position: fixed;
 	right:15px;
-	width:538px;
-	background-color:#e8e8e8;
-	height:550px;
-	border-radius: 7px;
+	width:25%;
+	height:80%;
+	background-color:white;
+	max-height:80%;
 	display: none;
  	box-shadow: 0px 5px 20px -5px rgba(0, 0, 0, 0.2);
+    border-radius: 7px 7px 0px 0px;
 }
 
-.chat_list .list-group-item, .popchat .list-group-item {
-    background-color: #f5f5f5;
-}
+
 .box2{
 	border:1px solid #cecece;
 	padding:10px;
 	border-radius: 0.25rem;
 }
 
-.firstcard .list-group-item {
+.firstcard .showpopchat{
     background-color: white;
 }
 
 .for-scroll {
     width: 100%;
-    overflow-y: scroll;
     overflow-x: hidden;
-    height: 416px !important;
+    height: 100%!important;
     padding: 10px;
     position: relative;
     right: 0 !important;
     left: auto !important;
     top:0px;
     margin: 0 !important;
+	max-height:calc(100% - 38px) !important;
 }
 
 .chat_text {
     font-size: 12px;
     margin-top: 0px;
-	padding-right:65px;
     color: #a2a2a2;
-    position: relative;
-    bottom: 15px;
 	margin-bottom: 0px;
 }
 
@@ -340,22 +336,6 @@ h3.site-color .new-notifications-count{
     color: white;
     background-color: #0ed88a;
 }
-.btn-st6 {
-    color: white;
-    background-color: #c2c1c1;
-	border-radius: 7px;
-}
-
-.btn-st6:hover {
-    background-color: #989797;
-    border-color: #989797;
-}
-
-.btn-st6:focus, .btn-st6.focus {
-    box-shadow: 0 0 0 0.2rem rgb(248, 246, 246, 0.5);
-	color:white;
-}
-
 
 .upload-btn-wrapper .btn:hover,.upload-btn-wrapper .btn:focus{
 	background-color:#f8f6f6;
@@ -418,8 +398,17 @@ color:#7db8f1;
     height: 30px;
     font-size: 18px;
     padding: 2px;
-    width: 300px;
-    background-color: #262b56;
+    width: 100%;
+    background-color: #262b56 !important;
+    border-radius: 7px 7px 0px 0px;
+}
+.purple2 {
+    z-index: 1000000;
+    height: 30px;
+    font-size: 18px;
+    padding: 2px;
+    width: 100%;
+    background-color: #262b56 !important;
     border-radius: 7px 7px 0px 0px;
 }
 .btn-st1 a label{
@@ -435,12 +424,13 @@ color:#7db8f1;
 }
 
 .chat_list {
-    width: 300px;
-    height: 431px !important;
+    width: 100%;
     position: absolute;
     right: 0px;
     overflow-x: hidden;
     background-color: white !important;
+    height:100% !important;
+	max-height: 100%;
 }
 
 .firstcard .list-group-item {
@@ -457,10 +447,11 @@ color:#7db8f1;
     }
 
 
+
 .firstcard {
     display: none;
-    width: 300px;
-    height: 548px;
+    width: 100%;
+    height: 100%;
     border-radius: 7px;
 }
 
@@ -470,23 +461,18 @@ color:#7db8f1;
 }
 
 .popchat {
-    position: absolute;
-    top: 30px;
     border: 0px;
-    width: 300px;
-    height: 540px;
+    width: 50%;
+    height: 100%;
     display: none;
     background-color: #f8f8f8;
+	position: relative;
+	top:30px;
 }
 
-.popchat li {
-    border: 0;
-}
 
-.firstcard ul {
-    margin: 0px;
-    padding: 0px;
-}
+
+
 
 .listgroub2 {
     position: relative;
@@ -497,6 +483,16 @@ color:#7db8f1;
     color: white;
     position: absolute;
     top: 7px;
+	left:5px;
+}
+.purple2 .fa-times{
+   color: white;
+    position: absolute;
+    top: 7px;
+	left:5px;
+}
+.card-header2{
+	display: none;
 }
 
 .search_field {
@@ -539,8 +535,8 @@ color:#7db8f1;
     position: absolute;
 }
 .circle-img3 {
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     display: inline-block;
     vertical-align: center;
@@ -1237,8 +1233,7 @@ padding-top:82px;
 }
 
 .showpopchat {
-    position: relative;
-	padding:5px 5px !important;
+    border-top:1px solid #dfdfdf;
 }
 
 .first_person {
@@ -3327,7 +3322,9 @@ table > thead > tr {
 	.mt-sm-4{
 		margin-top:1.5rem;
 	}
-
+	.carddiv{
+		width:90% !important;
+	}
 	}
 
 @media(max-width:576px) {
@@ -3521,6 +3518,10 @@ table > thead > tr {
 	 .header-container{
 		display: block !important;
 	}
+	.message-input{
+    bottom: -10px !important;
+		width:100%!important;
+	}
 	/*.mr-lg-3{
 		margin-left: 0px;
 	}
@@ -3551,4 +3552,8 @@ table > thead > tr {
     width:0;
     height: 100%;
     opacity: 0;
+}
+@media(min-width:576px) {
+	
+	
 }

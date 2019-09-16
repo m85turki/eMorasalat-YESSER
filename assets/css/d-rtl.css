@@ -272,10 +272,6 @@ li.list-group-item.has-sub:not(:first-child)::before {
   left: 70%;
 }
 
-.popchat {
-  right: 300px;
-}
-
 .listgroub2 {
   right: 100px;
 }
