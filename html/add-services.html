@@ -195,67 +195,45 @@
     </div>
 	
     <div class="container-all">
-            <div class="d-flex mb-3 mx-5 mx-xs-3 header-container">
-                    <h3 class="site-color">إضافة تفويض</h3>
-					<div class="close-icon mt-0 ml-auto">
+<div class="mb-3 mx-5 mx-xs-3 header-container2 d-flex align-items-center">
+                    <h3 class="site-color mt-xs-4">إضافة تفويض </h3>
+					<div class="close-icon mt-0 ml-auto" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="إغلاق">
                 <a class="circle-icon color-white" href="#"><i class="la la-close"></i></a>
-                <br>
-                <span class="gray2">إغلاق</span>
             </div>
             </div>
 		<div class="content_container">
             <div class="white-container mx-5 mx-xs-3">
 				<div class="form-row">
-							<div class="form-group col-lg-3 col-md-4 col-sm-6 col-xs-12 ">
+							<div class="form-group col-lg-4 col-md-4 col-sm-6 col-xs-12 ">
 								<label for="">تاريخ بداية التفويض <span class="red-color">*</span> </label>
 								    <div class="input-group">
-                                    <input type="text" class="form-control hasDatepicker outline-red" id="datepicker">
+                                    <input type="text" class="form-control is-invalid hasDatepicker outline-red" id="datepicker">
                                     <div class="input-group-append">
                                         <span class="input-group-text hyperlink">
                                             <a href="#"><i class="far fa-calendar"></i></a>
                                         </span>
 										</div>	
                                 </div>
-											<small class=" stark">
-                                                   يرجى اختيار تاريخ أكبر من تاريخ اليوم
-                                        </small>
+								<div class="invalid-feedback">
+                                        يرجى اختيار تاريخ أكبر من اليوم
+                                      </div>
 							</div>
 					
-							<div class="form-group col-lg-3 col-md-4 col-sm-6 col-xs-12">
+							<div class="form-group col-lg-4 col-md-4 col-sm-6 col-xs-12">
 								<label for="">تاريخ نهاية التفويض <span class="red-color">*</span> </label>
 							    <div class="input-group">
-                                    <input type="text" class="form-control hasDatepicker outline-red" id="datepicker">
+                                    <input type="text" class="form-control is-invalid hasDatepicker outline-red" id="datepicker">
                                     <div class="input-group-append">
                                         <span class="input-group-text hyperlink">
                                             <a href="#"><i class="far fa-calendar"></i></a>
                                         </span>
                                     </div>
                                 </div>
-										<small class=" stark">
-                                                   يرجى اختيار تاريخ أكبر من تاريخ اليوم
-                                        </small>	
+										<div class="invalid-feedback">
+                                        يرجى اختيار تاريخ أكبر من اليوم
+                                      </div>
 							</div>
-					
-                         <div class="form-group col-lg-6 col-md-4 col-sm-6 col-xs-12">
-                            <label for="">الإدارة المفوض لها <span class="red-color">*</span></label>
-                            <div class="row pr-xs-3">
-                                <div class=" col-lg-4 col-xs-5 pr-2">
-                                    <input placeholder="رقم الجهة" type="text" class="form-control">
-                                </div>
-                                <div class=" col-lg-8 col-xs-7 pl-xs-0 pl-0">
-									<div class="input-group">
-                                            <input type="text" class="form-control">
-                                            <div class="input-group-append">
-                                                <span class="input-group-text hyperlink white">
-                                                    <a href="#"><i class="fas fa-filter fa-flip-horizontal"></i></a>
-                                                </span>
-                                            </div>
-                                        </div>
-
-                                </div>
-                            </div>
-                        </div>
-					<div class="form-group col-lg-3 col-sm-6 col-xs-12">
+										<div class="form-group col-lg-4 col-sm-6 col-xs-12">
                             <label for="">الموظف المفوض له
 								<span class="red-color">*</span>
 							</label>
@@ -264,13 +242,36 @@
                                 <option>...</option>
                             </select>
                         </div>
+					
+                         <div class="form-group col-lg-5 col-md-4 col-sm-6 col-xs-12">
+                            <label for="">الإدارة المفوض لها <span class="red-color">*</span></label>
+                            <div class="row pr-xs-3">
+                                <div class=" col-lg-4 col-xs-5 pr-2">
+                                    <input placeholder="رقم الجهة" type="text" class="form-control">
+                                </div>
+                                <div class=" col-lg-8 col-xs-7 pl-xs-0 pl-0">
+								<div class="input-group">
+                                            <input type="text" class="form-control" placeholder="اسم الجهة الواردة ">
+                                            <div class="input-group-append">
+                                                <span class="input-group-text hyperlink white">
+                                                    <a href="#"><i class="icon-filter-form"></i></a>
+                                                </span>
+                                            </div>
+                                        </div>
+
+                                </div>
+                            </div>
+                        </div>
+
 						</div>
-				<small class=" stark pull-right">
+			<div class="mt-2 text-danger">
                                             يرجى تعبئة الحقول التي تحتوي على إشارة *
-                                        </small>
+                                     </div>
 
             </div>
-			<button type="submit" class="btn btn-st1 btn-lg pull-right mx-5" data-toggle="modal" data-target="#MyModal">حفظ</button>
+			<div class="pull-right mx-5">
+			<button type="submit" class="btn btn-st1 btn-lg" data-toggle="modal" data-target="#MyModal">حفظ</button>
+				</div>
 <div class="modal fade in" id="MyModal" role="dialog">
         <div class="modal-dialog small-dialog">
 			        <div class="modal-content">
