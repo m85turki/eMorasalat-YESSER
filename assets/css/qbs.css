@@ -1049,13 +1049,7 @@ border:0;
 }
 
 
-.to_class {
-    color: #B1B1B1;
-	position: relative;
-    right: 30px;
-	top: 30px;
 
-}
 .dashboard_card .card .card-h .title{
 	text-align: right !important;
 }
@@ -1065,11 +1059,6 @@ padding-top:82px;
 }
 
 
-.to_class2 {
-    position: relative;
-    top: 20px;
-    color: #B1B1B1;
-}
 
 .table.table-striped.dashboard_table tbody tr td {
     color: gray;
@@ -3308,10 +3297,7 @@ table > thead > tr {
     padding-bottom: 60px;
 }
 
-.pd_button2 {
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
+
 
 
 .table-responsive {
@@ -3473,11 +3459,7 @@ table > thead > tr {
 	.notif-col {
     width: 50%;
 }
-	.to_class {
-     top: -10px;
-     right:100px;
 
-}
 	th{
 		font-size: 14px!important;
 	}
