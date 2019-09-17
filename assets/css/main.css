@@ -1747,7 +1747,6 @@ position :relative;
     border: 0;
 }
 .custom-sub-nav-tabs.nav-tabs>li>a:hover {
-    background-color: #f7f7f9;
     border-bottom: 5px solid #ddd;
 }
 .custom-sub-nav-tabs.nav-tabs>li>a {
@@ -1756,7 +1755,15 @@ position :relative;
     border-radius: 0;
     color:#676B88;
     background-color: unset;
-    padding: 5px 15px;
+	margin-left: 10px !important;
+    margin-right: 10px !important;
+
+}
+.nav>li>a{
+	padding:5px 0px !important;
+}
+.nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover{
+	background-color: transparent !important;
 }
 .custom-sub-nav-tabs.nav-tabs>li.active>a,
 .custom-sub-nav-tabs.nav-tabs>li.active>a:focus,
