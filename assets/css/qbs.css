@@ -348,7 +348,7 @@ h3.site-color .new-notifications-count{
 	color:#cc1c00;
 }
 .btn-st6.disabled, .btn-st6:disabled {
-    color: blck;
+    color: #cc1c00;;
     background-color: #d5d6d6;
 }
 .btn-st7 {
@@ -357,6 +357,11 @@ h3.site-color .new-notifications-count{
 }
 .btn-st7:hover,.btn-st7:focus{
     background-color:#eff6ff;
+    border-color: #eff6ff;
+	color:#4990e2;
+}
+.btn-st7.disabled, .btn-st7:disabled{
+	background-color:#eff6ff;
     border-color: #eff6ff;
 	color:#4990e2;
 }
