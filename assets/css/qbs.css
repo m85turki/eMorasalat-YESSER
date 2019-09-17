@@ -41,9 +41,7 @@ h3.site-color .new-notifications-count{
     line-height: 32px;
     border-radius: 25px;
 }
-.invalid-feedback{
-	display: block !important;
-}
+.invalid-feedback
 .h-avatar2>img {
     width: 100%;
     height: 100%;
