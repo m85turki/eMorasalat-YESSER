@@ -3506,7 +3506,11 @@ table > thead > tr {
     bottom: 5px !important;
 		width:100%!important;
     }
-
+	.close-icon{
+		position: absolute;
+		left:10px;
+		top:10px;
+	}
 	/*.mr-lg-3{
 		margin-left: 0px;
 	}
