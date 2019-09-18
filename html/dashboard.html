@@ -202,7 +202,7 @@
 				<div class="dashboard-form mx-3 mx-sm-5">
 					<form>
 						<div class="form-row mx-2">
-							<div class="form-group col-lg-3 col-md-4 col-sm-12 col-xs-12">
+							<div class="form-group col-lg-3 col-md-6 col-sm-12 col-xs-12">
 								<label for="">الإدارة الفرعية</label>
 								<select id="inputState" class="form-control">
 									<option selected>الإدارة الفرعية 1</option>
@@ -210,37 +210,33 @@
 									<option>...</option>
 								</select>
 							</div>
-							<div class="form-group col-lg-4 col-md-4 col-sm-12 col-xs-12">
-								<div class="col-lg-5 col-sm-5 col-xs-12 mb-3 px-0 date1">
-									<label for="">التاريخ </label>
-									<div class="input-group mb-3">
-										<input type="text" class="form-control hasDatepicker" id="datepicker">
-										<div id="ui-datepicker-div"></div>
+                <div class="form-group col-lg-4 col-md-6 col-sm-12 col-xs-12">
+								<div class="col-sm-6 col-xs-12 pr-sm-2 pl-sm-0 p-xs-0">
+									<label for="">التاريخ من</label>
+									<div class="input-group">
+										<input type="text" class="form-control">
 										<div class="input-group-append">
-											<span class="input-group-text hyperlink">
-												<a href="#"><i class="icon-calendar"></i></a>
-											</span>
-										</div>								
-									</div>
-								</div>
-                              <div class="col-lg-2 col-xs-12 col-sm-2">
-								  <div class="mt-auto mt-sm-5 mx-2 p-0">
-							<span class="gray4">إلى </span>
-								  </div>
-								</div>
-								<div class="col-lg-5 col-sm-5 col-xs-12 mb-3 date2">
-									<label for="">التاريخ </label>
-									<div class="input-group mb-3">
-										<input type="text" class="form-control hasDatepicker" id="datepicker2">
-										<div class="input-group-append">
-											<span class="input-group-text hyperlink">
+											<span class="input-group-text hyperlink ">
 												<a href="#"><i class="icon-calendar"></i></a>
 											</span>
 										</div>
 
+								       </div>
 									</div>
-								</div>
-							</div>
+										   	
+										   		<div class="col-sm-6 col-xs-12 pl-sm-2 pr-sm-0 p-xs-0">
+									<label for="">التاريخ إلى</label>
+									<div class="input-group">
+										<input type="text" class="form-control">
+												<div class="input-group-append">
+											<span class="input-group-text hyperlink">
+												<a href="#"><i class="icon-calendar"></i></a>
+											</span>
+										</div>
+								       </div>
+									</div>
+										   
+											</div>
 						</div>
 					</form>
 				</div>
@@ -389,11 +385,9 @@
 				</div>
 
 
-					<div class="mx-3 mx-sm-5 py-3">
-						<div class="text-right">
-						<button type="submit" class="btn btn-st1 btn-lg print_button" data-toggle="modal" data-target="#myModal">طباعة</button>
-						<button type="submit" class="btn btn-st1 btn-lg  ml-2">تصدير</button>
-						</div>
+					<div class="mx-3 mx-sm-5 p-3 pull-right">
+						<button type="submit" class="btn btn-st1 btn-lg" data-toggle="modal" data-target="#myModal">طباعة</button>
+						<button type="submit" class="btn btn-st1 btn-lg ml-2">تصدير</button>
 					</div>
 
 
@@ -411,21 +405,18 @@
 			<div class="modal-content modal-height">
 				<div class="modal-header">
 				
-			<div class="d-flex">
-				<div class="mr-5">
+			<div class="d-sm-flex d-block">
+				<div class="mr-auto mr-sm-5">
             <span class="site-color main-title2">معاملات الصادر</span>
 					</div>
 
 						<div class="">
-				<span class="gray4">التاريخ <span class="d-block site-color">28 تشرين الثاني 2018 الأحد</span></span>
+				<span class="gray4">التاريخ من <span class="d-block site-color">28 تشرين الثاني 2018 الأحد</span></span>
+                        </div>
+				<div class="ml-auto ml-sm-5">
+				<span class="gray4">التاريخ إلى <span class="d-block site-color">28 تشرين الثاني 2018 الأحد</span></span>
 						</div>
-								<div class="mx-5 align-self-end">
-									<span class="gray4">إلى </span>
-						</div>
-						<div class="">
-				<span class="gray4">التاريخ <span class="d-block site-color">28 تشرين الثاني 2018 الأحد</span></span>
-						</div>
-		<div class="close-icon mt-0 ml-auto" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="إغلاق">
+		<div class="close-icon close-position mt-0 ml-auto" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="إغلاق">
                 <a class="circle-icon color-white" href="#"><i class="la la-close"></i></a>
             </div>
 					</div>
@@ -568,8 +559,7 @@
 
 
 	<!-- jQuery -->
-	<script src="../assets/js/jquery.js"></script>
-<script src="../assets/js/jquery-ui-1.9.2/js/jquery-ui-1.9.2.custom.js"></script>
+
 
 	<!-- Bootstrap Core JavaScript -->
 	<script src="../assets/bootstrap/js/bootstrap.min.js"></script>
@@ -593,17 +583,6 @@
 		});
 	</script>
 
-<!---QBS Jquery-->
-<script type="text/javascript">
-		$(function() {
-		$( "#datepicker" ).datepicker();
-	});
-	</script>
-	<script type="text/javascript">
-		$(function() {
-		$( "#datepicker2").datepicker();
-	});
-	</script>
 <!--End of Jquery-->
 	<!-- Vertical Menu css-->
 	<script src="../assets/plugins/vertical-menu/vendors.min.js"></script>
