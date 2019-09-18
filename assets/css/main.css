@@ -1747,7 +1747,7 @@ position :relative;
     border: 0;
 }
 .custom-sub-nav-tabs.nav-tabs>li>a:hover {
-    border-bottom: 5px solid #ddd;
+    border-bottom: 3px solid #ddd;
 }
 .custom-sub-nav-tabs.nav-tabs>li>a {
     border: 0;
@@ -1757,6 +1757,8 @@ position :relative;
     background-color: unset;
 	margin-left: 10px !important;
     margin-right: 10px !important;
+    border-bottom: 3px solid #3290E9;
+    border-color: transparent;
 
 }
 .nav>li>a{
@@ -1772,7 +1774,7 @@ position :relative;
     color: #262B56;
     border: 0px; 
     background-color: transparent;
-    border-bottom: 5px solid #3290E9;
+    border-bottom: 3px solid #3290E9;
     position:relative;
 }
 /** end sub tabs **/
