@@ -3303,14 +3303,6 @@ table > thead > tr {
 .d-flex-sm{
 	display:flex;
 }
-
-	.pl-sm-0{
-		padding-right: 0px !important;
-	}
-		.pr-sm-0{
-		padding-left:0px !important;
-	}
-
 	.mt-sm-4{
 		margin-top:1.5rem;
 	}
