@@ -1755,13 +1755,14 @@ position :relative;
     border-radius: 0;
     color:#676B88;
     background-color: unset;
-	margin-left: 10px !important;
     border-bottom: 3px solid #3290E9;
     border-color: transparent;
 
 }
 .nav>li>a{
 	padding:5px 0px !important;
+	margin-left: 12px !important;
+	margin-right: 12px;
 }
 .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover{
 	background-color: transparent !important;
