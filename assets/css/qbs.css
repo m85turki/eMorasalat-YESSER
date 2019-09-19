@@ -365,6 +365,40 @@ h3.site-color .new-notifications-count{
     border-color: #eff6ff;
 	color:#4990e2;
 }
+.btn-st8 {
+    color: #343b77;
+    background-color: transparent;
+    border-color: #343b77;
+}
+
+.btn-st8:hover {
+    color:#343b77;
+    background-color:#e4e7fc;
+    border-color:#262f6b ;
+}
+
+.btn-st8:focus, .btn-st8.focus {
+    box-shadow: 0 0 0 0.2rem #343b7;
+	color:#343b77;
+}
+
+.btn-st8.disabled, .btn-st8:disabled {
+    color: black;
+    background-color: #4A91E3;
+    border-color: #262f6b;
+}
+
+.btn-st8:not(:disabled):not(.disabled):active, .btn-st8:not(:disabled):not(.disabled).active,
+.show > .btn-st8.dropdown-toggle {
+    color: black;
+    background-color: #f8f6f6;
+    border-color: #262f6b;
+}
+
+.btn-st8:not(:disabled):not(.disabled):active:focus, .btn-st8:not(:disabled):not(.disabled).active:focus,
+.show > .btn-st2.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
+}
 .upload-btn-wrapper .btn:hover,.upload-btn-wrapper .btn:focus{
 	background-color:#f8f6f6;
 	color:#2881e6;
