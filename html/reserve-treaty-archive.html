@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link type="image/x-icon" rel="shortcut icon" href="./favicon.ico">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="theme-color" content="#0c7c5a">
+    <title>مراسلات</title>
+	<link type="image/x-icon" rel="shortcut icon" href="./favicon.ico">
+    
+    <!-- Bootstrap RTL -->
+    <link href="../assets/bootstrap/css/bootstrap.min.rtl.css" rel="stylesheet">
+    <link href="../assets/bootstrap/css/bootstrap.form.rtl.css" rel="stylesheet">
+    <link href="../assets/bootstrap/css/bootstrap.grid.rtl.css" rel="stylesheet">
+
+    <!-- Main -->
+    <link href="../assets/css/main.css" rel="stylesheet">
+
+    <!-- Vertical Menu -->
+    <link rel="stylesheet" type="text/css" href="../assets/plugins/vertical-menu/vertical-menu.min.css">
+
+    <!-- Confirm -->
+    <link rel="stylesheet" type="text/css" href="../assets/plugins/confirm/jquery-confirm.min.css" />
+
+    <!-- RTL -->
+    <link href="../assets/css/d-rtl.css" rel="stylesheet">
+
+</head>
+
+
+<body class="vertical-layout vertical-menu 2-columns   menu-flipped fixed-navbar " data-open="click"
+    data-menu="vertical-menu" data-col="2-columns" dir="rtl">
+    <div class="fixed-top">
+        <div class="top-header">
+            <div class="container-fluid">
+                <div class="d-flex flex-column flex-sm-row">
+                    <div class="">
+                        <a class="main_logo" href="#">
+                            <img src="../assets/images/logo-morasalat.png" title="" alt="">
+                        </a>
+                    </div>
+
+                    <div class="d-flex ml-sm-auto  mr-0 align-content-around flex-wrap h-side">
+                        <div class="dropdown px-1 px-md-3">
+                            <a id="drop1" href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <span>إسم الإدارة</span>
+                                <i class="la la-angle-down"></i>
+                            </a>
+
+                            <ul class="dropdown-menu fadeIn animated admins" aria-labelledby="drop1">
+                                <li><a class="pb-2" href="#">إسم الإدارة 1</a></li>
+                                <li role="separator" class="divider  mb-0"></li>
+                                <li><a class="pb-2" href="#">إسم الإدارة 2</a></li>
+                                <li role="separator" class="divider  mb-0"></li>
+                                <li><a class="pb-2" href="#">إسم الإدارة 3</a></li>
+                                <li class="mb-0"></li>
+                            </ul>
+                        </div>
+
+                        <div class="user-settings dropdown  px-1 px-md-3 ml-0 ml-md-5">
+                            <a id="drop1" href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <span class="h-avatar mx-2">
+                                    <img src="../assets/images/businessman.png">
+                                </span>
+                                <span>أشرف حسين</span>
+                                <i class="la la-angle-down"></i>
+                            </a>
+
+
+                            <ul class="dropdown-menu employee_dd fadeIn" aria-labelledby="drop1 w-100">
+                                <li role="separator" class="divider  mb-0 mt-0"></li>
+                                <li class="pt-2 pb-2 pl-3"><a href="assignment-paper.html"><i class="la la-file-text"></i>ورقة الإحالة</a></li>
+                                <li role="separator" class="divider  mb-0 mt-0"></li>
+                                <li class="pt-2 pb-2 pl-3"><a href="#"><i class="la la-list"></i>قائمة التوزيع</a></li>
+                                <li role="separator" class="divider  mb-0 mt-0"></li>
+                                <li class="pt-2 pb-2 pl-3"><a href="#"><i class="la la-line-chart"></i>المسارات</a></li>
+                                <li role="separator" class="divider  mb-0 mt-0"></li>
+                                <li class="pt-2 pb-2 pl-3"><a href="#"><i class="la la-user"></i>التفويض </a></li>
+
+                            </ul>
+
+                        </div>
+                        <div class="d-flex top-icons">
+                            <div class="searchbox px-2 flex-grow-1">
+                                <div class="h-search">
+                                    <i onclick="focusMethod()" data-toggle="tooltip" data-placement="bottom" title="" class="la la-search" data-original-title="البحث السريع"></i>
+                                    <input class="myTextField" type="text" name="search" placeholder="البحث هنا">
+                                </div>
+                                <script>
+                                    focusMethod = function getFocus() {
+                                        $('.myTextField').focus();
+                                    }
+                                </script>
+                            </div>
+                            <div class="notifications dropdown mt-2 px-4">
+                                <a href="#" class="dropdown-toggle la la-bell" data-toggle="dropdown" aria-haspopup="false" aria-expanded="true" data-placement="bottom" title="التنبيهات">
+                                    <em class="notification_sticky">22</em>
+                                </a>
+                                <ul class="dropdownposition dropdown-menu  fadeIn animated" aria-labelledby="drop1">
+
+                                    <li class=" pt-3"><a href="#" class="pt-0 pb-2 pr-3 pl-3"><i class="la la-bell"></i>التنبيهات</a></li>
+                                    <li role="separator" class="divider mb-0 mt-0"></li>
+                                    <li class="bgchange pt-3 pb-3 pr-3 pl-3">
+                                        <a href="#"><i class="la la-bell"></i>تم إرجاع معاملة</a>
+                                        <span class="pt-0 pb-2 pr-3 pl-3"> 28 تشرين الثاني 2018</span>
+                                    </li>
+                                    <li role="separator" class="divider mb-0 mt-0 p-0"></li>
+
+                                    <li class="bgchange pt-3 pb-3 pr-3 pl-3">
+                                        <a href="#"><i class="la la-bell"></i>تم استلام معاملة</a>
+                                        <span class="pt-0 pb-2 pr-3 pl-3"> 28 تشرين الثاني 2018</span>
+                                    </li>
+                                    <li role="separator" class="divider  mb-0 mt-0 p-0"></li>
+                                    <li class="pt-3 pb-3 pr-3 pl-3">
+                                        <a href="#"><i class="la la-bell"></i>تم استلام مهمة جديدة</a>
+                                        <span class="pt-0 pb-2 pr-3 pl-3"> 28 تشرين الثاني 2018</span>
+                                    </li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="notifications.html" class="text-center">إظهار المزيد </a></li>
+                                </ul>
+
+                            </div>
+                            <div class="px-3">
+                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="" class="chatbtn" data-original-title="المحادثات">
+                                    <em class="notification_sticky">22</em>
+                                    <i class="la la-comments "></i>
+                                </a>
+                            </div>
+                            <div class="px-3">
+                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="الدعم الفني">
+                                    <i class="la la-headphones"></i>
+                                </a>
+                            </div>
+                            <div class="px-3">
+                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="المساعدة">
+                                    <i class="la la-question-circle"></i>
+                                </a>
+                            </div>
+                            <div class="px-3">
+                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="English">
+                                    <i class="la la-globe"></i>
+                                </a>
+                            </div>
+                            <div class="px-3">
+                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="خروج">
+                                    <i class="la la-power-off"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+        <!-- start of fixed header -->
+        <nav class="navbar navbar-default navbar-second">
+            <div class="container-fluid">
+                <div class="row row-custom">
+                    <div class="navbar-header d-flex">
+                        <div class="mobile-menu d-md-none ml-auto">
+                            <a class="nav-link nav-menu-main menu-toggle is-active" href="#">
+                                <i class="la la-ellipsis-h"></i>
+                            </a>
+                        </div>
+                        <div class="ml-auto">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+                    </div>
+                    <div id="navbar" class="navbar-collapse collapse">
+
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a href="#">المعاملات</a></li>
+                            <li><a href="#">المهام <span class="notification_sticky">3</span></a></li>
+                            <li><a href="#">استقبال الادارة</a></li>
+                            <li><a href="#">تقارير</a></li>
+                            <li><a href="#">لوحة قياس مستوى الاداء</a></li>
+
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+    </div>
+	
+    <div class="container-all">
+<div class="mb-3 mx-5 mx-xs-3 header-container2 d-flex align-items-center">
+                    <h3 class="site-color mt-xs-4">سجل المعاملات المحجوزة</h3>
+                    <div class="ml-auto d-flex">
+					<div class="filter-link">
+					<a class="dashed-circle filter-target" href="#">
+					<i class="icon-filter"></i>
+                                فلترة
+                            </a>
+
+                        </div>
+				<div class="close-icon mt-0" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="إغلاق">
+                <a class="circle-icon color-white" href="#"><i class="la la-close"></i></a>
+            </div>
+						</div>
+            </div>
+		<div class="filter-box filter white-container mx-3 mx-sm-5 mt-2 pb-2">
+                                        <form>
+                                  <div class="form-row">
+                               <div class="form-group col-lg-4 col-md-4 col-sm-6 col-xs-12">
+
+                               <label for="">نوع المعاملة</label>
+                               <select placeholder="اختر" id="inputState2" class="form-control">
+                                   <option selected="">نوع المعاملة</option>
+                                    <option>.....</option>
+                                     </select>
+
+                                      </div>
+
+                                <div class="form-group col-lg-4 col-md-4 col-sm-6 col-xs-12 align-self-end">
+                                 <label for="">الإدارة التي طلبت الحجز</label>
+                                  <select placeholder="اختر" id="inputState3" class="form-control">
+                                   <option selected="">الإدارة</option>
+                                    <option>.....</option>
+                                     </select>
+                                 </div>
+								 <div class="form-group col-lg-4 col-md-4 col-sm-6 col-xs-12 align-self-end">
+                                 <label for="">الموظف الذي طلب الحجز</label>
+                                  <select placeholder="اختر" id="inputState4" class="form-control">
+                                   <option selected="">الموظف</option>
+                                    <option>.....</option>
+                                     </select>
+                                 </div>
+											</div>
+
+                                      </form>
+                                            </div>
+		<div class="content_container">
+            <div class="white-container mx-5 mx-xs-3">
+                        <div class="d-flex pb-2">
+						<h3 class="m-0"> جدول سجل المعاملات المحجوزة </h3>
+						
+					<div class="gray2 ml-4"><span class="roundedred">3</span> سجلات</div>
+						</div>
+				<div class="table-responsive">
+						<table class="table table-striped dashboard_table grid">
+							<thead>
+								<tr>
+									<th>نوع المعاملة</th>
+									<th>
+                                      الإدارة التي طلبت الحجز
+									</th>
+									<th>الموظف الذي طلب الحجز</th>
+									<th>عدد المعاملات المطلوب حجزها</th>
+									<th>سبب الحجز </th>
+									<th>تاريخ الحجز</th>
+									<th></th>
+								</tr>
+							</thead>
+					<tbody>
+								<tr>
+									<td>صادر </td>
+									<td>اسم الإدارة</td>
+									<td>اسم الموظف</td>
+									<td> 9 معاملات</td>
+									<td>سبب الحجز</td>
+									<td>28 تشرين الثاني 2019</td>
+									<td class="reject" data-toggle="modal" data-target="#myModal"><i class="fas fa-chevron-left"></i></td>
+								</tr>
+								<tr>
+									<td>صادر </td>
+									<td>اسم الإدارة</td>
+									<td>اسم الموظف</td>
+									<td> 10 معاملات</td>
+									<td>سبب الحجز</td>
+									<td>28 تشرين الثاني 2019</td>
+									<td class="reject" data-toggle="modal" data-target="#myModal"><i class="fas fa-chevron-left"></i></td>
+								</tr>
+								<tr>
+									<td>وارد </td>
+									<td>اسم الإدارة</td>
+									<td>اسم الموظف</td>
+									<td> 20 معاملات</td>
+									<td> سبب الحجز</td>
+									<td>28 تشرين الثاني 2019</td>
+									<td class="reject" data-toggle="modal" data-target="#myModal"><i class="fas fa-chevron-left"></i></td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+        </div>
+			<div class="w-100 p-2 text-center">
+                        <nav aria-label="Page navigation">
+                            <ul class="pagination custom-pagination">
+                                <li class="change-page">
+                                    <a href="#" aria-label="Previous">
+                                        <i class="fa fa-caret-right"></i>
+                                    </a>
+                                </li>
+                                <li class="blues_border"><a href="#" class="transparent_bg">1</a></li>
+								<li><span class="transparent_bg font_size12"> من
+									
+									<span class="light-blue pl-1">4</span>
+									</span>
+								</li>
+                                <li class="change-page">
+                                    <a href="#" aria-label="Next">
+                                        <i class="fa fa-caret-left"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+			<div class="modal fade in" id="myModal" role="dialog">
+		<div class="modal-dialog large-dialog">
+
+			<!-- Modal content-->
+			<div class="modal-content modal-height">
+				<div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">×</button>
+
+			<div class="d-sm-flex d-block align-self-center">
+				<div class="">
+            <span class="site-color main-title2"> المعاملات الواردة التي تم حجزها</span>
+					</div>
+					<div class="gray2 ml-4 my-2"><span class="roundedred">9</span> سجلات</div>
+					</div>
+					</div>
+				
+				<div class="modal-body">
+
+					<div class="table-responsive">
+						<table class="table table-striped dashboard_table grid">
+							<thead>
+								<tr>
+									<th>نوع المعاملة</th>
+									<th>السنة</th>
+									<th>رقم المعاملة</th>
+								</tr>
+							</thead>
+					<tbody>
+								<tr>
+									<td>نوع المعاملة</td>
+									<td>2018 </td>
+									<td>2324324</td>
+								</tr>
+								<tr>
+									<td>نوع المعاملة</td>
+									<td>2018 </td>
+									<td>2324324</td>
+								</tr>
+								<tr>
+									<td>نوع المعاملة</td>
+									<td>2018 </td>
+									<td>2324324</td>
+								</tr>
+								<tr>
+									<td>نوع المعاملة</td>
+									<td>2018 </td>
+									<td>2324324</td>
+								</tr>
+								<tr>
+									<td>3254534553</td>
+									<td>2018 </td>
+									<td>2324324</td>
+								</tr>
+								<tr>
+									<td>3254534553</td>
+									<td>2018 </td>
+									<td>2324324</td>
+								</tr>
+								<tr>
+									<td>3254534553</td>
+									<td>2018 </td>
+									<td>2324324</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+                    <div class="w-100 p-2 text-center">
+                        <nav aria-label="Page navigation">
+                            <ul class="pagination custom-pagination">
+                                <li class="change-page">
+                                    <a href="#" aria-label="Previous">
+                                        <i class="fa fa-caret-right"></i>
+                                    </a>
+                                </li>
+                                <li class="blues_border"><a href="#" class="transparent_bg">1</a></li>
+								<li><span class="transparent_bg font_size12"> من
+									
+									<span class="light-blue pl-1">4</span>
+									</span>
+								</li>
+                                <li class="change-page">
+                                    <a href="#" aria-label="Next">
+                                        <i class="fa fa-caret-left"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+
+				</div>
+			</div>
+
+		</div>
+	</div>
+	</div>
+	</div>
+    <!-- jQuery -->
+    <script src="../assets/js/jquery.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../assets/js/bootstrap-select.js"></script>
+    <script src="../assets/js/jquery.matchHeight-min.js"></script>
+    <script src="../assets/js/aos.js"></script>
+    <script src="../assets/js/jquery.slimscroll.min.js"></script>
+    <script src="../assets/js/app.js"></script>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
+    <script>
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
+
+    <!-- Vertical Menu css-->
+    <script src="../assets/plugins/vertical-menu/vendors.min.js"></script>
+    <script src="../assets/plugins/vertical-menu/app-menu.min.js"></script>
+    <script src="../assets/plugins/vertical-menu/app.min.js"></script>
+
+    <!-- jquery-confirm JS -->
+    <script type="text/javascript" src="../assets/plugins/confirm/jquery-confirm.min.js"></script>
+	
+<!---Filter and sort Link-->
+    <script>
+        $(document).ready(function () {
+            $('.filter-target').click(function () {
+                $('.filter-box.filter').slideToggle('fast');
+                $('.sort-target').removeClass("active");
+                $(this).toggleClass("active");
+            });
+        });
+    </script>
+	
+
+
+
+
+
+</body>
+
+</html>
