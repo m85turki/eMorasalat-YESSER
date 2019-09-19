@@ -1759,7 +1759,7 @@ position :relative;
     border-color: transparent;
 
 }
-.nav>li>a{
+.nav .custom-sub-nav-tabs>li>a{
 	padding:5px 0px !important;
 	margin-left: 12px !important;
 	margin-right: 12px;
