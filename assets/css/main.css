@@ -707,7 +707,10 @@ a.aExplanation {
     font-size: 10px !important;
     margin-right: 5px;
 }
-
+.mx-6{
+	margin-left:5.5rem!important;
+	margin-right:5.5rem!important;
+}
 /* Dno't Have Permission */
 
 .dnot_have_permission .correspondence-h,.dnot_have_permission .correspondence-b,.dnot_have_permission .correspondence-icon{
