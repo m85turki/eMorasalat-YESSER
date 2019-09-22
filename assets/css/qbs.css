@@ -8,6 +8,7 @@
 .red-color {
     color: red;
 }
+
 h3.site-color .new-notifications-count{
 	color:#4a90e2 !important;
 }
@@ -96,7 +97,7 @@ h3.site-color .new-notifications-count{
     width: 12px;
     height: 12px;
     border-radius: 11px;
-    display: block;
+    display: none;
     line-height: 20px;
 }
 
@@ -493,6 +494,7 @@ color:#7db8f1;
     background-color: white !important;
     height:100% !important;
 	max-height: calc(100% - 122px) !important;
+	overflow-y: hidden!important;
 }
 
 .firstcard .list-group-item {
@@ -831,14 +833,6 @@ select {
     border-radius: 3%;
 }
 
-
-.dropdownposition .new-notification:hover{
-	background-color: #e4e1e1;
-}
-.dropdownposition .new-notification{
-     background-color:#F7F7F7;
-	
-}
 .bold2{
 	    font-weight: 600 !important;
 }
@@ -847,9 +841,7 @@ select {
         margin: 0px;
     }
 
-.bgchange {
-    background-color: #fafafa;
-}
+
 
 .closewindow {
     position: relative;
@@ -967,16 +959,17 @@ table tr td {
 }
 
 .employee_dd {
-    width: 187px;
     padding-top: 0px;
     padding-bottom: 0px;
     overflow: hidden;
+	border-radius: 7px;
 }
 
 .admins {
     padding-top: 0px;
     padding-bottom: 0px;
     overflow: hidden;
+	border-radius: 7px;
 }
 
 .employee_dd li:hover {
@@ -1339,6 +1332,9 @@ border:0;
 .white-notification{
 	color:white !important;
 }
+.white-notification .notification_sticky{
+	display: block;
+}
 .note-section{
 	height:100% !important;
 }
@@ -1348,6 +1344,9 @@ border:0;
 }
 .invalid-feedback{
 	display: block;
+}
+.compatable{
+-ms-flex: 1 1 auto; flex: 1 1 auto; width: 1%;
 }
 
 /*-----------------------------------------------------------------*/
@@ -1379,7 +1378,7 @@ border:0;
 }
 
 .navbar-default .navbar-nav > li {
-    margin: 0px 7px;
+    margin: 0px 10px;
 }
 
 .dropdownposition {
@@ -1388,9 +1387,6 @@ border:0;
     border-radius: 7px;
 }
 
-.bgchange {
-    background-color: #f0f4f8;
-}
 .nav-for-treat a:hover{
 	color: #4f98ed;
 }
@@ -1418,10 +1414,10 @@ border:0;
 
 .navbar-default .navbar-nav > li > a {
     color: #9EA5E0;
-    font-size: 12pt;
+    font-size: 13pt;
     transition: 0.2s;
     font-weight: normal;
-    padding: 10px 7px;
+    padding: 10px 0px;
 }
 
     .navbar-default .navbar-nav > li > a > i {
@@ -1854,6 +1850,7 @@ input[type=radio]:checked:after{
 	margin-top:20px;
 	margin-bottom: 10px;
 }
+
 
 @media(min-width:992px) {
     .row-custom {

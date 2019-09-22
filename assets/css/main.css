@@ -228,6 +228,10 @@
 .input-group-text.hyperlink.white{
 	background-color:white!important;
 }
+
+.input-group-text.hyperlink.white .fa-search{
+	color:#5a5a5a;
+}
 .icon-filter-form:hover{
 	color:#355781;
 }
@@ -1974,14 +1978,14 @@ position :relative;
 }
 .notification-row:hover
 {
-    background-color: #fafafa;
+    background-color: #f0f4f8;
 }
-.notification-row.new-notification
-{
-    background-color: #F7F7F7;
-}
+
 .notification-row .new-notification:hover{
-	background-color: #e4e1e1 !important;
+	background-color: #e2e6e9!important;
+}
+.bgchange{
+	background-color:#f0f4f8!important;
 }
 .notification-title
 {
