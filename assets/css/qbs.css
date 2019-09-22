@@ -802,7 +802,7 @@ color:#7db8f1;
     background-color: #f7f7f7;
     width: 100%;
     border-top: 1px solid #dedede;
-	text-align: start;
+	text-align: start !important;
 }
 
 .btnwidth2 {
@@ -1126,7 +1126,6 @@ border:0;
     border: 1px solid #dedede;
     border-radius: 0.25rem;
     position: relative;
-	text-align: center;
 }
 .sig_after_drawn img{
 	max-width: 100%;
