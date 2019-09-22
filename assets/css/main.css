@@ -1748,7 +1748,17 @@ position :relative;
 /** sub tabs **/
 .custom-sub-nav-tabs.nav-tabs {
     border: 0;
+	
 }
+.custom-sub-nav-tabs.nav-tabs li{
+    border: 0;
+	padding: 0px 10px;
+	
+}
+.custom-sub-nav-tabs.nav-tabs li a{
+    padding: 12px 0px !important;
+}
+    
 .custom-sub-nav-tabs.nav-tabs>li>a:hover {
     border-bottom: 3px solid #ddd;
 }
