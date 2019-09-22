@@ -1641,22 +1641,7 @@ color:#ff3636;
 {
 position :relative;
 }
-.filter-target.active::before, 
-.sort-target.active::before,
-.search-target.active::before {
-    content: "\f0d8";
-    font-family: 'Font Awesome 5 Free';
-    position: absolute;
-    bottom: 100px;
-    right: 6px;
-    color: #fff;
-    font-size: 27px;
-    line-height: 11px;
-    border-top-right-radius: 15px;
-    border-top-left-radius: 15px;
-    background: #0000000d;
-	z-index: 10000000;
-}
+
 /** end filter and sort **/
 /*** pagination **/
 .pagination.custom-pagination li.change-page a 
