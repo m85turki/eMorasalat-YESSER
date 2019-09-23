@@ -1142,6 +1142,9 @@ border:0;
 	bottom: 0px;
 	opacity: 0;
 }
+.manager2{
+	display: none;
+}
 
 .transparent {
     color: transparent;
@@ -3597,6 +3600,9 @@ table > thead > tr {
 	}
 	.manager{
 		display: none!important;
+	}
+	.manager2{
+		display: inline-block;
 	}
 	.top-header .dropdown-menu {
         width: 100%;
