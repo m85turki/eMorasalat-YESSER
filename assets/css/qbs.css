@@ -3235,9 +3235,7 @@ table > thead > tr {
         top: 0;
     }
 
-    html body.fixed-navbar {
-        padding-top: 6rem !important;
-    }
+
 
     .main_sidebar.align-self-start {
         top: 12.3rem !important;
