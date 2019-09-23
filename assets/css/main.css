@@ -2399,3 +2399,22 @@ body.vertical-layout.vertical-menu.menu-flipped .jconfirm .navbar .navbar-contai
 }
 
 
+
+.new-view{
+    position: absolute;
+    left: 0px;
+    background: #262B56;
+    padding-left: 20px;
+}
+
+.new-view::before, .new-view::after{
+    background-image: linear-gradient(to right, rgb(38, 43, 86), rgba(38, 43, 86, 0));
+    position: absolute;
+    width: 30px;
+    height: 40px;
+    right: -30px;
+    display: block;
+    content: '';
+}
+
+
