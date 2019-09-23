@@ -79,6 +79,11 @@ h3.site-color .new-notifications-count{
     top: -2px !important;
 }
 
+.top-icons2{
+	    font-size: 22px;
+		display: none!important;
+	}
+
 
 .notifications .dropdown-menu li:last-child {
     padding: 5px;
@@ -159,6 +164,7 @@ h3.site-color .new-notifications-count{
  	box-shadow: 0px 5px 20px -5px rgba(0, 0, 0, 0.2);
     border-radius: 7px 7px 0px 0px;
 }
+
 
 
 .box2{
@@ -479,6 +485,8 @@ color:#7db8f1;
 }
 .tse-scrollable  {
     width:100% !important;
+    overflow-y: scroll;
+      
 }
 .tse-scroll-content{
     width:100% !important;
@@ -530,7 +538,9 @@ color:#7db8f1;
 	top:30px;
 }
 
-
+.searchbox2{
+	display: none;
+}
 
 
 
@@ -1265,6 +1275,7 @@ border:0;
 .first_person {
     z-index: 3;
 }
+
 .pink{
 	color:#ec4461;
 }
@@ -1414,7 +1425,7 @@ border:0;
 
 .navbar-default .navbar-nav > li > a {
     color: #9EA5E0;
-    font-size: 13pt;
+    font-size: 12pt;
     transition: 0.2s;
     font-weight: normal;
     padding: 10px 0px;
@@ -3222,7 +3233,7 @@ table > thead > tr {
     }
 
     html body.fixed-navbar {
-        padding-top: 10rem !important;
+        padding-top: 6rem !important;
     }
 
     .main_sidebar.align-self-start {
@@ -3233,9 +3244,7 @@ table > thead > tr {
         margin-bottom: 20px;
     }
 
-    .notification-row {
-        padding: 10px !important;
-    }
+
 
         .notification-row .m-auto {
             width: 48%;
@@ -3362,19 +3371,10 @@ table > thead > tr {
             top: 2px;
         }
 
-    .top-header .dropdown-menu {
-        width: 90%;
-        position: fixed;
-        top: 90px;
-    }
+
 
     .top-header .admins.dropdown-menu .pb-2 {
         padding: 15px 0;
-        height: 60px;
-    }
-
-    html body.fixed-navbar {
-        padding-top: 12rem !important;
     }
 
     .navbar-header {
@@ -3540,6 +3540,7 @@ table > thead > tr {
 		left:10px;
 		top:10px;
 	}
+
 	/*.mr-lg-3{
 		margin-left: 0px;
 	}
@@ -3553,6 +3554,25 @@ table > thead > tr {
 	}*/
 
 }
+@media(max-width:944px) {
+
+.top-icons{
+		display: none!important;
+
+	}
+
+
+}
+
+@media (max-width: 760px){
+		.top-icons2{
+		display: flex!important;
+	}
+	.searchbox2{
+		display: block;
+	}
+}
+
 
 
 /* Upload File */
@@ -3571,3 +3591,20 @@ table > thead > tr {
     height: 100%;
     opacity: 0;
 }
+@media (max-width:588px){
+	.name{
+	display: none!important;
+	}
+	.manager{
+		display: none!important;
+	}
+	.top-header .dropdown-menu {
+        width: 100%;
+        position: fixed;
+        top: 90px;
+    }
+	}
+	
+
+
+

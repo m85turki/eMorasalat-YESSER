@@ -1148,9 +1148,8 @@ body.vertical-layout.vertical-menu.menu-collapsed.menu-flipped .navbar .navbar-h
   }
 }
 
-@media(max-width:767px ) {
+@media(max-width:944px ) {
   .navbar-default .navbar-nav > li {
-      margin-right: 25%;
       text-align: right;
       margin-left: 0;
   }
@@ -1516,9 +1515,6 @@ a.file {
           left: 2px;
       }
 
-  .top-header .dropdown-menu {
-      right: 10px;
-  }
 
   .top-header .admins.dropdown-menu .pb-2 .fa-angle-up {
       float: left;
