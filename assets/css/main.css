@@ -94,6 +94,9 @@
     position: relative;
     text-decoration: none;
 }
+.h-side a i{
+	color:#61669B;
+}
 
 .h-side a:hover{
     color: rgba(255, 255, 255, 0.55);
@@ -140,7 +143,7 @@
     color: #61669B;
     position: relative;
 }
-.h-side .dropdown a li div {
+.h-side .dropdown  li div {
 	    font-size: 11pt;
     color: #61669B;
     position: relative;
@@ -1981,11 +1984,11 @@ position :relative;
     background-color: #f0f4f8;
 }
 
-.notification-row .new-notification:hover{
-	background-color: #e2e6e9!important;
-}
 .bgchange{
 	background-color:#f0f4f8!important;
+}
+.bgchange:hover{
+	background-color: #e2e6e9!important;
 }
 .notification-title
 {
@@ -2402,7 +2405,7 @@ body.vertical-layout.vertical-menu.menu-flipped .jconfirm .navbar .navbar-contai
 
 .new-view{
     position: absolute;
-    left: 0px;
+    left: 25px;
     background: #262B56;
     padding-left: 20px;
 }

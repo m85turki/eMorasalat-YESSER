@@ -75,9 +75,6 @@ h3.site-color .new-notifications-count{
     font-size: 24px !important;
 }
 
-.notifications em {
-    top: -2px !important;
-}
 
 .top-icons2{
 	    font-size: 22px;
@@ -120,6 +117,7 @@ h3.site-color .new-notifications-count{
 .notifications .dropdown-menu li {
     padding-top: 0px;
 }
+
 
     .notifications .dropdown-menu li span {
         padding: 3px!important;
@@ -1346,9 +1344,7 @@ border:0;
 .white-notification{
 	color:white !important;
 }
-.white-notification .notification_sticky{
-	display: block;
-}
+
 .note-section{
 	height:100% !important;
 }
@@ -1361,6 +1357,13 @@ border:0;
 }
 .compatable{
 -ms-flex: 1 1 auto; flex: 1 1 auto; width: 1%;
+}
+.right-arrow{
+	font-size: 18pt;
+    color: #61669B;
+    position: relative;
+    text-decoration: none;
+	display: none;
 }
 
 /*-----------------------------------------------------------------*/
@@ -3561,6 +3564,9 @@ table > thead > tr {
 		display: none!important;
 
 	}
+		.right-arrow{
+		display: block;
+	}
 
 
 }
@@ -3568,10 +3574,19 @@ table > thead > tr {
 @media (max-width: 760px){
 		.top-icons2{
 		display: flex!important;
+		color:#508ed2;
 	}
 	.searchbox2{
 		display: block;
 	}
+	.right-arrow{
+		display: none;
+	}
+	.dropdownposition{
+		right:0!important;
+	}
+
+	
 }
 
 
