@@ -104,6 +104,9 @@ h3.site-color .new-notifications-count{
 }
 
 
+
+
+
 .dropdownposition {
     padding-bottom: 0;
     padding-top: 0;
@@ -1341,8 +1344,16 @@ border:0;
     right:auto !important;
 }
 
-.white-notification{
+a.white-notification{
 	color:white !important;
+}
+
+a.white-notification{
+	color:white !important;
+}
+
+a.white-notification .notification_sticky{
+    display: block;
 }
 
 .note-section{
@@ -1358,12 +1369,17 @@ border:0;
 .compatable{
 -ms-flex: 1 1 auto; flex: 1 1 auto; width: 1%;
 }
-.right-arrow{
-	font-size: 18pt;
+.right-arrow {
+	font-size: 16pt;
     color: #61669B;
     position: relative;
     text-decoration: none;
-	display: none;
+    display: none;
+    vertical-align: text-top;
+}
+
+.right-arrow i{
+    border-right: 1px solid #61669B;
 }
 
 /*-----------------------------------------------------------------*/
@@ -3559,16 +3575,44 @@ table > thead > tr {
 
 }
 @media(max-width:944px) {
+.right-arrow{
+    display: block;
+}
 
-.top-icons{
-		display: none!important;
+    .new-view{
+        position: absolute;
+        left: 55px;
+        background: #262B56;
+        padding-left: 0px;
+        width: 0px;
+        opacity: 0.1;
 
-	}
-		.right-arrow{
-		display: block;
-	}
+        -webkit-transition: all 200ms ease;
+        -moz-transition: all 200ms ease;
+        -ms-transition: all 200ms ease;
+        -o-transition: all 200ms ease;
+        transition: all 200ms ease;
 
+        z-index: 9;
+        visibility: hidden ;
+    }
+    
+    .new-view::before{
+        background-image: linear-gradient(to right, rgb(38, 43, 86), rgba(38, 43, 86, 0));
+        position: absolute;
+        width: 30px;
+        height: 40px;
+        right: -30px;
+        display: block;
+        content: '';
+        
+    }
 
+    .show-icons{
+        width: 420px;
+        opacity: 1.0;
+        visibility: visible ;
+    }
 }
 
 @media (max-width: 760px){

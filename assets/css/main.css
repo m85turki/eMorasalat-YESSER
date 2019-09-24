@@ -94,9 +94,7 @@
     position: relative;
     text-decoration: none;
 }
-.h-side a i{
-	color:#61669B;
-}
+
 
 .h-side a:hover{
     color: rgba(255, 255, 255, 0.55);
@@ -2401,23 +2399,5 @@ body.vertical-layout.vertical-menu.menu-flipped .jconfirm .navbar .navbar-contai
     z-index:99999999 !important;
 }
 
-
-
-.new-view{
-    position: absolute;
-    left: 25px;
-    background: #262B56;
-    padding-left: 20px;
-}
-
-.new-view::before, .new-view::after{
-    background-image: linear-gradient(to right, rgb(38, 43, 86), rgba(38, 43, 86, 0));
-    position: absolute;
-    width: 30px;
-    height: 40px;
-    right: -30px;
-    display: block;
-    content: '';
-}
 
 
