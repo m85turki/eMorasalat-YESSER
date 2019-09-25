@@ -34,58 +34,116 @@
 
 <body class="vertical-layout vertical-menu 2-columns   menu-flipped fixed-navbar " data-open="click"
     data-menu="vertical-menu" data-col="2-columns" dir="rtl">
-    <div class="fixed-top">
+     <div class="fixed-top">
         <div class="top-header">
             <div class="container-fluid">
-                <div class="d-flex flex-column flex-sm-row">
+                <div class="d-flex flex-row">
                     <div class="">
                         <a class="main_logo" href="#">
-                            <img src="../assets/images/logo-morasalat.png" title="" alt="">
+                            <img src="../assets/images/logo-morasalat.png" title=""
+                                 alt="" />
                         </a>
                     </div>
 
-                    <div class="d-flex ml-sm-auto  mr-0 align-content-around flex-wrap h-side">
-                        <div class="dropdown px-1 px-md-3">
+                    <div class="d-flex ml-auto  mr-0 align-content-around flex-wrap h-side">
+                        <div class="dropdown px-1 px-md-2">
                             <a id="drop1" href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <span>إسم الإدارة</span>
-                                <i class="la la-angle-down"></i>
+                                <div class="d-inline manager"> إسم الإدارة: الإدارة العليا
+								</div>
+								<div class="manager2">...</div>
+									<i class="la la-angle-down"></i>
                             </a>
 
-                            <ul class="dropdown-menu fadeIn animated admins" aria-labelledby="drop1">
-                                <li><a class="pb-2" href="#">إسم الإدارة 1</a></li>
-                                <li role="separator" class="divider  mb-0"></li>
-                                <li><a class="pb-2" href="#">إسم الإدارة 2</a></li>
-                                <li role="separator" class="divider  mb-0"></li>
-                                <li><a class="pb-2" href="#">إسم الإدارة 3</a></li>
-                                <li class="mb-0"></li>
-                            </ul>
+                          <ul class="dropdown-menu admins fadeIn animated" aria-labelledby="drop1">
+							            <li>
+                                        <a class="notification-row d-flex">
+											<div>
+											<span>اسم الادارة 1 </span>
+												</div>
+										</a>
+								        </li>
+							  
+										  <li>
+                                        <a class="notification-row d-flex">
+											<div>
+											<span>اسم الادارة 2 </span>
+												</div>
+										</a>
+							  </li>
+                                     <li>
+                                     <a class="notification-row d-flex">
+											<div>
+											<span>اسم الادارة 3 </span>
+												</div>
+										</a>
+										 </li>
+
+                                </ul>
                         </div>
 
-                        <div class="user-settings dropdown  px-1 px-md-3 ml-0 ml-md-5">
+                        <div class="user-settings dropdown  px-1 px-md-2 ml-0">
                             <a id="drop1" href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <span class="h-avatar mx-2">
                                     <img src="../assets/images/businessman.png">
                                 </span>
-                                <span>أشرف حسين</span>
+								<div class="name d-inline"> أشرف حسين محمد الشيخ </div>
                                 <i class="la la-angle-down"></i>
                             </a>
 
 
-                            <ul class="dropdown-menu employee_dd fadeIn" aria-labelledby="drop1 w-100">
-                                <li role="separator" class="divider  mb-0 mt-0"></li>
-                                <li class="pt-2 pb-2 pl-3"><a href="assignment-paper.html"><i class="la la-file-text"></i>ورقة الإحالة</a></li>
-                                <li role="separator" class="divider  mb-0 mt-0"></li>
-                                <li class="pt-2 pb-2 pl-3"><a href="#"><i class="la la-list"></i>قائمة التوزيع</a></li>
-                                <li role="separator" class="divider  mb-0 mt-0"></li>
-                                <li class="pt-2 pb-2 pl-3"><a href="#"><i class="la la-line-chart"></i>المسارات</a></li>
-                                <li role="separator" class="divider  mb-0 mt-0"></li>
-                                <li class="pt-2 pb-2 pl-3"><a href="#"><i class="la la-user"></i>التفويض </a></li>
+                          <ul class="dropdown-menu employee_dd  fadeIn animated" aria-labelledby="drop1">
+                                         <li>
+                                        <a class="notification-row d-flex">
+											<i class="la la-file-image-o"></i>
+											<div>
+											<span>التوقيع والتأشير </span>
+												</div>
+										</a>
+											 </li>
+                                         <li>
+                                        <a class="notification-row d-flex"> 
+											<i class="la la-file-text"></i>
+											<div>
+											<span> ورقة الإحالة </span>
+												</div>
+										</a>
+											  </li>
+							               <li>
+                                        <a class="notification-row d-flex">
+											<i class="la la-list"></i>
+											<div>
+											<span>قائمة التوزيع</span>
+												</div>
+										</a>
+								          </li>
 
-                            </ul>
+                                        <li>
+                                        <a class="notification-row d-flex">
+											<i class="la la-line-chart"></i>
+											<div>
+											<span> المسارات</span>
+												</div>
+										</a>
+											</li>
+
+                                       <li>
+                                        <a class="notification-row d-flex">
+											<i class="la la-user"></i>
+											<div>
+											<span> التفويض</span>
+												</div>
+										</a>
+							  </li>
+
+										
+
+                                </ul>
 
                         </div>
-                        <div class="d-flex top-icons">
-                            <div class="searchbox px-2 flex-grow-1">
+
+                        <div class="top-icons new-view">
+                            <div class="d-flex">
+                            <div class="searchbox pr-2 pl-5 flex-grow-1">
                                 <div class="h-search">
                                     <i onclick="focusMethod()" data-toggle="tooltip" data-placement="bottom" title="" class="la la-search" data-original-title="البحث السريع"></i>
                                     <input class="myTextField" type="text" name="search" placeholder="البحث هنا">
@@ -96,61 +154,86 @@
                                     }
                                 </script>
                             </div>
-                            <div class="notifications dropdown mt-2 px-4">
-                                <a href="#" class="dropdown-toggle la la-bell" data-toggle="dropdown" aria-haspopup="false" aria-expanded="true" data-placement="bottom" title="التنبيهات">
-                                    <em class="notification_sticky">22</em>
+                            <div class="notifications dropdown px-2">
+                             <a href="#" class="dropdown-toggle white-notification" data-toggle="dropdown" aria-haspopup="false" aria-expanded="true" data-placement="bottom" title="التنبيهات">
+                                    <em class="notification_sticky"></em>
+                              <i class="la la-bell "></i>
                                 </a>
                                 <ul class="dropdownposition dropdown-menu  fadeIn animated" aria-labelledby="drop1">
+                                   <li>
+                                   <a href="#" class="d-flex notification-row">
+									   <i class="la la-bell bold2"></i>
+										<span class="bold2">التنبيهات</span>
+										
+										</a>
+									   </li>
+									<li>
+                                        <a class="d-flex bgchange notification-row">
+											<i class="icon-assignment-return"></i>
+											<div>
+											<span>تم إرجاع معاملة</span>
+											<div class="pt-1 pr-3 pl-1 light-gray2 flex-column"> 28 تشرين الثاني 2018</div>
+												</div>
+										</a>
+										</li>
+                                     <li>
+                                        <a class="d-flex bgchange notification-row">
+											<i class="icon-assignment-delivered"></i>
+											<div>
+											<span>تم استلام معاملة</span>
+											<div class="pt-1 pr-3 pl-1 light-gray2 flex-column"> 28 تشرين الثاني 2018</div>
+												</div>
+										</a>
+                                      </li>
+									<li>
+                                        <a class="d-flex notification-row">
+											<i class="icon-assignment-new"></i>
+											<div>
+											<span>تم استلام مهمة جديدة</span>
+											<div class="pt-1 pr-3 pl-1 light-gray2 flex-column"> 28 تشرين الثاني 2018</div>
+												</div>
+										</a>
+										</li>
+                                       <li>
+									     <a href="notifications.html" class="d-flex notification-row more">
+											<div class="w-100">إظهار المزيد</div>
+						              </a>
+										   </li>
 
-                                    <li class=" pt-3"><a href="#" class="pt-0 pb-2 pr-3 pl-3"><i class="la la-bell"></i>التنبيهات</a></li>
-                                    <li role="separator" class="divider mb-0 mt-0"></li>
-                                    <li class="bgchange pt-3 pb-3 pr-3 pl-3">
-                                        <a href="#"><i class="la la-bell"></i>تم إرجاع معاملة</a>
-                                        <span class="pt-0 pb-2 pr-3 pl-3"> 28 تشرين الثاني 2018</span>
-                                    </li>
-                                    <li role="separator" class="divider mb-0 mt-0 p-0"></li>
-
-                                    <li class="bgchange pt-3 pb-3 pr-3 pl-3">
-                                        <a href="#"><i class="la la-bell"></i>تم استلام معاملة</a>
-                                        <span class="pt-0 pb-2 pr-3 pl-3"> 28 تشرين الثاني 2018</span>
-                                    </li>
-                                    <li role="separator" class="divider  mb-0 mt-0 p-0"></li>
-                                    <li class="pt-3 pb-3 pr-3 pl-3">
-                                        <a href="#"><i class="la la-bell"></i>تم استلام مهمة جديدة</a>
-                                        <span class="pt-0 pb-2 pr-3 pl-3"> 28 تشرين الثاني 2018</span>
-                                    </li>
-                                    <li role="separator" class="divider"></li>
-                                    <li><a href="notifications.html" class="text-center">إظهار المزيد </a></li>
                                 </ul>
 
                             </div>
-                            <div class="px-3">
-                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="" class="chatbtn" data-original-title="المحادثات">
-                                    <em class="notification_sticky">22</em>
+                            <div class="px-2">
+                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="" class="chatbtn white-notification" data-original-title="المحادثات">
+                                    <em class="notification_sticky"></em>
                                     <i class="la la-comments "></i>
                                 </a>
                             </div>
-                            <div class="px-3">
+                            <div class="px-2">
                                 <a href="#" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="الدعم الفني">
                                     <i class="la la-headphones"></i>
                                 </a>
                             </div>
-                            <div class="px-3">
+                            <div class="px-2">
                                 <a href="#" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="المساعدة">
                                     <i class="la la-question-circle"></i>
                                 </a>
                             </div>
-                            <div class="px-3">
+                            <div class="px-2">
                                 <a href="#" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="English">
                                     <i class="la la-globe"></i>
                                 </a>
                             </div>
-                            <div class="px-3">
+                            <div class="pl-2 pr-0">
                                 <a href="#" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="خروج">
                                     <i class="la la-power-off"></i>
                                 </a>
                             </div>
                         </div>
+                        </div>
+						<div class="right-arrow mr-auto">
+                                <i class="la la-angle-right pl-2"></i>
+						</div>
                     </div>
 
 
@@ -158,17 +241,18 @@
             </div>
         </div>
         <!-- start of fixed header -->
-        <nav class="navbar navbar-default navbar-second">
+        <nav class="navbar navbar-default  navbar-second">
             <div class="container-fluid">
                 <div class="row row-custom">
                     <div class="navbar-header d-flex">
-                        <div class="mobile-menu d-md-none ml-auto">
-                            <a class="nav-link nav-menu-main menu-toggle is-active" href="#">
+                        <div class="mobile-menu d-md-none mr-auto">
+                            <a class="nav-link nav-menu-main menu-toggle" href="#">
                                 <i class="la la-ellipsis-h"></i>
                             </a>
                         </div>
                         <div class="ml-auto">
-                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                                    data-target="#navbarToggleExternalContent" aria-expanded="false" aria-controls="navbar">
                                 <span class="sr-only">Toggle navigation</span>
                                 <span class="icon-bar"></span>
                                 <span class="icon-bar"></span>
@@ -176,9 +260,98 @@
                             </button>
                         </div>
                     </div>
-                    <div id="navbar" class="navbar-collapse collapse">
+					  <div class="navbar-collapse collapse"  id="navbarToggleExternalContent">
+					<div class="searchbox2 px-2">
+                                <div class="h-search">
+                                    <i onclick="focusMethod()" data-toggle="tooltip" data-placement="bottom" title="" class="la la-search" data-original-title="البحث السريع"></i>
+                                    <input class="myTextField" type="text" name="search" placeholder="البحث هنا">
+                                </div>
+                                <script>
+                                    focusMethod = function getFocus() {
+                                        $('.myTextField').focus();
+                                    }
+                                </script>
+                            </div>
+						  <div class="d-flex top-icons2 h-side">
+                            <div class="notifications dropdown px-2">
+                             <a href="#" class="dropdown-toggle white-notification" data-toggle="dropdown" aria-haspopup="false" aria-expanded="true" data-placement="bottom" title="التنبيهات">
+                                    <em class="notification_sticky"></em>
+                              <i class="la la-bell "></i>
+                                </a>
+                             <ul class="dropdownposition dropdown-menu  fadeIn animated" aria-labelledby="drop1">
+                                   <li>
+                                   <a href="#" class="d-flex notification-row">
+									   <i class="la la-bell bold2"></i>
+										<span class="bold2">التنبيهات</span>
+										
+										</a>
+									   </li>
+									<li>
+                                        <a class="d-flex bgchange notification-row">
+											<i class="icon-assignment-return"></i>
+											<div>
+											<span>تم إرجاع معاملة</span>
+											<div class="pt-1 pr-3 pl-1 light-gray2 flex-column"> 28 تشرين الثاني 2018</div>
+												</div>
+										</a>
+										</li>
 
-                        <ul class="nav navbar-nav">
+                                     <li>
+                                        <a class="d-flex bgchange notification-row">
+											<i class="icon-assignment-delivered"></i>
+											<div>
+											<span>تم استلام معاملة</span>
+											<div class="pt-1 pr-3 pl-1 light-gray2 flex-column"> 28 تشرين الثاني 2018</div>
+												</div>
+										</a>
+                                      </li>
+									<li>
+                                        <a class="d-flex notification-row">
+											<i class="icon-assignment-new"></i>
+											<div>
+											<span>تم استلام مهمة جديدة</span>
+											<div class="pt-1 pr-3 pl-1 light-gray2 flex-column"> 28 تشرين الثاني 2018</div>
+												</div>
+										</a>
+										</li>
+                                       <li>
+									     <a href="notifications.html" class="d-flex notification-row more">
+											<div class="w-100">إظهار المزيد</div>
+						              </a>
+										   </li>
+
+                                </ul>
+
+                            </div>
+                            <div class="px-2">
+                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="" class="chatbtn white-notification" data-original-title="المحادثات">
+                                    <em class="notification_sticky"></em>
+                                    <i class="la la-comments white-notification "></i>
+                                </a>
+                            </div>
+                            <div class="px-2">
+                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="الدعم الفني">
+                                    <i class="la la-headphones"></i>
+                                </a>
+                            </div>
+                            <div class="px-2">
+                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="المساعدة">
+                                    <i class="la la-question-circle"></i>
+                                </a>
+                            </div>
+                            <div class="px-2">
+                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="English">
+                                    <i class="la la-globe"></i>
+                                </a>
+                            </div>
+                            <div class="pl-2 pr-0">
+                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="خروج">
+                                    <i class="la la-power-off"></i>
+                                </a>
+                            </div>
+                        </div>
+						
+                        <ul class="nav navbar-nav px-2">
                             <li class="active"><a href="#">المعاملات</a></li>
                             <li><a href="#">المهام <span class="notification_sticky">3</span></a></li>
                             <li><a href="#">استقبال الادارة</a></li>
@@ -187,12 +360,16 @@
 
                         </ul>
 
-                    </div>
+
+
+					</div>
                 </div>
             </div>
         </nav>
 
     </div>
+
+	
 	
     <div class="container-all">
 <div class="mb-3 mx-5 mx-xs-3 header-container2 d-flex align-items-center">
@@ -332,7 +509,22 @@
     <!-- jquery-confirm JS -->
     <script type="text/javascript" src="../assets/plugins/confirm/jquery-confirm.min.js"></script>
 <!---Qbs JQuery><!---->
+	<!--Header Script-->
+	<script>
+	$(function(){
 
+		$(".right-arrow").click(function(){
+        $("div .top-icons").toggleClass("show-icons");
+		$(".right-arrow").toggleClass("la-rotate");
+       $(".right-arrow").toggleClass("left-arrow");
+	   $(".la-angle-right").toggleClass("pl-2");
+	
+  });
+
+		});
+			
+
+	</script>
 
 
 

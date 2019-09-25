@@ -132,14 +132,10 @@ html body {
 }
 
 html body.fixed-navbar {
-    padding-top: 8rem;
+    padding-top: 7rem;
 }
 
-@media (max-width: 550px){
-    html body.fixed-navbar {
-        padding-top: 11rem;
-    }
-}
+
 
 /* html body .content {
     padding: 0;

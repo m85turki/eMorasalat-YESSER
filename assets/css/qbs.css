@@ -481,16 +481,7 @@ color:#7db8f1;
 .btn-st1 a label{
 	color:white;
 }
-.tse-scrollable  {
-    width:100% !important;
-    overflow-y: scroll;
-      
-}
-.tse-scroll-content{
-    width:100% !important;
-    height:100% !important;
 
-}
 
 .chat_list {
     width: 100%;
@@ -1238,6 +1229,8 @@ border:0;
     padding-left:15px !important;
     height:100% !important;
     width: 100% !important;
+	overflow-y: scroll;
+	overflow-x: hidden;
 	
 }
 .chat-section{
@@ -1328,7 +1321,9 @@ border:0;
 }
 .show_message{
     padding-left: 15px;
-    max-height: 350px;
+	height:300px;
+    max-height:calc(100% - 101px) !important;
+    overflow-y: scroll;
     
 }
 .tse-scrollbar{
@@ -1350,6 +1345,8 @@ a.white-notification .notification_sticky{
 
 .note-section{
 	height:100% !important;
+	overflow-y: scroll;
+	overflow-x: hidden;
 }
 .reject{
 	cursor: pointer;
@@ -3263,10 +3260,6 @@ table > thead > tr {
     }
 
 
-
-    .main_sidebar.align-self-start {
-        top: 12.3rem !important;
-    }
 
 
 
