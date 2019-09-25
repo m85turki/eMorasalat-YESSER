@@ -1972,7 +1972,6 @@ position :relative;
 {
     border-top: 1px solid #E9E9E8;
     cursor: pointer;
-	padding-bottom: 0!important;
 
 }
 .notification-row span{
@@ -1984,10 +1983,14 @@ position :relative;
 }
 .notification-row:hover
 {
-    background-color: #f0f4f8 !important;
+    background-color: #f0f4f8;
 }
-
-
+.dropdownposition li:first-child a:hover{
+	background-color: transparent !important;
+}
+.dropdown-menu>li>a {
+    padding: 13px 20px !important;
+}
 
 .bgchange{
 	background-color:#f0f4f8!important;
@@ -2316,10 +2319,6 @@ li.list-group-item.has-sub:not(:first-child)::before {
     bottom: 0px;
     width: 98%;
 	background-color: white;
-}
-
-.popchat .message-input{
-	bottom: 45px;
 }
 .message-input textarea
 {

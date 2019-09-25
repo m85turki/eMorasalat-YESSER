@@ -1,9 +1,6 @@
 
 /*----------------------- QBS New Style -------------------------*/
 
-.dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover {
-    background-color: transparent;
-}
 
 .red-color {
     color: red;
@@ -96,7 +93,7 @@ h3.site-color .new-notifications-count{
 	white-space: nowrap;
 }
 
-.top-icons .notification_sticky {
+.top-icons .notification_sticky,.top-icons2 .notification_sticky {
     width: 12px;
     height: 12px;
     border-radius: 11px;
@@ -503,7 +500,7 @@ color:#7db8f1;
     background-color: white !important;
     height:100% !important;
 	max-height: calc(100% - 122px) !important;
-	overflow-y: hidden!important;
+	overflow-y: scroll;
 }
 
 .firstcard .list-group-item {
@@ -1389,7 +1386,9 @@ a.white-notification .notification_sticky{
 	border-right:0 !important;
 	padding-left: 0.5rem !important;
 }
-
+.popchat .message-input{
+	bottom: 45px;
+}
 
 /*-----------------------------------------------------------------*/
 
@@ -1425,7 +1424,7 @@ a.white-notification .notification_sticky{
 
 .dropdownposition {
     position: absolute;
-    top: 33px;
+    top: 100%;
     border-radius: 7px;
 }
 
@@ -3269,10 +3268,6 @@ table > thead > tr {
         top: 12.3rem !important;
     }
 
-    .user-settings.dropdown {
-        margin-bottom: 20px;
-    }
-
 
 
         .notification-row .m-auto {
@@ -3408,7 +3403,6 @@ table > thead > tr {
     }
 
     .navbar-default .navbar-nav > li {
-        padding: 0 20px;
         margin: 0;
     }
 
@@ -3479,7 +3473,6 @@ table > thead > tr {
 	}
 	 .header-container h3 {
     font-size: 20px!important;
-    margin-top: 45px;
 }
 	.mx-xs-3{
 		margin:1rem 1rem!important;
@@ -3567,6 +3560,7 @@ table > thead > tr {
 		top:10px;
 	}
 
+
 	/*.mr-lg-3{
 		margin-left: 0px;
 	}
@@ -3625,6 +3619,9 @@ table > thead > tr {
   -o-transform: rotate(180deg);
   transform: rotate(180deg);
 	}
+	.popchat .message-input{
+	bottom: 0px;
+}
 	
 }
 
@@ -3647,7 +3644,6 @@ table > thead > tr {
 		display: none;
 	}
 	
-
 
 	
 }
