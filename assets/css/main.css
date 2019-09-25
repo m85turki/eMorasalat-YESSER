@@ -1883,10 +1883,8 @@ position :relative;
 }
 /** end selected transaction section **/
 /** modal **/
-.fade.in
-{
+.fade.in{
     opacity:1;
-    background-color: #0000003b;
 }
 .modal-header, .modal-footer {
     background-color: #F3F3F3;
