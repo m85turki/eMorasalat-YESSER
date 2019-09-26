@@ -4175,7 +4175,6 @@ body.vertical-layout.vertical-menu.menu-expanded .main-menu .navigation>li>a>spa
     position:absolute; margin-top: 3px; left:25px;visibility:visible}
 body.vertical-layout.vertical-overlay-menu.menu-open .main-menu .navigation > li > a > span.badge {
     position: absolute;
-    margin-top: 3px;
     left: 25px;
     visibility: visible
 }
@@ -4248,7 +4247,7 @@ body.vertical-layout.vertical-menu .content,body.vertical-layout.vertical-menu .
 .vertical-overlay-menu .main-menu .navigation li.has-sub>a:not(.mm-next):after{
     content: '\f111';
     font: normal normal normal 16px/1 LineAwesome;
-    font-size:1rem;display:inline-block;position:absolute;left:20px;top:10px;-webkit-transform:rotate(0);-moz-transform:rotate(0);-ms-transform:rotate(0);-o-transform:rotate(0);transform:rotate(0);transition:-webkit-transform .2s ease-in-out}.vertical-overlay-menu .main-menu .navigation li.open>a:not(.mm-next):after{-webkit-transform:rotate(-90deg);-moz-transform:rotate(-90deg);-ms-transform:rotate(-90deg);-o-transform:rotate(-90deg);transform:rotate(-90deg)}.vertical-overlay-menu .main-menu .main-menu-footer{bottom:55px;width:240px}.vertical-overlay-menu.menu-open .main-menu{opacity:1;-webkit-transform:translate3d(240px,0,0);-moz-transform:translate3d(240px,0,0);transform:translate3d(240px,0,0);-webkit-transition:width .25s,opacity .25s,-webkit-transform .25s;-o-transition:width .25s,opacity .25s,-o-transform .25s;-moz-transition:width .25s,opacity .25s,transform .25s,-moz-transform .25s;transition:width .25s,opacity .25s,transform .25s;transition:width .25s,opacity .25s,transform .25s,-webkit-transform .25s,-moz-transform .25s,-o-transform .25s}.vertical-overlay-menu.menu-flipped .main-menu{right:-240px;left:inherit}.vertical-overlay-menu.menu-flipped .navbar .navbar-container{margin:0 240px 0 0}
+    font-size:1rem;display:inline-block;position:absolute;left:15px;top:15px;-webkit-transform:rotate(0);-moz-transform:rotate(0);-ms-transform:rotate(0);-o-transform:rotate(0);transform:rotate(0);transition:-webkit-transform .2s ease-in-out}.vertical-overlay-menu .main-menu .navigation li.open>a:not(.mm-next):after{-webkit-transform:rotate(-90deg);-moz-transform:rotate(-90deg);-ms-transform:rotate(-90deg);-o-transform:rotate(-90deg);transform:rotate(-90deg)}.vertical-overlay-menu .main-menu .main-menu-footer{bottom:55px;width:240px}.vertical-overlay-menu.menu-open .main-menu{opacity:1;-webkit-transform:translate3d(240px,0,0);-moz-transform:translate3d(240px,0,0);transform:translate3d(240px,0,0);-webkit-transition:width .25s,opacity .25s,-webkit-transform .25s;-o-transition:width .25s,opacity .25s,-o-transform .25s;-moz-transition:width .25s,opacity .25s,transform .25s,-moz-transform .25s;transition:width .25s,opacity .25s,transform .25s;transition:width .25s,opacity .25s,transform .25s,-webkit-transform .25s,-moz-transform .25s,-o-transform .25s}.vertical-overlay-menu.menu-flipped .main-menu{right:-240px;left:inherit}.vertical-overlay-menu.menu-flipped .navbar .navbar-container{margin:0 240px 0 0}
     
 /* .vertical-overlay-menu.menu-flipped .navbar .navbar-header{
     float:right;

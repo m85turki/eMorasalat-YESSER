@@ -65,8 +65,8 @@
                             </a>
 
                           <ul class="dropdown-menu admins fadeIn animated" aria-labelledby="drop1">
-							            <li>
-                                        <a class="notification-row d-flex">
+							            <li class="active">
+                                        <a class="notification-row d-flex ">
 											<div>
 											<span>اسم الادارة 1 </span>
 												</div>
@@ -102,6 +102,11 @@
 
 
                           <ul class="dropdown-menu employee_dd  fadeIn animated" aria-labelledby="drop1">
+							              <li class="name2">
+											<div class="site-color name-p">
+											<span>أشرف حسين محمد الشيخ </span>
+												</div>
+							              </li>
                                          <li>
                                         <a class="notification-row d-flex">
 											<i class="la la-file-image-o"></i>
@@ -165,7 +170,8 @@
                                 </script>
                             </div>
                             <div class="notifications dropdown px-2">
-                             <a href="#" class="dropdown-toggle white-notification" data-toggle="dropdown" aria-haspopup="false" aria-expanded="true" data-placement="bottom" title="التنبيهات">
+                             <a href="#" class="dropdown-toggle white-notification" aria-haspopup="false" aria-expanded="true" 
+								data-toggle="dropdown" data-toggle-second="tooltip" data-placement="bottom" title="التنبيهات">
                                     <em class="notification_sticky"></em>
                               <i class="la la-bell "></i>
                                 </a>
@@ -483,11 +489,11 @@
         <!-- END: Vertical Menu -->
     </div>
     <div class="app-content content">
-           <div class="d-flex align-items-center mx-sm-5 mx-3 header-container">
+           <div class="d-flex align-items-center mx-md-5 mx-3 header-container">
                 <div class="filter-link">
                     <h3 class="site-color"> معاملاتي </h3>
                 </div>
-			              <div class="btn-options ml-auto align-self-end">
+			              <div class="btn-options ml-auto">
                 <a class="btn-site" href="#">
                     <img src="../assets/images/option1.png">
                     انشاء صادر
@@ -510,7 +516,7 @@
 
                                 <div class="">
                     <div class="d-block d-lg-flex mx-3 mx-sm-5 my-2">
-                        <ul class="nav nav-tabs custom-sub-nav-tabs mb-2 mb-sm-auto" role="tablist">
+                        <ul class="nav nav-tabs custom-sub-nav-tabs" role="tablist">
                             <li role="presentation" class="active">
                                 <a href="#sub-tab-1" aria-controls="sub-tab-1" role="tab" data-toggle="tab">
                                     الكل (6 معاملات)
@@ -528,7 +534,7 @@
                             </li>
                         </ul>
                         <div class="ml-auto  options p-0">
-<div class="filter-link  ml-md-auto mr-lg-3 mt-3 mt-lg-auto">
+<div class="filter-link  ml-md-auto mr-lg-3 my-3 mt-lg-auto">
 						<a class="dashed-circle search-target" href="#">
 					<i class="fas fa-search"></i>
                                 بحث
@@ -2747,6 +2753,11 @@
 
   });
   </script>
+		<script>
+		$(function(){
+$('[data-toggle-second="tooltip"]').tooltip();
+		});
+	</script>
 </body>
 
 </html>

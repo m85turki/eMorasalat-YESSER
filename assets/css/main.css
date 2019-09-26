@@ -616,6 +616,7 @@ input:focus:-ms-input-placeholder {
         width: 100%;
         padding: 1rem;
     }
+
 }
 
 @media (min-width: 720px){
@@ -866,7 +867,7 @@ a.aExplanation {
         }
 
     .box.blue {
-        border-top: 5px solid #3B90EC;
+        border-top: 3px solid #3B90EC;
     }
 
         .box.blue .correspondence-h .administration {

@@ -1386,6 +1386,16 @@ a.white-notification .notification_sticky{
 .popchat .message-input{
 	bottom: 45px;
 }
+.name-p{
+	padding: 5px 20px;
+	font-size: 16px;
+}
+.name2{
+	display: none;
+}
+.dropdown-menu>.active>a{
+	background-color: transparent;
+}
 
 /*-----------------------------------------------------------------*/
 
@@ -3674,7 +3684,20 @@ table > thead > tr {
         position: fixed;
         top: 40px;
     }
+	.name2{
+	display: block;
+}
+	.dropdown-menu>.active>a{
+	background-color:#d3d4d8;
 	}
+	}
+@media(max-width:719px){
+
+	.toggling-menu{
+		display: none;
+	}
+
+}
 	
 
 

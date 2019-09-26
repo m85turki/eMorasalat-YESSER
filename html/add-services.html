@@ -155,7 +155,8 @@
                                 </script>
                             </div>
                             <div class="notifications dropdown px-2">
-                             <a href="#" class="dropdown-toggle white-notification" data-toggle="dropdown" aria-haspopup="false" aria-expanded="true" data-placement="bottom" title="التنبيهات">
+                                   <a href="#" class="dropdown-toggle white-notification" aria-haspopup="false" aria-expanded="true" 
+								data-toggle="dropdown" data-toggle-second="tooltip" data-placement="bottom" title="التنبيهات">
                                     <em class="notification_sticky"></em>
                               <i class="la la-bell "></i>
                                 </a>
@@ -525,7 +526,11 @@
 			
 
 	</script>
-
+		<script>
+		$(function(){
+$('[data-toggle-second="tooltip"]').tooltip();
+		});
+	</script>
 
 
 
