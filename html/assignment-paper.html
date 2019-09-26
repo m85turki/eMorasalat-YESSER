@@ -161,7 +161,8 @@
                                 </script>
                             </div>
                             <div class="notifications dropdown px-2">
-                             <a href="#" class="dropdown-toggle white-notification" data-toggle="dropdown" aria-haspopup="false" aria-expanded="true" data-placement="bottom" title="التنبيهات">
+                             <a href="#" class="dropdown-toggle white-notification" aria-haspopup="false" aria-expanded="true" 
+								data-toggle="dropdown" data-toggle-second="tooltip" data-placement="bottom" title="التنبيهات">
                                     <em class="notification_sticky"></em>
                               <i class="la la-bell "></i>
                                 </a>
@@ -329,7 +330,7 @@
 
                             </div>
                             <div class="px-2">
-                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="" class="chatbtn white-notification" data-original-title="المحادثات">
+                                <a href="#" data-toggle="dropdown" data-placement="bottom" title="" class="chatbtn white-notification" data-original-title="المحادثات">
                                     <em class="notification_sticky"></em>
                                     <i class="la la-comments white-notification "></i>
                                 </a>
@@ -389,22 +390,21 @@
             <div class="">
                 <form>
                       <div class="form-row">
-                        <div class="form-group col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                       <div class="form-group col-lg-4 col-md-4 col-sm-6 col-xs-12">
                             <label for="">الإدارة <span class="red-color">*</span></label>
-                            <div class="row pr-xs-3">
-                                <div class=" col-lg-4 col-xs-5 pr-2">
+                            <div class="row">
+                                <div class=" col-lg-3 col-md-4 col-sm-4 col-xs-5 pr-0">
                                     <input placeholder="رقم الجهة" type="text" class="form-control">
                                 </div>
-                                <div class=" col-lg-8 col-xs-7 pl-xs-0 pl-0">
-									<div class="input-group">
-                                            <input type="text" class="form-control">
+                                <div class=" col-lg-9 col-md-8 col-sm-8 col-xs-7">
+                            	<div class="input-group">
+                                            <input type="text" class="form-control" placeholder="اسم الجهة الواردة ">
                                             <div class="input-group-append">
                                                 <span class="input-group-text hyperlink white">
                                                     <a href="#"><i class="icon-filter-form"></i></a>
                                                 </span>
                                             </div>
                                         </div>
-
                                 </div>
                             </div>
                         </div>
@@ -504,6 +504,10 @@
         </div>
 		</div>
     </div>
+	<script>
+	$(function(){
+$('.data-toggle-second').tooltip();
+	</script>
 
     <!-- jQuery -->
     <script src="../assets/js/jquery.js"></script>

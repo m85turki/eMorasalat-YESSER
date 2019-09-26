@@ -484,8 +484,6 @@ color:#7db8f1;
 
 
 .chat_list {
-    width: 100%;
-    position: absolute;
     right: 0px;
     overflow-x: hidden;
     background-color: white !important;
@@ -1030,6 +1028,8 @@ border:0;
     position: relative;
     top: 20px;
 }
+
+
 
 .thebox {
     margin-top: 30px;
