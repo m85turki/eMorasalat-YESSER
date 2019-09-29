@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('./icomoon.eot?h8s7v6');
-  src:  url('./icomoon.eot?h8s7v6#iefix') format('embedded-opentype'),
-    url('./icomoon.ttf?h8s7v6') format('truetype'),
-    url('./icomoon.woff?h8s7v6') format('woff'),
-    url('./icomoon.svg?h8s7v6#icomoon') format('svg');
+  src:  url('./icomoon.eot?qlpwfb');
+  src:  url('./icomoon.eot?qlpwfb#iefix') format('embedded-opentype'),
+    url('./icomoon.ttf?qlpwfb') format('truetype'),
+    url('./icomoon.woff?qlpwfb') format('woff'),
+    url('./icomoon.svg?qlpwfb#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,21 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-authorization:before {
+  content: "\e94b";
+}
+.icon-distribution:before {
+  content: "\e94c";
+}
+.icon-referral:before {
+  content: "\e94d";
+}
+.icon-signature:before {
+  content: "\e94e";
+}
+.icon-track:before {
+  content: "\e94f";
+}
 .icon-assignment-delivered:before {
   content: "\e900";
 }
