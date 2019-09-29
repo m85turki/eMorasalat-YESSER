@@ -469,7 +469,7 @@ input:focus:-ms-input-placeholder {
 
 .f-line {
     position: relative;
-    padding: 10px;
+    padding: 3px;
     width: 33.33331%;
 }
 
@@ -479,9 +479,18 @@ input:focus:-ms-input-placeholder {
 .f-line.w-big {
     width: 66.666%;
 }
+.f-line.w-full {
+    width: 100%;
+}
 
 .f-line::before{
     display: none;
+}
+.f-line div:nth-child(2){
+display: block;
+text-overflow: ellipsis;
+overflow: hidden;
+white-space: nowrap;
 }
 
 .f-line::after{
@@ -519,6 +528,10 @@ input:focus:-ms-input-placeholder {
     color: #262B56;
     font-weight: bold;
     font-size: 13pt;
+	display: block;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
 }
 .correspondence-h .date{
     font-size: 9pt;
@@ -875,7 +888,7 @@ a.aExplanation {
         }
 
     .box.gray {
-        border-top: 5px solid rgba(122, 122, 122, 0.40);
+        border-top: 3px solid rgba(122, 122, 122, 0.40);
     }
 
         .box.gray .correspondence-h .administration {
@@ -883,12 +896,25 @@ a.aExplanation {
         }
 
     .box.bluedark {
-        border-top: 5px solid #262B56;
+        border-top: 3px solid #262B56;
     }
 
         .box.bluedark .correspondence-h .administration {
             color: #262B56;
         }
+    .box.reddark {
+        border-top: 3px solid #CF061E;
+    }
+
+        .box.reddark .correspondence-h .administration {
+            color: #CF061E;
+        }
+    .box.lightgreen {
+        border-top: 3px solid #06A950;
+    }
+
+
+
     
 
 /* Display  Flex Bootstrap 4.3.1*/

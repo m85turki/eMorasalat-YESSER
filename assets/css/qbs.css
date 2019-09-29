@@ -1394,9 +1394,16 @@ a.white-notification .notification_sticky{
 	display: none;
 }
 .dropdown-menu>.active>a{
-	background-color: transparent;
-}
+	background-color:#d3d4d8;
+	}
+.dropdown-menu>.active>a:hover{
+	background-color:#d3d4d8;
+	color:#6F74A3;
+	}
 
+.correspondence-h .date{
+	text-align: right;
+}
 /*-----------------------------------------------------------------*/
 
 @media(min-width:1024px) {
@@ -3589,7 +3596,6 @@ table > thead > tr {
         padding-left: 0px;
         width: 0px;
         opacity: 0.1;
-
         -webkit-transition: all 200ms ease;
         -moz-transition: all 200ms ease;
         -ms-transition: all 200ms ease;
@@ -3687,9 +3693,7 @@ table > thead > tr {
 	.name2{
 	display: block;
 }
-	.dropdown-menu>.active>a{
-	background-color:#d3d4d8;
-	}
+
 	}
 @media(max-width:719px){
 
