@@ -469,7 +469,7 @@ input:focus:-ms-input-placeholder {
 
 .f-line {
     position: relative;
-    padding: 3px;
+    padding: 5px 10px 5px 10px;
     width: 33.33331%;
 }
 
@@ -547,6 +547,10 @@ white-space: nowrap;
 
 .correspondence-b .heading{
     color: #B0B0B0;
+	text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+	
 }
 
 .correspondence-h .number{
