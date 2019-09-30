@@ -915,7 +915,9 @@ a.aExplanation {
         border-top: 3px solid #06A950;
     }
 
-
+.box .no_sorting{
+	border-top: 3px solid transparent;
+}
 
     
 
