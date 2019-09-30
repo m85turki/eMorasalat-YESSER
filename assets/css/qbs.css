@@ -1445,6 +1445,10 @@ a.white-notification .notification_sticky{
     padding-left: 5px;
     vertical-align: middle;
 }
+.name3{
+	font-size: 15px;
+	color:black;
+}
 /*-----------------------------------------------------------------*/
 
 @media(min-width:1024px) {
