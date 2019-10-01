@@ -402,10 +402,10 @@ input:focus:-ms-input-placeholder {
 .correspondence-icon a.circle,.table-icon a.circle {
     border-radius: 50%;
     color: #F7F7F7;
-    width: 27px; height: 27px;
+    width: 23px; height: 23px;
     text-align: center;
     vertical-align: middle;
-    line-height: 2.2rem;
+    line-height: 1.8rem;
     margin: 2px;
     display:inline-block;
 }
