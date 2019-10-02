@@ -467,6 +467,7 @@ input:focus:-ms-input-placeholder {
     color: #86889B !important;
 }
 
+
 .correspondence-icon .info span{
     font-size: 8pt;
 }
@@ -483,6 +484,12 @@ input:focus:-ms-input-placeholder {
 .f-line.w-big {
     width: 66.666%;
 }
+.w-f-50{
+	width:50% !important;
+}
+.w-small{
+	width:25%!important;
+}
 .f-line.w-full {
     width: 100%;
 }
@@ -495,6 +502,9 @@ display: block;
 text-overflow: ellipsis;
 overflow: hidden;
 white-space: nowrap;
+}
+.employee_name{
+	width:100%;
 }
 
 .f-line::after{
@@ -618,7 +628,7 @@ white-space: nowrap;
     display: block;
 }
 
-@media (min-width: 540px){
+@media (max-width: 540px){
     .full .correspondence-b{
         -ms-flex-wrap: nowrap!important;
          flex-wrap: nowrap!important;

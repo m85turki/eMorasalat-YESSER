@@ -539,8 +539,8 @@
                                 ترتيب حسب
                             </a>
                             <div class="toggling-menu">
-                                <a href="boxes.html" class="active"><i class="icon-grid"></i></a>
-                                <a href="boxes-full.html"><i class="icon-list"></i></a>
+                                <a href="#" class="active"><i class="icon-grid"></i></a>
+                                <a href="#" class="grid_system" ><i class="icon-list"></i></a>
                             </div>
                         </div>
                         </div>
@@ -697,7 +697,7 @@
                                     </div>
                                     <div class="box-grid">
 										<div class="pb-2">مهام جديدة</div>
-                                        <div class="box bluedark animated zoomIn buttons-action">
+                                        <div class="box no_sorting animated zoomIn buttons-action">
 
                                             <div class="correspondence-t">
                                                 <div class="d-flex">
@@ -706,16 +706,16 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="correspondence-b d-flex flex-wrap">
-                                            <div class="correspondence-h">
+											<div class="correspondence-h">
                                                 <div class="title">
                                                     وزارة الداخلية
                                                 </div>
                                              <div class="date">
                                                    28/12/2018  
                                                 </div>
-                                            </div>	
-												<div class="f-line w-full py-0">
+                                            </div>
+                                            <div class="correspondence-b d-flex flex-wrap">	
+												<div class="f-line employee_name">
 												<div class="name3">محمد محمود</div>
 												</div>
                                                 <div class="f-line w-full">
@@ -744,7 +744,7 @@
                                     </div>
                                     <div class="box-grid">
 										<div class="pb-2">المستخدمين </div>
-                                        <div class="box lightgreen animated zoomIn buttons-action">
+                                        <div class="box no_sorting animated zoomIn buttons-action">
 
                                             <div class="correspondence-t">
                                                 <div class="d-flex">
@@ -762,14 +762,16 @@
                                                    28/12/2018  
                                                 </div>
 													</div>
-													<div class="f-line w-full contact">
+													<div class="f-line w-full">
 														<div class="heading">المستخدم </div>
-													<div>محمد محمود</div>
-													<div ><i class="la la-user pr-1"></i>m_mahmoud</div>
-													<div><i class="la la-briefcase pr-1"></i>مساعد إداري</div>
-													<div><i class="la la-envelope-o pr-1"></i><a href="mailto:mmahmoud@gmail.com">mmahmoud@gmail.com</a></div>
+													<div class="contact">
+														<div class="mr-4">محمد محمود</div>
+													<div class="mr-4"><i class="la la-user pr-1"></i>m_mahmoud</div>
+													<div class="mr-4"><i class="la la-briefcase pr-1"></i>مساعد إداري</div>
+													<div class="mr-4"><i class="la la-envelope-o pr-1"></i><a href="mailto:mmahmoud@gmail.com">mmahmoud@gmail.com</a></div>
 													<div><i class="la la-phone-square pr-1"></i>+9627859834</div>
 													</div>
+												</div>
 
                                             <div class="correspondence-icon d-flex w-100">
                                                 <div>
@@ -896,6 +898,10 @@
                                                    28/12/2018 
                                                 </div>
                                             </div>
+											<div class="correspondence-b d-flex flex-wrap">
+												<div class="f-line employee_name">
+													 <div class="name3">محمد محمود</div>
+												</div>
 											<div class="f-line w-full">
                                                     <div class="description">
 												
@@ -903,9 +909,7 @@
 
 													
 												</div>
-													 <div class="name3">محمد محمود</div>
 													</div>
-                                            <div class="correspondence-b d-flex flex-wrap">
 												 <div class="f-line w-medium">
                                                     <div class="heading">الحالة</div>
                                                     <div>منجزة</div>
@@ -1225,7 +1229,7 @@
                                     </div>
 									<div class="box-grid">
                                             <div class="pb-2">مدير المعاملات</div>
-                                        <div class="box reddark animated zoomIn buttons-action">
+                                        <div class="box no_sorting animated zoomIn buttons-action">
                                             <div class="correspondence-t">
                                                 <div class="d-flex">
                                                    <div class="ml-auto d-flex">
@@ -1299,7 +1303,7 @@
                                     </div>
 									<div class="box-grid">
                                         <div class="pb-2">مهام تم قبولها</div>
-                                        <div class="box bluedark animated zoomIn buttons-action">
+                                        <div class="box  animated zoomIn buttons-action">
 
                                             <div class="correspondence-t">
                                                 <div class="d-flex">
@@ -1308,16 +1312,16 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="correspondence-b d-flex flex-wrap">
-                                            <div class="correspondence-h">
+											<div class="correspondence-h">
                                                 <div class="title">
                                                     وزارة الداخلية
                                                 </div>
                                              <div class="date">
                                                    28/12/2018  
                                                 </div>
-                                            </div>	
-												<div class="f-line w-full py-0">
+                                            </div>
+                                            <div class="correspondence-b d-flex flex-wrap">	
+												<div class="f-line employee_name">
 												<div class="name3">محمد محمود</div>
 												</div>
                                                 <div class="f-line w-full">
@@ -1633,30 +1637,20 @@
 			
 
 	</script>
+	
     <!----->
-		<script src="../assets/plugins/scrollbar/jquery.trackpad-scroll-emulator.min.js"></script>
   <script>
-  $(document).ready(function() {
-    // Initialize scrollers.
-    $('.demo1').TrackpadScrollEmulator();
-    // Demonstration of changing the vertical scroller content and dimensions.
-    $('.add-more').on('click', function(e){
-      e.preventDefault();
-      $('.demo1 .tse-content').append('<p class="odd">Additional content 1</p><p>Additional content 2</p><p p class="odd">Additional content 3</p><p>Additional content 4</p>');
-      $('.demo1').TrackpadScrollEmulator('recalculate');
-    });
-    $('.toggle-height').on('click', function(e){
-      e.preventDefault();
-      if ($('.demo1').height() === 400) {
-        $('.demo1').height(300);
-      } else {
-        $('.demo1').height(400);
-      }
-      $('.demo1').TrackpadScrollEmulator('recalculate');
-    });
-
-  });
-  </script>
+	  $(function(){
+		  $(".grid_system").click(function(){
+			  $(".boxes").toggleClass("full");
+			  $(".f-line.w-full").toggleClass("w-f-50");
+			  $(".w-medium").toggleClass("w-small");
+			  $(".contact").toggleClass("d-flex");
+	  });
+		  });
+	  
+	</script>
+  
 		<script>
 		$(function(){
 $('[data-toggle-second="tooltip"]').tooltip();

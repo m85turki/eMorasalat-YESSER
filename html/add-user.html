@@ -220,10 +220,10 @@
                       <div class="form-row">
                         <div class="form-group col-lg-3 col-sm-6 col-xs-12">
                             <label for="">اسم المستخدم <span class="red-color">*</span></label>     
-                                    <input placeholder="..." type="text" class="form-control">
-                              <small class="stark">
-                                            يرجى تعبئة الحقل 
-                                        </small>
+                                    <input placeholder="..." type="text"  class="is-invalid form-control">
+                            <div class="invalid-feedback">
+                                        يرجى تعبئة الحقل
+                                      </div>
                         </div>
 						
                         <div class="form-group col-lg-3 col-sm-6 col-xs-12">
@@ -296,16 +296,16 @@
                      <div class="form-row">
 						 <div class="form-group col-lg-5 col-sm-6 col-xs-12">
                             <label for="">الإدارة الرئيسية <span class="red-color">*</span></label>
-                            <div class="row m-0">
-                                <div class=" col-lg-3 col-sm-4 col-xs-5 pl-0">
+                              <div class="row">
+                                <div class=" col-lg-3 col-md-4 col-sm-4 col-xs-5 pr-0">
                                     <input placeholder="رقم الجهة" type="text" class="form-control">
                                 </div>
-                                <div class=" col-lg-9 col-sm-8 col-xs-7 px-0">
+                                <div class=" col-lg-9 col-md-8 col-sm-8 col-xs-7">
                             	<div class="input-group">
-                                            <input type="text" class="form-control"  placeholder="اسم الجهة الواردة">
+                                            <input type="text" class="form-control" placeholder="اسم الجهة الواردة ">
                                             <div class="input-group-append">
                                                 <span class="input-group-text hyperlink white">
-                                                    <a href="#"><i class="fas fa-filter fa-flip-horizontal"></i></a>
+                                                    <a href="#"><i class="icon-filter-form"></i></a>
                                                 </span>
                                             </div>
                                         </div>
@@ -317,16 +317,16 @@
 									                     <div class="form-row">
 						 <div class="form-group col-lg-5 col-sm-6 col-xs-12">
                             <label for="">أدوات أخرى</label>
-                            <div class="row m-0">
-                                <div class=" col-lg-3 col-sm-4 col-xs-5 pl-0">
+                              <div class="row">
+                                <div class=" col-lg-3 col-md-4 col-sm-4 col-xs-5 pr-0">
                                     <input placeholder="رقم الجهة" type="text" class="form-control">
                                 </div>
-                                <div class=" col-lg-9 col-sm-8 col-xs-7 px-0">
+                                <div class=" col-lg-9 col-md-8 col-sm-8 col-xs-7">
                             	<div class="input-group">
-                                            <input type="text" class="form-control" placeholder="اسم الجهة الواردة">
+                                            <input type="text" class="form-control" placeholder="اسم الجهة الواردة ">
                                             <div class="input-group-append">
                                                 <span class="input-group-text hyperlink white">
-                                                    <a href="#"><i class="fas fa-filter fa-flip-horizontal"></i></a>
+                                                    <a href="#"><i class="icon-filter-form"></i></a>
                                                 </span>
                                             </div>
                                         </div>
@@ -340,7 +340,7 @@
 					</div>
                 </form>
 <div class="row">
-				<small class=" stark pull-right mr-2">
+				<small class="text-danger pull-right mr-2">
                                             يرجى تعبئة الحقول التي تحتوي على إشارة *
                                         </small> 
 				 
@@ -358,75 +358,67 @@
                             </div>
                  </div>
 				 	  <div class="boxes d-flex mt-4">
-	
-				                   			 	<div class="box2 animated zoomIn buttons-action w-25">
-                                                     <div class="d-flex">
-														         <div class="mr-auto d-flex">
-                                                        <div class="checkbox mt-0 mr-1">
-                                                            <label class="pl-0">
-                                                                <input type="checkbox" value="">
-                                                                <span class="cr">
-                                                                    <i class="cr-icon glyphicon glyphicon-ok"></i>
-                                                                </span>
-                                                            </label>
-                                                        </div>
-																	 <div>التقارير
+	<div class="box2 animated zoomIn buttons-action w-25 ml-2">
+     <div class="d-flex">
+	 <div class="mr-auto d-flex">
+       <div class="checkbox mt-0 mr-1">
+        <label class="pl-0">
+           <input type="checkbox" value="">
+           <span class="cr">
+            <i class="cr-icon glyphicon glyphicon-ok"></i>
+               </span>
+                 </label>
+                   </div>
+				 <div>
+					 التقارير
 																		 
-																		 <div class="gray3">الصلاحيات المضافة
-																			 <span class="blue-oval">10/0</span>
+			 <div class="gray3">الصلاحيات المضافة
+				 <span class="blue-oval">10/0</span>
 																			 
-																			 </div>
-																		 </div>
-                                                    </div>
-
-                                            
-                                                </div>
-                                                </div>
+				 </div>
+				 </div>
+                   </div>
+                   </div>
+                   </div>
 						 
-									 	<div class="box2 animated zoomIn buttons-action w-25">
-                                                     <div class="d-flex">
-														         <div class="mr-auto d-flex">
-                                                        <div class="checkbox mt-0 mr-1">
-                                                            <label class="pl-0">
-                                                                <input type="checkbox" value="">
-                                                                <span class="cr">
-                                                                    <i class="cr-icon glyphicon glyphicon-ok"></i>
-                                                                </span>
-                                                            </label>
-                                                        </div>
-																	 <div>التقارير 
+					<div class="box2 animated zoomIn buttons-action w-25 ml-2">
+                       <div class="d-flex">
+						         <div class="mr-auto d-flex">
+                                  <div class="checkbox mt-0 mr-1">
+                                      <label class="pl-0">
+                                        <input type="checkbox" value="">
+                                            <span class="cr">
+                                            <i class="cr-icon glyphicon glyphicon-ok"></i>
+                                              </span>
+                                                </label>
+                                               </div>
+												 <div>التقارير 
 																		 
-																		 <div class="gray3">الصلاحيات المضافة
-																			 <span class="blue-oval">10/0</span>
+													 <div class="gray3">الصلاحيات المضافة
+														 <span class="blue-oval">10/0</span>
 																			 
-																			 </div>
-																		 </div>
+														 </div>
+													 </div>
                                                     </div>
-
-                                            
                                                 </div>
                                                 </div>
-						 						 	<div class="box2 animated zoomIn buttons-action w-25">
-                                                     <div class="d-flex">
-														         <div class="mr-auto d-flex">
-                                                        <div class="checkbox mt-0 mr-1">
-                                                            <label class="pl-0">
-                                                                <input type="checkbox" value="">
-                                                                <span class="cr">
-                                                                    <i class="cr-icon glyphicon glyphicon-ok"></i>
-                                                                </span>
-                                                            </label>
-                                                        </div>
-																	 <div>المهام
-																		 
-																		 <div class="gray3">الصلاحيات المضافة
-																			 <span class="blue-oval">10/0</span>
-																			 
-																			 </div>
-																		 </div>
+						 <div class="box2 animated zoomIn buttons-action w-25 ml-2">
+                          <div class="d-flex">
+							 <div class="mr-auto d-flex">
+                                <div class="checkbox mt-0 mr-1">
+                                     <label class="pl-0">
+                                         <input type="checkbox" value="">
+                                            <span class="cr">
+                                             <i class="cr-icon glyphicon glyphicon-ok"></i>
+                                                </span>
+                                                </label>
+                                                  </div>
+													<div>المهام
+									 <div class="gray3">الصلاحيات المضافة
+											 <span class="blue-oval">10/0</span>				 
+												 </div>
+                                                   </div>
                                                     </div>
-
-                                            
                                                 </div>
                                                 </div>
 						 				 	<div class="box2 animated zoomIn buttons-action w-25">
@@ -454,10 +446,10 @@
                                                 </div>
 						 
                                                 </div>
-				 <div class="boxes d-flex mt-4">
+                                            <div class="boxes d-flex mt-4">
 	
-				                   			 	<div class="box2 animated zoomIn buttons-action w-25">
-                                                     <div class="d-flex">
+                                      <div class="box2 animated zoomIn buttons-action w-25">
+                                                                <div class="d-flex">
 														         <div class="mr-auto d-flex">
                                                         <div class="checkbox mt-0 mr-1">
                                                             <label class="pl-0">
@@ -477,10 +469,10 @@
                                                     </div>
 
                                             
-                                                </div>
+                                                                 </div>
                                                 </div>
 						 
-									 	<div class="box2 animated zoomIn buttons-action w-25">
+                                        <div class="box2 animated zoomIn buttons-action w-25">
                                                      <div class="d-flex">
 														         <div class="mr-auto d-flex">
                                                         <div class="checkbox mt-0 mr-1">
@@ -500,7 +492,6 @@
 																		 </div>
                                                     </div>
 
-                                            
                                                 </div>
                                                 </div>
 						 						 	<div class="box2 animated zoomIn buttons-action w-25">
@@ -537,13 +528,12 @@
                                                                 </span>
                                                             </label>
                                                         </div>
-																	 <div>إنشاء وارد
+														 <div>إنشاء وارد
 																		 
-																		 <div class="gray3">الصلاحيات المضافة
-																			 <span class="blue-oval">10/0</span>
-																			 
-																			 </div>
-																		 </div>
+															 <div class="gray3">الصلاحيات المضافة
+															 <span class="blue-oval">10/0</span> 
+															 </div>
+															 </div>
                                                     </div>
 
                                             
