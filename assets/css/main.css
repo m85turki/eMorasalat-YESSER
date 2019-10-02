@@ -505,6 +505,7 @@ white-space: nowrap;
 }
 .employee_name{
 	width:100%;
+	padding: 5px 10px 5px 10px;
 }
 
 .f-line::after{
