@@ -485,10 +485,10 @@ input:focus:-ms-input-placeholder {
     width: 66.666%;
 }
 .w-f-50{
-	width:50% !important;
+	width:50%;
 }
 .w-small{
-	width:25%!important;
+	width:auto !important;
 }
 .f-line.w-full {
     width: 100%;
