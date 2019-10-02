@@ -402,10 +402,10 @@ input:focus:-ms-input-placeholder {
 .correspondence-icon a.circle,.table-icon a.circle {
     border-radius: 50%;
     color: #F7F7F7;
-    width: 23px; height: 23px;
+    width: 25px; height: 25px;
     text-align: center;
     vertical-align: middle;
-    line-height: 1.8rem;
+    line-height: 2rem;
     margin: 2px;
     display:inline-block;
 }
@@ -453,6 +453,9 @@ input:focus:-ms-input-placeholder {
     .correspondence-icon a.circle.color-green:hover{
         background: rgba(0, 156, 13, 0.75);
     }
+.correspondence-icon a.circle.color-lightblue:hover {
+     background: rgba(59, 25, 126, 0.75);
+}
     .correspondence-icon a.circle.color-orange:hover{
         background: rgba(224, 157, 0, 0.75);
     }
@@ -461,9 +464,7 @@ input:focus:-ms-input-placeholder {
     font-size: 12pt;
     vertical-align: middle;
     line-height: 1.1rem;
-    margin: 4px 2px;
     color: #86889B !important;
-    min-width:75px;
 }
 
 .correspondence-icon .info span{

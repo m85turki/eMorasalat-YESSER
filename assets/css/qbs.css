@@ -1861,6 +1861,9 @@ hr {
     width: 100%;
     display: inline-block;
 }
+.boxes .full div:first-child{
+	display: block !important;
+}
 
 .box {
     margin-bottom: 20px;
