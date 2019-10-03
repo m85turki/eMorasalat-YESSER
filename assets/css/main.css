@@ -484,14 +484,35 @@ input:focus:-ms-input-placeholder {
 .f-line.w-big {
     width: 66.666%;
 }
-.w-f-50{
-	width:50%;
+.full .w-f-50{
+	width:50%!important;
 }
-.w-small{
+.full .w-small{
 	width:auto !important;
+	padding-left:20px!important;
 }
 .f-line.w-full {
     width: 100%;
+}
+.full .f-line.w-f-40{
+	flex: 1 1 auto;
+    width: 1% !important;
+}
+.full .f-line.full-mode{
+	width:auto !important;
+}
+.full .w-f-auto{
+	width:auto !important;
+}
+.full .w-f-20{
+width:auto!important;
+}
+.full .f-w-full{
+	width:100%!important;
+}
+.number{
+direction: ltr;
+unicode-bidi: isolate;
 }
 
 .f-line::before{
