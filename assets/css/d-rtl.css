@@ -38,7 +38,7 @@ html body {
 }
 
 .f-line::after{
-    right: 5%;
+    right: 0%!important;
 }
 
 .nav-link.menu-toggle{
