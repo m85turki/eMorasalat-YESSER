@@ -9,6 +9,9 @@
 h3.site-color .new-notifications-count{
 	color:#4a90e2 !important;
 }
+.site-color{
+	color:#262F6B!important;
+}
 .close-div {
     position: absolute;
     top: 18px;
@@ -1425,6 +1428,10 @@ a.white-notification .notification_sticky{
 	font-size: 15px;
 	color:black;
 }
+.inner-header .custom-sub-nav-tabs.nav-tabs>li.active>a{
+    color: #3290E9!important;
+    border-bottom: 0!important;
+}
 
 /*-----------------------------------------------------------------*/
 
@@ -1467,7 +1474,12 @@ a.white-notification .notification_sticky{
 .nav-for-treat a:hover{
 	color: #4f98ed;
 }
-
+.nav-for-treat a:active{
+    color: #3290E9;
+    border: 1px solid #f1f2f5;
+    position: relative;
+    border-bottom: 2px solid #3290E9;
+}
 .attachment-content{
 	border:1px solid #4990e2;
 }
