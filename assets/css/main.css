@@ -510,6 +510,9 @@ width:auto!important;
 .full .f-w-full{
 	width:100%!important;
 }
+.full .contact{
+	display: flex!important;
+}
 .number{
 direction: ltr;
 unicode-bidi: isolate;
