@@ -361,10 +361,8 @@ input:focus:-ms-input-placeholder {
 .filter-link .dashed-circle{
 	color:#000;
 }
-.filter-link a:hover{
-    color: #262B56;
-    text-decoration: none;
-}
+
+
 
 .filter-link a.active{
     color: #4A90E2;
