@@ -756,6 +756,10 @@ color:#7db8f1;
     position: absolute;
     top: 8px;
 }
+.chat_list .roundedred2{
+	position: absolute;
+	top:10;
+}
 
 .arrows {
     color: #384079;
@@ -1259,6 +1263,7 @@ border:0;
 
 .showpopchat {
     border-top:1px solid #dfdfdf;
+	position: relative;
 }
 
 .first_person {
