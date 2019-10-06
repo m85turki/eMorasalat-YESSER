@@ -418,6 +418,7 @@ h3.site-color .new-notifications-count{
 
  .header-container h3,.header-container2 h3 {
     font-size: 26px!important;
+	 padding-top:10px;
 }
 
 .form-header{
@@ -487,6 +488,13 @@ color:#7db8f1;
 }
 .btn-st1 a label{
 	color:white;
+}
+.inner-header .custom-sub-nav-tabs.nav-tabs>li>a:hover {
+    border-bottom: none;
+}
+
+.inner-header .custom-sub-nav-tabs.nav-tabs li a{
+	padding:0px!important;
 }
 
 
@@ -1440,7 +1448,7 @@ a.white-notification .notification_sticky{
 	border-left:1px solid #353C77!important;
 }
 .edit_paper_tabs.nav>li>a{
-	padding:10px 3px!important;
+	padding:10px 4px!important;
 }
 
 
