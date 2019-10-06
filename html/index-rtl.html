@@ -554,10 +554,10 @@
 								<i class="icon-sort"></i>
                                 ترتيب حسب
                             </a>
-                            <div class="toggling-menu">
-                                <a href="#" class="active"><i class="icon-grid"></i></a>
-                                <a href="#"><i class="icon-list"></i></a>
-                            </div>
+                                 <div class="toggling-menu">
+                                <a href="#" class="active system_1"><i class="icon-grid"></i></a>
+                                <a href="#" class="grid_system" ><i class="icon-list"></i></a>
+                                 </div>
                         </div>
                         </div>
                     </div>
@@ -2647,29 +2647,30 @@
 
 	</script>
     <!----->
-		<script src="../assets/plugins/scrollbar/jquery.trackpad-scroll-emulator.min.js"></script>
   <script>
-  $(document).ready(function() {
-    // Initialize scrollers.
-    $('.demo1').TrackpadScrollEmulator();
-    // Demonstration of changing the vertical scroller content and dimensions.
-    $('.add-more').on('click', function(e){
-      e.preventDefault();
-      $('.demo1 .tse-content').append('<p class="odd">Additional content 1</p><p>Additional content 2</p><p p class="odd">Additional content 3</p><p>Additional content 4</p>');
-      $('.demo1').TrackpadScrollEmulator('recalculate');
-    });
-    $('.toggle-height').on('click', function(e){
-      e.preventDefault();
-      if ($('.demo1').height() === 400) {
-        $('.demo1').height(300);
-      } else {
-        $('.demo1').height(400);
-      }
-      $('.demo1').TrackpadScrollEmulator('recalculate');
-    });
-
-  });
-  </script>
+	  $(function(){
+		  $(".grid_system").click(function(){
+			  $(".boxes").addClass("full");
+	  });
+		  $(".system_1").click(function(){
+			  $(".boxes").removeClass("full");
+		  });
+		   });
+	  
+	</script>
+	<script>
+		  $(function(){
+$(window).resize(function(){
+  if(window.innerWidth < 719){
+    $('.boxes').removeClass('full');
+	  $('.grid_system').removeClass('active');
+	  $('.system_1').addClass('active');
+  }
+});
+	  });
+	  
+	
+	</script>
 		<script>
 		$(function(){
 $('[data-toggle-second="tooltip"]').tooltip();
