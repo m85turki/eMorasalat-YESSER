@@ -5,6 +5,10 @@
 .red-color {
     color: red;
 }
+.modal-backdrop
+{
+    opacity:0.5 !important;
+}
 
 h3.site-color .new-notifications-count{
 	color:#4a90e2 !important;
