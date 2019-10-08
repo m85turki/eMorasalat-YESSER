@@ -1762,6 +1762,7 @@ position :relative;
     color:#A4A4A4;
     background-color: #FEFEFE;
     padding: 15px 5px;
+    height: 100%;
 }
 .custom-nav-tabs.nav-tabs>li>a:hover {
     background-color: #fbfbff;
@@ -1789,7 +1790,6 @@ position :relative;
     background-color: #f7f7f9;
     border: 1px solid #f1f2f5;
     position:relative;
-    border-top: 2px solid #f1f2f5;
 }
 .custom-nav-tabs.nav-tabs>li.active>a::before
 {
