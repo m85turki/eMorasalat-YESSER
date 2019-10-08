@@ -1763,7 +1763,19 @@ position :relative;
     background-color: #FEFEFE;
     padding: 15px 5px;
     height: 100%;
+
+    /*flex for center*/
+    display: -ms-flexbox !important;
+    display: flex !important;
+    -ms-flex-direction: column !important;
+    flex-direction: column !important;
+    -ms-flex-align: center !important;
+    align-items: center !important;
 }
+.custom-nav-tabs.nav-tabs>li>a div{
+    max-width: 120px;
+}
+
 .custom-nav-tabs.nav-tabs>li>a:hover {
     background-color: #fbfbff;
 }
