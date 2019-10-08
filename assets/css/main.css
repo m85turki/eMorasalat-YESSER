@@ -511,6 +511,9 @@ width:auto!important;
 .full .contact{
 	display: flex!important;
 }
+.full .contact div{
+padding-left:5px;
+}
 .number{
 direction: ltr;
 unicode-bidi: isolate;
@@ -525,6 +528,7 @@ text-overflow: ellipsis;
 overflow: hidden;
 white-space: nowrap;
 }
+
 .employee_name{
 	width:100%;
 	padding: 5px 10px 5px 10px;

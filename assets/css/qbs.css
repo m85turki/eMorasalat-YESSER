@@ -107,9 +107,22 @@ h3.site-color .new-notifications-count{
     line-height: 20px;
 }
 
+.card-body{
+    border: 1px solid rgba(0,0,0,.125);
+	padding-bottom: 20px;
+}
+.inlinepopup{
+	height:auto;
+}
 
-
-
+.box3{
+	border: 1px solid #cecece;
+    padding: 2px;
+    border-radius: 0.25rem;
+}
+.checkbox label{
+	color:#4B90E2;
+}
 
 .dropdownposition {
     padding-bottom: 0;

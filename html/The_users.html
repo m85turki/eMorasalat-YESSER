@@ -229,7 +229,7 @@
                             <span>المستخدمين</span>
                         </a>
 					</li>
-					<li class="active nav-item">
+					<li class="nav-item">
 						<a href="#">
 						<i class="fas fa-redo"></i>
 						<span>الأدوار</span>
@@ -263,9 +263,9 @@
 								<i class="icon-sort"></i>
                                 ترتيب حسب
                             </a>
-                            <div class="toggling-menu">
-                                <a href="#" class="active"><i class="icon-grid"></i></a>
-                                <a href="#"><i class="icon-list"></i></a>
+                                <div class="toggling-menu">
+                                <a href="#" class="active system_1"><i class="icon-grid"></i></a>
+                                <a href="#" class="grid_system" ><i class="icon-list"></i></a>
                             </div>
 	                <button type="submit" class="btn btn-st1 btn-lg mt-2 mt-sm-auto">
 							<i class="icon-buttons-add pr-3"></i>إضافة مستخدم</button>
@@ -756,6 +756,30 @@
             });
         });
     </script>
+	  <script>
+	  $(function(){
+		  $(".grid_system").click(function(){
+			  $(".boxes").addClass("full");
+	  });
+		  $(".system_1").click(function(){
+			  $(".boxes").removeClass("full");
+		  });
+		   });
+	  
+	</script>
+	<script>
+		  $(function(){
+$(window).resize(function(){
+  if(window.innerWidth < 719){
+    $('.boxes').removeClass('full');
+	  $('.grid_system').removeClass('active');
+	  $('.system_1').addClass('active');
+  }
+});
+	  });
+	  
+	
+	</script>
  
 
 </body>
