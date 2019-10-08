@@ -64,7 +64,7 @@
           stVP      = typeof(stVP)=="boolean" ? stVP : true,
           curRowNo  = current.attr("data-row"),
           lasRowNo  = lastAct != "" ? lastAct.attr("data-row") : 0,
-          curRow    = $(ds).find(inlinePopup.settings.itemSelector).filter("[data-row='"+curRowNo+"']:visible");
+          curRow    = $(ds).find(inlinePopup.settings.itemSelector).filter("[data-row='"+curRowNo+"']");
           descElem  = ($(ds).find("."+inlinePopup.settings.ipclass).size() < 1 ) ? createDesc().hide() : $(ds).find("."+inlinePopup.settings.ipclass).css("height",""),
           dpCont    = current.find("."+inlinePopup.settings.detailsElem).html() || "";
       descElem.find("."+inlinePopup.settings.ipcontentwrapperclass).html(dpCont);
@@ -107,12 +107,12 @@
       return (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) || $(window).width() < 768);
     };
     this.setDataRow = function() {
-      var firstLeft = $(ds).find(inlinePopup.settings.itemSelector).filter(":visible").offset().left,
+      var firstLeft = $(ds).find(inlinePopup.settings.itemSelector).offset().left,
           currentRow = 0,
           activeElem = "",
           prevLeft = firstLeft;
       $(ds).find("."+inlinePopup.settings.ipclass).hide();
-      $(ds).find(inlinePopup.settings.itemSelector).filter(":visible").each(function() {
+      $(ds).find(inlinePopup.settings.itemSelector).each(function() {
         var cur  = $(this), 
         curLeft  = cur.offset().left;
         if(curLeft <= prevLeft) currentRow += 1;

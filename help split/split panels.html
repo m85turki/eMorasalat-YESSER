@@ -9,58 +9,70 @@
 </head>
 
 <body>
-    <div class="panel-container">
-   <div class="panel-left">
-<img src="download.png" alt="help" class="help" width="30" height="30">
-	   <img src="Media-Icon-24-512.png" alt="full-screen" width="30" height="30" class="appear full-screen appear split">
-	   <img src="Window_Layout_Positions_Left_One_Third-512.png" alt="dock-to-left" width="30" height="30" class="appear split">
-	   <img src="Window_Layout_Positions_Bottom_Half-512.png" alt="dock-to-bottom" width="30" height="30" class="bottom appear split">
+    <div class="vertical all panel-container panel-container-vertical">
+   <div class="vertical all panel-left panel-top appear split">
+	   <img src="Media-Icon-24-512.png" alt="full-screen" width="30" height="30" class=" full-screen">
+	   <img src="Window_Layout_Positions_Left_One_Third-512.png" alt="dock-to-left" width="30" height="30" class="left">
+	   <img src="Window_Layout_Positions_Bottom_Half-512.png" alt="dock-to-bottom" width="30" height="30" class="bottom">
+	   <hr>
+	  left panel
 		</div>
-	<div class="splitter appear split">
+	<div class="vertical all splitter  splitter-horizontal appear split">
 		</div>
-	<div class="panel-right appear split">
-                right panel
+	<div class="vertical all panel-right  panel-bottom">
+		<img src="download.png" alt="help" class="help" width="30" height="30">
+         <a  href="help.html" target="_blank">Test</a>
      </div>
-<pre>
+		
+		
+
 <script src="js/jquery.js"></script>
-<script src="js/jquery-ui.min.js"></script>
 <script src="js/jquery-resizable.js"></script>
 <script>
+	
 $(function(){
  $(".panel-left").resizable({
    handleSelector: ".splitter",
    resizeHeight: false
  });
+	$('.left').click(function(){
+	 $('.all').addClass("vertical");
+		});
 
- $(".panel-top").resizable({
-   handleSelector: ".splitter-horizontal",
-   resizeWidth: false
- });
 	});
 </script>
-</pre>
+
 	</div>
+
 	<script>
 	$(function(){
 		
 		$('.help').click(function(){
 			$('.split').toggleClass("appear");
-
 			
 		});
 		
 	});
 	</script>
 	<script>
+		var txt=$(".panel-right").text();
 		$(function(){
 		  		$('.bottom').click(function(){
-			('.panel-container').switchClass('panel-container','panel-container-vertical');
-			('.panel-left').switchClass('panel-left','panel-top');
-			('.splitter').switchClass('splitter','splitter-horizontal');
-			('.panel-right').switchClass('panel-right','panel-bottom');
+					             $('.all').removeClass("vertical");
 		});
+			$(".panel-top").resizable({
+   handleSelector: ".splitter-horizontal",
+   resizeWidth: false
+ });
+			$(".full-screen").click(function(){
+			$('.split').toggleClass("appear");	
+var windowObjectReference;
+ window.open(
+    "index.html"
+  );
+});
+			});
 		  
-		  });
 	
 	</script>
 	</body>
