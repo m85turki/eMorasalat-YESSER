@@ -1462,6 +1462,11 @@ a.white-notification .notification_sticky{
 .edit_paper_tabs.nav>li>a{
 	padding:10px 7px!important;
 }
+.filter-link .checkbox{
+	margin-top:0!important;
+	margin-bottom: 0!important;
+	
+}
 
 
 /*-----------------------------------------------------------------*/
@@ -1770,14 +1775,17 @@ a.white-notification .notification_sticky{
 
 div.checkbox {
     display: inline-block;
-    color: #262B56;
-    margin-left: 10px;
 }
 
-    div.checkbox label {
+.filter-link  .checkbox label {
         font-size: 14px;
-        font-weight: 600;
+		color:#000!important;
     }
+.div.checkbox label {
+    font-size: 14px;
+    font-weight: 600;
+    color: #000!important;
+}
 
 .checkbox label:after, .radio label:after {
     content: '';
@@ -1794,6 +1802,7 @@ div.checkbox {
     width: 1.3em;
     height: 1.3em;
     vertical-align: middle;
+	color:#4C90E2;
 }
 
 .radio .cr {

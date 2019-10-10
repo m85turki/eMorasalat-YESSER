@@ -153,7 +153,7 @@ html body {
 /* dawood-style */
 
 .main-menu.menu-light .navigation>li.nav-item>a {
-    padding-left: 5px;
+    padding-left: 55px;
 }
 
 .filter-target.active::before, 
@@ -1205,7 +1205,7 @@ div.checkbox {
 }
 
 div.checkbox label span {
-  margin-left: .5em;
+  margin-left: 5px;
 }
 
 .radio label {
