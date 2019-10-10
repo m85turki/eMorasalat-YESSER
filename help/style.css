@@ -32,6 +32,50 @@ body > .container{
     color: #353C77;
 }
 
+.block_title{
+    display: block;
+    font-size: 1.41667em;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 12pt;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    page-break-after: avoid;
+    page-break-inside: avoid;
+    color: #2E74B5;
+}
+.block_text{
+    color: black;
+    display: block;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    text-align: justify;
+    font-family: "Calibri Light", sans-serif;
+    font-size: 1.0em;
+}
+
+ol.list_{
+    margin: 0px;
+    margin-right: 50px;
+}
+ol.list_ li{
+    margin-bottom: 10px;
+}
+
+
+
+
 
 .block_ {
     color: black;
