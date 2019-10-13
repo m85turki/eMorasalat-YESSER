@@ -1472,6 +1472,7 @@ a.white-notification .notification_sticky{
 .filter-link .checkbox{
 	margin-top:0!important;
 	margin-bottom: 0!important;
+	vertical-align: top;
 }
 
 /*-----------------------------------------------------------------*/
