@@ -3437,12 +3437,9 @@ table > thead > tr {
         width: 100%;
     }
 
-
-		.btn-xs-50{
-		width:50%!important;
+.btn-xs-50{
+	width:50%!important;
 	}
-
-
 
 .table-responsive {
     border: 0;
@@ -3458,21 +3455,21 @@ table > thead > tr {
 .d-flex-sm{
 	display:flex;
 }
-	.mt-sm-4{
+.mt-sm-4{
 		margin-top:1.5rem;
 	}
-    .carddiv{
+.carddiv{
         width: 100% !important;
         right:0 !important;
     }
-	.panel-container{
+.panel-container{
 		width:100%!important;
 	}
-		.panel-left{
+.panel-left{
 		min-width: 50%!important;
 		max-width: 95%!important;
 	}
-			.panel-right{
+.panel-right{
 		min-width: 10%!important;
 		padding: 0!important;
 	}
