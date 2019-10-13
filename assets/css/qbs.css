@@ -3465,10 +3465,18 @@ table > thead > tr {
         width: 100% !important;
         right:0 !important;
     }
+	.panel-container{
+		width:100%!important;
+	}
 		.panel-left{
 		min-width: 50%!important;
 		max-width: 95%!important;
 	}
+			.panel-right{
+		min-width: 10%!important;
+		padding: 0!important;
+	}
+
 
 	}
 
@@ -3656,6 +3664,15 @@ table > thead > tr {
 		left:10px;
 		top:10px;
 	}
+	.panel-left{
+		min-width: 100%!important;
+		
+	}
+		.panel-right{
+		min-width: 0!important;
+		padding: 0!important;
+	}
+	
 
 
 	/*.mr-lg-3{

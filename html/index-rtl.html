@@ -396,7 +396,7 @@
                                 </a>
                             </div>
                             <div class="px-2">
-                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="المساعدة">
+                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="المساعدة" class="help2">
                                     <i class="la la-question-circle"></i>
                                 </a>
                             </div>
@@ -2727,24 +2727,17 @@ $('[data-toggle-second="tooltip"]').tooltip();
 <script>
 $(function(){
 	$(".help").click(function(){
-		$(window).resize(function(){
-        if(window.innerWidth <  576){
-		window.open("help.html","help");
-
-  }
-		else{
-	  $('.boxes').removeClass('full');
-	  $('.grid_system').removeClass('active');
-	  $('.system_1').addClass('active');
-			}
-});
 	$(".split").toggleClass("appear");
      $(".panel-left").resizable({
       resizeHeight: false,
       handleSelector: ".splitter",
      });
+	});
+		$(".help2").click(function(){
+	$(".split").toggleClass("appear");
 
 	});
+
 	$(".exit").click(function(){
 	$(".split").toggleClass("appear");
 	});
