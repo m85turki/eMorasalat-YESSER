@@ -329,27 +329,24 @@ input:focus:-ms-input-placeholder {
 }
 
 
-.btn-options>a.btn-site {
+.btn-options .btn-site {
     border-radius: 5px;
     box-shadow: 0px 3px 12px -2px rgba(0, 0, 0, 0.20);
     background-color: #FFFFFF;
     color: #262B56;
-    padding: 7px 15px;
     font-size: 14px;
-    display: inline-block;
     outline: 0;
     transition: all 0.3s;
     border: 0;
 }
 
-.btn-options>a.btn-site:hover {
-    box-shadow: 0px 3px 12px -2px rgba(0, 0, 0, 0.45);
-    background-color: #F8F8FA;
+.btn-options .btn-site:hover {
     color: #353C77;
+	border:1px solid #262B56; 
+	background-color: white!important;
 }
 
-.btn-options>a.btn-site img {
-    max-width: 25px;
+.btn-options .btn-site i {
     vertical-align: middle;
 }
 

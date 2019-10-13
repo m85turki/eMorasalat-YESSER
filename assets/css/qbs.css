@@ -1785,7 +1785,8 @@ div.checkbox {
 .filter-link  .checkbox label {
     font-size: 14px;
 	color:#000!important;
-	padding-bottom: 15px;
+	padding-bottom: 0px;
+	padding-right: 0px;
     }
 .div.checkbox label {
     font-size: 14px;
@@ -3660,7 +3661,8 @@ table > thead > tr {
 		top:10px;
 	}
 	.panel-left{
-		min-width: 100%!important;
+		min-width: 85%!important;
+		max-width: 95%!important;
 		
 	}
 	.panel-right{
