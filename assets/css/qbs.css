@@ -19,6 +19,12 @@ h3.site-color .new-notifications-count{
     position: absolute;
     top: 18px;
 }
+.exit{
+	font-size: 18px;
+}
+.full-screen{
+	font-size: 18px;
+}
 
 .notification-row h4 {
     font-size: 18px;
@@ -436,6 +442,7 @@ h3.site-color .new-notifications-count{
 .form-header{
 	padding-top:15px;
 }
+
 .correspondence-icon .icon-tables-edit,.table-icon .icon-tables-edit{
 	color:#3b197e;
 	font-size: 30px;
@@ -1465,9 +1472,7 @@ a.white-notification .notification_sticky{
 .filter-link .checkbox{
 	margin-top:0!important;
 	margin-bottom: 0!important;
-	
 }
-
 
 /*-----------------------------------------------------------------*/
 
@@ -1778,8 +1783,9 @@ div.checkbox {
 }
 
 .filter-link  .checkbox label {
-        font-size: 14px;
-		color:#000!important;
+    font-size: 14px;
+	color:#000!important;
+	padding-bottom: 15px;
     }
 .div.checkbox label {
     font-size: 14px;
@@ -3459,6 +3465,11 @@ table > thead > tr {
         width: 100% !important;
         right:0 !important;
     }
+		.panel-left{
+		min-width: 50%!important;
+		max-width: 95%!important;
+	}
+
 	}
 
 @media(max-width:576px) {
@@ -3776,6 +3787,7 @@ table > thead > tr {
 	.toggling-menu{
 		display: none;
 	}
+
 	
 
 }
