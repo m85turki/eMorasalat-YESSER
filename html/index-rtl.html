@@ -2727,6 +2727,17 @@ $('[data-toggle-second="tooltip"]').tooltip();
 <script>
 $(function(){
 	$(".help").click(function(){
+		$(window).resize(function(){
+        if(window.innerWidth <  576){
+		window.open("help.html","help");
+
+  }
+		else{
+	  $('.boxes').removeClass('full');
+	  $('.grid_system').removeClass('active');
+	  $('.system_1').addClass('active');
+			}
+});
 	$(".split").toggleClass("appear");
      $(".panel-left").resizable({
       resizeHeight: false,
