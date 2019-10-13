@@ -3462,9 +3462,7 @@ table > thead > tr {
         width: 100% !important;
         right:0 !important;
     }
-.panel-container{
-		width:100%!important;
-	}
+
 .panel-left{
 		min-width: 50%!important;
 		max-width: 95%!important;
@@ -3665,7 +3663,7 @@ table > thead > tr {
 		min-width: 100%!important;
 		
 	}
-		.panel-right{
+	.panel-right{
 		min-width: 0!important;
 		padding: 0!important;
 	}
