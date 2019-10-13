@@ -1443,20 +1443,15 @@ ul.list_{
     padding-bottom: 0;
     padding-top: 0
     }
-.block_100 {
+.underline_text {
     color: black;
-    display: block;
     line-height: 1.2;
-    margin-bottom: 0;
-    margin-left: 72pt;
-    margin-right: -27.4pt;
-    margin-top: 0;
-    padding-bottom: 0;
-    padding-left: 0;
-    padding-right: 0;
-    padding-top: 0;
     text-decoration: underline
     }
+.sub_title{
+	margin-top:5px;
+	margin-bottom: 5px;
+}
 .block_101 {
     color: black;
     display: list-item;
@@ -1466,16 +1461,7 @@ ul.list_{
     padding-bottom: 0;
     padding-top: 0
     }
-.block_102 {
-    color: black;
-    display: list-item;
-    margin-bottom: 0;
-    margin-left: 108pt;
-    margin-right: -27.4pt;
-    margin-top: 0;
-    padding-bottom: 0;
-    padding-top: 0
-    }
+
 .block_103 {
     color: black;
     display: block;
@@ -1663,6 +1649,16 @@ ul.list_{
     padding-top: 0;
     text-align: justify
     }
+.blue{
+	color:#2E74B5;
+}
+.red{
+	color:#C00000;
+}
+.note{
+	border:1px solid #9DC5E3;
+	padding:5px;
+}
 .block_117 {
     color: black;
     display: block;
