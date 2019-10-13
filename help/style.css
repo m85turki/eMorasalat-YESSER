@@ -65,15 +65,29 @@ body > .container{
     font-size: 1.0em;
 }
 
-ol.list_{
-    margin: 0px;
+    
+.list_ {
+    display: block;
+    margin-bottom: 0;
+    margin-left: 0;
     margin-right: 50px;
+    margin-top: 0;
+    padding-bottom: 0;
+    padding-right: 0;
+    padding-top: 0
 }
-ol.list_ li{
+
+.list_ li{
     margin-bottom: 10px;
 }
 
+ol.list_{
+    list-style-type: decimal;
+}
 
+ul.list_{
+    list-style-type: square;
+}
 
 
 
@@ -1969,17 +1983,7 @@ ol.list_ li{
     padding-right: 0;
     padding-top: 0
     }
-.list_ {
-    display: block;
-    list-style-type: decimal;
-    margin-bottom: 0;
-    margin-left: 0;
-    margin-right: 0;
-    margin-top: 0;
-    padding-bottom: 0;
-    padding-right: 0;
-    padding-top: 0
-    }
+
 .list_1 {
     display: block;
     list-style-type: square;
