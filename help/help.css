@@ -1,6 +1,7 @@
 
 body{
 	direction: rtl;
+	font-family: serif;
 }
 
 body > .container{
@@ -61,7 +62,6 @@ body > .container{
     padding-right: 0;
     padding-top: 0;
     text-align: justify;
-    font-family: "Calibri Light", sans-serif;
     font-size: 1.0em;
 }
 
