@@ -94,7 +94,7 @@ ul.list_{
 .block_ {
     color: black;
     display: block;
-    font-family: serif;
+    
     font-size: 0.75em;
     line-height: 1.08;
     margin-bottom: 8pt;
@@ -122,7 +122,7 @@ ul.list_{
 .block_2 {
     color: black;
     display: block;
-    font-family: serif;
+    
     font-size: 0.75em;
     margin-bottom: 0;
     margin-left: 0;
@@ -237,7 +237,7 @@ ul.list_{
 .block_10 {
     color: black;
     display: block;
-    font-family: serif;
+    
     font-size: 0.75em;
     margin-bottom: 0;
     margin-left: 0;
@@ -274,7 +274,7 @@ ul.list_{
 .block_13 {
     color: black;
     display: block;
-    font-family: serif;
+    
     font-size: 0.75em;
     margin-bottom: 0;
     margin-left: 36pt;
@@ -476,7 +476,7 @@ ul.list_{
 .block_30 {
     color: black;
     display: block;
-    font-family: serif;
+    
     font-size: 0.75em;
     line-height: 1.2;
     margin-bottom: 0;
@@ -491,7 +491,7 @@ ul.list_{
 .block_31 {
     color: black;
     display: block;
-    font-family: "Calibri", sans-serif;
+    
     font-size: 1.125em;
     line-height: 1.2;
     margin-bottom: 8pt;
@@ -614,7 +614,7 @@ ul.list_{
 .block_40 {
     color: black;
     display: block;
-    font-family: serif;
+    
     font-size: 0.75em;
     line-height: 1.08;
     margin-bottom: 0;
@@ -662,7 +662,7 @@ ul.list_{
 .block_44 {
     color: black;
     display: block;
-    font-family: "Calibri", sans-serif;
+    
     font-size: 0.75em;
     line-height: 1.08;
     margin-bottom: 8pt;
@@ -678,7 +678,7 @@ ul.list_{
 .block_45 {
     color: black;
     display: block;
-    font-family: "Calibri", sans-serif;
+    
     font-size: 0.75em;
     line-height: 1.08;
     margin-bottom: 0;
@@ -774,7 +774,7 @@ ul.list_{
 .block_52 {
     color: black;
     display: block;
-    font-family: serif;
+    
     font-size: 0.75em;
     line-height: 1.08;
     margin-bottom: 0;
@@ -790,7 +790,7 @@ ul.list_{
 .block_53 {
     color: black;
     display: block;
-    font-family: serif;
+    
     font-size: 0.75em;
     line-height: 12pt;
     margin-bottom: 6pt;
@@ -833,7 +833,7 @@ ul.list_{
 .block_56 {
     color: black;
     display: block;
-    font-family: serif;
+    
     font-size: 0.75em;
     line-height: 12pt;
     margin-bottom: 6pt;
@@ -875,7 +875,7 @@ ul.list_{
 .block_59 {
     color: black;
     display: block;
-    font-family: serif;
+    
     font-size: 0.75em;
     line-height: 1.08;
     margin-bottom: 0;
@@ -946,7 +946,7 @@ ul.list_{
 .block_64 {
     color: black;
     display: block;
-    font-family: serif;
+    
     font-size: 0.75em;
     line-height: 1.13;
     margin-bottom: 0;
@@ -1011,7 +1011,7 @@ ul.list_{
 .block_69 {
     color: black;
     display: block;
-    font-family: serif;
+    
     font-size: 0.75em;
     line-height: 1.13;
     margin-bottom: 0;
@@ -1027,7 +1027,7 @@ ul.list_{
 .block_70 {
     color: #5B9BD5;
     display: block;
-    font-family: "Calibri", sans-serif;
+    
     font-size: 1.125em;
     line-height: 1.2;
     margin-bottom: 8pt;
@@ -1054,7 +1054,7 @@ ul.list_{
 .block_72 {
     color: black;
     display: block;
-    font-family: serif;
+    
     font-size: 0.75em;
     line-height: 12pt;
     margin-bottom: 6pt;
@@ -1085,7 +1085,7 @@ ul.list_{
 .block_74 {
     color: black;
     display: block;
-    font-family: serif;
+    
     font-size: 0.75em;
     line-height: 1.08;
     margin-bottom: 0;
@@ -1101,7 +1101,7 @@ ul.list_{
 .block_75 {
     color: black;
     display: block;
-    font-family: serif;
+    
     font-size: 0.75em;
     line-height: 1.08;
     margin-bottom: 8pt;
@@ -1173,7 +1173,7 @@ ul.list_{
 .block_80 {
     color: black;
     display: block;
-    font-family: "Calibri", sans-serif;
+    
     font-size: 0.75em;
     line-height: 1.08;
     margin-bottom: 8pt;
@@ -1226,7 +1226,7 @@ ul.list_{
 .block_84 {
     color: black;
     display: block;
-    font-family: serif;
+    
     font-size: 0.75em;
     line-height: 1.15;
     margin-bottom: 0;
@@ -1252,7 +1252,7 @@ ul.list_{
 .block_86 {
     color: black;
     display: block;
-    font-family: serif;
+    
     font-size: 0.75em;
     line-height: 1.15;
     margin-bottom: 0;
@@ -1267,7 +1267,7 @@ ul.list_{
 .block_87 {
     color: black;
     display: list-item;
-    font-family: serif;
+    
     font-size: 0.75em;
     line-height: 1.13;
     margin-bottom: 0;
@@ -1280,7 +1280,7 @@ ul.list_{
 .block_88 {
     color: black;
     display: block;
-    font-family: serif;
+    
     font-size: 0.75em;
     line-height: 1.08;
     margin-bottom: 8pt;
@@ -1296,7 +1296,7 @@ ul.list_{
 .block_89 {
     color: black;
     display: block;
-    font-family: serif;
+    
     font-size: 0.75em;
     line-height: 1.08;
     margin-bottom: 0;
@@ -1353,7 +1353,7 @@ ul.list_{
 .block_93 {
     color: black;
     display: block;
-    font-family: serif;
+    
     font-size: 0.75em;
     line-height: 12pt;
     margin-bottom: 6pt;
@@ -1384,7 +1384,7 @@ ul.list_{
 .block_95 {
     color: black;
     display: block;
-    font-family: serif;
+    
     font-size: 0.75em;
     line-height: 1.08;
     margin-bottom: 11pt;
@@ -1468,7 +1468,7 @@ ul.list_{
 .block_103 {
     color: black;
     display: block;
-    font-family: serif;
+    
     font-size: 0.75em;
     line-height: 1.2;
     margin-bottom: 0;
@@ -1483,7 +1483,7 @@ ul.list_{
 .block_104 {
     color: black;
     display: block;
-    font-family: serif;
+    
     font-size: 0.75em;
     line-height: 1.08;
     margin-bottom: 7.9pt;
@@ -1499,7 +1499,7 @@ ul.list_{
 .block_105 {
     color: black;
     display: block;
-    font-family: serif;
+    
     font-size: 0.75em;
     margin-bottom: 0;
     margin-left: 108pt;
@@ -1535,7 +1535,7 @@ ul.list_{
 .block_108 {
     color: black;
     display: block;
-    font-family: serif;
+    
     font-size: 0.75em;
     line-height: 1.2;
     margin-bottom: 0;
@@ -1550,7 +1550,7 @@ ul.list_{
 .block_109 {
     color: black;
     display: block;
-    font-family: "Calibri", sans-serif;
+    
     font-size: 0.75em;
     line-height: 1.15;
     margin-bottom: 8pt;
@@ -1603,7 +1603,7 @@ ul.list_{
 .block_113 {
     color: black;
     display: block;
-    font-family: serif;
+    
     font-size: 0.75em;
     line-height: 1.15;
     margin-bottom: 7.9pt;
@@ -1665,7 +1665,7 @@ ul.list_{
 .block_117 {
     color: black;
     display: block;
-    font-family: serif;
+    
     font-size: 0.75em;
     line-height: 1.08;
     margin-bottom: 7.9pt;
@@ -1716,7 +1716,7 @@ ul.list_{
 .block_121 {
     color: black;
     display: block;
-    font-family: serif;
+    
     font-size: 0.75em;
     line-height: 1.08;
     margin-bottom: 0;
@@ -1778,7 +1778,7 @@ ul.list_{
 .block_126 {
     color: black;
     display: block;
-    font-family: serif;
+    
     font-size: 0.75em;
     line-height: 1.08;
     margin-bottom: 7.9pt;
@@ -1806,7 +1806,7 @@ ul.list_{
 .block_128 {
     color: black;
     display: table-row;
-    font-family: serif;
+    
     font-size: 0.75em;
     line-height: 1.08;
     margin-bottom: 0;
@@ -1832,7 +1832,7 @@ ul.list_{
 .calibre {
     color: #2E74B5;
     display: block;
-    font-family: "Calibri Light", sans-serif;
+    
     font-size: 1.2em;
     margin-bottom: 0;
     margin-left: 5pt;
@@ -2022,31 +2022,34 @@ ul.list_{
     }
 .text_ {
     color: #222A35;
-    font-family: "Calibri", sans-serif;
+    
     font-size: 2.66667em;
     font-weight: bold;
     line-height: 1.2
     }
 .text_1 {
     color: #767171;
-    font-family: "Calibri Light", sans-serif;
+    
     font-size: 2.66667em;
     font-weight: bold;
     line-height: 1.2
     }
 .text_2 {
     color: #8496B0;
-    font-family: "Calibri Light", sans-serif;
+    
     font-size: 2.66667em;
     font-weight: bold;
     line-height: 1.2
     }
+
 .text_3 {
     color: #1F4E79;
-    font-family: "Calibri", sans-serif;
+    
     font-size: 2.66667em;
     font-weight: bold;
-    line-height: 1.2
+    line-height: 1.2;
+    display: block;
+    margin-top: 10px;
     }
 .text_4 {
     color: #44546A;
@@ -2115,33 +2118,33 @@ ul.list_{
     line-height: 1.2
     }
 .text_19 {
-    font-family: "Calibri Light", sans-serif;
+    
     font-size: 1.33333em;
     font-weight: bold;
     line-height: 1.2
     }
 .text_20 {
-    font-family: "Calibri Light", sans-serif;
+    
     font-size: 1.33333em;
     line-height: 1.2
     }
 .text_21 {
-    font-family: "Calibri", sans-serif;
+    
     font-size: 1em;
     text-decoration: none
     }
 .text_22 {
-    font-family: "Calibri", sans-serif;
+    
     font-style: italic;
     font-weight: bold;
     line-height: 1.2
     }
 .text_23 {
-    font-family: "Calibri", sans-serif;
+    
     line-height: 1.2
     }
 .text_24 {
-    font-family: "Calibri Light", sans-serif;
+    
     line-height: 1.2
     }
 .text_25 {
@@ -2150,7 +2153,7 @@ ul.list_{
     line-height: 1.2
     }
 .text_26 {
-    font-family: "Calibri", sans-serif;
+    
     font-size: 1em
     }
 
