@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>jQuery Inline Popup</title>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+	<link rel="stylesheet" href="../assets/css/qbs.css">
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+    <script src="../assets/js/jquery-inline-popup.js"></script>
+    <!-- Google Font Begin -->
+		<script type="text/javascript">
+		WebFontConfig = { google: { families: [ 'Montserrat::latin', 'Source+Sans+Pro:400,400italic,600,600italic,700,700italic,300,300italic:latin' ] } };
+		(function() {
+		  var wf = document.createElement('script');
+		  wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+		  wf.type = 'text/javascript';
+		  wf.async = 'true';
+		  var s = document.getElementsByTagName('script')[0];
+		  s.parentNode.insertBefore(wf, s);
+		})(); </script>
+</head>
+<body>
+
+    <div class="container">
+        <div class="clearfix ip-container" id="ip-container">
+			<h2>الصلاحيات</h2>
+            <div class="article">
+				<div class="d-flex">
+					<div class="checkbox mt-0 mr-1">
+					 <label class="px-0">
+						 <input type="checkbox" value="">
+							<span class="cr">
+							 <i class="cr-icon glyphicon glyphicon-ok"></i>
+								</span>
+						</label>
+					</div>
+                <span class="treate-name">المعاملات</span>
+					</div>
+				<div class="content">
+                <span>الصلاحيات المضافة <strong>8/8</strong></span>
+					<div class="text-left">
+				<a href="#" class="expand"><i class="fas fa-sort-down"></i></a>
+						</div>
+					</div>
+                <div class="ip-details">
+					<div class="treate">
+					<div class="treate-name">صلاحيات على قائمة المعاملات</div>
+					<label class="roundedred2 font-bold">3</label>
+						</div>
+                    <div class="clearfix ip-container2">
+                        <div class="article2">
+							<div class="d-flex">
+								<div class="checkbox mt-0 mr-1">
+								 <label class="px-0">
+									 <input type="checkbox" value="">
+										<span class="cr">
+										 <i class="cr-icon glyphicon glyphicon-ok"></i>
+											</span>
+									</label>
+								</div>
+							<span class="treate-name">المعاملات</span>
+							 </div>
+                            <div class="ip-details">
+							<div class="d-flex">
+								<div class="checkbox mt-0 mr-1">
+								 <label class="px-0">
+									 <input type="checkbox" value="">
+										<span class="cr">
+										 <i class="cr-icon glyphicon glyphicon-ok"></i>
+											</span>
+									</label>
+								</div>
+							<span class="treate-name">المعاملات</span>
+							 </div>
+                            </div>
+                        </div>
+                                
+                    </div>
+                </div>
+            </div>
+                 
+        </div>
+    </div>
+</body>
+<script>
+	(function($) {
+		$(".ip-container").inlinePopup({
+			itemSelector : ".article",
+            closeinnerelem:"X"
+		});
+$(".ip-container2").inlinePopup({
+			itemSelector : ".article2",
+			ipclass:"inlinepopup2",
+            closeinnerelem:"X",
+			ipcloseclass          : "inlinepopupClose2",
+            iparrowclass          : "inlinepopup_arrow2",
+            ipcontentwrapperclass : "inlinepopup_content2",
+		})
+	})(jQuery)
+</script>
+</html>
