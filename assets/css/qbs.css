@@ -1817,7 +1817,7 @@ div.checkbox {
     border-radius: 50%;
 }
 
-.radio label input[type="radio"]:checked + .cr > .cr-icon {
+.radio label input[type="radio"]:checked + .cr  .cr-icon {
     width: 11px;
     height: 11px;
     border-radius: 50%;
@@ -1848,7 +1848,7 @@ div.checkbox {
         transition: all .3s ease-in;
     }
 
-    .checkbox label input[type="checkbox"]:checked + .cr > .cr-icon, .radio label input[type="radio"]:checked + .cr > .cr-icon {
+    .checkbox label input[type="checkbox"]:checked + .cr > .cr-icon,.checkbox label input[type="checkbox"]:checked + .cr2 > .cr-icon .radio label input[type="radio"]:checked + .cr > .cr-icon {
         transform: scale(1) rotateZ(0deg);
         opacity: 1;
     }
