@@ -15,7 +15,7 @@
   border-radius: 6px;
 }
 /*appear when i press on article*/
-.article.blue,.article2.blue{
+.article.active,.article2.active{
 	background-color:#4A90E2;
 	color:white;
 }
@@ -90,7 +90,7 @@
 	background-color:#4A91E3;
 	color:white!important;
 }
-.article.blue .badge,.article2.blue .badge{
+.article.active .badge,.article2.active .badge{
 	background-color:white;
 	color:#4A91E3!important;
 }
@@ -101,10 +101,10 @@
 .article .prem,.article2 .prem{
 	color:#ACACAC;
 }
-.article.blue .prem,.article2 .prem{
+.article.active .prem,.article2 .prem{
 	color:#fff;
 }
-.blue .expand{
+.active .expand{
 	color:white;
 }
 .glyphicon-ok:before,.glyphicon-ok2:before {
