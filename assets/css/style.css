@@ -3,29 +3,32 @@
   position: relative;
 }
 .article,.article2 {
+  float: right;
+}
+
+.article-design{
   border: 1px solid #c2c2c2;
   color: #585858;
-  width: 23%;
-  float: left;
   background: #fff;
   margin-bottom: 15px;
-  margin-left: 15px;
-  padding: 5px;
-  cursor: pointer;
+  padding: 9px;
   border-radius: 6px;
 }
+
 /*appear when i press on article*/
-.article.active,.article2.active{
+.article.active .article-design,.article2.active .article-design{
 	background-color:#4A90E2;
 	color:white;
+}
+.article.active i{
+	transform: rotate(180deg);
 }
 .article > h2 {
   margin: 0 0 10px;
   color: #337ab7;
 }
-.article span {
+.article span ,.article2 span{
   display: block;
-  padding-bottom: 5px;
 }
 .article strong {
   color: #d7342f;
@@ -40,7 +43,6 @@
   width: 100%;
   margin-bottom: 15px;
   position: relative;
-  box-shadow: 0 0px 2px 0 rgba(0, 0, 0, 0.3);
   border-radius: 0.25rem;
 }
 .inlinepopup_content {
@@ -49,24 +51,15 @@
 	
 }
 .inlinepopup_arrow {
-  background: url("../images/images/arrow-top.png") no-repeat scroll center 0;
-  height: 32px;
-  position: absolute;
-  top: -33px;
-  width: 32px;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #c2c2c2;
+    position: absolute;
+    top: -10px;
 }
-.inlinepopupClose {
-  background: url("../images/images/close.png") no-repeat scroll 0 0;
-  cursor: pointer;
-  height: 16px;
-  position: absolute;
-  right: 5px;
-  text-indent: -9999px;
-  top: 10px;
-  width: 16px;
-  z-index: 99;
-  overflow: hidden;
-}
+
 
 .inlinepopup_content h2 {
   color: #585858;
@@ -90,18 +83,19 @@
 	background-color:#4A91E3;
 	color:white!important;
 }
-.article.active .badge,.article2.active .badge{
+.article.active  .badge,.article2.active .badge{
 	background-color:white;
 	color:#4A91E3!important;
 }
 .expand{
 	color:#D7D7D8;
 	font-size:15px;
+	cursor: pointer;
 }
 .article .prem,.article2 .prem{
 	color:#ACACAC;
 }
-.article.active .prem,.article2 .prem{
+.article.active .prem,.article2.active .prem{
 	color:#fff;
 }
 .active .expand{
@@ -112,24 +106,26 @@
 }
 .roundedred3{
 	height: 22px;
-    width: 25px;
     background-color: red;
     border-radius: 50%;
-    text-align: center;
     display: inline-block;
     color: white;
-	
+	padding: 4px 9px;
+	text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+	line-height: 1;
+    min-width: 10px;
+}
+.inlinepopupClose{
+	display: none;
 }
 .badge{
 	padding: 3px 9px;
+	font-weight: 300;
 }
-@media(max-width:768px) {
-	.article,.article2{
-	width:47%;
-	}
+
+.article-design{
+	margin-left: 0px;
 }
-@media (max-width:576px){
-	.article,.article2{
-		width:100%;
-	}
-}
+
