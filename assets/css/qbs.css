@@ -1848,7 +1848,7 @@ div.checkbox {
         transition: all .3s ease-in;
     }
 
-    .checkbox label input[type="checkbox"]:checked + .cr > .cr-icon,.checkbox label input[type="checkbox"]:checked + .cr2 > .cr-icon .radio label input[type="radio"]:checked + .cr > .cr-icon {
+    .checkbox label input[type="checkbox"]:checked + .cr > .cr-icon,.checkbox label input[type="checkbox"]{
         transform: scale(1) rotateZ(0deg);
         opacity: 1;
     }
