@@ -48,7 +48,7 @@
 
                     <div class="d-flex ml-auto  mr-0 align-content-around flex-wrap h-side">
                         <div class="dropdown px-1 px-md-2">
-                            <a id="drop1" href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <a id="drop1" href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expand ml-2ed="false">
                                 <div class="d-inline manager"> إسم الإدارة: الإدارة العليا
 								</div>
 								<div class="manager2">...</div>
@@ -83,7 +83,7 @@
                         </div>
 
                         <div class="user-settings dropdown  px-1 px-md-2 ml-0">
-                            <a id="drop1" href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <a id="drop1" href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expand ml-2ed="false">
                                 <span class="h-avatar mx-2">
                                     <img src="../assets/images/businessman.png">
                                 </span>
@@ -161,7 +161,7 @@
                                 </script>
                             </div>
                             <div class="notifications dropdown px-2">
-                             <a href="#" class="dropdown-toggle white-notification" aria-haspopup="false" aria-expanded="true" data-toggle="dropdown" data-toggle-second="tooltip" data-placement="bottom" title="" data-original-title="التنبيهات">
+                             <a href="#" class="dropdown-toggle white-notification" aria-haspopup="false" aria-expand ml-2ed="true" data-toggle="dropdown" data-toggle-second="tooltip" data-placement="bottom" title="" data-original-title="التنبيهات">
                                     <em class="notification_sticky"></em>
                               <i class="la la-bell "></i>
                                 </a>
@@ -257,7 +257,7 @@
                             </a>
                         </div>
                         <div class="ml-auto">
-                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-expanded="false" aria-controls="navbar">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-expand ml-2ed="false" aria-controls="navbar">
                                 <span class="sr-only">Toggle navigation</span>
                                 <span class="icon-bar"></span>
                                 <span class="icon-bar"></span>
@@ -279,7 +279,7 @@
                             </div>
 						  <div class="d-flex top-icons2 h-side">
                             <div class="notifications dropdown px-2">
-                             <a href="#" class="dropdown-toggle white-notification" data-toggle="dropdown" aria-haspopup="false" aria-expanded="true" data-placement="bottom" title="التنبيهات">
+                             <a href="#" class="dropdown-toggle white-notification" data-toggle="dropdown" aria-haspopup="false" aria-expand ml-2ed="true" data-placement="bottom" title="التنبيهات">
                                     <em class="notification_sticky"></em>
                               <i class="la la-bell "></i>
                                 </a>
@@ -373,12 +373,10 @@
 
     </div>
     <div class="content_all">
-    	            <div class="mb-3 mx-5 mx-xs-3 header-container d-flex">
-                    <h3 class="site-color">إضافة مستخدم </h3>
-					<div class="close-icon mt-0 ml-auto">
+<div class="mb-3 mx-5 mx-xs-3 header-container2 d-flex align-items-center">
+                    <h3 class="site-color mt-xs-4">إضافة مستخدم </h3>
+					<div class="close-icon mt-0 ml-auto" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="إغلاق">
                 <a class="circle-icon color-white" href="#"><i class="la la-close"></i></a>
-                <br>
-                <span class="gray2">إغلاق</span>
             </div>
             </div>
 
@@ -407,12 +405,12 @@
                                 <option>...</option>
                             </select>
                         </div>
-						           <div class="form-group col-lg-6 col-sm-6 col-xs-12">
+						           <div class="form-group col-lg-6 col-sm-6 col-xs-12 px-0">
 									   <div class="col-lg-6">
 									                               <label for=""> المعاملة المتأخرة بعد 
 								<span class="red-color">*</span>
 							</label>
-									   <div class="col-lg-12">
+									   <div class="col-lg-12 px-0">
 										   <div class="col-lg-3 px-0">
 										 <input type="text" class="form-control">
 										   </div>
@@ -442,7 +440,7 @@
                         </div>
                     </div>
                 </form>
-				<form class="mt-4">
+				<form>
                      <div class="form-row">
                         <div class="form-group col-lg-3 col-sm-6 col-xs-12">
                             <label for="">الاسم بالعربي</label>
@@ -464,9 +462,9 @@
 
 					</div>
                 </form>
-				 				<form class="mt-4">
+				 				<form>
                      <div class="form-row">
-						 <div class="form-group col-lg-5 col-sm-6 col-xs-12">
+						 <div class="form-group col-lg-5 col-md-6 col-sm-6 col-xs-12">
                             <label for="">الإدارة الرئيسية <span class="red-color">*</span></label>
                               <div class="row">
                                 <div class=" col-lg-3 col-md-4 col-sm-4 col-xs-5 pr-0">
@@ -487,7 +485,7 @@
 
 					</div>
 									                     <div class="form-row">
-						 <div class="form-group col-lg-5 col-sm-6 col-xs-12">
+						 <div class="form-group col-lg-5 col-md-6 col-sm-6 col-xs-12">
                             <label for="">أدوات أخرى</label>
                               <div class="row">
                                 <div class=" col-lg-3 col-md-4 col-sm-4 col-xs-5 pr-0">
@@ -518,8 +516,8 @@
 
 	 </div>
         <div id="ip-container" class="clearfix">
-			<div class="title-box d-flex my-2">
-				<h3 class="black"> الصلاحيات </h3>
+			<div class="title-box d-flex my-3">
+				<h3 class="black m-0"> الصلاحيات </h3>
 				<div class="filter-link ml-auto align-self-center">
 			<div class="checkbox">
   <label for="selectAll">
@@ -532,8 +530,10 @@
  			 </div>
 			</div>
 			</div>
-			            <div class="article">
-				<div class="d-flex">
+			<div class="article-row row">
+			            <div class="article col-lg-3 col-sm-6 col-xs-12">
+						<div class="article-design">
+				<div class="d-flex flex-row">
 					<div class="checkbox mt-0 mr-1">
 					 <label class="px-0">
 						 <input type="checkbox" value="">
@@ -542,22 +542,27 @@
 								</span>
 						</label>
 					</div>
+					<div>
                 <span class="treate-name">المعاملات</span>
-					</div>
-				<div class="contant d-flex">
-                <span class="prem">الصلاحيات المضافة</span>
-					<div class="ml-auto">
-						<strong class="badge badge-pill">8/8</strong>
-				<a href="#" class="expand"><i class="fas fa-sort-down"></i></a>
+						<span class="prem">الصلاحيات المضافة</span>
+						</div>
+				<div class="contant align-self-end">
+					<div>
+						<strong class="badge badge-pill mx-2">10/10</strong>
 						</div>
 					</div>
+					<a href="#" class="expand ml-auto align-self-end"><i class="fas fa-sort-down"></i></a>
+					</div>
                 <div class="ip-details">
-					<div class="treate d-flex">
-					<div class="treate-name">صلاحيات على قائمة المعاملات</div>
-					<label class="roundedred3 font-bold mx-2">3</label>
-						<span>صلاحيات </span>
-						<div class="checkbox ml-auto">
-			  <label for="selectAll">
+					<div class="treate d-flex flex-sm-row flex-column">
+					<div class="treate-name">صلاحيات على قائمة المعاملات
+						</div>
+						<div>
+						<label class="roundedred3 font-bold mr-2 ml-sm-2">3</label> <span>صلاحيات </span>
+						</div>
+							<div class="d-flex ml-sm-auto">
+						<div class="checkbox mt-0">
+			  <label for="selectAll" class="pl-0">
 				<input id="selectAll2" type="checkbox" value="">
 				   <span class="cr"><i class="cr-icon glyphicon glyphicon-ok"></i></span>
 					  <span class="black">
@@ -565,232 +570,213 @@
 					  </span>
 				</label>
 			  			</div>
+							</div>
 						</div>
-					<div class="article2">
-						<div class="d-flex">
-							<div class="checkbox">
-								<label>
-								<input type="checkbox" value="">
-								<span class="cr">
-									<i class="cr-icon glyphicon glyphicon-ok"></i>
+					<div class="row">
+					<div class="article2 col-lg-3 col-sm-6 col-xs-12">
+						<div class="article-design">
+						<div class="d-flex flex-row">
+					<div class="checkbox mt-0 mr-1">
+					 <label class="px-0">
+						 <input type="checkbox" value="">
+							<span class="cr">
+							 <i class="cr-icon glyphicon glyphicon-ok"></i>
 								</span>
+						</label>
+					</div>
+					<div>
+                <span class="treate-name">المعاملات</span>
+						<span class="prem">الصلاحيات المضافة</span>
+						</div>
+				<div class="contant align-self-end">
+					<div>
+						<strong class="badge badge-pill mx-2">10/10</strong>
+						</div>
+					</div>
+					<a href="#" class="expand ml-auto align-self-end"><i class="fas fa-sort-down"></i></a>
+					</div>
+						</div>
+						</div>
+                    <div class="article2 col-lg-3 col-sm-6 col-xs-12">
+						<div class="article-design">
+						<div class="d-flex flex-row">
+					<div class="checkbox mt-0 mr-1">
+					 <label class="px-0">
+						 <input type="checkbox" value="">
+							<span class="cr">
+							 <i class="cr-icon glyphicon glyphicon-ok"></i>
+								</span>
+						</label>
+					</div>
+					<div>
+                <span class="treate-name">المعاملات</span>
+						<span class="prem">الصلاحيات المضافة</span>
+						</div>
+				<div class="contant align-self-end">
+					<div>
+						<strong class="badge badge-pill mx-2">10/10</strong>
+						</div>
+					</div>
+					<a href="#" class="expand ml-auto align-self-end"><i class="fas fa-sort-down"></i></a>
+					</div>
+						</div>
+						</div>
+					<div class="article2 col-lg-3 col-sm-6 col-xs-12">
+											<div class="article-design">
+											<div class="d-flex flex-row">
+										<div class="checkbox mt-0 mr-1">
+										 <label class="px-0">
+											 <input type="checkbox" value="">
+												<span class="cr">
+												 <i class="cr-icon glyphicon glyphicon-ok"></i>
+													</span>
+											</label>
+										</div>
+										<div>
+									<span class="treate-name">المعاملات</span>
+											<span class="prem">الصلاحيات المضافة</span>
+											</div>
+									<div class="contant align-self-end">
+										<div>
+											<strong class="badge badge-pill mx-2">10/10</strong>
+											</div>
+										</div>
+										<a href="#" class="expand ml-auto align-self-end"><i class="fas fa-sort-down"></i></a>
+										</div>
+											</div>
+											</div>
+					<div class="article2 col-lg-3 col-sm-6 col-xs-12">
+								<div class="article-design">
+								<div class="d-flex flex-row">
+							<div class="checkbox mt-0 mr-1">
+							 <label class="px-0">
+								 <input type="checkbox" value="">
+									<span class="cr">
+									 <i class="cr-icon glyphicon glyphicon-ok"></i>
+										</span>
 								</label>
-                                                        </div>
-                <span class="treate-name">المعاملات</span>
-					</div>
-				<div class="contant d-flex">
-                <span class="prem">الصلاحيات المضافة</span>
-					<div class="ml-auto">
-						<strong class="badge badge-pill">8/8</strong>
-				<a href="#" class="expand"><i class="fas fa-sort-down"></i></a>
-						</div>
-					</div>
-					</div>
-					<div class="article2">
-						<div class="d-flex">
-					<div class="checkbox mt-0 mr-1">
-					 <label class="px-0">
-						 <input type="checkbox" value="">
-							<span class="cr">
-							 <i class="cr-icon glyphicon glyphicon-ok"></i>
-								</span>
-						</label>
-					</div>
-                <span class="treate-name">المعاملات</span>
-					</div>
-				<div class="contant d-flex">
-                <span class="prem">الصلاحيات المضافة</span>
-					<div class="ml-auto">
-						<strong class="badge badge-pill">8/8</strong>
-				<a href="#" class="expand"><i class="fas fa-sort-down"></i></a>
-						</div>
-					</div>
-					</div>
-					<div class="article2">
-						<div class="d-flex">
-					<div class="checkbox mt-0 mr-1">
-					 <label class="px-0">
-						 <input type="checkbox" value="">
-							<span class="cr">
-							 <i class="cr-icon glyphicon glyphicon-ok"></i>
-								</span>
-						</label>
-					</div>
-                <span class="treate-name">المعاملات</span>
-					</div>
-				<div class="contant d-flex">
-                <span class="prem">الصلاحيات المضافة</span>
-					<div class="ml-auto">
-						<strong class="badge badge-pill">8/8</strong>
-				<a href="#" class="expand"><i class="fas fa-sort-down"></i></a>
-						</div>
-					</div>
-					</div>
-							<div class="article2">
-						<div class="d-flex">
-					<div class="checkbox mt-0 mr-1">
-					 <label class="px-0">
-						 <input type="checkbox" value="">
-							<span class="cr">
-							 <i class="cr-icon glyphicon glyphicon-ok"></i>
-								</span>
-						</label>
-					</div>
-                <span class="treate-name">المعاملات</span>
-					</div>
-				<div class="contant d-flex">
-                <span class="prem">الصلاحيات المضافة</span>
-					<div class="ml-auto">
-						<strong class="badge badge-pill">8/8</strong>
-				<a href="#" class="expand"><i class="fas fa-sort-down"></i></a>
-						</div>
-					</div>
-					</div>
-				</div>
-            </div>
-             <div class="article">
-				<div class="d-flex">
-					<div class="checkbox mt-0 mr-1">
-					 <label class="px-0">
-						 <input type="checkbox" value="">
-							<span class="cr">
-							 <i class="cr-icon glyphicon glyphicon-ok"></i>
-								</span>
-						</label>
-					</div>
-                <span class="treate-name">المعاملات</span>
-					</div>
-				<div class="contant d-flex">
-                <span class="prem">الصلاحيات المضافة</span>
-					<div class="ml-auto">
-						<strong class="badge badge-pill">8/8</strong>
-				<a href="#" class="expand"><i class="fas fa-sort-down"></i></a>
-						</div>
-					</div>
-                <div class="ip-details">
-					<div class="treate d-flex">
-					<div class="treate-name">صلاحيات على قائمة المعاملات</div>
-					<label class="roundedred3 font-bold mx-2">3</label>
-						<span>صلاحيات </span>
-						<div class="checkbox ml-auto">
-			  <label for="selectAll">
-				<input id="selectAll" type="checkbox" value="">
-				   <span class="cr"><i class="cr-icon glyphicon glyphicon-ok"></i></span>
-					  <span class="black">
-						تحديد الكل
-					  </span>
-				</label>
-			  			</div>
-						</div>
-					<div class="article2">
-						<div class="d-flex">
-					<div class="checkbox mt-0 mr-1">
-					 <label class="px-0">
-						 <input type="checkbox" value="">
-							<span class="cr">
-							 <i class="cr-icon glyphicon glyphicon-ok"></i>
-								</span>
-						</label>
-					</div>
-                <span class="treate-name">المعاملات</span>
-					</div>
-				<div class="contant d-flex">
-                <span class="prem">الصلاحيات المضافة</span>
-					<div class="ml-auto">
-						<strong class="badge badge-pill">8/8</strong>
-				<a href="#" class="expand"><i class="fas fa-sort-down"></i></a>
-						</div>
-					</div>
-					</div>
-					<div class="article2">
-						<div class="d-flex">
-					<div class="checkbox mt-0 mr-1">
-					 <label class="px-0">
-						 <input type="checkbox" value="">
-							<span class="cr">
-							 <i class="cr-icon glyphicon glyphicon-ok"></i>
-								</span>
-						</label>
-					</div>
-                <span class="treate-name">المعاملات</span>
-					</div>
-				<div class="contant d-flex">
-                <span class="prem">الصلاحيات المضافة</span>
-					<div class="ml-auto">
-						<strong class="badge badge-pill">8/8</strong>
-				<a href="#" class="expand"><i class="fas fa-sort-down"></i></a>
-						</div>
-					</div>
-					</div>
-					<div class="article2">
-						<div class="d-flex">
-					<div class="checkbox mt-0 mr-1">
-					 <label class="px-0">
-						 <input type="checkbox" value="">
-							<span class="cr">
-							 <i class="cr-icon glyphicon glyphicon-ok"></i>
-								</span>
-						</label>
-					</div>
-                <span class="treate-name">المعاملات</span>
-					</div>
-				<div class="contant d-flex">
-                <span class="prem">الصلاحيات المضافة</span>
-					<div class="ml-auto">
-						<strong class="badge badge-pill">8/8</strong>
-				<a href="#" class="expand"><i class="fas fa-sort-down"></i></a>
-						</div>
-					</div>
-					</div>
-							<div class="article2">
-						<div class="d-flex">
-					<div class="checkbox mt-0 mr-1">
-					 <label class="px-0">
-						 <input type="checkbox" value="">
-							<span class="cr">
-							 <i class="cr-icon glyphicon glyphicon-ok"></i>
-								</span>
-						</label>
-					</div>
-                <span class="treate-name">المعاملات</span>
-					</div>
-				<div class="contant d-flex">
-                <span class="prem">الصلاحيات المضافة</span>
-					<div class="ml-auto">
-						<strong class="badge badge-pill">8/8</strong>
-				<a href="#" class="expand"><i class="fas fa-sort-down"></i></a>
-						</div>
-					</div>
-					</div>
-				</div>
-            </div>
-                 <div class="article">
-				<div class="d-flex">
-					<div class="checkbox mt-0 mr-1">
-					 <label class="px-0">
-						 <input type="checkbox" value="">
-							<span class="cr">
-							 <i class="cr-icon glyphicon glyphicon-ok"></i>
-								</span>
-						</label>
-					</div>
-                <span class="treate-name">المعاملات</span>
-					</div>
-				<div class="contant d-flex">
-                <span class="prem">الصلاحيات المضافة</span>
-					<div class="ml-auto">
-						<strong class="badge badge-pill">8/8</strong>
+							</div>
+							<div>
+						<span class="treate-name">المعاملات</span>
+								<span class="prem">الصلاحيات المضافة</span>
+								</div>
+						<div class="contant align-self-end">
+							<div>
+								<strong class="badge badge-pill mx-2">10/10</strong>
+								</div>
+							</div>
+							<a href="#" class="expand ml-auto align-self-end"><i class="fas fa-sort-down"></i></a>
+							</div>
+								</div>
+								</div>	
+					<div class="article2 col-lg-3 col-sm-6 col-xs-12">
+								<div class="article-design">
+								<div class="d-flex flex-row">
+							<div class="checkbox mt-0 mr-1">
+							 <label class="px-0">
+								 <input type="checkbox" value="">
+									<span class="cr">
+									 <i class="cr-icon glyphicon glyphicon-ok"></i>
+										</span>
+								</label>
+							</div>
+							<div>
+						<span class="treate-name">التقارير</span>
+								</div>
 
-				<a href="#" class="expand"><i class="fas fa-sort-down"></i></a>
+							</div>
+								</div>
+								</div>
+					<div class="article2 col-lg-3 col-sm-6 col-xs-12">
+								<div class="article-design">
+								<div class="d-flex flex-row">
+							<div class="checkbox mt-0 mr-1">
+							 <label class="px-0">
+								 <input type="checkbox" value="">
+									<span class="cr">
+									 <i class="cr-icon glyphicon glyphicon-ok"></i>
+										</span>
+								</label>
+							</div>
+							<div>
+						<span class="treate-name">التقارير</span>
+								</div>
+
+							</div>
+								</div>
+								</div>
+					<div class="article2 col-lg-3 col-sm-6 col-xs-12">
+													<div class="article-design">
+													<div class="d-flex flex-row">
+												<div class="checkbox mt-0 mr-1">
+												 <label class="px-0">
+													 <input type="checkbox" value="">
+														<span class="cr">
+														 <i class="cr-icon glyphicon glyphicon-ok"></i>
+															</span>
+													</label>
+												</div>
+												<div>
+											<span class="treate-name">التقارير</span>
+													</div>
+
+												</div>
+													</div>
+													</div>
+					<div class="article2 col-lg-3 col-sm-6 col-xs-12">
+							<div class="article-design">
+							<div class="d-flex flex-row">
+						<div class="checkbox mt-0 mr-1">
+						 <label class="px-0">
+							 <input type="checkbox" value="">
+								<span class="cr">
+								 <i class="cr-icon glyphicon glyphicon-ok"></i>
+									</span>
+							</label>
+						</div>
+						<div>
+					<span class="treate-name">التقارير</span>
+							</div>
+
+						</div>
+							</div>
+							</div>
+						</div>
+				</div>
+			</div>
+            </div>
+                        <div class="article col-lg-3 col-sm-6 col-xs-12">
+						<div class="article-design">
+				<div class="d-flex flex-row">
+					<div class="checkbox mt-0 mr-1">
+					 <label class="px-0">
+						 <input type="checkbox" value="">
+							<span class="cr">
+							 <i class="cr-icon glyphicon glyphicon-ok"></i>
+								</span>
+						</label>
+					</div>
+					<div>
+                <span class="treate-name">المعاملات</span>
+						<span class="prem">الصلاحيات المضافة</span>
+						</div>
+				<div class="contant align-self-end">
+					<div>
+						<strong class="badge badge-pill mx-2">10/10</strong>
 						</div>
 					</div>
-                <div class="ip-details">
-					<div class="treate d-flex">
-					<div class="treate-name">صلاحيات على قائمة المعاملات</div>
-					<label class="roundedred3 font-bold mx-2">3</label>
-						<span>صلاحيات </span>
-						<div class="checkbox ml-auto">
-			  <label for="selectAll">
+					<a href="#" class="expand ml-auto align-self-end"><i class="fas fa-sort-down"></i></a>
+					</div>
+                                <div class="ip-details">
+					<div class="treate d-flex flex-sm-row flex-column">
+					<div class="treate-name">صلاحيات على قائمة المعاملات
+						</div>
+						<div>
+						<label class="roundedred3 font-bold mr-2 ml-sm-2">3</label> <span>صلاحيات </span>
+						</div>
+							<div class="d-flex ml-sm-auto">
+						<div class="checkbox mt-0">
+			  <label for="selectAll" class="pl-0">
 				<input id="selectAll2" type="checkbox" value="">
 				   <span class="cr"><i class="cr-icon glyphicon glyphicon-ok"></i></span>
 					  <span class="black">
@@ -798,9 +784,12 @@
 					  </span>
 				</label>
 			  			</div>
+							</div>
 						</div>
-					<div class="article2">
-						<div class="d-flex">
+					<div class="row">
+					<div class="article2 col-lg-3 col-sm-6 col-xs-12">
+						<div class="article-design">
+						<div class="d-flex flex-row">
 					<div class="checkbox mt-0 mr-1">
 					 <label class="px-0">
 						 <input type="checkbox" value="">
@@ -809,18 +798,22 @@
 								</span>
 						</label>
 					</div>
+					<div>
                 <span class="treate-name">المعاملات</span>
-					</div>
-				<div class="contant d-flex">
-                <span class="prem">الصلاحيات المضافة</span>
-					<div class="ml-auto">
-						<strong class="badge badge-pill">8/8</strong>
-				<a href="#" class="expand"><i class="fas fa-sort-down"></i></a>
+						<span class="prem">الصلاحيات المضافة</span>
+						</div>
+				<div class="contant align-self-end">
+					<div>
+						<strong class="badge badge-pill mx-2">10/10</strong>
 						</div>
 					</div>
+					<a href="#" class="expand ml-auto align-self-end"><i class="fas fa-sort-down"></i></a>
 					</div>
-					<div class="article2">
-						<div class="d-flex">
+						</div>
+						</div>
+                    <div class="article2 col-lg-3 col-sm-6 col-xs-12">
+						<div class="article-design">
+						<div class="d-flex flex-row">
 					<div class="checkbox mt-0 mr-1">
 					 <label class="px-0">
 						 <input type="checkbox" value="">
@@ -829,60 +822,147 @@
 								</span>
 						</label>
 					</div>
+					<div>
                 <span class="treate-name">المعاملات</span>
-					</div>
-				<div class="contant d-flex">
-                <span class="prem">الصلاحيات المضافة</span>
-					<div class="ml-auto">
-						<strong class="badge badge-pill">8/8</strong>
-				<a href="#" class="expand"><i class="fas fa-sort-down"></i></a>
+						<span class="prem">الصلاحيات المضافة</span>
+						</div>
+				<div class="contant align-self-end">
+					<div>
+						<strong class="badge badge-pill mx-2">10/10</strong>
 						</div>
 					</div>
+					<a href="#" class="expand ml-auto align-self-end"><i class="fas fa-sort-down"></i></a>
 					</div>
-					<div class="article2">
-						<div class="d-flex">
-					<div class="checkbox mt-0 mr-1">
-					 <label class="px-0">
-						 <input type="checkbox" value="">
-							<span class="cr">
-							 <i class="cr-icon glyphicon glyphicon-ok"></i>
-								</span>
-						</label>
-					</div>
-                <span class="treate-name">المعاملات</span>
-					</div>
-				<div class="contant d-flex">
-                <span class="prem">الصلاحيات المضافة</span>
-					<div class="ml-auto">
-						<strong class="badge badge-pill">8/8</strong>
-				<a href="#" class="expand"><i class="fas fa-sort-down"></i></a>
 						</div>
-					</div>
-					</div>
-							<div class="article2">
-						<div class="d-flex">
-					<div class="checkbox mt-0 mr-1">
-					 <label class="px-0">
-						 <input type="checkbox" value="">
-							<span class="cr">
-							 <i class="cr-icon glyphicon glyphicon-ok"></i>
-								</span>
-						</label>
-					</div>
-                <span class="treate-name">المعاملات</span>
-					</div>
-				<div class="contant d-flex">
-                <span class="prem">الصلاحيات المضافة</span>
-					<div class="ml-auto">
-						<strong class="badge badge-pill">8/8</strong>
-				<a href="#" class="expand"><i class="fas fa-sort-down"></i></a>
 						</div>
-					</div>
-					</div>
+					<div class="article2 col-lg-3 col-sm-6 col-xs-12">
+											<div class="article-design">
+											<div class="d-flex flex-row">
+										<div class="checkbox mt-0 mr-1">
+										 <label class="px-0">
+											 <input type="checkbox" value="">
+												<span class="cr">
+												 <i class="cr-icon glyphicon glyphicon-ok"></i>
+													</span>
+											</label>
+										</div>
+										<div>
+									<span class="treate-name">المعاملات</span>
+											<span class="prem">الصلاحيات المضافة</span>
+											</div>
+									<div class="contant align-self-end">
+										<div>
+											<strong class="badge badge-pill mx-2">10/10</strong>
+											</div>
+										</div>
+										<a href="#" class="expand ml-auto align-self-end"><i class="fas fa-sort-down"></i></a>
+										</div>
+											</div>
+											</div>
+					<div class="article2 col-lg-3 col-sm-6 col-xs-12">
+								<div class="article-design">
+								<div class="d-flex flex-row">
+							<div class="checkbox mt-0 mr-1">
+							 <label class="px-0">
+								 <input type="checkbox" value="">
+									<span class="cr">
+									 <i class="cr-icon glyphicon glyphicon-ok"></i>
+										</span>
+								</label>
+							</div>
+							<div>
+						<span class="treate-name">المعاملات</span>
+								<span class="prem">الصلاحيات المضافة</span>
+								</div>
+						<div class="contant align-self-end">
+							<div>
+								<strong class="badge badge-pill mx-2">10/10</strong>
+								</div>
+							</div>
+							<a href="#" class="expand ml-auto align-self-end"><i class="fas fa-sort-down"></i></a>
+							</div>
+								</div>
+								</div>	
+					<div class="article2 col-lg-3 col-sm-6 col-xs-12">
+								<div class="article-design">
+								<div class="d-flex flex-row">
+							<div class="checkbox mt-0 mr-1">
+							 <label class="px-0">
+								 <input type="checkbox" value="">
+									<span class="cr">
+									 <i class="cr-icon glyphicon glyphicon-ok"></i>
+										</span>
+								</label>
+							</div>
+							<div>
+						<span class="treate-name">التقارير</span>
+								</div>
+
+							</div>
+								</div>
+								</div>
+					<div class="article2 col-lg-3 col-sm-6 col-xs-12">
+								<div class="article-design">
+								<div class="d-flex flex-row">
+							<div class="checkbox mt-0 mr-1">
+							 <label class="px-0">
+								 <input type="checkbox" value="">
+									<span class="cr">
+									 <i class="cr-icon glyphicon glyphicon-ok"></i>
+										</span>
+								</label>
+							</div>
+							<div>
+						<span class="treate-name">التقارير</span>
+								</div>
+
+							</div>
+								</div>
+								</div>
+					<div class="article2 col-lg-3 col-sm-6 col-xs-12">
+													<div class="article-design">
+													<div class="d-flex flex-row">
+												<div class="checkbox mt-0 mr-1">
+												 <label class="px-0">
+													 <input type="checkbox" value="">
+														<span class="cr">
+														 <i class="cr-icon glyphicon glyphicon-ok"></i>
+															</span>
+													</label>
+												</div>
+												<div>
+											<span class="treate-name">التقارير</span>
+													</div>
+
+												</div>
+													</div>
+													</div>
+					<div class="article2 col-lg-3 col-sm-6 col-xs-12">
+							<div class="article-design">
+							<div class="d-flex flex-row">
+						<div class="checkbox mt-0 mr-1">
+						 <label class="px-0">
+							 <input type="checkbox" value="">
+								<span class="cr">
+								 <i class="cr-icon glyphicon glyphicon-ok"></i>
+									</span>
+							</label>
+						</div>
+						<div>
+					<span class="treate-name">التقارير</span>
+							</div>
+
+						</div>
+							</div>
+							</div>
+						</div>
 				</div>
+			</div>
             </div>
-                    <div class="article">
-				<div class="d-flex">
+                 
+                      <div class="article col-lg-3 col-sm-6 col-xs-12">
+						<div class="article-design">
+				<div class="d-flex flex-row">
 					<div class="checkbox mt-0 mr-1">
 					 <label class="px-0">
 						 <input type="checkbox" value="">
@@ -891,22 +971,27 @@
 								</span>
 						</label>
 					</div>
+					<div>
                 <span class="treate-name">المعاملات</span>
-					</div>
-				<div class="contant d-flex">
-                <span class="prem">الصلاحيات المضافة</span>
-					<div class="ml-auto">
-						<strong class="badge badge-pill">8/8</strong>
-				<a href="#" class="expand"><i class="fas fa-sort-down"></i></a>
+						<span class="prem">الصلاحيات المضافة</span>
+						</div>
+				<div class="contant align-self-end">
+					<div>
+						<strong class="badge badge-pill mx-2">10/10</strong>
 						</div>
 					</div>
-                <div class="ip-details">
-					<div class="treate d-flex">
-					<div class="treate-name">صلاحيات على قائمة المعاملات</div>
-					<label class="roundedred3 font-bold mx-2">3</label>
-						<span>صلاحيات </span>
-						<div class="checkbox ml-auto">
-			  <label for="selectAll">
+					<a href="#" class="expand ml-auto align-self-end"><i class="fas fa-sort-down"></i></a>
+					</div>
+                                  <div class="ip-details">
+					<div class="treate d-flex flex-sm-row flex-column">
+					<div class="treate-name">صلاحيات على قائمة المعاملات
+						</div>
+						<div>
+						<label class="roundedred3 font-bold mr-2 ml-sm-2">3</label> <span>صلاحيات </span>
+						</div>
+							<div class="d-flex ml-sm-auto">
+						<div class="checkbox mt-0">
+			  <label for="selectAll" class="pl-0">
 				<input id="selectAll2" type="checkbox" value="">
 				   <span class="cr"><i class="cr-icon glyphicon glyphicon-ok"></i></span>
 					  <span class="black">
@@ -914,9 +999,12 @@
 					  </span>
 				</label>
 			  			</div>
+							</div>
 						</div>
-					<div class="article2">
-						<div class="d-flex">
+					<div class="row">
+					<div class="article2 col-lg-3 col-sm-6 col-xs-12">
+						<div class="article-design">
+						<div class="d-flex flex-row">
 					<div class="checkbox mt-0 mr-1">
 					 <label class="px-0">
 						 <input type="checkbox" value="">
@@ -925,18 +1013,22 @@
 								</span>
 						</label>
 					</div>
+					<div>
                 <span class="treate-name">المعاملات</span>
-					</div>
-				<div class="contant d-flex">
-                <span class="prem">الصلاحيات المضافة</span>
-					<div class="ml-auto">
-						<strong class="badge badge-pill">8/8</strong>
-				<a href="#" class="expand"><i class="fas fa-sort-down"></i></a>
+						<span class="prem">الصلاحيات المضافة</span>
+						</div>
+				<div class="contant align-self-end">
+					<div>
+						<strong class="badge badge-pill mx-2">10/10</strong>
 						</div>
 					</div>
+					<a href="#" class="expand ml-auto align-self-end"><i class="fas fa-sort-down"></i></a>
 					</div>
-					<div class="article2">
-						<div class="d-flex">
+						</div>
+						</div>
+                    <div class="article2 col-lg-3 col-sm-6 col-xs-12">
+						<div class="article-design">
+						<div class="d-flex flex-row">
 					<div class="checkbox mt-0 mr-1">
 					 <label class="px-0">
 						 <input type="checkbox" value="">
@@ -945,59 +1037,359 @@
 								</span>
 						</label>
 					</div>
+					<div>
                 <span class="treate-name">المعاملات</span>
-					</div>
-				<div class="contant d-flex">
-                <span class="prem">الصلاحيات المضافة</span>
-					<div class="ml-auto">
-						<strong class="badge badge-pill">8/8</strong>
-				<a href="#" class="expand"><i class="fas fa-sort-down"></i></a>
+						<span class="prem">الصلاحيات المضافة</span>
+						</div>
+				<div class="contant align-self-end">
+					<div>
+						<strong class="badge badge-pill mx-2">10/10</strong>
 						</div>
 					</div>
+					<a href="#" class="expand ml-auto align-self-end"><i class="fas fa-sort-down"></i></a>
 					</div>
-					<div class="article2">
-						<div class="d-flex">
-					<div class="checkbox mt-0 mr-1">
-					 <label class="px-0">
-						 <input type="checkbox" value="">
-							<span class="cr">
-							 <i class="cr-icon glyphicon glyphicon-ok"></i>
-								</span>
-						</label>
-					</div>
-                <span class="treate-name">المعاملات</span>
-					</div>
-				<div class="contant d-flex">
-                <span class="prem">الصلاحيات المضافة</span>
-					<div class="ml-auto">
-						<strong class="badge badge-pill">8/8</strong>
-				<a href="#" class="expand"><i class="fas fa-sort-down"></i></a>
 						</div>
-					</div>
-					</div>
-							<div class="article2">
-						<div class="d-flex">
-					<div class="checkbox mt-0 mr-1">
-					 <label class="px-0">
-						 <input type="checkbox" value="">
-							<span class="cr">
-							 <i class="cr-icon glyphicon glyphicon-ok"></i>
-								</span>
-						</label>
-					</div>
-                <span class="treate-name">المعاملات</span>
-					</div>
-				<div class="contant d-flex">
-                <span class="prem">الصلاحيات المضافة</span>
-					<div class="ml-auto">
-						<strong class="badge badge-pill">8/8</strong>
-				<a href="#" class="expand"><i class="fas fa-sort-down"></i></a>
 						</div>
-					</div>
-					</div>
+					<div class="article2 col-lg-3 col-sm-6 col-xs-12">
+											<div class="article-design">
+											<div class="d-flex flex-row">
+										<div class="checkbox mt-0 mr-1">
+										 <label class="px-0">
+											 <input type="checkbox" value="">
+												<span class="cr">
+												 <i class="cr-icon glyphicon glyphicon-ok"></i>
+													</span>
+											</label>
+										</div>
+										<div>
+									<span class="treate-name">المعاملات</span>
+											<span class="prem">الصلاحيات المضافة</span>
+											</div>
+									<div class="contant align-self-end">
+										<div>
+											<strong class="badge badge-pill mx-2">10/10</strong>
+											</div>
+										</div>
+										<a href="#" class="expand ml-auto align-self-end"><i class="fas fa-sort-down"></i></a>
+										</div>
+											</div>
+											</div>
+					<div class="article2 col-lg-3 col-sm-6 col-xs-12">
+								<div class="article-design">
+								<div class="d-flex flex-row">
+							<div class="checkbox mt-0 mr-1">
+							 <label class="px-0">
+								 <input type="checkbox" value="">
+									<span class="cr">
+									 <i class="cr-icon glyphicon glyphicon-ok"></i>
+										</span>
+								</label>
+							</div>
+							<div>
+						<span class="treate-name">المعاملات</span>
+								<span class="prem">الصلاحيات المضافة</span>
+								</div>
+						<div class="contant align-self-end">
+							<div>
+								<strong class="badge badge-pill mx-2">10/10</strong>
+								</div>
+							</div>
+							<a href="#" class="expand ml-auto align-self-end"><i class="fas fa-sort-down"></i></a>
+							</div>
+								</div>
+								</div>	
+					<div class="article2 col-lg-3 col-sm-6 col-xs-12">
+								<div class="article-design">
+								<div class="d-flex flex-row">
+							<div class="checkbox mt-0 mr-1">
+							 <label class="px-0">
+								 <input type="checkbox" value="">
+									<span class="cr">
+									 <i class="cr-icon glyphicon glyphicon-ok"></i>
+										</span>
+								</label>
+							</div>
+							<div>
+						<span class="treate-name">التقارير</span>
+								</div>
+
+							</div>
+								</div>
+								</div>
+					<div class="article2 col-lg-3 col-sm-6 col-xs-12">
+								<div class="article-design">
+								<div class="d-flex flex-row">
+							<div class="checkbox mt-0 mr-1">
+							 <label class="px-0">
+								 <input type="checkbox" value="">
+									<span class="cr">
+									 <i class="cr-icon glyphicon glyphicon-ok"></i>
+										</span>
+								</label>
+							</div>
+							<div>
+						<span class="treate-name">التقارير</span>
+								</div>
+
+							</div>
+								</div>
+								</div>
+					<div class="article2 col-lg-3 col-sm-6 col-xs-12">
+													<div class="article-design">
+													<div class="d-flex flex-row">
+												<div class="checkbox mt-0 mr-1">
+												 <label class="px-0">
+													 <input type="checkbox" value="">
+														<span class="cr">
+														 <i class="cr-icon glyphicon glyphicon-ok"></i>
+															</span>
+													</label>
+												</div>
+												<div>
+											<span class="treate-name">التقارير</span>
+													</div>
+
+												</div>
+													</div>
+													</div>
+					<div class="article2 col-lg-3 col-sm-6 col-xs-12">
+							<div class="article-design">
+							<div class="d-flex flex-row">
+						<div class="checkbox mt-0 mr-1">
+						 <label class="px-0">
+							 <input type="checkbox" value="">
+								<span class="cr">
+								 <i class="cr-icon glyphicon glyphicon-ok"></i>
+									</span>
+							</label>
+						</div>
+						<div>
+					<span class="treate-name">التقارير</span>
+							</div>
+
+						</div>
+							</div>
+							</div>
+						</div>
 				</div>
+			</div>
             </div>
-        </div>
+			          <div class="article col-lg-3 col-sm-6 col-xs-12">
+						<div class="article-design">
+				<div class="d-flex flex-row">
+					<div class="checkbox mt-0 mr-1">
+					 <label class="px-0">
+						 <input type="checkbox" value="">
+							<span class="cr">
+							 <i class="cr-icon glyphicon glyphicon-ok"></i>
+								</span>
+						</label>
+					</div>
+					<div>
+                <span class="treate-name">المعاملات</span>
+						<span class="prem">الصلاحيات المضافة</span>
+						</div>
+				<div class="contant align-self-end">
+					<div>
+						<strong class="badge badge-pill mx-2">10/10</strong>
+						</div>
+					</div>
+					<a href="#" class="expand ml-auto align-self-end"><i class="fas fa-sort-down"></i></a>
+					</div>
+                                <div class="ip-details">
+					<div class="treate d-flex flex-sm-row flex-column">
+					<div class="treate-name">صلاحيات على قائمة المعاملات
+						</div>
+						<div>
+						<label class="roundedred3 font-bold mr-2 ml-sm-2">3</label> <span>صلاحيات </span>
+						</div>
+							<div class="d-flex ml-sm-auto">
+						<div class="checkbox mt-0">
+			  <label for="selectAll" class="pl-0">
+				<input id="selectAll2" type="checkbox" value="">
+				   <span class="cr"><i class="cr-icon glyphicon glyphicon-ok"></i></span>
+					  <span class="black">
+						تحديد الكل
+					  </span>
+				</label>
+			  			</div>
+							</div>
+						</div>
+					<div class="row">
+					<div class="article2 col-lg-3 col-sm-6 col-xs-12">
+						<div class="article-design">
+						<div class="d-flex flex-row">
+					<div class="checkbox mt-0 mr-1">
+					 <label class="px-0">
+						 <input type="checkbox" value="">
+							<span class="cr">
+							 <i class="cr-icon glyphicon glyphicon-ok"></i>
+								</span>
+						</label>
+					</div>
+					<div>
+                <span class="treate-name">المعاملات</span>
+						<span class="prem">الصلاحيات المضافة</span>
+						</div>
+				<div class="contant align-self-end">
+					<div>
+						<strong class="badge badge-pill mx-2">10/10</strong>
+						</div>
+					</div>
+					<a href="#" class="expand ml-auto align-self-end"><i class="fas fa-sort-down"></i></a>
+					</div>
+						</div>
+						</div>
+                    <div class="article2 col-lg-3 col-sm-6 col-xs-12">
+						<div class="article-design">
+						<div class="d-flex flex-row">
+					<div class="checkbox mt-0 mr-1">
+					 <label class="px-0">
+						 <input type="checkbox" value="">
+							<span class="cr">
+							 <i class="cr-icon glyphicon glyphicon-ok"></i>
+								</span>
+						</label>
+					</div>
+					<div>
+                <span class="treate-name">المعاملات</span>
+						<span class="prem">الصلاحيات المضافة</span>
+						</div>
+				<div class="contant align-self-end">
+					<div>
+						<strong class="badge badge-pill mx-2">10/10</strong>
+						</div>
+					</div>
+					<a href="#" class="expand ml-auto align-self-end"><i class="fas fa-sort-down"></i></a>
+					</div>
+						</div>
+						</div>
+					<div class="article2 col-lg-3 col-sm-6 col-xs-12">
+											<div class="article-design">
+											<div class="d-flex flex-row">
+										<div class="checkbox mt-0 mr-1">
+										 <label class="px-0">
+											 <input type="checkbox" value="">
+												<span class="cr">
+												 <i class="cr-icon glyphicon glyphicon-ok"></i>
+													</span>
+											</label>
+										</div>
+										<div>
+									<span class="treate-name">المعاملات</span>
+											<span class="prem">الصلاحيات المضافة</span>
+											</div>
+									<div class="contant align-self-end">
+										<div>
+											<strong class="badge badge-pill mx-2">10/10</strong>
+											</div>
+										</div>
+										<a href="#" class="expand ml-auto align-self-end"><i class="fas fa-sort-down"></i></a>
+										</div>
+											</div>
+											</div>
+					<div class="article2 col-lg-3 col-sm-6 col-xs-12">
+								<div class="article-design">
+								<div class="d-flex flex-row">
+							<div class="checkbox mt-0 mr-1">
+							 <label class="px-0">
+								 <input type="checkbox" value="">
+									<span class="cr">
+									 <i class="cr-icon glyphicon glyphicon-ok"></i>
+										</span>
+								</label>
+							</div>
+							<div>
+						<span class="treate-name">المعاملات</span>
+								<span class="prem">الصلاحيات المضافة</span>
+								</div>
+						<div class="contant align-self-end">
+							<div>
+								<strong class="badge badge-pill mx-2">10/10</strong>
+								</div>
+							</div>
+							<a href="#" class="expand ml-auto align-self-end"><i class="fas fa-sort-down"></i></a>
+							</div>
+								</div>
+								</div>	
+					<div class="article2 col-lg-3 col-sm-6 col-xs-12">
+								<div class="article-design">
+								<div class="d-flex flex-row">
+							<div class="checkbox mt-0 mr-1">
+							 <label class="px-0">
+								 <input type="checkbox" value="">
+									<span class="cr">
+									 <i class="cr-icon glyphicon glyphicon-ok"></i>
+										</span>
+								</label>
+							</div>
+							<div>
+						<span class="treate-name">التقارير</span>
+								</div>
+
+							</div>
+								</div>
+								</div>
+					<div class="article2 col-lg-3 col-sm-6 col-xs-12">
+								<div class="article-design">
+								<div class="d-flex flex-row">
+							<div class="checkbox mt-0 mr-1">
+							 <label class="px-0">
+								 <input type="checkbox" value="">
+									<span class="cr">
+									 <i class="cr-icon glyphicon glyphicon-ok"></i>
+										</span>
+								</label>
+							</div>
+							<div>
+						<span class="treate-name">التقارير</span>
+								</div>
+
+							</div>
+								</div>
+								</div>
+					<div class="article2 col-lg-3 col-sm-6 col-xs-12">
+													<div class="article-design">
+													<div class="d-flex flex-row">
+												<div class="checkbox mt-0 mr-1">
+												 <label class="px-0">
+													 <input type="checkbox" value="">
+														<span class="cr">
+														 <i class="cr-icon glyphicon glyphicon-ok"></i>
+															</span>
+													</label>
+												</div>
+												<div>
+											<span class="treate-name">التقارير</span>
+													</div>
+
+												</div>
+													</div>
+													</div>
+					<div class="article2 col-lg-3 col-sm-6 col-xs-12">
+							<div class="article-design">
+							<div class="d-flex flex-row">
+						<div class="checkbox mt-0 mr-1">
+						 <label class="px-0">
+							 <input type="checkbox" value="">
+								<span class="cr">
+								 <i class="cr-icon glyphicon glyphicon-ok"></i>
+									</span>
+							</label>
+						</div>
+						<div>
+					<span class="treate-name">التقارير</span>
+							</div>
+
+						</div>
+							</div>
+							</div>
+						</div>
+				</div>
+			</div>
+            </div>
+       		 </div>
+				 </div>
 
 			
                  
@@ -1121,7 +1513,7 @@
     <script src="../assets/js/aos.js"></script>
     <script src="../assets/js/jquery.slimscroll.min.js"></script>
     <script src="../assets/js/app.js"></script>
-    <script src="../assets/js/jquery-inline-popup.js"></script>
+    <script src="../assets/js/jquery-inline-popup-rtl.js"></script>
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
