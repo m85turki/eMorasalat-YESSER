@@ -1692,7 +1692,7 @@ color:#ff3636;
     background-color: #fff;
 }
 .table.table-striped>tbody>tr:nth-of-type(odd) {
-    background-color: #FDFDFD;
+    background-color: #F5F7FA;
 }
 .table.table-striped > tbody > tr td{
     color: #4A4A4A;

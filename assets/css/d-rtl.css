@@ -876,7 +876,7 @@ body.vertical-layout.vertical-menu.menu-collapsed .navbar-brand-center .footer {
 body.vertical-layout.vertical-menu.menu-collapsed.menu-flipped .content,
 body.vertical-layout.vertical-menu.menu-collapsed.menu-flipped .footer,
 body.vertical-layout.vertical-menu.menu-collapsed.menu-flipped .navbar .navbar-container {
-  margin: 0 90px 0px 20px
+  margin: 0 77px 0px 0px
 }
 
 @media (min-width:576px) {
@@ -1148,7 +1148,6 @@ body.vertical-layout.vertical-menu.menu-collapsed.menu-flipped .navbar .navbar-h
 @media(max-width:944px ) {
   .navbar-default .navbar-nav > li {
       text-align: right;
-      margin-left: 0;
   }
 }
 

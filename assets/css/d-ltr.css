@@ -1004,7 +1004,7 @@ body.vertical-layout.vertical-menu.menu-collapsed .navbar-brand-center .footer {
 body.vertical-layout.vertical-menu.menu-collapsed.menu-flipped .content,
 body.vertical-layout.vertical-menu.menu-collapsed.menu-flipped .footer,
 body.vertical-layout.vertical-menu.menu-collapsed.menu-flipped .navbar .navbar-container {
-  margin: 0 20px 0px 90px;
+  margin: 0 0px 0px 77px;
 }
 
 @media (min-width:576px) {
@@ -1305,9 +1305,7 @@ body.vertical-layout.vertical-menu.menu-collapsed.menu-flipped .navbar .navbar-h
 
 @media(max-width:767px ) {
   .navbar-default .navbar-nav > li {
-      margin-left: 25%;
       text-align: left;
-      margin-right: 0;
   }
 }
 
