@@ -2581,11 +2581,14 @@ textarea.form-control {
     width: 100%;
 }
 
-    .table-view .box > .row.row-multi-fields > div {
-        display: table-cell;
-        white-space: nowrap;
-        width: auto;
-    }
+.table-view .box > .row.row-multi-fields > div {
+	display: table-cell;
+	white-space: nowrap;
+	width: auto;
+}
+.mang-button{
+	margin-bottom: 1rem;
+}
 
 @media(min-width:1024px) {
     .table-view .box > .row.row-multi-fields > div {
@@ -3656,11 +3659,7 @@ table > thead > tr {
     bottom: 5px !important;
 		width:100%!important;
     }
-	.close-icon{
-		position: absolute;
-		left:10px;
-		top:10px;
-	}
+
 	.panel-left{
 		min-width: 85%!important;
 		max-width: 95%!important;
