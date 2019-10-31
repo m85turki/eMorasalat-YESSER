@@ -1469,6 +1469,11 @@ a.white-notification .notification_sticky{
 .attachment-content{
 	border:1px solid #4990e2;
 }
+.text-over{
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
 
 @media(max-width:897px ) and (min-width: 394px) {
     .inline-radio > .radio {

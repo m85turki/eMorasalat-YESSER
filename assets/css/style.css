@@ -29,6 +29,9 @@
 }
 .article span ,.article2 span{
   display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 .article strong {
   color: #d7342f;
