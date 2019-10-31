@@ -1471,7 +1471,9 @@ a.white-notification .notification_sticky{
 	margin-bottom: 0!important;
 	vertical-align:top;
 }
-
+.day{
+	line-height: 2.4;
+}
 /*-----------------------------------------------------------------*/
 
 @media(min-width:1024px) {
