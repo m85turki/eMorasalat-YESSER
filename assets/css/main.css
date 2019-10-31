@@ -2484,4 +2484,46 @@ body.vertical-layout.vertical-menu.menu-flipped .jconfirm .navbar .navbar-contai
 }
 
 
+/* table icon */
+.table-icon{
+    display: block;
+    float: left;
+}
+
+.table-icon a{
+    display: block;
+    color: #353C77;
+    text-decoration: none;
+    margin: 0px 5px;
+    font-size: 30px;
+    line-height: 1.9rem;
+}
+
+.table-icon a:hover{
+    text-decoration: none;
+    filter: brightness(65%)
+}
+
+
+
+.table-icon a.color-grey{color: #DFDFDF !important;}
+.table-icon a.color-orange{color: #D06902 !important;}
+.table-icon a.color-green{color: #007E63 !important;}
+.table-icon a.color-blue{color: #4377A9 !important;}
+.table-icon a.color-burgundy{color: #CC0000 !important;}
+.table-icon a.color-navy{color: #262B56 !important;}
+
+.table-icon a.color-grey:hover{color: #DFDFDF !important;}
+.table-icon a.color-orange:hover{color: #D06902 !important;}
+.table-icon a.color-green:hover{color: #007E63 !important;}
+.table-icon a.color-blue:hover{color: #4377A9 !important;}
+.table-icon a.color-burgundy:hover{color: #CC0000 !important;}
+.table-icon a.color-navy:hover{color: #262B56 !important;}
+
+
+
+
+
+
+
 

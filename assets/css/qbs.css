@@ -237,20 +237,6 @@ h3.site-color .new-notifications-count{
     background-color: #4A91E3;
     border-color: #488cdc;
 }
-.correspondence-icon .icon-tables-edit:hover,.correspondence-icon .icon-tables-edit:focus,
-.table-icon .icon-tables-edit:hover,.table-icon .icon-tables-edit:focus {
-	color:#706de1;
-}
-.icon-tables-delete:hover,.icon-tables-delete:focus{
-
-	color:#fc5757;
-}
-.icon-st2 .icon-tables-edit{
-	color:#007d62 !important;
-}
-.icon-st2 .icon-tables-edit:hover,.icon-st2 .icon-tables-edit:focus{
-	color:#09ab89 !important;
-}
   
   .btn-st1:hover {
     color: #fff;
@@ -442,41 +428,7 @@ h3.site-color .new-notifications-count{
 	padding-top:15px;
 }
 
-.correspondence-icon .icon-tables-edit,.table-icon .icon-tables-edit{
-	color:#3b197e;
-	font-size: 30px;
-	vertical-align: middle;
-}
-.table-icon .icon-tables-lamp{
-	color:#d8832d;
-	font-size: 30px;
-	vertical-align: middle;
-}
-.table-icon .icon-tables-lamp:hover,.table-icon .icon-tables-lamp:focus{
-	color:#f4ad66;
-}
 
-.table-icon .icon-tables-unlock{
-	color:#4377a9;
-	font-size: 30px;
-	vertical-align: middle;
-}
-.table-icon .icon-tables-unlock:hover,.table-icon .icon-tables-unlock:focus{
-color:#7db8f1;
-}
-.table-icon .icon-tables-lock{
-	color:#dfdfdf;
-	font-size: 30px;
-	vertical-align: middle;
-}
-.table-icon .icon-tables-lamp-off{
-	color:#dfdfdf;
-	font-size: 30px;
-	vertical-align: middle;
-}
-.table-icon .icon-tables-lamp-off:hover,.table-icon .icon-tables-lamp-off:focus,.table-icon .icon-tables-lock:hover,.table-icon .icon-tables-lock:focus{
-	color:#f0efef;
-}
 .pull-center{
    position: relative;
     right: 50%;
@@ -754,11 +706,6 @@ color:#7db8f1;
     border: 1px solid #4a91e3;
 }
 
-.icon-tables-delete {
-	font-size:30px;
-	color:#cc0000;
-	vertical-align: middle;
-}
 
 .rounded4 {
     background-color: red;
