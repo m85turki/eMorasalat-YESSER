@@ -670,7 +670,7 @@ white-space: nowrap;
 @media (min-width: 540px){
     .box-grid{
         width: 100%;
-        padding: 1rem;
+        padding: 0 1rem 2rem 1rem;
     }
 
 }
@@ -678,21 +678,19 @@ white-space: nowrap;
 @media (min-width: 720px){
     .box-grid{
         width: 50%;
-        padding: 1rem;
     }
 }
 
 @media (min-width: 1140px){
     .box-grid{
         width: 33.33331%;
-        padding: 1rem;
     }
 }
 
 @media (min-width: 1320px){
     .box-grid{
         width: 25%;
-        padding: 1rem!important;
+        padding: 0 1rem 2rem 1rem;
         margin-bottom: 10px;
 }
     }

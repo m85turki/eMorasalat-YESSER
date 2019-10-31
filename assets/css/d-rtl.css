@@ -1188,7 +1188,7 @@ body.vertical-layout.vertical-menu.menu-collapsed.menu-flipped .navbar .navbar-h
 }
 
 .toggling-menu {
-  margin-right: 10px;
+  margin: 0px 5px;
 }
 
 .toggling-menu > a:last-child {

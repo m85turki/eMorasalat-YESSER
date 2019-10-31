@@ -419,15 +419,14 @@
         <!-- END: Vertical Menu -->
     </div>
     <div class="app-content content">
-        <div class="content_wrapper">
 
             <div class="content_container site_border">
-					         <div class="mx-5 mx-xs-3 header-container">
-                <div class="filter-link d-sm-flex d-block">
+					         <div class="mx-3 mx-md-5 header-container d-flex flex-row align-items-center">
+                <div class="filter-link d-flex flex-column flex-md-row align-items-md-center flex-grow-1">
 					<div class="">
-                    <h3 class="site-color m-0 p-xs-0">الأدوار </h3>
+                    <h3 class="site-color mb-4"> الأدوار</h3>
                      </div>
-					<div class="ml-auto">
+					<div class="ml-md-auto mb-3 mb-md-0">
 						<a class="dashed-circle search-target" href="#">
 					<i class="fas fa-search"></i>
                                 بحث
@@ -510,8 +509,8 @@
                                             </div>
 				
 
-                            <div class="boxes">
-                                <div class="d-flex flex-wrap mx-4 mx-xs-3">
+                            <div class="boxes mx-md-1 mx-auto">
+                                <div class="d-flex flex-wrap mx-auto mx-md-4">
                                      <div class="box-grid">
                                         <div class="box no_sorting animated zoomIn buttons-action">
                                             <div class="correspondence-b d-flex flex-wrap">
@@ -710,7 +709,7 @@
 
         
 			</div>
-	</div>
+
 <div class="w-100 p-2 text-center my-2">
                         <nav aria-label="Page navigation">
                             <ul class="pagination custom-pagination">
@@ -849,6 +848,21 @@ $(window).resize(function(){
 	  });
 	  
 	
+	</script>
+		<script>
+	$(function(){
+
+		$(".right-arrow").click(function(){
+        $("div .top-icons").toggleClass("show-icons");
+		$(".right-arrow").toggleClass("la-rotate");
+       $(".right-arrow").toggleClass("left-arrow");
+	   $(".la-angle-right").toggleClass("pl-2");
+	
+  });
+
+		});
+			
+
 	</script>
 	
  

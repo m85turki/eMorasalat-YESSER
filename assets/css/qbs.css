@@ -3474,6 +3474,7 @@ table > thead > tr {
     .box-grid {
         margin-bottom: 1.5rem;
 		width:100%;
+		padding: 0 1rem 2rem 1rem;
     }
 
     #add-management-btn {
