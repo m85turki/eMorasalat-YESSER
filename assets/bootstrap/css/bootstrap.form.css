@@ -171,8 +171,8 @@
   
   .form-check-input {
     position: absolute;
-    margin-top: 0.3rem;
-    margin-left: -1.25rem;
+    margin-top: 0.6rem !important;
+    margin-left: -1.25rem !important;
   }
   
   .form-check-input:disabled ~ .form-check-label {
