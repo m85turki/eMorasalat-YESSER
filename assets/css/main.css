@@ -515,8 +515,7 @@ width:auto!important;
 padding-left:5px;
 }
 .number{
-direction: ltr;
-unicode-bidi: isolate;
+unicode-bidi: plaintext;
 }
 
 .f-line::before{
