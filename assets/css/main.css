@@ -978,7 +978,12 @@ a.aExplanation {
 .float-none {
     float: none!important
 }
-
+.bg-none .input-group-text{
+    background-color:transparent!important;
+    border:0!important;
+    color:#4A91E3;
+    font-weight: 600;
+    }
 @media (min-width:576px) {
     .float-sm-left {
         float: left!important
