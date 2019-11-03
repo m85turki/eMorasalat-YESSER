@@ -2565,8 +2565,9 @@ body.vertical-layout.vertical-menu.menu-flipped .jconfirm .navbar .navbar-contai
 
 /* white-c-title */
 h3.white-c-title{
-    font-size: 1.25rem;
+    font-size: 20px;
     line-height: 1.2;
     color: #444;
+    margin: 0.25rem 0px;
 }
 
