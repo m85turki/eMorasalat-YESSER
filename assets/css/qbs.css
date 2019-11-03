@@ -2150,7 +2150,9 @@ h4.title3 {
     background:none !important;
     box-shadow: none!important;
 }
-
+.checkbox label{
+    padding:0;
+}
 
 @media(min-width:1024px) {
     .eye-seperator {
@@ -3294,6 +3296,9 @@ table > thead > tr {
     height: 820px;
     overflow: scroll
 }
+.report-check .checkbox{
+   margin-top:0!important; 
+}
 
 /*--------------------- QBS Responsive Style ----------------------*/
 
@@ -3623,7 +3628,7 @@ table > thead > tr {
 		min-width: 0!important;
 		padding: 0!important;
 	}
-	
+
 
 
 	/*.mr-lg-3{
