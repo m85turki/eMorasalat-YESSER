@@ -9,10 +9,10 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <meta name="theme-color" content="#0c7c5a">
-    <title>مراسلات</title> 
+    <title>مراسلات</title>
 
     <link type="image/x-icon" rel="shortcut icon" href="./favicon.ico">
-    
+
     <!-- Bootstrap RTL -->
     <link href="../assets/bootstrap/css/bootstrap.min.rtl.css" rel="stylesheet">
     <link href="../assets/bootstrap/css/bootstrap.form.rtl.css" rel="stylesheet">
@@ -20,6 +20,7 @@
 
     <!-- Main -->
     <link href="../assets/css/main.css" rel="stylesheet">
+    <link href="../assets/css/style.css" rel="stylesheet">
 
     <!-- Vertical Menu -->
     <link rel="stylesheet" type="text/css" href="../assets/plugins/vertical-menu/vertical-menu.min.css">
@@ -30,66 +31,126 @@
     <!-- RTL -->
     <link href="../assets/css/d-rtl.css" rel="stylesheet">
 
-
 </head>
 
 
 
-<body class="vertical-layout vertical-menu 2-columns   menu-flipped fixed-navbar" data-open="click"
+<body class="vertical-layout vertical-menu 2-columns   menu-flipped fixed-navbar " data-open="click"
     data-menu="vertical-menu" data-col="2-columns" dir="rtl">
     <div class="fixed-top">
         <div class="top-header">
             <div class="container-fluid">
-                <div class="d-flex flex-column flex-sm-row">
+                <div class="d-flex flex-row">
                     <div class="">
                         <a class="main_logo" href="#">
                             <img src="../assets/images/logo-morasalat.png" title="" alt="">
                         </a>
                     </div>
 
-                    <div class="d-flex ml-sm-auto  mr-0 align-content-around flex-wrap h-side">
-                        <div class="dropdown px-1 px-md-3">
+                    <div class="d-flex ml-auto  mr-0 align-content-around flex-wrap h-side">
+                        <div class="dropdown px-1 px-md-2">
                             <a id="drop1" href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <span>إسم الإدارة</span>
-                                <i class="la la-angle-down"></i>
+                                <div class="d-inline manager"> إسم الإدارة: الإدارة العليا
+								</div>
+								<div class="manager2">...</div>
+									<i class="la la-angle-down"></i>
                             </a>
 
-                            <ul class="dropdown-menu fadeIn animated admins" aria-labelledby="drop1">
-                                <li><a class="pb-2" href="#">إسم الإدارة 1</a></li>
-                                <li role="separator" class="divider  mb-0"></li>
-                                <li><a class="pb-2" href="#">إسم الإدارة 2</a></li>
-                                <li role="separator" class="divider  mb-0"></li>
-                                <li><a class="pb-2" href="#">إسم الإدارة 3</a></li>
-                                <li class="mb-0"></li>
-                            </ul>
+                          <ul class="dropdown-menu admins fadeIn animated" aria-labelledby="drop1">
+							            <li class="active">
+                                        <a class="notification-row d-flex ">
+											<div>
+											<span>اسم الادارة 1 </span>
+												</div>
+										</a>
+								        </li>
+							  
+										  <li>
+                                        <a class="notification-row d-flex">
+											<div>
+											<span>اسم الادارة 2 </span>
+												</div>
+										</a>
+							  </li>
+                                     <li>
+                                     <a class="notification-row d-flex">
+											<div>
+											<span>اسم الادارة 3 </span>
+												</div>
+										</a>
+										 </li>
+
+                                </ul>
                         </div>
 
-                        <div class="user-settings dropdown  px-1 px-md-3 ml-0 ml-md-5">
+                        <div class="user-settings dropdown  px-1 px-md-2 ml-0">
                             <a id="drop1" href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <span class="h-avatar mx-2">
                                     <img src="../assets/images/businessman.png">
                                 </span>
-                                <span>أشرف حسين</span>
+								<div class="name d-inline"> أشرف حسين محمد الشيخ </div>
                                 <i class="la la-angle-down"></i>
                             </a>
 
 
-                            <ul class="dropdown-menu employee_dd fadeIn" aria-labelledby="drop1 w-100">
-                                <li class="pt-2 pb-2 pl-3"><a href="marking-signature.html"><i class="la la-file-image-o"></i>التوقيع والتأشير</a></li>
-                                <li role="separator" class="divider  mb-0 mt-0"></li>
-                                <li class="pt-2 pb-2 pl-3"><a href="assignment-paper.html"><i class="la la-file-text"></i>ورقة الإحالة</a></li>
-                                <li role="separator" class="divider  mb-0 mt-0"></li>
-                                <li class="pt-2 pb-2 pl-3"><a href="#"><i class="la la-list"></i>قائمة التوزيع</a></li>
-                                <li role="separator" class="divider  mb-0 mt-0"></li>
-                                <li class="pt-2 pb-2 pl-3"><a href="#"><i class="la la-line-chart"></i>المسارات</a></li>
-                                <li role="separator" class="divider  mb-0 mt-0"></li>
-                                <li class="pt-2 pb-2 pl-3"><a href="#"><i class="la la-user"></i>التفويض </a></li>
+                          <ul class="dropdown-menu employee_dd  fadeIn animated" aria-labelledby="drop1">
+							              <li class="name2">
+											<div class="site-color name-p">
+											<span>أشرف حسين محمد الشيخ </span>
+												</div>
+							              </li>
+                                         <li>
+                                        <a class="notification-row d-flex">
+											<i class="icon-signature"></i>
+											<div>
+											<span>التوقيع والتأشير </span>
+												</div>
+										</a>
+											 </li>
+                                         <li>
+                                        <a class="notification-row d-flex"> 
+											<i class="icon-referral"></i>
+											<div>
+											<span> ورقة الإحالة </span>
+												</div>
+										</a>
+											  </li>
+							               <li>
+                                        <a class="notification-row d-flex">
+											<i class="icon-distribution"></i>
+											<div>
+											<span>قائمة التوزيع</span>
+												</div>
+										</a>
+								          </li>
 
-                            </ul>
+                                        <li>
+                                        <a class="notification-row d-flex">
+											<i class="icon-track"></i>
+											<div>
+											<span> المسارات</span>
+												</div>
+										</a>
+											</li>
+
+                                       <li>
+                                        <a class="notification-row d-flex">
+											<i class="icon-authorization"></i>
+											<div>
+											<span> التفويض</span>
+												</div>
+										</a>
+							  </li>
+
+										
+
+                                </ul>
 
                         </div>
-                        <div class="d-flex top-icons">
-                            <div class="searchbox px-2 flex-grow-1">
+
+                        <div class="top-icons new-view">
+                            <div class="d-flex">
+                            <div class="searchbox pr-2 pl-5 flex-grow-1">
                                 <div class="h-search">
                                     <i onclick="focusMethod()" data-toggle="tooltip" data-placement="bottom" title="" class="la la-search" data-original-title="البحث السريع"></i>
                                     <input class="myTextField" type="text" name="search" placeholder="البحث هنا">
@@ -97,44 +158,89 @@
                                 <script>
                                     focusMethod = function getFocus() {
                                         $('.myTextField').focus();
-
                                     }
                                 </script>
                             </div>
-                            <div class="notifications dropdown mt-2 px-4">
-                                <a href="#" class="dropdown-toggle la la-bell" data-toggle="dropdown" aria-haspopup="false" aria-expanded="true" data-placement="bottom" title="التنبيهات">
-                                    <em class="notification_sticky">22</em>
+                            <div class="notifications dropdown px-2">
+                             <a href="#" class="dropdown-toggle white-notification" aria-haspopup="false" aria-expanded="true" data-toggle="dropdown" data-toggle-second="tooltip" data-placement="bottom" title="" data-original-title="التنبيهات">
+                                    <em class="notification_sticky"></em>
+                              <i class="la la-bell "></i>
                                 </a>
+                                <ul class="dropdownposition dropdown-menu  fadeIn animated" aria-labelledby="drop1">
+                                   <li>
+                                   <a href="#" class="d-flex notification-row">
+									   <i class="la la-bell bold2"></i>
+										<span class="bold2">التنبيهات</span>
+										
+										</a>
+									   </li>
+									<li>
+                                        <a class="d-flex bgchange notification-row">
+											<i class="icon-assignment-return"></i>
+											<div>
+											<span>تم إرجاع معاملة</span>
+											<div class="pt-1 pr-3 pl-1 light-gray2 flex-column"> 28 تشرين الثاني 2018</div>
+												</div>
+										</a>
+										</li>
+                                     <li>
+                                        <a class="d-flex bgchange notification-row">
+											<i class="icon-assignment-delivered"></i>
+											<div>
+											<span>تم استلام معاملة</span>
+											<div class="pt-1 pr-3 pl-1 light-gray2 flex-column"> 28 تشرين الثاني 2018</div>
+												</div>
+										</a>
+                                      </li>
+									<li>
+                                        <a class="d-flex notification-row">
+											<i class="icon-assignment-new"></i>
+											<div>
+											<span>تم استلام مهمة جديدة</span>
+											<div class="pt-1 pr-3 pl-1 light-gray2 flex-column"> 28 تشرين الثاني 2018</div>
+												</div>
+										</a>
+										</li>
+                                       <li>
+									     <a href="notifications.html" class="d-flex notification-row more">
+											<div class="w-100">إظهار المزيد</div>
+						              </a>
+										   </li>
 
+                                </ul>
 
                             </div>
-                            <div class="px-3">
-                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="" class="chatbtn" data-original-title="المحادثات">
-                                    <em class="notification_sticky">22</em>
+                            <div class="px-2">
+                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="" class="chatbtn white-notification" data-original-title="المحادثات">
+                                    <em class="notification_sticky"></em>
                                     <i class="la la-comments "></i>
                                 </a>
                             </div>
-                            <div class="px-3">
+                            <div class="px-2">
                                 <a href="#" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="الدعم الفني">
                                     <i class="la la-headphones"></i>
                                 </a>
                             </div>
-                            <div class="px-3">
-                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="المساعدة">
+                            <div class="px-2">
+                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="المساعدة" class="help">
                                     <i class="la la-question-circle"></i>
                                 </a>
                             </div>
-                            <div class="px-3">
+                            <div class="px-2">
                                 <a href="#" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="English">
                                     <i class="la la-globe"></i>
                                 </a>
                             </div>
-                            <div class="px-3">
+                            <div class="pl-2 pr-0">
                                 <a href="#" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="خروج">
                                     <i class="la la-power-off"></i>
                                 </a>
                             </div>
                         </div>
+                        </div>
+						<div class="right-arrow mr-auto">
+                                <i class="la la-angle-right pl-2"></i>
+						</div>
                     </div>
 
 
@@ -142,17 +248,17 @@
             </div>
         </div>
         <!-- start of fixed header -->
-        <nav class="navbar navbar-default navbar-second">
+        <nav class="navbar navbar-default  navbar-second">
             <div class="container-fluid">
                 <div class="row row-custom">
                     <div class="navbar-header d-flex">
-                        <div class="mobile-menu d-md-none ml-auto">
+                        <div class="mobile-menu d-md-none mr-auto">
                             <a class="nav-link nav-menu-main menu-toggle is-active" href="#">
                                 <i class="la la-ellipsis-h"></i>
                             </a>
                         </div>
                         <div class="ml-auto">
-                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-expanded="false" aria-controls="navbar">
                                 <span class="sr-only">Toggle navigation</span>
                                 <span class="icon-bar"></span>
                                 <span class="icon-bar"></span>
@@ -160,30 +266,118 @@
                             </button>
                         </div>
                     </div>
-                    <div id="navbar" class="navbar-collapse collapse">
+					  <div class="navbar-collapse collapse" id="navbarToggleExternalContent">
+					<div class="searchbox2 px-2">
+                                <div class="h-search">
+                                    <i onclick="focusMethod()" data-toggle="tooltip" data-placement="bottom" title="" class="la la-search" data-original-title="البحث السريع"></i>
+                                    <input class="myTextField" type="text" name="search" placeholder="البحث هنا">
+                                </div>
+                                <script>
+                                    focusMethod = function getFocus() {
+                                        $('.myTextField').focus();
+                                    }
+                                </script>
+                            </div>
+						  <div class="d-flex top-icons2 h-side">
+                            <div class="notifications dropdown px-2">
+                             <a href="#" class="dropdown-toggle white-notification" data-toggle="dropdown" aria-haspopup="false" aria-expanded="true" data-placement="bottom" title="التنبيهات">
+                                    <em class="notification_sticky"></em>
+                              <i class="la la-bell "></i>
+                                </a>
+                             <ul class="dropdownposition dropdown-menu  fadeIn animated" aria-labelledby="drop1">
+                                   <li>
+                                   <a href="#" class="d-flex notification-row">
+									   <i class="la la-bell bold2"></i>
+										<span class="bold2">التنبيهات</span>
+										
+										</a>
+									   </li>
+									<li>
+                                        <a class="d-flex bgchange notification-row">
+											<i class="icon-assignment-return"></i>
+											<div>
+											<span>تم إرجاع معاملة</span>
+											<div class="pt-1 pr-3 pl-1 light-gray2 flex-column"> 28 تشرين الثاني 2018</div>
+												</div>
+										</a>
+										</li>
+                                     <li>
+                                        <a class="d-flex bgchange notification-row">
+											<i class="icon-assignment-delivered"></i>
+											<div>
+											<span>تم استلام معاملة</span>
+											<div class="pt-1 pr-3 pl-1 light-gray2 flex-column"> 28 تشرين الثاني 2018</div>
+												</div>
+										</a>
+                                      </li>
+									<li>
+                                        <a class="d-flex notification-row">
+											<i class="icon-assignment-new"></i>
+											<div>
+											<span>تم استلام مهمة جديدة</span>
+											<div class="pt-1 pr-3 pl-1 light-gray2 flex-column"> 28 تشرين الثاني 2018</div>
+												</div>
+										</a>
+										</li>
+                                       <li>
+									     <a href="notifications.html" class="d-flex notification-row more">
+											<div class="w-100">إظهار المزيد</div>
+						              </a>
+										   </li>
 
-                 <ul class="nav navbar-nav">
-                            <li><a href="#">المستخدمين والأدوار</a></li>
-                            <li><a href="#">الهيكل التنظيمي <span class="notification_sticky">3</span></a></li>
-                            <li><a href="#"> الخدمات</a></li>
-                            <li class="active"><a href="#">القوائم المعرفة</a></li>
-                            <li><a href="#"> الاعدادات </a></li>
+                                </ul>
+
+                            </div>
+                            <div class="px-2">
+                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="" class="chatbtn white-notification" data-original-title="المحادثات">
+                                    <em class="notification_sticky"></em>
+                                    <i class="la la-comments white-notification "></i>
+                                </a>
+                            </div>
+                            <div class="px-2">
+                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="الدعم الفني">
+                                    <i class="la la-headphones"></i>
+                                </a>
+                            </div>
+                            <div class="px-2">
+                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="المساعدة" class="help2">
+                                    <i class="la la-question-circle"></i>
+                                </a>
+                            </div>
+                            <div class="px-2">
+                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="English">
+                                    <i class="la la-globe"></i>
+                                </a>
+                            </div>
+                            <div class="pl-2 pr-0">
+                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="خروج">
+                                    <i class="la la-power-off"></i>
+                                </a>
+                            </div>
+                        </div>
+						
+                        <ul class="nav navbar-nav px-2">
+                            <li class="active"><a href="#">المستخدمين والأدوار</a></li>
+                            <li><a href="#">الهيكل التنظيمي</a></li>
+                            <li><a href="#">الخدمات</a></li>
+                            <li><a href="#">القوائم المعرفة</a></li>
+                            <li><a href="#">الإعدادات</a></li>
 
                         </ul>
 
-                    </div>
+
+
+					</div>
                 </div>
             </div>
         </nav>
 
     </div>
 
-
-
     <!-- BEGIN: Vertical Menu -->
     <div class="align-self-start main_sidebar">
         <div class="d-none d-md-block text-left"><a class="nav-link nav-menu-main menu-toggle hidden-xs"
-                href="#"><i><img src="../assets/images/v-menu1.png"></i></a></div>
+                href="#"><i><img src="../assets/images/menu/menu.svg"></i></a></div>
 
         <div class=" main-menu menu-fixed menu-light menu-accordion menu-icon-left" data-scroll-to-active="true"
             style="direction:ltr;">
@@ -192,77 +386,76 @@
             <div class="main-menu-content">
                 <ul class="navigation navigation-main" id="main-menu-navigation" data-menu="menu-navigation">
                     <li class="nav-item">
-
                         <a href="System-admin1.html"><i>
-                                <img src="../assets/images/v-menu2.png"></i>
+                                <img src="../assets/images/menu/archive.svg"></i>
                             <span class="menu-title">الصناديق</span>
                         </a>
                     </li>
                     <li class="nav-item">
 
                         <a href="attach.html"><i>
-                                <img src="../assets/images/v-menu3.png"></i>
+                                <img src="../assets/images/menu/attachment.svg"></i>
                             <span class="menu-title">المرفقات</span>
                         </a>
                     </li>
                     <li class="nav-item">
                         <a href="important.html"><i>
-                                <img src="../assets/images/v-menu4.png"></i>
+                                <img src="../assets/images/menu/numbered-information.svg"></i>
                             <span class="menu-title">درجة الأهمية</span>
                         </a>
                     </li>
                     <li class="nav-item">
                         <a href="private-deg.html"><i>
-                                <img src="../assets/images/v-menu5.png"></i>
+                                <img src="../assets/images/menu/lock.svg"></i>
                             <span class="menu-title">درجة السرية</span>
                         </a>
                     </li>
                     <li class="nav-item">
                         <a href="Type-of-speak.html"><i>
-                                <img src="../assets/images/v-menu6.png"></i>
+                                <img src="../assets/images/menu/type-of-speech.svg"></i>
                             <span class="menu-title">نوع الخطاب</span>
                         </a>
                     </li>
                     <li class="nav-item">
                         <a href="Category.html"><i>
-                                <img src="../assets/images/v-menu7.png"></i>
+                                <img src="../assets/images/menu/classification.svg"></i>
                             <span class="menu-title">التصنيف الموضوعي</span>
                         </a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item active">
                         <a href="Type-of-link.html"><i>
-                                <img src="../assets/images/v-menu8.png"></i>
+                                <img src="../assets/images/menu/types-of-binding.svg"></i>
                             <span class="menu-title">أنواع الربط </span>
                         </a>
                     </li>
-					          <li class="nav-item">
+                    <li class="nav-item">
                         <a href="measures.html"><i>
-                                <img src="../assets/images/v-menu8.png"></i>
+                                <img src="../assets/images/menu/settings-gears.svg"></i>
                             <span class="menu-title">الإجراءات </span>
                         </a>
                     </li>
-					
-										          <li class="nav-item">
+
+                    <li class="nav-item">
                         <a href="treaty-attached.html"><i>
-                                <img src="../assets/images/v-menu8.png"></i>
+                                <img src="../assets/images/menu/attachment-speech.svg"></i>
                             <span class="menu-title">مرفقات ملحقات أصل المعاملة </span>
                         </a>
                     </li>
-			     <li class="nav-item">
+                    <li class="nav-item">
                         <a href="attach2.html"><i>
-                                <img src="../assets/images/v-menu8.png"></i>
+                                <img src="../assets/images/menu/correspondents.svg"></i>
                             <span class="menu-title">المراسلين</span>
                         </a>
                     </li>
-					 <li class="nav-item active">
+                    <li class="nav-item">
                         <a href="outer-sides.html"><i>
-                                <img src="../assets/images/v-menu8.png"></i>
+                                <img src="../assets/images/menu/third-party.svg"></i>
                             <span class="menu-title">الجهات الخارجية</span>
                         </a>
                     </li>
-									 <li class="nav-item">
+                    <li class="nav-item">
                         <a href="forms.html"><i>
-                                <img src="../assets/images/v-menu8.png"></i>
+                                <img src="../assets/images/menu/document.svg"></i>
                             <span class="menu-title">النماذج</span>
                         </a>
                     </li>
@@ -272,480 +465,219 @@
         <!-- END: Vertical Menu -->
     </div>
     <div class="app-content content">
-        <div class="content_wrapper">
-<div class="d-flex mb-3 mx-5 mx-xs-3 header-container">
-					<h3 class="site-color m-0"> الجهات الخارجية </h3>
-	<div class="ml-auto">
-	<a class="dashed-circle filter-target pr-3" href="#">
-					<i class="icon-filter"></i>
-                                فلترة
-                            </a>
-	<button type="submit" class="btn btn-st1 btn-lg adds" id="#add-target" data-target="add-link.html">
-							<i class="icon-buttons-add pr-3"></i>إضافة جهة جديدة</button>
+        <div class="mx-3 mx-md-5 header-container d-flex flex-row align-items-center">
+            <div class="d-flex flex-column flex-md-row align-items-md-center flex-grow-1">
+                <h3 class="site-color mb-4">أنواع الربط</h3>
+                <div class="ml-md-auto mb-3 mb-md-0">
+                    <button type="submit" class="btn btn-st1 btn-lg" id="#add-link" data-target="">
+                        <i class="icon-buttons-add pr-3"></i>إضافة ربط
+                    </button>
+                </div>
+                
+                <div class="d-flex pt-3" style="display: none !important;">
+                    <div class="pl-sm-5">
+                        <div class="gray3">رقم المعاملة</div>
+                        <div class="site-color">1234123</div>
+                    </div>
+                    <div class="pl-5">
+                        <div class="gray3">التاريخ </div>
+                        <div class="site-color">28 تشرين الثاني 2018</div>
+                    </div>
+                </div>
             </div>
-	
-			</div>
-			<div class="filter-box filter mx-5 mx-xs-3 white-container mt-2">
-                                        <form>
-                                            <div class="form-row">
-                                                <div class="form-group col-lg-6 col-sm-6 col-xs-12">
-                                                 <label for="">اسم الجهة</label>
-                                                <input placeholder="" type="text" class="form-control">
-                                                </div>
-                                                <div class="form-group col-lg-6  col-sm-6 col-xs-12">
-                                                     <label for=""> رقم الجهة</label>
-                                                  <input placeholder="" type="text" class="form-control">
-                                                </div>
-   
-                                                </div>
-                                      </form>
-                                            </div>
-            <div class="white-container mx-5">
-			<div class="panel-group custom-tree px-4" role="tablist">
-                        <div class="panel panel-default">
-                            <div class="panel-heading" role="tab" id="collapseListGroupHeading1">
-                                <h4 class="panel-title dark-color selected">
-                                    <a class="active collapsed" role="button" data-toggle="collapse" href="#collapseListGroup1" aria-expanded="false" aria-controls="collapseListGroup1">
-                                    </a>
-                                    <label><span class="department-number mx-2"></span><span class="department-name"> اسم الجهة (جهة مسجلة في نظام مراسلات المركزي) </span></label>
-                                </h4>
-                            </div>
-                            <div id="collapseListGroup1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="collapseListGroupHeading1" aria-expanded="false">
-                                <ul class="list-group">
-                                    <li class="list-group-item"><label><span class="department-name">  اسم الجهة الفرعية
-										(جهة مسجلة في نظام مراسلات المركزي)</span>
-										</label></li>
-                                    <li class="list-group-item"><label><span class="department-name">  اسم الجهة الفرعية
-										(جهة مسجلة في نظام مراسلات المركزي)</span>
-										</label></li>
-                                    <li class="list-group-item has-sub"> <!--Has Sub-->
-                                        <div class="panel-group" role="tablist">
-                                            <div class="panel panel-default">
-                                                <div class="panel-heading" role="tab" id="collapseListGroupHeading1">
-                                                    <h4 class="panel-title dark-color">
-                                                        <a class="collapsed" role="button" data-toggle="collapse" href="#collapseSubListGroup1" aria-expanded="false" aria-controls="collapseSubListGroup1">
-                                                        </a>
-                                                      <label><span class="department-name">  اسم الجهة الفرعية
-										(جهة مسجلة في نظام مراسلات المركزي)</span>
-										</label>
-                                                    </h4>
-                                                </div>
-                                                <div id="collapseSubListGroup1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="collapseListGroupHeading1" aria-expanded="false">
-                                                    <ul class="list-group">
-                                                        <li class="list-group-item"><label><span class="department-name"> اسم الجهة الفرعية
-										(جهة مسجلة في نظام مراسلات المركزي)</span></label></li>
-                                                        <li class="list-group-item"><label><span class="department-name">  اسم الجهة الفرعية
-										(جهة مسجلة في نظام مراسلات المركزي)  </span></label></li>
-                                                        <li class="list-group-item has-sub">
-                                                            <div class="panel-group" role="tablist">
-                                                                <div class="panel panel-default">
-                                                                    <div class="panel-heading" role="tab" id="collapseListGroupHeading1">
-                                                                        <h4 class="panel-title dark-color">
-                                                                            <a class="collapsed" role="button" data-toggle="collapse" href="#collapseSubListGroup12" aria-expanded="false" aria-controls="collapseSubListGroup12">
-                                                                            </a>     
-                                                                            <label><span class="department-name"> اسم الجهة الفرعية
-										(جهة مسجلة في نظام مراسلات المركزي)</span></label>
-                                                                        </h4>
-                                                                    </div>
-                                           <div id="collapseSubListGroup12" class="panel-collapse collapse" role="tabpanel" aria-labelledby="collapseListGroupHeading1" aria-expanded="false">
-                                                       <ul class="list-group">
-                                                       <li class="list-group-item"><label><span class="department-name"> اسم الجهة الفرعية
-														   (جهة مسجلة في نظام مراسلات المركزي)</span></label></li>
-                                                             <li class="list-group-item"><label><span class="department-name"> اسم الجهة الفرعية
-														   (جهة مسجلة في نظام مراسلات المركزي)</span></label></li>
-                                                         </ul>
-                                                           </div>
-                                                          </div>
-                                                            </div>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-				<div class="panel-group custom-tree px-4" role="tablist">
-                        <div class="panel panel-default">
-                            <div class="panel-heading" role="tab" id="collapseListGroupHeading2">
-                                <h4 class="panel-title dark-color">
-                                    <a class=" active collapsed" role="button" data-toggle="collapse" href="#collapseListGroup2" aria-expanded="false" aria-controls="collapseListGroup2">
-                                    </a>
-                                    <label><span class="department-number mx-2"></span><span class="department-name"> اسم الجهة (جهة مسجلة في نظام مراسلات المركزي) </span></label>
-                                </h4>
-                            </div>
-                            <div id="collapseListGroup2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="collapseListGroupHeading2" aria-expanded="false">
-                                <ul class="list-group">
-                                    <li class="list-group-item"><label><span class="department-name">  اسم الجهة الفرعية
-										(جهة مسجلة في نظام مراسلات المركزي)</span>
-										</label></li>
-                                    <li class="list-group-item"><label><span class="department-name">  اسم الجهة الفرعية
-										(جهة مسجلة في نظام مراسلات المركزي)</span>
-										</label></li>
-                                    <li class="list-group-item has-sub"> <!--Has Sub-->
-                                        <div class="panel-group" role="tablist">
-                                            <div class="panel panel-default">
-                                                <div class="panel-heading" role="tab" id="collapseListGroupHeading2">
-                                                    <h4 class="panel-title dark-color">
-                                                        <a class="collapsed" role="button" data-toggle="collapse" href="#collapseSubListGroup2" aria-expanded="false" aria-controls="collapseSubListGroup1">
-                                                        </a>
-                                                      <label><span class="department-name">  اسم الجهة الفرعية
-										(جهة مسجلة في نظام مراسلات المركزي)</span>
-										</label>
-                                                    </h4>
-                                                </div>
-                                                <div id="collapseSubListGroup2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="collapseListGroupHeading2" aria-expanded="false">
-                                                    <ul class="list-group">
-                                                        <li class="list-group-item"><label><span class="department-name"> اسم الجهة الفرعية
-										(جهة مسجلة في نظام مراسلات المركزي)</span></label></li>
-                                                        <li class="list-group-item"><label><span class="department-name">  اسم الجهة الفرعية
-										(جهة مسجلة في نظام مراسلات المركزي)  </span></label></li>
-                                                        <li class="list-group-item has-sub">
-                                                            <div class="panel-group" role="tablist">
-                                                                <div class="panel panel-default">
-                                                                    <div class="panel-heading" role="tab" id="collapseListGroupHeading2"> <!--Heading of fourth sub Group-->
-                                                                        <h4 class="panel-title dark-color">
-                                                                            <a class="collapsed" role="button" data-toggle="collapse" href="#collapseSubListGroup2" aria-expanded="false" aria-controls="collapseSubListGroup2">
-                                                                            </a>     <!--Take content from collapseSubListGroup4--> 
-                                                                            <label><span class="department-name"> اسم الجهة الفرعية
-										(جهة مسجلة في نظام مراسلات المركزي)</span></label>
-                                                                        </h4>
-                                                                    </div>
-																	<!--collapseSubListGroup4-->
-                                           <div id="collapseSubListGroup2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="collapseListGroupHeading2" aria-expanded="false">
-                                                       <ul class="list-group">
-                                                       <li class="list-group-item"><label><span class="department-name"> اسم الجهة الفرعية
-														   (جهة مسجلة في نظام مراسلات المركزي)</span></label></li>
-                                                             <li class="list-group-item"><label><span class="department-name"> اسم الجهة الفرعية
-														   (جهة مسجلة في نظام مراسلات المركزي)</span></label></li>
-                                                         </ul>
-                                                           </div>
-                                                          </div>
-                                                            </div>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-												
-                                            </div>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-            <div class="panel-group custom-tree px-4" role="tablist">
-                        <div class="panel panel-default">
-                            <div class="panel-heading" role="tab" id="collapseListGroupHeading3">
-                                <h4 class="panel-title dark-color">
-                                    <a class="active collapsed" role="button" data-toggle="collapse" href="#collapseListGroup3" aria-expanded="false" aria-controls="collapseListGroup3">
-                                    </a>
-                                    <label><span class="department-number mx-2"></span><span class="department-name"> اسم الجهة (جهة مسجلة في نظام مراسلات المركزي) </span></label>
-                                </h4>
-                            </div>
-                            <div id="collapseListGroup3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="collapseListGroupHeading3" aria-expanded="false">
-                                <ul class="list-group">
-                                    <li class="list-group-item"><label><span class="department-name">  اسم الجهة الفرعية
-										(جهة مسجلة في نظام مراسلات المركزي)</span>
-										</label></li>
-                                    <li class="list-group-item"><label><span class="department-name">  اسم الجهة الفرعية
-										(جهة مسجلة في نظام مراسلات المركزي)</span>
-										</label></li>
-                                    <li class="list-group-item has-sub"> <!--Has Sub-->
-                                        <div class="panel-group" role="tablist">
-                                            <div class="panel panel-default">
-                                                <div class="panel-heading" role="tab" id="collapseListGroupHeading3">
-                                                    <h4 class="panel-title dark-color">
-                                                        <a class="collapsed" role="button" data-toggle="collapse" href="#collapseSubListGroup3" aria-expanded="false" aria-controls="collapseSubListGroup3">
-                                                        </a>
-                                                      <label><span class="department-name">  اسم الجهة الفرعية
-										(جهة مسجلة في نظام مراسلات المركزي)</span>
-										</label>
-                                                    </h4>
-                                                </div>
-                                                <div id="collapseSubListGroup3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="collapseListGroupHeading3" aria-expanded="false">
-                                                    <ul class="list-group">
-                                                        <li class="list-group-item"><label><span class="department-name"> اسم الجهة الفرعية
-										(جهة مسجلة في نظام مراسلات المركزي)</span></label></li>
-                                                        <li class="list-group-item"><label><span class="department-name">  اسم الجهة الفرعية
-										(جهة مسجلة في نظام مراسلات المركزي)  </span></label></li>
-                                                        <li class="list-group-item has-sub">
-                                                            <div class="panel-group" role="tablist">
-                                                                <div class="panel panel-default">
-                                                                    <div class="panel-heading" role="tab" id="collapseListGroupHeading13">
-                                                                        <h4 class="panel-title dark-color">
-                                                                            <a class="collapsed" role="button" data-toggle="collapse" href="#collapseSubListGroup13" aria-expanded="false" aria-controls="collapseSubListGroup13">
-                                                                            </a>     
-                                                                            <label><span class="department-name"> اسم الجهة الفرعية
-										(جهة مسجلة في نظام مراسلات المركزي)</span></label>
-                                                                        </h4>
-                                                                    </div>
-                                           <div id="collapseSubListGroup13" class="panel-collapse collapse" role="tabpanel" aria-labelledby="collapseListGroupHeading13" aria-expanded="false">
-                                                       <ul class="list-group">
-                                                       <li class="list-group-item"><label><span class="department-name"> اسم الجهة الفرعية
-														   (جهة مسجلة في نظام مراسلات المركزي)</span></label></li>
-                                                             <li class="list-group-item"><label><span class="department-name"> اسم الجهة الفرعية
-														   (جهة مسجلة في نظام مراسلات المركزي)</span></label></li>
-                                                         </ul>
-                                                           </div>
-                                                          </div>
-                                                            </div>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-				<!--Un Registered-->
-								<div class="panel-group custom-tree px-4" role="tablist">
-                        <div class="panel panel-default d-flex">
-                            <div class="panel-heading" role="tab" id="collapseListGroupHeading">
-                                <h4 class="panel-title dark-color">
-                                    <a class="active collapsed" role="button" data-toggle="collapse" href="#" aria-expanded="false" aria-controls="">
-                                    </a>
-                                    <label ><span class="department-number mx-2"></span><span class="department-name"> اسم الجهة (جهة غير مسجلة في نظام مراسلات المركزي) </span>
-									
-									
-									</label>
-                                </h4>
-
-								
-							</div>
-											<div class="table-icon ml-auto">
-
-											<a><i class="icon-tables-delete"></i></a>
-											<a><i class="icon-tables-delete"></i></a>
-												<a class="circle color-yellow" href="#">
-													<i class="la la-lightbulb-o" data-toggle="modal" data-target="#MyModal"></i>
-													</a>
-											<a class="mx-1" href="#"><i class="icon-tables-edit"></i></a>
-												</div>
-							
-							</div>
-				</div>
-												<div class="panel-group custom-tree px-4" role="tablist">
-                        <div class="panel panel-default d-flex">
-                            <div class="panel-heading" role="tab" id="collapseListGroupHeading7">
-                                <h4 class="panel-title dark-color">
-                                    <a class="active collapsed" role="button" data-toggle="collapse" href="" aria-expanded="false" aria-controls="">
-                                    </a>
-                                    <label ><span class="department-number mx-2"></span><span class="department-name"> اسم الجهة (جهة غير مسجلة في نظام مراسلات المركزي) </span>
-									
-									
-									</label>
-                                </h4>
-
-								
-							</div>
-											<div class="table-icon ml-auto">
-
-												<a><i class="icon-tables-delete"></i></a>
-											<a><i class="icon-tables-delete"></i></a>
-												<a class="circle color-yellow" href="#">
-													<i class="la la-lightbulb-o" data-toggle="modal" data-target="#MyModal"></i>
-													</a>
-											<a class="mx-1" href="#"><i class="icon-tables-edit"></i></a>
-												</div>
-							
-							</div>
-	
-				</div>
-						<div class="panel-group custom-tree px-4" role="tablist">
-                        <div class="panel panel-default d-flex">
-                            <div class="panel-heading" role="tab" id="collapseListGroupHeading8">
-                                <h4 class="panel-title dark-color">
-                                    <a class="active collapsed" role="button" data-toggle="collapse" href="#" aria-expanded="false" aria-controls="">
-                                    </a>
-                                    <label ><span class="department-number mx-2"></span><span class="department-name"> اسم الجهة (جهة غير مسجلة في نظام مراسلات المركزي) </span>
-									
-									
-									</label>
-                                </h4>
-
-								
-							</div>
-											<div class="table-icon ml-auto">
-
-												<a><i class="icon-tables-delete"></i></a>
-											    <a><i class="icon-tables-delete"></i></a>
-												<a class="circle color-yellow" href="#">
-													<i class="la la-lightbulb-o" data-toggle="modal" data-target="#MyModal"></i>
-													</a>
-											<a class="mx-1" href="#"><i class="icon-tables-edit"></i></a>
-												</div>
-							
-							</div>
-	
-				</div>
-						<div class="panel-group custom-tree px-4" role="tablist">
-                        <div class="panel panel-default d-flex">
-                            <div class="panel-heading" role="tab" id="collapseListGroupHeading9">
-                                <h4 class="panel-title dark-color">
-                                    <a class="active collapsed" role="button" data-toggle="collapse" href="#" aria-expanded="false" aria-controls="">
-                                    </a>
-                                    <label ><span class="department-number mx-2"></span><span class="department-name"> اسم الجهة (جهة غير مسجلة في نظام مراسلات المركزي) </span>
-									
-									
-									</label>
-                                </h4>
-
-								
-							</div>
-											<div class="table-icon ml-auto">
-
-												<a><i class="icon-tables-delete"></i></a>
-											<a><i class="icon-tables-delete"></i></a>
-												<a class="circle color-yellow" href="#">
-													<i class="la la-lightbulb-o" data-toggle="modal" data-target="#MyModal"></i>
-													</a>
-											<a class="mx-1" href="#"><i class="icon-tables-edit"></i></a>
-												</div>
-							
-							</div>
-	
-				</div>
-										<div class="panel-group custom-tree px-4" role="tablist">
-                        <div class="panel panel-default d-flex">
-                            <div class="panel-heading" role="tab" id="collapseListGroupHeading10">
-                                <h4 class="panel-title dark-color">
-                                    <a class="active collapsed" role="button" data-toggle="collapse" href="#" aria-expanded="false" aria-controls="">
-                                    </a>
-                                    <label ><span class="department-number mx-2"></span><span class="department-name"> اسم الجهة (جهة غير مسجلة في نظام مراسلات المركزي) </span>
-									
-									
-									</label>
-                                </h4>
-
-								
-							</div>
-											<div class="table-icon ml-auto">
-
-											<a><i class="icon-tables-delete"></i></a>
-											<a><i class="icon-tables-delete"></i></a>
-												<a class="circle color-yellow" href="#">
-													<i class="la la-lightbulb-o" data-toggle="modal" data-target="#MyModal"></i>
-													</a>
-											<a class="mx-1" href="#"><i class="icon-tables-edit"></i></a>
-												</div>
-							
-							</div>
-	
-				</div>
-				<div class="panel-group custom-tree px-4" role="tablist">
-                        <div class="panel panel-default d-flex">
-                            <div class="panel-heading" role="tab" id="collapseListGroupHeading11">
-                                <h4 class="panel-title dark-color">
-                                    <a class="active collapsed" role="button" data-toggle="collapse" href="#" aria-expanded="false" aria-controls="">
-                                    </a>
-                                    <label ><span class="department-number mx-2"></span><span class="department-name"> اسم الجهة (جهة غير مسجلة في نظام مراسلات المركزي) </span>
-									
-									
-									</label>
-                                </h4>
-
-								
-							</div>
-											<div class="table-icon ml-auto">
-
-											<a><i class="icon-tables-delete"></i></a>
-											<a><i class="icon-tables-delete"></i></a>
-												<a class="circle color-yellow" href="#">
-													<i class="la la-lightbulb-o" data-toggle="modal" data-target="#MyModal"></i>
-													</a>
-											<a class="mx-1" href="#"><i class="icon-tables-edit"></i></a>
-												</div>
-							
-							</div>
-	
-				</div>
-				<div class="panel-group custom-tree px-4" role="tablist">
-                        <div class="panel panel-default d-flex">
-                            <div class="panel-heading" role="tab" id="collapseListGroupHeading00">
-                                <h4 class="panel-title dark-color">
-                                    <a class="active collapsed" role="button" data-toggle="collapse" href="#" aria-expanded="false" aria-controls="">
-                                    </a>
-                                    <label ><span class="department-number mx-2"></span><span class="department-name"> اسم الجهة (جهة غير مسجلة في نظام مراسلات المركزي) </span>
-									
-									
-									</label>
-                                </h4>
-
-								
-							</div>
-											<div class="table-icon ml-auto">
-
-											<a><i class="icon-tables-delete"></i></a>
-											<a><i class="icon-tables-delete"></i></a>
-												<a class="circle color-yellow" href="#">
-													<i class="la la-lightbulb-o" data-toggle="modal" data-target="#MyModal"></i>
-													</a>
-											<a class="mx-1" href="#"><i class="icon-tables-edit"></i></a>
-												</div>
-							
-							</div>
-	
-				</div>
-				<div class="panel-group custom-tree px-4" role="tablist">
-                        <div class="panel panel-default d-flex">
-                            <div class="panel-heading" role="tab" id="collapseListGroupHeading01">
-                                <h4 class="panel-title dark-color">
-                                    <a class="active collapsed" role="button" data-toggle="collapse" href="#" aria-expanded="false" aria-controls="">
-                                    </a>
-                                    <label ><span class="department-number mx-2"></span><span class="department-name"> اسم الجهة (جهة غير مسجلة في نظام مراسلات المركزي) </span>
-									
-									
-									</label>
-                                </h4>
-
-								
-							</div>
-											<div class="table-icon ml-auto">
-
-											<a><i class="icon-tables-delete"></i></a>
-											<a><i class="icon-tables-delete"></i></a>
-												<a class="circle color-yellow" href="#">
-													<i class="la la-lightbulb-o" data-toggle="modal" data-target="#MyModal"></i>
-													</a>
-											<a class="mx-1" href="#"><i class="icon-tables-edit"></i></a>
-												</div>
-							
-							</div>
-	
-				</div>
+            <div class="close-icon pl-2 mt-0 ml-auto">
+                <a class="circle-icon color-white" href="#" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="إغلاق"><i class="la la-close"></i></a>
+            </div>
+        </div>
+        <div class="white-container mx-3 mx-md-5">
+            <div class="w-100 d-flex align-items-center mt-2 mb-2">
+                <h3 class="white-c-title">جدول أنواع الرابط</h3>
+                <span class="roundedred ml-3">4</span>
+                <span class="pl-2 gray4">سجلات</span>
+            </div>
+            
+            <div class="table-responsive mt-3">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>نوع الربط بالعربي</th>
+                            <th>نوع الربط بالانجليزي</th>
+                            <th>الحالة</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>النوع الأول</td>
+                            <td>First Type</td>
+                            <td>غير مفعل</td>
+                            <td>
+                                <div class="table-icon d-flex align-items-center">
+                                    <a href="#" class="color-grey" data-toggle="modal" data-target="#MyModal"><i class="icon-tables-lock"></i></a>
+                                    <a href="#" class="color-blue"><i class="icon-tables-unlock"></i></a>
+                                    <a href="#" class="color-orange"><i class="icon-tables-lamp"></i></a>
+                                    <a href="#" class="color-grey"><i class="icon-tables-lamp-off"></i></a>
+                                    <a href="#" class="color-green"><i class="icon-tables-edit"></i></a>
+                                    <a href="#" class="color-burgundy"><i class="icon-tables-delete"></i></a>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>النوع الأول</td>
+                            <td>First Type</td>
+                            <td>غير مفعل</td>
+                            <td>
+                                <div class="table-icon d-flex align-items-center">
+                                    <a href="#" class="color-grey" data-toggle="modal" data-target="#MyModal"><i class="icon-tables-lock"></i></a>
+                                    <a href="#" class="color-blue"><i class="icon-tables-unlock"></i></a>
+                                    <a href="#" class="color-orange"><i class="icon-tables-lamp"></i></a>
+                                    <a href="#" class="color-grey"><i class="icon-tables-lamp-off"></i></a>
+                                    <a href="#" class="color-green"><i class="icon-tables-edit"></i></a>
+                                    <a href="#" class="color-burgundy"><i class="icon-tables-delete"></i></a>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>النوع الأول</td>
+                            <td>First Type</td>
+                            <td>غير مفعل</td>
+                            <td>
+                                <div class="table-icon d-flex align-items-center">
+                                    <a href="#" class="color-grey" data-toggle="modal" data-target="#MyModal"><i class="icon-tables-lock"></i></a>
+                                    <a href="#" class="color-blue"><i class="icon-tables-unlock"></i></a>
+                                    <a href="#" class="color-orange"><i class="icon-tables-lamp"></i></a>
+                                    <a href="#" class="color-grey"><i class="icon-tables-lamp-off"></i></a>
+                                    <a href="#" class="color-green"><i class="icon-tables-edit"></i></a>
+                                    <a href="#" class="color-burgundy"><i class="icon-tables-delete"></i></a>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>النوع الأول</td>
+                            <td>First Type</td>
+                            <td>غير مفعل</td>
+                            <td>
+                                <div class="table-icon d-flex align-items-center">
+                                    <a href="#" class="color-grey" data-toggle="modal" data-target="#MyModal"><i class="icon-tables-lock"></i></a>
+                                    <a href="#" class="color-blue"><i class="icon-tables-unlock"></i></a>
+                                    <a href="#" class="color-orange"><i class="icon-tables-lamp"></i></a>
+                                    <a href="#" class="color-grey"><i class="icon-tables-lamp-off"></i></a>
+                                    <a href="#" class="color-green"><i class="icon-tables-edit"></i></a>
+                                    <a href="#" class="color-burgundy"><i class="icon-tables-delete"></i></a>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>النوع الأول</td>
+                            <td>First Type</td>
+                            <td>غير مفعل</td>
+                            <td>
+                                <div class="table-icon d-flex align-items-center">
+                                    <a href="#" class="color-grey" data-toggle="modal" data-target="#MyModal"><i class="icon-tables-lock"></i></a>
+                                    <a href="#" class="color-blue"><i class="icon-tables-unlock"></i></a>
+                                    <a href="#" class="color-orange"><i class="icon-tables-lamp"></i></a>
+                                    <a href="#" class="color-grey"><i class="icon-tables-lamp-off"></i></a>
+                                    <a href="#" class="color-green"><i class="icon-tables-edit"></i></a>
+                                    <a href="#" class="color-burgundy"><i class="icon-tables-delete"></i></a>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>النوع الأول</td>
+                            <td>First Type</td>
+                            <td>غير مفعل</td>
+                            <td>
+                                <div class="table-icon d-flex align-items-center">
+                                    <a href="#" class="color-grey" data-toggle="modal" data-target="#MyModal"><i class="icon-tables-lock"></i></a>
+                                    <a href="#" class="color-blue"><i class="icon-tables-unlock"></i></a>
+                                    <a href="#" class="color-orange"><i class="icon-tables-lamp"></i></a>
+                                    <a href="#" class="color-grey"><i class="icon-tables-lamp-off"></i></a>
+                                    <a href="#" class="color-green"><i class="icon-tables-edit"></i></a>
+                                    <a href="#" class="color-burgundy"><i class="icon-tables-delete"></i></a>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
                 <!-- Tab panes -->
+            </div>
+            <div class="w-100 p-2 text-center my-2">
+                <nav aria-label="Page navigation">
+                    <ul class="pagination custom-pagination">
+                        <li class="change-page">
+                            <a href="#" aria-label="Previous">
+                                <i class="fa fa-caret-right"></i>
+                            </a>
+                        </li>
+                        <li class="blues_border"><a href="#" class="transparent_bg">1</a></li>
+                        <li><span class="transparent_bg font_size12"> من
 
-						<div class="w-100 p-2 text-center my-2">
-                        <nav aria-label="Page navigation">
-                            <ul class="pagination custom-pagination">
-                                <li class="change-page">
-                                    <a href="#" aria-label="Previous">
-                                        <i class="fa fa-caret-right"></i>
-                                    </a>
-                                </li>
-                                <li class="blues_border"><a href="#" class="transparent_bg">1</a></li>
-								<li><span class="transparent_bg font_size12"> من
-									
-									<span class="light-blue pl-1">4</span>
-									</span>
-								</li>
-                                <li class="change-page">
-                                    <a href="#" aria-label="Next">
-                                        <i class="fa fa-caret-left"></i>
-                                    </a>
-                                </li>
-                            </ul>
-                        </nav>
-                    </div>
-		</div>
-			
-	</div>
+                                <span class="light-blue pl-1">4</span>
+                            </span>
+                        </li>
+                        <li class="change-page">
+                            <a href="#" aria-label="Next">
+                                <i class="fa fa-caret-left"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
 
-	</div>
+
+
+    </div>
+
+    <div class="modal fade" id="MyModal" tabindex="-1"  role="dialog">
+        <div class="modal-dialog modal-dialog-centered small-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">×</button>
+                </div>
+                <div class="modal-body saves">
+                    <h3 class="dark-color w-auto d-inline-block m-0">هل أنت متأكد من إقفال هذه القيمة</h3>
+    
+                </div>
+                <div class="d-flex justify-content-center">
+                    <button class="btn  btn-st2 mt-3 mb-5 mr-3" data-dismiss="modal">
+                        إلغاء</button>
+                    <button class="btn  btn-st1 mt-3 mb-5 mr-2" data-toggle="modal" data-target="#MyModal2"
+                        data-dismiss="modal">
+                        نعم</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="MyModal2" tabindex="-1"  role="dialog">
+        <div class="modal-dialog modal-dialog-centered small-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">×</button>
+                </div>
+                <div class="modal-body saves">
+                    <h3 class="dark-color w-auto d-inline-block m-0">
+                        تم إقفال هذه القيمة بنجاح
+                    </h3>
+    
+                </div>
+                <div class="d-flex justify-content-center">
+                    <button class="btn  btn-st1 mt-3 mb-5" data-dismiss="modal">
+                        موافق</button>
+                </div>
+    
+            </div>
+        </div>
+    </div>
+
     <!-- jQuery -->
     <script src="../assets/js/jquery.js"></script>
     <!-- Bootstrap Core JavaScript -->
@@ -768,68 +700,8 @@
         })
     </script>
 
-<!--QBS Script -->
- <script>
-        $(function () {
-            $('.custom-tree li.list-group-item:not(.has-sub)').click(function(){    
-                if(!$(this).hasClass('selected'))
-                {
-                    $('.custom-tree li.list-group-item:not(.has-sub)').removeClass('selected');
-                    $('.custom-tree .panel-title.dark-color').removeClass('selected');
-                    $('.custom-tree .panel-default>.panel-heading .panel-title.dark-color a').removeClass('active');
-                    $(this).addClass('selected');
+    <!--QBS Script -->
 
-                    var treeOpenedParents = $('.custom-tree .panel-default>.panel-heading .panel-title.dark-color a:not(.collapsed)');
-                    for(i = 0 ; i < treeOpenedParents.length ; i++)
-                    {
-                        if($(treeOpenedParents[i]).parent().parent().parent().find('.selected').html())
-                        {
-                            $(treeOpenedParents[i]).addClass('active');   
-                        }
-                    }          
-                }
-                else
-                {
-                    $('.custom-tree li.list-group-item:not(.has-sub)').removeClass('selected');
-                    $('.custom-tree .panel-title.dark-color').removeClass('selected');
-                    $('.custom-tree .panel-default>.panel-heading .panel-title.dark-color a').removeClass('active');
-                }
-            });
-            $('.custom-tree .panel-title.dark-color label').click(function(){
-                if(!$(this).parent().hasClass('selected'))
-                {
-                    $('.custom-tree li.list-group-item:not(.has-sub)').removeClass('selected');
-                    $('.custom-tree .panel-title.dark-color').removeClass('selected');
-                    $('.custom-tree .panel-default>.panel-heading .panel-title.dark-color a').removeClass('active');
-                    $(this).parent().addClass('selected');
-
-                    var treeOpenedParents = $('.custom-tree .panel-default>.panel-heading .panel-title.dark-color a:not(.collapsed)');
-                    for(i = 0 ; i < treeOpenedParents.length ; i++)
-                    {
-                        if($(treeOpenedParents[i]).parent().parent().parent().find('.selected').html())
-                        {
-                            $(treeOpenedParents[i]).addClass('active');   
-                        }
-                    }
-                }
-                else
-                {
-                    $('.custom-tree li.list-group-item:not(.has-sub)').removeClass('selected');
-                    $('.custom-tree .panel-title.dark-color').removeClass('selected');
-                    $('.custom-tree .panel-default>.panel-heading .panel-title.dark-color a').removeClass('active');
-                }
-            });
-
-            $('#saveTreeValue').click(function(){
-                $('#treeValueName').val($('.custom-tree .selected').find('label .department-name').text());
-                $('#treeValueNumber').val($('.custom-tree .selected').find('label .department-number').text());
-            });
-            $('.filter-target').click(function () {
-                $('.filter-box.filter').slideToggle('fast');
-                $(this).toggleClass("active");
-            });
-        });
-    </script>
 
     <!-- sort and filter scripts-->
 
