@@ -2563,4 +2563,10 @@ body.vertical-layout.vertical-menu.menu-flipped .jconfirm .navbar .navbar-contai
     border-radius: 0.25rem;
 }
 
+/* white-c-title */
+h3.white-c-title{
+    font-size: 1.25rem;
+    line-height: 1.2;
+    color: #444;
+}
 
