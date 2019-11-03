@@ -1645,9 +1645,6 @@ a.white-notification .notification_sticky{
     vertical-align: middle;
 }
 
-.content_container {
-    width: 100%;
-}
 
 .content_container--header, .content_container--footer {
     width: 100%;
@@ -2148,6 +2145,10 @@ h4.title3 {
 .content_wrapper--nosidebar {
     margin: 0;
     margin-top: 154px;
+}
+.white-container.transparent-container{
+    background:none !important;
+    box-shadow: none!important;
 }
 
 
