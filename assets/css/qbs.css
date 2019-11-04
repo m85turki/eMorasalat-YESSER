@@ -3301,7 +3301,12 @@ table > thead > tr {
 }
 
 /*--------------------- QBS Responsive Style ----------------------*/
+@media(max-width:1040px){
+    .thead-specific{
+        font-size:10px;
+    }
 
+}
 @media(max-width:768px) {
     .notif-col {
         width: 25%;
@@ -3436,7 +3441,7 @@ table > thead > tr {
 .panel-right{
 		min-width: 10%!important;
 		padding: 0!important;
-	}
+    }
 
 
 	}

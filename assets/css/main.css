@@ -2192,7 +2192,7 @@ position :relative;
 .custom-tree .panel-default>.panel-heading .panel-title.dark-color a.active
 {
     border: 2px solid #262B56;
-    background: #262B56;
+    background: rgb(38, 43, 86);
 }
 .custom-tree .panel-default>.panel-heading .panel-title.dark-color label
 {
