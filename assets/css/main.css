@@ -2572,5 +2572,14 @@ h3.white-c-title{
 }
 
 .panel-group.custom-tree{
-    border-bottom: 1px solid rgba(221, 221, 221, 0.3);
+    border-bottom: 1px solid rgba(221, 221, 221, 0.5);
 }
+
+.form-check {
+    padding-right: 2rem;
+}
+
+.form-check .form-check-input {
+    margin-right: -2rem !important;
+}
+
