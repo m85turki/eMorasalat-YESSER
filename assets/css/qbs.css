@@ -2150,7 +2150,9 @@ h4.title3 {
     background:none !important;
     box-shadow: none!important;
 }
-
+.checkbox label{
+    padding:0;
+}
 
 @media(min-width:1024px) {
     .eye-seperator {
@@ -3294,9 +3296,17 @@ table > thead > tr {
     height: 820px;
     overflow: scroll
 }
+.report-check .checkbox{
+   margin-top:0!important; 
+}
 
 /*--------------------- QBS Responsive Style ----------------------*/
+@media(max-width:1040px){
+    .thead-specific{
+        font-size:10px;
+    }
 
+}
 @media(max-width:768px) {
     .notif-col {
         width: 25%;
@@ -3431,7 +3441,7 @@ table > thead > tr {
 .panel-right{
 		min-width: 10%!important;
 		padding: 0!important;
-	}
+    }
 
 
 	}
@@ -3623,7 +3633,7 @@ table > thead > tr {
 		min-width: 0!important;
 		padding: 0!important;
 	}
-	
+
 
 
 	/*.mr-lg-3{
