@@ -2582,3 +2582,8 @@ h3.white-c-title{
     margin-right: -2rem !important;
 }
 
+.bar-chart-style{
+    min-height: 300px;
+    min-width: 300px;
+    text-align: center;
+}
