@@ -21,7 +21,12 @@
 	color:white;
 }
 .article.active i{
-	transform: rotate(180deg);
+  transform: rotate(180deg);
+  position: relative;
+}
+.article.active i::before{
+  top: -5px;
+  position: relative;
 }
 .article > h2 {
   margin: 0 0 10px;
