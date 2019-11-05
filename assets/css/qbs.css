@@ -1709,7 +1709,7 @@ a.white-notification .notification_sticky{
     .toggling-menu > a {
         display: inline-block;
         color: #D5E3F5;
-        padding: 5px;
+        padding: 2px 5px;
         margin: 4px;
         transition: all 0.2s;
     }
@@ -3485,12 +3485,6 @@ table > thead > tr {
 
     .notification-row .m-auto {
         width: 100%;
-    }
-
-    .box-grid {
-        margin-bottom: 1.5rem;
-		width:100%;
-		padding: 0 1rem 2rem 1rem;
     }
 
     #add-management-btn {

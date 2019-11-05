@@ -645,9 +645,12 @@ white-space: nowrap;
 }
 
 /* Full */
+.box-grid{
+    width: 100%;
+    padding: 0 1rem 2rem 1rem;
+}
 .full .box-grid{
     width: 100%;
-    padding: 1rem;
 }
 
 .full .f-line::after{
@@ -669,7 +672,6 @@ white-space: nowrap;
 @media (min-width: 540px){
     .box-grid{
         width: 100%;
-        padding: 0 1rem 2rem 1rem;
     }
 
 }
@@ -689,8 +691,6 @@ white-space: nowrap;
 @media (min-width: 1320px){
     .box-grid{
         width: 25%;
-        padding: 0 1rem 2rem 1rem;
-        margin-bottom: 10px;
 }
     }
 
@@ -698,7 +698,6 @@ white-space: nowrap;
 @media (min-width: 1680px){
     .box-grid{
         width: 20%;
-        padding: 1rem;
     }
 }
 
