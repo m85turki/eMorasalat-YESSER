@@ -3299,9 +3299,7 @@ table > thead > tr {
 .report-check .checkbox{
    margin-top:0!important; 
 }
-.form-check-inline{
-    padding-right: 1.25rem!important;
-}
+
 
 /*--------------------- QBS Responsive Style ----------------------*/
 @media(max-width:1040px){
