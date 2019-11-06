@@ -3306,6 +3306,16 @@ table > thead > tr {
 .export-link a:active{
     color:black;
 }
+.edit_manag_tabs a{
+    padding: 10px 35px!important;
+}
+.manage-name.f-line{
+    width:auto !important;
+}
+.tab-for-2{
+    display: none;
+}
+
 
 /*--------------------- QBS Responsive Style ----------------------*/
 @media(max-width:1040px){
