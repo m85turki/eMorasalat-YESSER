@@ -2095,12 +2095,16 @@ position :relative;
 
 /** end notifications **/
 /** custom tree **/
+.custom-tree .list-group-item {
+    padding: 10px 15px 10px 0px;
+}
 .custom-tree .panel-group
 {
     margin: 0;
 }
 .custom-tree.panel-group .panel {
     border: 0;
+    line-height: 1.5rem;
 }
 .custom-tree .panel-default>.panel-heading {
     background-color: unset;
@@ -2176,7 +2180,7 @@ position :relative;
     background: #3291E9;
     border-color: #3291E9;
 }
-.custom-tree .panel-default>.panel-heading .panel-title.dark-color a
+.custom-tree .panel-default>.panel-heading .panel-title.dark-color > a
 {
     width: 15px;
     height: 15px;
@@ -2188,7 +2192,7 @@ position :relative;
     background: #fff;
     z-index: 2;
 }
-.custom-tree .panel-default>.panel-heading .panel-title.dark-color a.active
+.custom-tree .panel-default>.panel-heading .panel-title.dark-color > a.active
 {
     border: 2px solid #262B56;
     background: rgb(38, 43, 86);
@@ -2202,9 +2206,9 @@ position :relative;
     color: #3F4369;
     font-weight: 600;
     margin:0;
+    line-height: 1.5rem;
 }
-.custom-tree .panel-default>.panel-heading .panel-title.dark-color .collapsed + label
-{
+.custom-tree .panel-default>.panel-heading .panel-title.dark-color .collapsed + label{
     display: inline-block;
     width: 100%;
     padding: 15px;
@@ -2213,6 +2217,7 @@ position :relative;
     color: #AAAAAA;
     font-weight: normal;
 }
+
 .custom-tree li.list-group-item.has-sub {
     padding: 0 25px;
     padding-left: 0;
@@ -2226,16 +2231,17 @@ li.list-group-item.has-sub:not(:first-child)::before {
     background: #337ab7;
     top: 26px;
 }
-.custom-tree .panel-default>.panel-heading .panel-title.dark-color.selected a
-{
+
+.custom-tree .panel-default>.panel-heading .panel-title.dark-color.selected > a{
     background: #3291E9;
     border-color: #3291E9;
 }
-.custom-tree .panel-default>.panel-heading .panel-title.dark-color a.collapsed::before {
+
+.custom-tree .panel-default>.panel-heading .panel-title.dark-color > a.collapsed::before {
     content: "\f067";
     color: #3f4369;
 }
-.custom-tree .panel-default>.panel-heading .panel-title.dark-color a::before {
+.custom-tree .panel-default>.panel-heading .panel-title.dark-color > a::before {
     content: "\f068";
     font-family: 'Font Awesome 5 Free';
     font-size: 13px;
@@ -2586,4 +2592,8 @@ h3.white-c-title{
     min-width: 300px;
     min-height: 300px;
     text-align: center;
+}
+
+.panel-title {
+    position: relative;
 }
