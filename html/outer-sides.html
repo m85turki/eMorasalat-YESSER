@@ -527,24 +527,44 @@
             </form>
         </div>
         <div class="white-container mx-3 mx-md-5">
-            <div class="panel-group custom-tree pl-4 d-flex align-items-start flex-column flex-md-row" role="tablist">
-                <div class="panel panel-default  order-2 order-md-1 ">
+            <div class="panel-group custom-tree pl-4" role="tablist">
+                <div class="panel panel-default  ">
                     <div class="panel-heading" role="tab" id="collapseListGroupHeading1">
                         <h4 class="panel-title dark-color selected">
                             <a class="collapsed" role="button" data-toggle="collapse" href="#collapseListGroup1"
                                 aria-expanded="false" aria-controls="collapseListGroup1">
                             </a>
-                            <label><span class="department-number mx-2"></span><span class="department-name"> اسم الجهة
-                                    (جهة مسجلة في نظام مراسلات المركزي) </span></label>
+                            <div class=" d-flex align-items-md-center flex-column flex-md-row" >
+                            <label class="order-2 order-md-1">
+                                <span class="department-number mx-2"></span>
+                                <span class="department-name"> اسم الجهة
+                                    (جهة مسجلة في نظام مراسلات المركزي) </span>
+                            </label>
+                            <div class="table-icon d-flex align-items-center ml-md-auto order-1 order-md-2">
+                                <a href="#" class="color-orange"><i class="icon-tables-sitemap-sub"></i></a>
+                                <a href="#" class="color-blue"><i class="icon-tables-sitemap"></i></a>
+                                <a href="#" class="color-green"><i class="icon-tables-edit"></i></a>
+                                <a href="#" class="color-burgundy"><i class="icon-tables-delete"></i></a>
+                            </div>
+                            </div>
                         </h4>
+                        
                     </div>
                     
                     <div id="collapseListGroup1" class="panel-collapse collapse" role="tabpanel"
                         aria-labelledby="collapseListGroupHeading1" aria-expanded="false">
                         <ul class="list-group">
-                            <li class="list-group-item"><label><span class="department-name"> اسم الجهة الفرعية
-                                        (جهة مسجلة في نظام مراسلات المركزي)</span>
-                                </label></li>
+                            <li class="list-group-item d-flex  align-items-md-center flex-column flex-md-row">
+                                <label class="order-2 order-md-1 pl-3">
+                                    <span class="department-name"> اسم الجهة الفرعية (جهة مسجلة في نظام مراسلات المركزي)</span>
+                                </label>
+                                <div class="table-icon d-flex align-items-center ml-md-auto order-1 order-md-2 pl-3">
+                                    <a href="#" class="color-orange"><i class="icon-tables-sitemap-sub"></i></a>
+                                    <a href="#" class="color-blue"><i class="icon-tables-sitemap"></i></a>
+                                    <a href="#" class="color-green"><i class="icon-tables-edit"></i></a>
+                                    <a href="#" class="color-burgundy"><i class="icon-tables-delete"></i></a>
+                                </div>
+                            </li>
                             <li class="list-group-item"><label><span class="department-name"> اسم الجهة الفرعية
                                         (جهة مسجلة في نظام مراسلات المركزي)</span>
                                 </label></li>
@@ -617,12 +637,6 @@
                             </li>
                         </ul>
                     </div>
-                </div>
-                <div class="table-icon d-flex align-items-center pt-2 ml-md-auto order-1 order-md-2">
-                    <a href="#" class="color-orange"><i class="icon-tables-sitemap-sub"></i></a>
-                    <a href="#" class="color-blue"><i class="icon-tables-sitemap"></i></a>
-                    <a href="#" class="color-green"><i class="icon-tables-edit"></i></a>
-                    <a href="#" class="color-burgundy" ><i class="icon-tables-delete"></i></a>
                 </div>
             </div>
             <div class="panel-group custom-tree pl-4 d-flex align-items-start flex-column flex-md-row" role="tablist">
