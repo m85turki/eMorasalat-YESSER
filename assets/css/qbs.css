@@ -3299,7 +3299,13 @@ table > thead > tr {
 .report-check .checkbox{
    margin-top:0!important; 
 }
+.export-link a{
+    color:#B2B2B3;
 
+}
+.export-link a:active{
+    color:black;
+}
 
 /*--------------------- QBS Responsive Style ----------------------*/
 @media(max-width:1040px){
