@@ -3299,13 +3299,6 @@ table > thead > tr {
 .report-check .checkbox{
    margin-top:0!important; 
 }
-.export-link a{
-    color:#B2B2B3;
-
-}
-.export-link a:active{
-    color:black;
-}
 .edit_manag_tabs a{
     padding: 10px 35px!important;
 }
@@ -3314,6 +3307,15 @@ table > thead > tr {
 }
 .tab-for-2{
     display: none;
+}
+.path li a{
+    color:#C2C2C2;
+}
+.path li a:hover{
+    color:#002;
+}
+.path li.active{
+    color:black;
 }
 
 
