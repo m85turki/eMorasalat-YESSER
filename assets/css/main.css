@@ -2597,3 +2597,7 @@ h3.white-c-title{
 .panel-title {
     position: relative;
 }
+
+.custom-tree.panel-group {
+    margin-bottom: 10px !important;
+}
