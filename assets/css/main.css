@@ -2606,3 +2606,7 @@ h3.white-c-title{
 .custom-tree.panel-group {
     margin-bottom: 10px !important;
 }
+
+.form-check-label {
+    white-space: pre;
+}
