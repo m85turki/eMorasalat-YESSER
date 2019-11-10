@@ -1421,6 +1421,17 @@ a.white-notification .notification_sticky{
 .day{
 	line-height: 2.4;
 }
+.input-group-center{
+    position: absolute;
+    left:50%;
+    height:100%;
+}
+.input-group-center .input-group-text{
+    border-radius: 0;
+    background-color:#4A91E3;
+    color:white;
+}
+
 /*-----------------------------------------------------------------*/
 
 @media(min-width:1024px) {
