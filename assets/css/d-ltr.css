@@ -213,7 +213,7 @@ html body {
 }
 
 .custom-tree li.list-group-item:not(.has-sub) label {
-    padding-left: 20px;
+    padding-left: 0px;
 }
 
 .custom-tree .panel-default>.panel-heading .panel-title.dark-color a

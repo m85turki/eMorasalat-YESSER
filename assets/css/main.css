@@ -2096,7 +2096,7 @@ position :relative;
 /** end notifications **/
 /** custom tree **/
 .custom-tree .list-group-item {
-    padding: 10px 15px 10px 0px;
+    padding: 10px 35px 10px 0px;
 }
 .custom-tree .panel-group
 {
@@ -2180,6 +2180,11 @@ position :relative;
     background: #3291E9;
     border-color: #3291E9;
 }
+
+.custom-tree .panel-default>.panel-heading .panel-title{
+    padding: 10px 10px 10px 0px;
+}
+
 .custom-tree .panel-default>.panel-heading .panel-title.dark-color > a
 {
     width: 15px;
@@ -2201,7 +2206,7 @@ position :relative;
 {
     display: inline-block;
     width: 100%;
-    padding: 15px;
+    padding: 0px;
     cursor: pointer;
     color: #3F4369;
     font-weight: 600;
