@@ -381,7 +381,7 @@
                             <span class="menu-title">تذكرة المراجعة</span>
                         </a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item active">
                         <a href="#"><i>
                                 <img src="../assets/images/menu/speech-bubble.svg"></i>
                             <span class="menu-title">مزود خدمة الرسائل النصية</span>
@@ -449,7 +449,7 @@
     <div class="app-content content">
             <div class="mx-3 mx-md-5 header-container d-flex flex-row align-items-center">
                 <div class="d-flex flex-column flex-lg-row align-items-lg-center flex-grow-1 mb-3 mb-lg-0">
-                    <h3 class="site-color mb-2 mb-lg-4">العامة</h3>
+                    <h3 class="site-color mb-2 mb-lg-4">مزود خدمة الرسائل النصية</h3>
                     <div class="ml-lg-auto d-flex flex-column flex-md-row">
                     </div>
                 </div>
@@ -458,81 +458,47 @@
         <div class="white-container mx-3 mx-md-5">
             <form>
                 <div class="form-row">
-                    <div class="form-group col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                        <label for="">البريد الإلكتروني للدعم الفني<span class="red-color ml-1">*</span></label>
-                        <input type="text" class="form-control">
+                    <div class="form-group col-lg-4 col-md-4  col-sm-6 col-xs-12">
+                        <label class="w-100">
+                            تفعيل خدمة الرسائل النصية
+                            <span class="red-color red-color ml-1">*</span>
+                        </label>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                            <label class="form-check-label" for="inlineRadio1">نعم</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                            <label class="form-check-label" for="inlineRadio2">لا</label>
+                        </div>
+                    </div>
+                    <div class="form-group col-lg-4 col-md-4  col-sm-6 col-xs-12">
+                        <label class="w-100">
+                            طريقة الربط
+                            <span class="red-color red-color ml-1">*</span>
+                        </label>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                            <label class="form-check-label" for="inlineRadio1">HTTP</label>
+                        </div>
+                        <div class="form-check form-check-inline">
+                            <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                            <label class="form-check-label" for="inlineRadio2">Wrapper</label>
+                        </div>
                     </div>
                     <div class="clearfix w-100"></div>
-                    <div class="form-group col-lg-4 col-md-6  col-sm-6 col-xs-12">
-                        <label for="">
-                                تنبيه الموظفين قبل انتهاء مدة المهمة
-                            <span class="red-color red-color ml-1">*</span>
-                        </label>
-                        <div class="input-group">
-                            <input type="number" class="form-control" id="dayinput" aria-describedby="emailHelp">
-                            <div class="input-group-prepend bg-none">
-                                <div class="input-group-text">يوم</div>
-                            </div>
-                        </div>
-                        <small class="form-text text-muted">أدخل رقم من 0 إلى 500</small>
+                    <div class="form-group col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                        <label for="">اسم المستخدم<span class="red-color ml-1">*</span></label>
+                        <input type="text" class="form-control">
                     </div>
-
-                    <div class="form-group col-lg-4 col-md-6  col-sm-6 col-xs-12">
-                        <label for="">
-                                تنبيه الموظفين قبل انتهاء مدة المتابعة
-                            <span class="red-color red-color ml-1">*</span>
-                        </label>
-                        <div class="input-group">
-                            <input type="number" class="form-control" id="dayinput" aria-describedby="emailHelp">
-                            <div class="input-group-prepend bg-none">
-                                <div class="input-group-text">يوم</div>
-                            </div>
-                        </div>
-                        <small class="form-text text-muted">أدخل رقم من 0 إلى 500</small>
+                    <div class="form-group col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                        <label for="">كلمة المرور<span class="red-color ml-1">*</span></label>
+                        <input type="password" class="form-control">
                     </div>
-
-                    <div class="form-group col-lg-4 col-md-6  col-sm-6 col-xs-12">
-                        <label for="">
-                                العدد الأقصى من المعاملات التي يمكن حجزها للصادر
-                            <span class="red-color red-color ml-1">*</span>
-                        </label>
-                        <div class="input-group">
-                            <input type="number" class="form-control" id="dayinput" aria-describedby="emailHelp">
-                            <div class="input-group-prepend bg-none">
-                                <div class="input-group-text">يوم</div>
-                            </div>
-                        </div>
-                        <small class="form-text text-muted">أدخل رقم من 0 إلى 500</small>
+                    <div class="form-group col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                        <label for="">الرابط<span class="red-color ml-1">*</span></label>
+                        <input type="text" class="form-control">
                     </div>
-
-                    <div class="form-group col-lg-4 col-md-6  col-sm-6 col-xs-12">
-                        <label for="">
-                                العدد الأقصى من المعاملات التي يمكن حجزها للوارد
-                            <span class="red-color red-color ml-1">*</span>
-                        </label>
-                        <div class="input-group">
-                            <input type="number" class="form-control" id="dayinput" aria-describedby="emailHelp">
-                            <div class="input-group-prepend bg-none">
-                                <div class="input-group-text">يوم</div>
-                            </div>
-                        </div>
-                        <small class="form-text text-muted">أدخل رقم من 0 إلى 500</small>
-                    </div>
-
-                    <div class="form-group col-lg-4 col-md-6  col-sm-6 col-xs-12">
-                        <label for="">
-                                الحد الأقصى لحجم الطلب المرسل في النظام
-                            <span class="red-color red-color ml-1">*</span>
-                        </label>
-                        <div class="input-group">
-                            <input type="number" class="form-control" id="dayinput" aria-describedby="emailHelp">
-                            <div class="input-group-prepend bg-none">
-                                <div class="input-group-text">ميغابايت</div>
-                            </div>
-                        </div>
-                        <small class="form-text text-muted">ادخل رقم لا يزيد عن 20 ميغابايت</small>
-                    </div>
-
 
                     <div class="form-group col-lg-12 col-md-12 col-xs-12 col-sm-12 d-flex">
                         <small class="text-danger ml-auto">
