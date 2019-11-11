@@ -1264,16 +1264,7 @@ form, .form-row, .form-group, .form-control{
     border-radius: 5px;
     line-height: normal;
 }
-.jconfirm.jconfirm-yasser-theme .jconfirm-box.loading{
-}
-.jconfirm.jconfirm-yasser-theme .jconfirm-box.loading:before{
-}
-.jconfirm.jconfirm-yasser-theme .jconfirm-box.loading:after{
-}
-.jconfirm.jconfirm-yasser-theme .jconfirm-box .jconfirm-closeIcon{
-}
-.jconfirm.jconfirm-yasser-theme .jconfirm-box .jconfirm-title-c{
-}
+
 .jconfirm.jconfirm-yasser-theme .jconfirm-box .jconfirm-content-pane{
     margin-bottom: 15px;
     height: auto;
@@ -1285,10 +1276,7 @@ form, .form-row, .form-group, .form-control{
     overflow-x: hidden;
     overflow-y: auto;
 }
-.jconfirm.jconfirm-yasser-theme .jconfirm-box .jconfirm-content{
-}
-.jconfirm.jconfirm-yasser-theme .jconfirm-box .jconfirm-buttons{
-}
+
 .jconfirm.jconfirm-yasser-theme .jconfirm-box .jconfirm-buttons button{
     display: inline-block;
     font-weight: 400;

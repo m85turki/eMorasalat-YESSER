@@ -275,6 +275,9 @@ h3.site-color .new-notifications-count{
     background-color: #ffffff;
     border-color: #2881e6;
 }
+.file-upload .btn-st2{
+    border: 1px dashed #2881e6;
+}
 
 .btn-st2:hover {
     color: #2881e6;
@@ -1452,6 +1455,9 @@ a.white-notification .notification_sticky{
 .card-body{
     flex: 1 1 auto;
     padding: 1.25rem;
+}
+.w-30{
+    width:30%;
 }
 /*-----------------------------------------------------------------*/
 
