@@ -1454,9 +1454,6 @@ a.white-notification .notification_sticky{
     flex: 1 1 auto;
     padding: 1.25rem;
 }
-.color-purple{
-    color:#412182;
-}
 /*-----------------------------------------------------------------*/
 
 @media(min-width:1024px) {
