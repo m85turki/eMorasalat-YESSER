@@ -381,95 +381,97 @@
 
 	<!-- BEGIN: Vertical Menu -->
 	<div class="align-self-start main_sidebar">
-			<div class="d-none d-md-block text-left">
-				<a class="nav-link nav-menu-main menu-toggle hidden-xs" href="#"><i><img src="../assets/images/v-menu1.png"></i></a>
+		<div class="d-none d-md-block text-left">
+			<a class="nav-link nav-menu-main menu-toggle hidden-xs" href="#"><i><img
+						src="../assets/images/v-menu1.png"></i></a>
+		</div>
+	
+		<div class=" main-menu menu-fixed menu-light menu-accordion menu-icon-left" data-scroll-to-active="true"
+			style="direction:ltr;">
+	
+	
+			<div class="main-menu-content">
+				<ul class="navigation navigation-main" id="main-menu-navigation" data-menu="menu-navigation">
+					<li class="nav-item">
+	
+						<a href="#">
+							<i>
+								<img src="../assets/images/menu/growth.svg">
+							</i>
+							<span class="menu-title">تقارير المعاملات</span>
+							<span class="badge badge badge-primary badge-pill float-left ml-2">3</span>
+						</a>
+					</li>
+					<li class="active nav-item">
+	
+						<a href="#">
+							<i>
+								<img src="../assets/images/menu/bar-chart.svg">
+							</i>
+							<span class="menu-title">تقارير قياس الأداء</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!-- END: Vertical Menu -->
+	</div>
+	<div class="app-content content">
+		<div class="mx-3 mx-md-5 header-container d-flex flex-row align-items-center">
+			<div class="d-flex flex-column flex-lg-row align-items-lg-center flex-grow-1 mb-3 mb-lg-0">
+				<h3 class="site-color mb-2 mb-lg-4"> تقارير قياس الأداء </h3>
 			</div>
 	
-			<div class=" main-menu menu-fixed menu-light menu-accordion menu-icon-left" data-scroll-to-active="true" style="direction:ltr;">
-	
-	
-					<div class="main-menu-content">
-							<ul class="navigation navigation-main" id="main-menu-navigation" data-menu="menu-navigation">
-								<li class="nav-item">
-			
-									<a href="#">
-										<i>
-												<img src="../assets/images/menu/growth.svg">
-										</i>
-										<span class="menu-title">تقارير المعاملات</span>
-										<span class="badge badge badge-primary badge-pill float-left ml-2">3</span>
-									</a>
-								</li>
-								<li class="active nav-item">
-			
-									<a href="#">
-										<i>
-											<img src="../assets/images/menu/bar-chart.svg">
-										</i>
-										<span class="menu-title">تقارير قياس الأداء</span>
-									</a>
-								</li>
-							</ul>
-						</div>
-						</div>
-			<!-- END: Vertical Menu -->
 		</div>
-	<div class="app-content content">
-			<div class="mx-3 mx-md-5 header-container d-flex flex-row align-items-center">
-					<div class="d-flex flex-column flex-lg-row align-items-lg-center flex-grow-1 mb-3 mb-lg-0">
-						<h3 class="site-color mb-2 mb-lg-4"> تقارير قياس الأداء </h3>
-					</div>
-
-				</div>
-
-			<div class="white-container transparent-container mx-3 mx-md-5 mb-0 pb-0">
-				<div class="">
-					<form>
-						<div class="form-row">
-							<div class="form-group col-lg-3 col-md-3 col-sm-6 col-xs-12">
-								<label for="">نوع التقرير</label>
-								<select id="report_type" class="form-control">
-									<option value="management" selected>اداء الإدارات</option>
-									<option value="employee">اداء الموظفين</option>
-								</select>
-							</div>
-							<div class="form-group col-lg-3 col-md-3 col-sm-6 col-xs-12">
-								<label for="">طريقة العرض</label>
-								<select class="form-control">
-									<option selected>جدول</option>
-									<option>رسم بياني</option>
-								</select>
-							</div>
-							<div class="form-group col-lg-6 col-md-6 col-sm-6 col-xs-12 management-section">
-								<label for="">الادارة</label>
-								<div class="row">
-									<div class=" col-xs-4 pr-2">
-										<input placeholder="رقم الوارد" type="text" class="form-control">
-									</div>
-									<div class=" col-xs-8 pl-2">
-										<div class="input-group">
-											<input type="text" class="form-control" placeholder="اسم الجهة الواردة ">
-											<div class="input-group-append">
-												<span class="input-group-text hyperlink white">
-													<a href="#"><i class="icon-filter-form"></i></a>
-												</span>
-											</div>
-										</div>
-									</div>
+	
+		<div class="white-container transparent-container mx-3 mx-md-5 mb-0 pb-0">
+			<div class="">
+				<form>
+					<div class="form-row">
+						<div class="form-group col-lg-3 col-md-3 col-sm-6 col-xs-12">
+							<label for="">نوع التقرير</label>
+							<select id="report_type" class="form-control">
+								<option value="management" selected>اداء الإدارات</option>
+								<option value="employee">اداء الموظفين</option>
+							</select>
+						</div>
+						<div class="form-group col-lg-3 col-md-3 col-sm-6 col-xs-12">
+							<label for="">طريقة العرض</label>
+							<select class="form-control">
+								<option selected>جدول</option>
+								<option>رسم بياني</option>
+							</select>
+						</div>
+						<div class="form-group col-lg-6 col-md-6 col-sm-6 col-xs-12 management-section">
+							<label for="">الادارة</label>
+							<div class="row">
+								<div class=" col-xs-4 pr-2">
+									<input placeholder="رقم الوارد" type="text" class="form-control">
 								</div>
-							</div>
-							<div class="form-group col-lg-6 col-md-8 col-sm-6 col-xs-12">
-								<div class="col-sm-6 col-xs-12 pr-md-2 pl-md-0 pr-0 pl-0">
-									<label for="">التاريخ من</label>
+								<div class=" col-xs-8 pl-2">
 									<div class="input-group">
-										<input type="text" class="form-control">
+										<input type="text" class="form-control" placeholder="اسم الجهة الواردة ">
 										<div class="input-group-append">
-											<span class="input-group-text hyperlink">
-												<a href="#"><i class="icon-calendar"></i></a>
+											<span class="input-group-text hyperlink white">
+												<a href="#"><i class="icon-filter-form"></i></a>
 											</span>
 										</div>
 									</div>
 								</div>
+							</div>
+						</div>
+						<div class="form-group col-lg-6 col-md-8 col-sm-6 col-xs-12">
+							<div class="col-sm-6 col-xs-12 pr-md-2 pl-md-0 pr-0 pl-0">
+								<label for="">التاريخ من</label>
+								<div class="input-group">
+									<input type="text" class="form-control">
+									<div class="input-group-append">
+										<span class="input-group-text hyperlink">
+											<a href="#"><i class="icon-calendar"></i></a>
+										</span>
+									</div>
+								</div>
+							</div>
 	
 	
 							<div class="col-sm-6 col-xs-12 pl-md-2 pr-md-0 pr-0 pl-0">
@@ -484,319 +486,316 @@
 								</div>
 							</div>
 						</div>
-						</div>
-						<hr>
+					</div>
+					<hr>
+					<div class="d-flex align-items-center mt-2 mb-2">
+						<h3 class="white-c-title">حقول إضافية</h3>
+					</div>
+					<div class="form-row pb-3 px-3">
+						<label class="container_checkbox mx-2">
+							مشتركة
+							<input type="checkbox" name="" data-trigger="hidden_fields_one" class="trigger">
+							<span class="checkmark"></span>
+						</label>
+					</div>
+	
+					<div id="hidden_fields_one" class="hide_trigger">
 						<div class="d-flex align-items-center mt-2 mb-2">
-								<h3 class="white-c-title">حقول إضافية</h3>
-							</div>
-						<div class="form-row pb-3 px-3">
-							<label class="container_checkbox mx-2">
-								مشتركة
-								<input type="checkbox" name="" data-trigger="hidden_fields_one" class="trigger">
-								<span class="checkmark"></span>
-							</label>
+							<h3 class="white-c-title"> مشتركة</h3>
 						</div>
-
-						<div id="hidden_fields_one" class="hide_trigger">
-								<div class="d-flex align-items-center mt-2 mb-2">
-										<h3 class="white-c-title"> مشتركة</h3>
-									</div>
-							<div class="form-row">
-								<div class="form-group col-lg-4 col-md-4 col-sm-6 col-xs-12">
-									<label for="">نوع الخطاب</label>
-									<select class="form-control">
-										<option selected="">إختيار...</option>
-										<option>...</option>
-									</select>
-								</div>
-								<div class="form-group col-lg-4 col-md-4 col-sm-6 col-xs-12">
-									<label for="">درجة السرية</label>
-									<select class="form-control">
-										<option selected="">إختيار...</option>
-										<option>...</option>
-									</select>
-								</div>
-								<div class="form-group col-lg-4 col-md-4 col-sm-6 col-xs-12">
-									<label for="">درجة الأهمية</label>
-									<select class="form-control">
-										<option selected="">إختيار...</option>
-										<option>...</option>
-									</select>
-								</div>
-								<div class="form-group col-lg-4 col-md-4 col-sm-6 col-xs-12">
-									<label for="">طريقة الإستلام</label>
-									<select class="form-control">
-										<option selected="">إختيار...</option>
-										<option>...</option>
-									</select>
-								</div>
-								<div class="form-group col-lg-4 col-md-4 col-sm-6 col-xs-12">
-									<label for="">فيها موعد</label>
-									<select class="form-control">
-										<option selected="">إختيار...</option>
-										<option>نعم</option>
-										<option>لا</option>
-									</select>
-								</div>
-								<div class="form-group col-lg-4 col-md-4 col-sm-6 col-xs-12">
-									<label for="">تاريخ الموعد</label>
-									<div class="input-group">
-										<input type="text" class="form-control">
-										<div class="input-group-append">
-											<span class="input-group-text hyperlink">
-												<a href="#"><i class="far fa-calendar-alt"></i></a>
-											</span>
-										</div>
-									</div>
-								</div>
-								<div class="form-group col-lg-4 col-md-4 col-sm-6 col-xs-12">
-									<label for="">التصنيف الموضوعي</label>
-									<select class="form-control">
-										<option selected="">إختيار...</option>
-										<option>...</option>
-									</select>
-								</div>
-								<div class="form-group col-lg-4 col-md-4 col-sm-6 col-xs-12">
-									<label for="">الملاحظات</label>
+						<div class="form-row">
+							<div class="form-group col-lg-4 col-md-4 col-sm-6 col-xs-12">
+								<label for="">نوع الخطاب</label>
+								<select class="form-control">
+									<option selected="">إختيار...</option>
+									<option>...</option>
+								</select>
+							</div>
+							<div class="form-group col-lg-4 col-md-4 col-sm-6 col-xs-12">
+								<label for="">درجة السرية</label>
+								<select class="form-control">
+									<option selected="">إختيار...</option>
+									<option>...</option>
+								</select>
+							</div>
+							<div class="form-group col-lg-4 col-md-4 col-sm-6 col-xs-12">
+								<label for="">درجة الأهمية</label>
+								<select class="form-control">
+									<option selected="">إختيار...</option>
+									<option>...</option>
+								</select>
+							</div>
+							<div class="form-group col-lg-4 col-md-4 col-sm-6 col-xs-12">
+								<label for="">طريقة الإستلام</label>
+								<select class="form-control">
+									<option selected="">إختيار...</option>
+									<option>...</option>
+								</select>
+							</div>
+							<div class="form-group col-lg-4 col-md-4 col-sm-6 col-xs-12">
+								<label for="">فيها موعد</label>
+								<select class="form-control">
+									<option selected="">إختيار...</option>
+									<option>نعم</option>
+									<option>لا</option>
+								</select>
+							</div>
+							<div class="form-group col-lg-4 col-md-4 col-sm-6 col-xs-12">
+								<label for="">تاريخ الموعد</label>
+								<div class="input-group">
 									<input type="text" class="form-control">
-								</div>
-							</div>
-						</div>
-
-						<hr class="m-0">
-
-					</form>
-
-				</div>
-				<div class="">
-						<div class="mt-3">
-								<form class="text-right">
-									<button type="submit" class="btn btn-st3 btn-lg mx-1 w-xs-100">عرض التقارير</button>
-								</form>
-							</div>
-				</div>
-
-
-			</div>
-						<div class="mx-3 mx-md-5 header-container">
-								<div class="d-flex flex-column flex-md-row align-items-md-center flex-grow-1">
-									<h3 class="site-color mb-4">نتائج التقارير </h3>
-								</div>
-							</div>
-					<div class="white-container mx-3 mx-md-5">
-						<div class="form-row">
-							<div class="form-group col-lg-12 col-md-12 col-xs-12 col-sm-12 d-flex">
-							<img class="circle-img" src="../assets/images/pro_pic.png">
-							<h3 class="dark-color mx-3">وزارة الداخلية</h3>
-						</div>
-					</div>
-						<div class="form-row">
-							<div class="form-group col-lg-3 col-md-4 col-sm-12 col-xs-12 mb-3">
-								<label>
-									تاريخ انشاء التقرير
-								</label>
-								<span class="d-block">
-									29 تشرين الثاني 2019
-								</span>
-							</div>
-							<div class="form-group col-lg-4 col-md-8 col-sm-12 col-xs-12 mb-3">
-								<label>
-									التاريخ من/الى
-								</label>
-								<span class="d-block">
-									من 12 كانون اول 2018 الى 29 تشرين الثاني 2019
-								</span>
-							</div>
-							<div class="form-group col-lg-5 col-md-12 col-sm-12 col-xs-12 mb-3">
-								<label>
-									اسم الموظف المنشئ
-								</label>
-								<span class="d-block">
-									محمد علي محمد
-								</span>
-							</div>
-						</div>
-						<hr>
-						<div class="row m-0">
-							<div class="col-xs-12">
-								<div class="w-100 d-flex align-items-center mt-2 mb-2">
-									<h3 class="white-c-title">جدول التقارير</h3>
-									<span class="roundedred ml-3">3</span>
-									<span class="pl-2 gray4">سجلات</span>
-								</div>
-								<div class="table-responsive">
-									<table class="table table-bordered table-striped">
-										<thead>
-											<tr>
-												<th class="align-middle">اسم الادارة</th>
-												<th class="align-middle employee-section">اسم الموظف</th>
-												<th class="align-middle">المعاملات الصادرة</th>
-												<th class="px-0">
-													<div class="row m-0">
-														<div class="text-center col-xs-12 mb-2">مسودة الخطاب</div>
-														<hr>
-														<div class="thead-specific">
-															<div class="text-center col-xs-6">المنشأة</div>
-															<div class="text-center col-xs-6">المحالة</div>
-														</div>
-													</div>
-												</th>
-												<th class="px-0">
-													<div class="row m-0">
-														<div class="text-center col-xs-12 mb-2">المعاملات الواردة</div>
-														<hr>
-														<div class="thead-specific">
-														<div class="text-center col-xs-6">المنشأة</div>
-														<div class="text-center col-xs-6">المحالة</div>
-													</div>
-													</div>
-												</th>
-												<th class="px-0">
-													<div class="row m-0">
-														<div class="text-center col-xs-12 mb-2">المعاملات الداخلية</div>
-														<hr>
-														<div class="thead-specific">
-															<div class="text-center col-xs-6">المنشأة</div>
-															<div class="text-center col-xs-6">المحالة</div>
-														</div>
-													</div>
-												</th>
-												<th class="align-middle">المعاملات المتأخرة</th>
-											</tr>
-										</thead>
-										<tbody>
-											<tr>
-												<td>القسم 1</td>
-												<td class="employee-section">اسم الموظف</td>
-												<td>10</td>
-												<td>
-													<div class="row m-0">
-														<div class="col-xs-6">4</div>
-														<div class="col-xs-6">5</div>
-													</div>
-												</td>
-												<td>
-													<div class="row m-0">
-														<div class="col-xs-6">4</div>
-														<div class="col-xs-6">5</div>
-													</div>
-												</td>
-												<td>
-													<div class="row m-0">
-														<div class="col-xs-6">4</div>
-														<div class="col-xs-6">5</div>
-													</div>
-												</td>
-												<td>8</td>
-											</tr>
-											<tr>
-												<td>القسم 1</td>
-												<td class="employee-section">اسم الموظف</td>
-												<td>10</td>
-												<td>
-													<div class="row m-0">
-														<div class="col-xs-6">4</div>
-														<div class="col-xs-6">5</div>
-													</div>
-												</td>
-												<td>
-													<div class="row m-0">
-														<div class="col-xs-6">4</div>
-														<div class="col-xs-6">5</div>
-													</div>
-												</td>
-												<td>
-													<div class="row m-0">
-														<div class="col-xs-6">4</div>
-														<div class="col-xs-6">5</div>
-													</div>
-												</td>
-												<td>8</td>
-											</tr>
-											<tr>
-												<td>القسم 1</td>
-												<td class="employee-section">اسم الموظف</td>
-												<td>10</td>
-												<td>
-													<div class="row m-0">
-														<div class="col-xs-6">4</div>
-														<div class="col-xs-6">5</div>
-													</div>
-												</td>
-												<td>
-													<div class="row m-0">
-														<div class="col-xs-6">4</div>
-														<div class="col-xs-6">5</div>
-													</div>
-												</td>
-												<td>
-													<div class="row m-0">
-														<div class="col-xs-6">4</div>
-														<div class="col-xs-6">5</div>
-													</div>
-												</td>
-												<td>8</td>
-											</tr>
-											<tr>
-												<td>القسم 1</td>
-												<td class="employee-section">اسم الموظف</td>
-												<td>10</td>
-												<td>
-													<div class="row m-0">
-														<div class="col-xs-6">4</div>
-														<div class="col-xs-6">5</div>
-													</div>
-												</td>
-												<td>
-													<div class="row m-0">
-														<div class="col-xs-6">4</div>
-														<div class="col-xs-6">5</div>
-													</div>
-												</td>
-												<td>
-													<div class="row m-0">
-														<div class="col-xs-6">4</div>
-														<div class="col-xs-6">5</div>
-													</div>
-												</td>
-												<td>8</td>
-											</tr>
-										</tbody>
-									</table>
-								</div>
-								<div class="w-100 p-2 text-center">
-										<nav aria-label="Page navigation">
-											<ul class="pagination custom-pagination">
-												<li class="change-page">
-													<a href="#" aria-label="Previous">
-														<i class="fa fa-caret-right"></i>
-													</a>
-												</li>
-												<li class="blues_border"><a href="#" class="transparent_bg">1</a></li>
-												<li><span class="transparent_bg font_size12"> من
-													
-													<span class="light-blue pl-1">4</span>
-													</span>
-												</li>
-												<li class="change-page">
-													<a href="#" aria-label="Next">
-														<i class="fa fa-caret-left"></i>
-													</a>
-												</li>
-											</ul>
-										</nav>
+									<div class="input-group-append">
+										<span class="input-group-text hyperlink">
+											<a href="#"><i class="far fa-calendar-alt"></i></a>
+										</span>
 									</div>
+								</div>
+							</div>
+							<div class="form-group col-lg-4 col-md-4 col-sm-6 col-xs-12">
+								<label for="">التصنيف الموضوعي</label>
+								<select class="form-control">
+									<option selected="">إختيار...</option>
+									<option>...</option>
+								</select>
+							</div>
+							<div class="form-group col-lg-4 col-md-4 col-sm-6 col-xs-12">
+								<label for="">الملاحظات</label>
+								<input type="text" class="form-control">
 							</div>
 						</div>
-
 					</div>
-					<div class="mx-3 mx-md-5 mb-4 d-flex">
-							<div class="ml-auto">
-								<button class="btn btn-st1 btn-lg mx-1 mb-2">طباعة</button>
-								<button class="btn btn-st2 btn-lg mx-1 mb-2">تصدير</button>
-							</div>
-							</div>
+	
+					<hr class="m-0">
+	
+				</form>
+	
+			</div>
+			<div class="">
+				<div class="mt-3">
+					<form class="text-right">
+						<button type="submit" class="btn btn-st3 btn-lg mx-1 w-xs-100">عرض التقارير</button>
+					</form>
+				</div>
+			</div>
+	
+	
 		</div>
+		<div class="mx-3 mx-md-5 header-container">
+			<div class="d-flex flex-column flex-md-row align-items-md-center flex-grow-1">
+				<h3 class="site-color mb-4">نتائج التقارير </h3>
+			</div>
+		</div>
+		<div class="white-container mx-3 mx-md-5">
+			<div class="form-row">
+				<div class="form-group col-lg-12 col-md-12 col-xs-12 col-sm-12 d-flex">
+					<img class="circle-img" src="../assets/images/pro_pic.png">
+					<h3 class="dark-color mx-3">وزارة الداخلية</h3>
+				</div>
+			</div>
+			<div class="form-row">
+				<div class="form-group col-lg-3 col-md-4 col-sm-12 col-xs-12 mb-3">
+					<label>
+						تاريخ انشاء التقرير
+					</label>
+					<span class="d-block">
+						29 تشرين الثاني 2019
+					</span>
+				</div>
+				<div class="form-group col-lg-4 col-md-8 col-sm-12 col-xs-12 mb-3">
+					<label>
+						التاريخ من/الى
+					</label>
+					<span class="d-block">
+						من 12 كانون اول 2018 الى 29 تشرين الثاني 2019
+					</span>
+				</div>
+				<div class="form-group col-lg-5 col-md-12 col-sm-12 col-xs-12 mb-3">
+					<label>
+						اسم الموظف المنشئ
+					</label>
+					<span class="d-block">
+						محمد علي محمد
+					</span>
+				</div>
+			</div>
+	
+			<hr class="mb-4">
+			<div class="w-100 d-flex align-items-center mt-2 mb-2">
+				<h3 class="white-c-title">جدول أنواع الرابط</h3>
+				<span class="roundedred ml-3">4</span>
+				<span class="pl-2 gray4">سجلات</span>
+			</div>
+			<div class="table-responsive">
+				<table class="table table-bordered table-striped">
+					<thead>
+						<tr>
+							<th class="align-middle">اسم الادارة</th>
+							<th class="align-middle employee-section">اسم الموظف</th>
+							<th class="align-middle">المعاملات الصادرة</th>
+							<th class="px-0">
+								<div class="row m-0">
+									<div class="text-center col-xs-12 mb-2">مسودة الخطاب</div>
+									<hr>
+									<div class="thead-specific">
+										<div class="text-center col-xs-6">المنشأة</div>
+										<div class="text-center col-xs-6">المحالة</div>
+									</div>
+								</div>
+							</th>
+							<th class="px-0">
+								<div class="row m-0">
+									<div class="text-center col-xs-12 mb-2">المعاملات الواردة</div>
+									<hr>
+									<div class="thead-specific">
+										<div class="text-center col-xs-6">المنشأة</div>
+										<div class="text-center col-xs-6">المحالة</div>
+									</div>
+								</div>
+							</th>
+							<th class="px-0">
+								<div class="row m-0">
+									<div class="text-center col-xs-12 mb-2">المعاملات الداخلية</div>
+									<hr>
+									<div class="thead-specific">
+										<div class="text-center col-xs-6">المنشأة</div>
+										<div class="text-center col-xs-6">المحالة</div>
+									</div>
+								</div>
+							</th>
+							<th class="align-middle">المعاملات المتأخرة</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>القسم 1</td>
+							<td class="employee-section">اسم الموظف</td>
+							<td>10</td>
+							<td>
+								<div class="row m-0">
+									<div class="col-xs-6">4</div>
+									<div class="col-xs-6">5</div>
+								</div>
+							</td>
+							<td>
+								<div class="row m-0">
+									<div class="col-xs-6">4</div>
+									<div class="col-xs-6">5</div>
+								</div>
+							</td>
+							<td>
+								<div class="row m-0">
+									<div class="col-xs-6">4</div>
+									<div class="col-xs-6">5</div>
+								</div>
+							</td>
+							<td>8</td>
+						</tr>
+						<tr>
+							<td>القسم 1</td>
+							<td class="employee-section">اسم الموظف</td>
+							<td>10</td>
+							<td>
+								<div class="row m-0">
+									<div class="col-xs-6">4</div>
+									<div class="col-xs-6">5</div>
+								</div>
+							</td>
+							<td>
+								<div class="row m-0">
+									<div class="col-xs-6">4</div>
+									<div class="col-xs-6">5</div>
+								</div>
+							</td>
+							<td>
+								<div class="row m-0">
+									<div class="col-xs-6">4</div>
+									<div class="col-xs-6">5</div>
+								</div>
+							</td>
+							<td>8</td>
+						</tr>
+						<tr>
+							<td>القسم 1</td>
+							<td class="employee-section">اسم الموظف</td>
+							<td>10</td>
+							<td>
+								<div class="row m-0">
+									<div class="col-xs-6">4</div>
+									<div class="col-xs-6">5</div>
+								</div>
+							</td>
+							<td>
+								<div class="row m-0">
+									<div class="col-xs-6">4</div>
+									<div class="col-xs-6">5</div>
+								</div>
+							</td>
+							<td>
+								<div class="row m-0">
+									<div class="col-xs-6">4</div>
+									<div class="col-xs-6">5</div>
+								</div>
+							</td>
+							<td>8</td>
+						</tr>
+						<tr>
+							<td>القسم 1</td>
+							<td class="employee-section">اسم الموظف</td>
+							<td>10</td>
+							<td>
+								<div class="row m-0">
+									<div class="col-xs-6">4</div>
+									<div class="col-xs-6">5</div>
+								</div>
+							</td>
+							<td>
+								<div class="row m-0">
+									<div class="col-xs-6">4</div>
+									<div class="col-xs-6">5</div>
+								</div>
+							</td>
+							<td>
+								<div class="row m-0">
+									<div class="col-xs-6">4</div>
+									<div class="col-xs-6">5</div>
+								</div>
+							</td>
+							<td>8</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<div class="w-100 p-2 text-center">
+				<nav aria-label="Page navigation">
+					<ul class="pagination custom-pagination">
+						<li class="change-page">
+							<a href="#" aria-label="Previous">
+								<i class="fa fa-caret-right"></i>
+							</a>
+						</li>
+						<li class="blues_border"><a href="#" class="transparent_bg">1</a></li>
+						<li><span class="transparent_bg font_size12"> من
+	
+								<span class="light-blue pl-1">4</span>
+							</span>
+						</li>
+						<li class="change-page">
+							<a href="#" aria-label="Next">
+								<i class="fa fa-caret-left"></i>
+							</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+	
+		</div>
+		<div class="mx-3 mx-md-5 mb-4 d-flex">
+			<div class="ml-auto">
+				<button class="btn btn-st1 btn-lg mx-1 mb-2">طباعة</button>
+				<button class="btn btn-st2 btn-lg mx-1 mb-2">تصدير</button>
+			</div>
+		</div>
+	</div>
 	
 
 

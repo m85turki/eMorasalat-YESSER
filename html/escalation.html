@@ -471,587 +471,677 @@
             </div>
             <div class="white-container  mx-3 mx-md-5">
                 <div class="tab-content">
-                    <div class="tab-pane active" role="tabpanel" id="tab-1">
-                            <div class="d-flex flex-column flex-lg-row align-items-lg-center flex-grow-1 mb-3 mb-lg-0">
-                                    <h3 class="site-color mb-2 mb-lg-4">إضافة تصعيد</h3>
-                                    <div class="ml-lg-auto d-flex flex-column flex-md-row">
-                                    </div>
+                    <div class="tab-pane active" role="tabpanel" id="tab-2">
+                            <div class="w-100 d-flex align-items-center mt-2 mb-2">
+                                    <h3 class="white-c-title">إضافة تصعيد</h3>
                                 </div>
                         <form>
                             <div class="form-row">
-                                    <div class="form-group col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                                        <label for="">نوع المعاملة <span class="red-color">*</span></label>
-                                        <select class="form-control">
-                                                <option selected="">اختر...</option>
-                                                <option>cairo</option>
-                                            </select>
-                                    </div>
-                                    </div>
-                                </form>
-                                <div class="d-flex flex-column flex-lg-row align-items-lg-center flex-grow-1 mb-3 mb-lg-0">
-                                        <h3 class="site-color mb-2 mb-lg-4">مستويات التصعيد</h3>
-                                        <div class="ml-lg-auto d-flex flex-column flex-md-row">
-                                        </div>
-                                    </div>
-                                    <div class="alert alert-danger" role="alert">
-                                      أضف مستوى تصعيد واحد على الأقل
-                                      </div>
-                                    <div class="card">
-                                            <div class="card-header">
-                                            <h3 class="m-0"> التصعيد (عادي) </h3> 
-                                            </div>
-                                            <div class="card-body">
-                                                    <div class="alert alert-danger" role="alert">
-                                                         البيانات المدخلة مكررة ، الرجاء إدخال بيانات صحيحة
-                                                          </div>
-                                                <div class="form-row">
-                                                    <div class="form-group col-lg-4 col-md-4  col-sm-6 col-xs-12">
-                                                        <label for="">عدد الأيام التي سيبدأ بعدها التصعيد<span class="red-color">*</span></label>
-                                                        <div class="input-group">
-                                                            <input type="number" class="form-control" id="dayinput" aria-describedby="emailHelp">
-                                                            <div class="input-group-prepend bg-none">
-                                                                <div class="input-group-text">يوم</div>
-                                                            </div>
-                                                        </div>
-                                                        <small class="form-text text-muted">أدخل رقم أقل من 500</small>
-                                                    </div>
-                                            
-                                                    <div class="form-group col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                                                        <label for="">الإجراء
-                                                            <span class="red-color">*</span>
-                                                        </label>
-                                                        <select class="form-control">
-                                                            <option selected="">الإجراء 1</option>
-                                                            <option>...</option>
-                                                        </select>
-                                                    </div>
-                                                    <div class="form-group col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                                                        <label for="">تصعيد إلى
-                                                            <span class="red-color">*</span>
-                                                        </label>
-                                                        <select class="form-control">
-                                                            <option selected="">الكل </option>
-                                                            <option>...</option>
-                                                        </select>
-                                                    </div>
-                                                    <div class="form-group col-lg-12 col-md-12 col-xs-12 col-sm-12 d-flex pr-0">
-                                                            <small class="text-danger ml-auto">
-                                                                يرجى تعبئة الحقول التي تحتوي على إشارة *
-                                                            </small>
-                                                        </div>
-                                                </div>
-
-                                                <div class="pull-right">
-                                                <button class="btn btn-st1">إضافة</button>
-                                            </div>
-                                            <div class="w-100 d-flex align-items-center mt-2 mb-2">
-                                                    <h3 class="white-c-title"> جدول تصعيدات (عادي)  </h3>
-                                                    <span class="roundedred ml-3">3</span>
-                                                    <span class="pl-2 gray4">ملفات</span>
-                                                </div>
-                                                <div class="table-responsive">
-                                                        <table class="table table-bordered table-striped">
-                                                            <thead>
-                                                                <tr>
-                                                                    <th> عدد الأيام التي سيبدأ بعدها التصعيد</th>
-                                                                    <th>الإجراء</th>
-                                                                    <th>تصعيد إلى</th>
-                                                                    <th></th>
-                                                                </tr>
-                                                            </thead>
-                                                            <tbody>
-                                                                <tr>
-                                                                    <td>23 يوم</td>
-                                                                    <td>الإجراء 1</td>
-                                                                    <td>اسم الموظف</td>
-                                                                    <td>
-                                                                            <div class="d-flex table-icon">
-                                                                                <a href="#" class="color-purple"><i class="icon-tables-edit"></i></a>
-                                                                                <a href="#" class="color-burgundy" data-toggle="modal" data-target="#Modal1"><i class="icon-tables-delete"></i></a>
-                                                                            </div>
-                                                                        </td>
-                                                                </tr>
-                                                                <tr>
-                                                                        <td>23 يوم</td>
-                                                                        <td>الإجراء 1</td>
-                                                                        <td>اسم الموظف</td>
-                                                                        <td>
-                                                                                <div class="d-flex table-icon">
-                                                                                    <a href="#" class="color-purple"><i class="icon-tables-edit"></i></a>
-                                                                                    <a href="#" class="color-burgundy" data-toggle="modal" data-target="#Modal1"><i class="icon-tables-delete"></i></a>
-                                                                                </div>
-                                                                            </td>
-                                                                    </tr>
-                                                                    <tr>
-                                                                            <td>23 يوم</td>
-                                                                            <td>الإجراء 1</td>
-                                                                            <td>اسم الموظف</td>
-                                                                            <td>
-                                                                                    <div class="d-flex table-icon">
-                                                                                        <a href="#" class="color-purple"><i class="icon-tables-edit"></i></a>
-                                                                                        <a href="#" class="color-burgundy" data-toggle="modal" data-target="#Modal1"><i class="icon-tables-delete"></i></a>
-                                                                                    </div>
-                                                                                </td>
-                                                                        </tr>
-                                                                        <tr>
-                                                                                <td>23 يوم</td>
-                                                                                <td>الإجراء 1</td>
-                                                                                <td>اسم الموظف</td>
-                                                                                <td>
-                                                                                        <div class="d-flex table-icon">
-                                                                                            <a href="#" class="color-purple"><i class="icon-tables-edit"></i></a>
-                                                                                            <a href="#" class="color-burgundy" data-toggle="modal" data-target="#Modal1"><i class="icon-tables-delete"></i></a>
-                                                                                        </div>
-                                                                                    </td>
-                                                                            </tr>
-                                                                            <tr>
-                                                                                    <td>23 يوم</td>
-                                                                                    <td>الإجراء 1</td>
-                                                                                    <td>اسم الموظف</td>
-                                                                                    <td>
-                                                                                        <div class="d-flex table-icon">
-                                                                                            <a href="#" class="color-purple"><i class="icon-tables-edit"></i></a>
-                                                                                            <a href="#" class="color-burgundy" data-toggle="modal" data-target="#Modal1"><i class="icon-tables-delete"></i></a>
-                                                                                        </div>
-                                                                                    </td>
-                                                                                </tr>
-                                                            </tbody>
-                                                        </table>
-                                                </div>
-                                            </div>
-                                          </div>
-                                          <div class="card mt-4">
-                                                <div class="card-header">
-                                                   <h3 class="m-0"> التصعيد (عاجل) </h3>
-                                                </div>
-                                                <div class="card-body">
-                                                    <div class="form-row">
-                                                        <div class="form-group col-lg-4 col-md-4  col-sm-6 col-xs-12">
-                                                            <label for="">عدد الأيام التي سيبدأ بعدها التصعيد<span class="red-color">*</span></label>
-                                                            <div class="input-group">
-                                                                <input type="number" class="form-control" id="dayinput" aria-describedby="emailHelp">
-                                                                <div class="input-group-prepend bg-none">
-                                                                    <div class="input-group-text">يوم</div>
-                                                                </div>
-                                                            </div>
-                                                            <small class="form-text text-muted">أدخل رقم أقل من 500</small>
-                                                        </div>
-                                                
-                                                        <div class="form-group col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                                                            <label for="">الإجراء
-                                                                <span class="red-color">*</span>
-                                                            </label>
-                                                            <select class="form-control">
-                                                                <option selected="">الإجراء 1</option>
-                                                                <option>...</option>
-                                                            </select>
-                                                        </div>
-                                                        <div class="form-group col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                                                            <label for="">تصعيد إلى
-                                                                <span class="red-color">*</span>
-                                                            </label>
-                                                            <select class="form-control">
-                                                                <option selected="">الكل </option>
-                                                                <option>...</option>
-                                                            </select>
-                                                        </div>
-                                                        <div class="form-group col-lg-12 col-md-12 col-xs-12 col-sm-12 d-flex pr-0">
-                                                                <small class="text-danger ml-auto">
-                                                                    يرجى تعبئة الحقول التي تحتوي على إشارة *
-                                                                </small>
-                                                            </div>
-                                                    </div>
-    
-                                                    <div class="pull-right">
-                                                    <button class="btn btn-st1">إضافة</button>
-                                                </div>
-                                                <div class="treate d-flex flex-sm-row flex-column mt-5">
-                                                        <h3 class="white-c-title"> جدول تصعيدات (عاجل)  </h3>
-                                                        <div>
-                                                            <span class="roundedred ml-sm-3 ml-auto">3</span>
-                                                            <span class="pl-2 gray4">ملفات</span>
-                                                        </div>
-                                                    </div>
-                                                    <div class="table-responsive">
-                                                            <table class="table table-bordered table-striped">
-                                                                <thead>
-                                                                    <tr>
-                                                                        <th> عدد الأيام التي سيبدأ بعدها التصعيد</th>
-                                                                        <th>الإجراء</th>
-                                                                        <th>تصعيد إلى</th>
-                                                                        <th></th>
-                                                                    </tr>
-                                                                </thead>
-                                                                <tbody>
-                                                                    <tr>
-                                                                        <td>23 يوم</td>
-                                                                        <td>الإجراء 1</td>
-                                                                        <td>اسم الموظف</td>
-                                                                        <td>
-                                                                                <div class="d-flex table-icon">
-                                                                                    <a href="#" class="color-purple"><i class="icon-tables-edit"></i></a>
-                                                                                    <a href="#" class="color-burgundy" data-toggle="modal" data-target="#Modal1"><i class="icon-tables-delete"></i></a>
-                                                                                </div>
-                                                                            </td>
-                                                                    </tr>
-                                                                                <tr>
-                                                                                        <td>23 يوم</td>
-                                                                                        <td>الإجراء 1</td>
-                                                                                        <td>اسم الموظف</td>
-                                                                                        <td>
-                                                                                            <div class="d-flex table-icon">
-                                                                                                <a href="#" class="color-purple"><i class="icon-tables-edit"></i></a>
-                                                                                                <a href="#" class="color-burgundy" data-toggle="modal" data-target="#Modal1"><i class="icon-tables-delete"></i></a>
-                                                                                            </div>
-                                                                                        </td>
-                                                                                    </tr>
-                                                                </tbody>
-                                                            </table>
-                                                    </div>
-                                                </div>
-                                              </div>
-                                              <div class="card mt-4">
-                                                    <div class="card-header">
-                                                      <h3 class="m-0">التصعيد (عاجل جداً) </h3>
-                                                    </div>
-                                                    <div class="card-body">
-                                                        <div class="form-row">
-                                                            <div class="form-group col-lg-4 col-md-4  col-sm-6 col-xs-12">
-                                                                <label for="">عدد الأيام التي سيبدأ بعدها التصعيد<span class="red-color">*</span></label>
-                                                                <div class="input-group">
-                                                                    <input type="number" class="form-control" id="dayinput" aria-describedby="emailHelp">
-                                                                    <div class="input-group-prepend bg-none">
-                                                                        <div class="input-group-text">يوم</div>
-                                                                    </div>
-                                                                </div>
-                                                                <small class="form-text text-muted">أدخل رقم أقل من 500</small>
-                                                            </div>
-                                                    
-                                                            <div class="form-group col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                                                                <label for="">الإجراء
-                                                                    <span class="red-color">*</span>
-                                                                </label>
-                                                                <select class="form-control">
-                                                                    <option selected="">الإجراء 1</option>
-                                                                    <option>...</option>
-                                                                </select>
-                                                            </div>
-                                                            <div class="form-group col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                                                                <label for="">تصعيد إلى
-                                                                    <span class="red-color">*</span>
-                                                                </label>
-                                                                <select class="form-control">
-                                                                    <option selected="">الكل</option>
-                                                                    <option>...</option>
-                                                                </select>
-                                                            </div>
-                                                            <div class="form-group col-lg-12 col-md-12 col-xs-12 col-sm-12 d-flex pr-0">
-                                                                    <small class="text-danger ml-auto">
-                                                                        يرجى تعبئة الحقول التي تحتوي على إشارة *
-                                                                    </small>
-                                                                </div>
-                                                        </div>
-        
-                                                        <div class="pull-right">
-                                                        <button class="btn btn-st1">إضافة</button>
-                                                    </div>
-                                                    </div>
-                                                  </div>
-
-                    </div>
-                    <div class="tab-pane" role="tabpanel" id="tab-2">
-                        <div class="d-flex flex-column flex-lg-row align-items-lg-center flex-grow-1 mb-3 mb-lg-0">
-                                <h3 class="site-color mb-2 mb-lg-4">إضافة تصعيد</h3>
-                                <div class="ml-lg-auto d-flex flex-column flex-md-row">
-                                </div>
-                            </div>
-                    <form>
-                        <div class="form-row">
                                 <div class="form-group col-lg-3 col-md-4 col-sm-6 col-xs-12">
                                     <label for="">نوع المعاملة <span class="red-color">*</span></label>
                                     <select class="form-control">
-                                            <option selected="">اختر...</option>
-                                            <option>cairo</option>
+                                        <option selected="">اختر...</option>
+                                        <option>cairo</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </form>
+                        <div class="w-100 d-flex align-items-center mt-2 mb-2">
+                            <h3 class="white-c-title">مستويات التصعيد</h3>
+                        </div>
+                        <div class="alert alert-danger" role="alert">
+                            أضف مستوى تصعيد واحد على الأقل
+                        </div>
+                        <div class="card">
+                            <div class="card-header">
+                                <h3 class="m-0"> التصعيد (عادي) </h3>
+                            </div>
+                            <div class="card-body">
+                                <div class="alert alert-danger" role="alert">
+                                    البيانات المدخلة مكررة ، الرجاء إدخال بيانات صحيحة
+                                </div>
+                                <div class="form-row">
+                                    <div class="form-group col-lg-4 col-md-6  col-sm-6 col-xs-12">
+                                        <label for="">عدد الأيام التي سيبدأ بعدها التصعيد<span class="red-color">*</span></label>
+                                        <div class="input-group">
+                                            <input type="number" class="form-control" id="dayinput" aria-describedby="emailHelp">
+                                            <div class="input-group-prepend bg-none">
+                                                <div class="input-group-text">يوم</div>
+                                            </div>
+                                        </div>
+                                        <small class="form-text text-muted">أدخل رقم أقل من 500</small>
+                                    </div>
+                
+                                    <div class="form-group col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                                        <label for="">الإجراء
+                                            <span class="red-color">*</span>
+                                        </label>
+                                        <select class="form-control">
+                                            <option selected="">الإجراء 1</option>
+                                            <option>...</option>
                                         </select>
-                                </div>
-                                </div>
-                            </form>
-                            <div class="d-flex flex-column flex-lg-row align-items-lg-center flex-grow-1 mb-3 mb-lg-0">
-                                    <h3 class="site-color mb-2 mb-lg-4">مستويات التصعيد</h3>
-                                    <div class="ml-lg-auto d-flex flex-column flex-md-row">
+                                    </div>
+                                    <div class="form-group col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                                        <label for="">تصعيد إلى
+                                            <span class="red-color">*</span>
+                                        </label>
+                                        <select class="form-control">
+                                            <option selected="">الكل </option>
+                                            <option>...</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group col-lg-12 col-md-12 col-xs-12 col-sm-12 d-flex">
+                                        <small class="text-danger ml-auto">
+                                            يرجى تعبئة الحقول التي تحتوي على إشارة *
+                                        </small>
+                                    </div>
+                                    <div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12 align-self-end  d-flex">
+                                        <button type="submit" class="btn btn-st1 btn-lg w-xs-100 ml-auto">
+                                            إضافة
+                                        </button>
                                     </div>
                                 </div>
+                
+                                <hr class="mb-4">
+                                <div class="w-100 d-flex align-items-center mt-2 mb-2">
+                                    <h3 class="white-c-title">جدول التصعيدات (عادي)</h3>
+                                    <span class="roundedred ml-3">3</span>
+                                    <span class="pl-2 gray4">ملفات</span>
+                                </div>
+                                <div class="table-responsive">
+                                    <table class="table table-bordered table-striped">
+                                        <thead>
+                                            <tr>
+                                                <th> عدد الأيام التي سيبدأ بعدها التصعيد</th>
+                                                <th>الإجراء</th>
+                                                <th>تصعيد إلى</th>
+                                                <th></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>23 يوم</td>
+                                                <td>الإجراء 1</td>
+                                                <td>اسم الموظف</td>
+                                                <td>
+                                                    <div class="d-flex table-icon">
+                                                        <a href="#" class="color-purple"><i class="icon-tables-edit"></i></a>
+                                                        <a href="#" class="color-burgundy" data-toggle="modal" data-target="#Modal1"><i
+                                                                class="icon-tables-delete"></i></a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>23 يوم</td>
+                                                <td>الإجراء 1</td>
+                                                <td>اسم الموظف</td>
+                                                <td>
+                                                    <div class="d-flex table-icon">
+                                                        <a href="#" class="color-purple"><i class="icon-tables-edit"></i></a>
+                                                        <a href="#" class="color-burgundy" data-toggle="modal" data-target="#Modal1"><i
+                                                                class="icon-tables-delete"></i></a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>23 يوم</td>
+                                                <td>الإجراء 1</td>
+                                                <td>اسم الموظف</td>
+                                                <td>
+                                                    <div class="d-flex table-icon">
+                                                        <a href="#" class="color-purple"><i class="icon-tables-edit"></i></a>
+                                                        <a href="#" class="color-burgundy" data-toggle="modal" data-target="#Modal1"><i
+                                                                class="icon-tables-delete"></i></a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>23 يوم</td>
+                                                <td>الإجراء 1</td>
+                                                <td>اسم الموظف</td>
+                                                <td>
+                                                    <div class="d-flex table-icon">
+                                                        <a href="#" class="color-purple"><i class="icon-tables-edit"></i></a>
+                                                        <a href="#" class="color-burgundy" data-toggle="modal" data-target="#Modal1"><i
+                                                                class="icon-tables-delete"></i></a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>23 يوم</td>
+                                                <td>الإجراء 1</td>
+                                                <td>اسم الموظف</td>
+                                                <td>
+                                                    <div class="d-flex table-icon">
+                                                        <a href="#" class="color-purple"><i class="icon-tables-edit"></i></a>
+                                                        <a href="#" class="color-burgundy" data-toggle="modal" data-target="#Modal1"><i
+                                                                class="icon-tables-delete"></i></a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mt-4">
+                            <div class="card-header">
+                                <h3 class="m-0"> التصعيد (عاجل) </h3>
+                            </div>
+                            <div class="card-body">
+                                <div class="form-row">
+                                    <div class="form-group col-lg-4 col-md-6  col-sm-6 col-xs-12">
+                                        <label for="">عدد الأيام التي سيبدأ بعدها التصعيد<span class="red-color">*</span></label>
+                                        <div class="input-group">
+                                            <input type="number" class="form-control" id="dayinput" aria-describedby="emailHelp">
+                                            <div class="input-group-prepend bg-none">
+                                                <div class="input-group-text">يوم</div>
+                                            </div>
+                                        </div>
+                                        <small class="form-text text-muted">أدخل رقم أقل من 500</small>
+                                    </div>
+                
+                                    <div class="form-group col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                                        <label for="">الإجراء
+                                            <span class="red-color">*</span>
+                                        </label>
+                                        <select class="form-control">
+                                            <option selected="">الإجراء 1</option>
+                                            <option>...</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                                        <label for="">تصعيد إلى
+                                            <span class="red-color">*</span>
+                                        </label>
+                                        <select class="form-control">
+                                            <option selected="">الكل </option>
+                                            <option>...</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group col-lg-12 col-md-12 col-xs-12 col-sm-12 d-flex">
+                                        <small class="text-danger ml-auto">
+                                            يرجى تعبئة الحقول التي تحتوي على إشارة *
+                                        </small>
+                                    </div>
+                                    <div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12 align-self-end  d-flex">
+                                        <button type="submit" class="btn btn-st1 btn-lg w-xs-100 ml-auto">
+                                            إضافة
+                                        </button>
+                                    </div>
+                                </div>
+                                <hr class="mb-4">
+                                <div class="w-100 d-flex align-items-center mt-2 mb-2">
+                                    <h3 class="white-c-title">جدول التصعيدات (عاجل)</h3>
+                                    <span class="roundedred ml-3">3</span>
+                                    <span class="pl-2 gray4">ملفات</span>
+                                </div>
+                                <div class="table-responsive">
+                                    <table class="table table-bordered table-striped">
+                                        <thead>
+                                            <tr>
+                                                <th> عدد الأيام التي سيبدأ بعدها التصعيد</th>
+                                                <th>الإجراء</th>
+                                                <th>تصعيد إلى</th>
+                                                <th></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>23 يوم</td>
+                                                <td>الإجراء 1</td>
+                                                <td>اسم الموظف</td>
+                                                <td>
+                                                    <div class="d-flex table-icon">
+                                                        <a href="#" class="color-purple"><i class="icon-tables-edit"></i></a>
+                                                        <a href="#" class="color-burgundy" data-toggle="modal" data-target="#Modal1"><i
+                                                                class="icon-tables-delete"></i></a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>23 يوم</td>
+                                                <td>الإجراء 1</td>
+                                                <td>اسم الموظف</td>
+                                                <td>
+                                                    <div class="d-flex table-icon">
+                                                        <a href="#" class="color-purple"><i class="icon-tables-edit"></i></a>
+                                                        <a href="#" class="color-burgundy" data-toggle="modal" data-target="#Modal1"><i
+                                                                class="icon-tables-delete"></i></a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>23 يوم</td>
+                                                <td>الإجراء 1</td>
+                                                <td>اسم الموظف</td>
+                                                <td>
+                                                    <div class="d-flex table-icon">
+                                                        <a href="#" class="color-purple"><i class="icon-tables-edit"></i></a>
+                                                        <a href="#" class="color-burgundy" data-toggle="modal" data-target="#Modal1"><i
+                                                                class="icon-tables-delete"></i></a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>23 يوم</td>
+                                                <td>الإجراء 1</td>
+                                                <td>اسم الموظف</td>
+                                                <td>
+                                                    <div class="d-flex table-icon">
+                                                        <a href="#" class="color-purple"><i class="icon-tables-edit"></i></a>
+                                                        <a href="#" class="color-burgundy" data-toggle="modal" data-target="#Modal1"><i
+                                                                class="icon-tables-delete"></i></a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>23 يوم</td>
+                                                <td>الإجراء 1</td>
+                                                <td>اسم الموظف</td>
+                                                <td>
+                                                    <div class="d-flex table-icon">
+                                                        <a href="#" class="color-purple"><i class="icon-tables-edit"></i></a>
+                                                        <a href="#" class="color-burgundy" data-toggle="modal" data-target="#Modal1"><i
+                                                                class="icon-tables-delete"></i></a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mt-4">
+                            <div class="card-header">
+                                <h3 class="m-0">التصعيد (عاجل جداً) </h3>
+                            </div>
+                            <div class="card-body">
+                                <div class="form-row">
+                                    <div class="form-group col-lg-4 col-md-6  col-sm-6 col-xs-12">
+                                        <label for="">عدد الأيام التي سيبدأ بعدها التصعيد<span class="red-color">*</span></label>
+                                        <div class="input-group">
+                                            <input type="number" class="form-control" id="dayinput" aria-describedby="emailHelp">
+                                            <div class="input-group-prepend bg-none">
+                                                <div class="input-group-text">يوم</div>
+                                            </div>
+                                        </div>
+                                        <small class="form-text text-muted">أدخل رقم أقل من 500</small>
+                                    </div>
+                
+                                    <div class="form-group col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                                        <label for="">الإجراء
+                                            <span class="red-color">*</span>
+                                        </label>
+                                        <select class="form-control">
+                                            <option selected="">الإجراء 1</option>
+                                            <option>...</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                                        <label for="">تصعيد إلى
+                                            <span class="red-color">*</span>
+                                        </label>
+                                        <select class="form-control">
+                                            <option selected="">الكل</option>
+                                            <option>...</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group col-lg-12 col-md-12 col-xs-12 col-sm-12 d-flex">
+                                        <small class="text-danger ml-auto">
+                                            يرجى تعبئة الحقول التي تحتوي على إشارة *
+                                        </small>
+                                    </div>
+                                    <div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12 align-self-end  d-flex">
+                                        <button type="submit" class="btn btn-st1 btn-lg w-xs-100 ml-auto">
+                                            إضافة
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <div class="tab-pane" role="tabpanel" id="tab-2">
+                        <div class="d-flex flex-column flex-lg-row align-items-lg-center flex-grow-1 mb-3 mb-lg-0">
+                            <h3 class="site-color mb-2 mb-lg-4">إضافة تصعيد</h3>
+                            <div class="ml-lg-auto d-flex flex-column flex-md-row">
+                            </div>
+                        </div>
+                        <form>
+                            <div class="form-row">
+                                <div class="form-group col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                                    <label for="">نوع المعاملة <span class="red-color">*</span></label>
+                                    <select class="form-control">
+                                        <option selected="">اختر...</option>
+                                        <option>cairo</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </form>
+                        <div class="d-flex flex-column flex-lg-row align-items-lg-center flex-grow-1 mb-3 mb-lg-0">
+                            <h3 class="site-color mb-2 mb-lg-4">مستويات التصعيد</h3>
+                            <div class="ml-lg-auto d-flex flex-column flex-md-row">
+                            </div>
+                        </div>
+                        <div class="alert alert-danger" role="alert">
+                            أضف مستوى تصعيد واحد على الأقل
+                        </div>
+                        <div class="card">
+                            <div class="card-header">
+                                <h3 class="m-0"> التصعيد (عادي) </h3>
+                            </div>
+                            <div class="card-body">
                                 <div class="alert alert-danger" role="alert">
-                                  أضف مستوى تصعيد واحد على الأقل
-                                  </div>
-                                <div class="card">
-                                        <div class="card-header">
-                                        <h3 class="m-0"> التصعيد (عادي) </h3> 
-                                        </div>
-                                        <div class="card-body">
-                                                <div class="alert alert-danger" role="alert">
-                                                        البيانات المدخلة مكررة ، الرجاء إدخال بيانات صحيحة
-                                                         </div>
-                                            <div class="form-row">
-                                                <div class="form-group col-lg-4 col-md-4  col-sm-6 col-xs-12">
-                                                    <label for="">عدد الأيام التي سيبدأ بعدها التصعيد<span class="red-color">*</span></label>
-                                                    <div class="input-group">
-                                                        <input type="number" class="form-control" id="dayinput" aria-describedby="emailHelp">
-                                                        <div class="input-group-prepend bg-none">
-                                                            <div class="input-group-text">يوم</div>
-                                                        </div>
-                                                    </div>
-                                                    <small class="form-text text-muted">أدخل رقم أقل من 500</small>
-                                                </div>
-                                        
-                                                <div class="form-group col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                                                    <label for="">الإجراء
-                                                        <span class="red-color">*</span>
-                                                    </label>
-                                                    <select class="form-control">
-                                                        <option selected="">الإجراء 1</option>
-                                                        <option>...</option>
-                                                    </select>
-                                                </div>
-                                                <div class="form-group col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                                                    <label for="">تصعيد إلى
-                                                        <span class="red-color">*</span>
-                                                    </label>
-                                                    <select class="form-control">
-                                                        <option selected="">الكل </option>
-                                                        <option>...</option>
-                                                    </select>
-                                                </div>
-                                                <div class="form-group col-lg-12 col-md-12 col-xs-12 col-sm-12 d-flex pr-0">
-                                                        <small class="text-danger ml-auto">
-                                                            يرجى تعبئة الحقول التي تحتوي على إشارة *
-                                                        </small>
-                                                    </div>
-                                            </div>
-
-                                            <div class="pull-right">
-                                            <button class="btn btn-st1">إضافة</button>
-                                        </div>
-                                        <div class="w-100 d-flex align-items-center mt-2 mb-2">
-                                                <h3 class="white-c-title"> جدول تصعيدات (عادي)  </h3>
-                                                <span class="roundedred ml-3">3</span>
-                                                <span class="pl-2 gray4">ملفات</span>
-                                            </div>
-                                            <div class="table-responsive">
-                                                    <table class="table table-bordered table-striped">
-                                                        <thead>
-                                                            <tr>
-                                                                <th> عدد الأيام التي سيبدأ بعدها التصعيد</th>
-                                                                <th>الإجراء</th>
-                                                                <th>تصعيد إلى</th>
-                                                                <th></th>
-                                                            </tr>
-                                                        </thead>
-                                                        <tbody>
-                                                            <tr>
-                                                                <td>23 يوم</td>
-                                                                <td>الإجراء 1</td>
-                                                                <td>اسم الموظف</td>
-                                                                <td>
-                                                                        <div class="d-flex table-icon">
-                                                                            <a href="#" class="color-purple"><i class="icon-tables-edit"></i></a>
-                                                                            <a href="#" class="color-burgundy" data-toggle="modal" data-target="#Modal1"><i class="icon-tables-delete"></i></a>
-                                                                        </div>
-                                                                    </td>
-                                                            </tr>
-                                                            <tr>
-                                                                    <td>23 يوم</td>
-                                                                    <td>الإجراء 1</td>
-                                                                    <td>اسم الموظف</td>
-                                                                    <td>
-                                                                            <div class="d-flex table-icon">
-                                                                                <a href="#" class="color-purple"><i class="icon-tables-edit"></i></a>
-                                                                                <a href="#" class="color-burgundy" data-toggle="modal" data-target="#Modal1"><i class="icon-tables-delete"></i></a>
-                                                                            </div>
-                                                                        </td>
-                                                                </tr>
-                                                                <tr>
-                                                                        <td>23 يوم</td>
-                                                                        <td>الإجراء 1</td>
-                                                                        <td>اسم الموظف</td>
-                                                                        <td>
-                                                                                <div class="d-flex table-icon">
-                                                                                    <a href="#" class="color-purple"><i class="icon-tables-edit"></i></a>
-                                                                                    <a href="#" class="color-burgundy" data-toggle="modal" data-target="#Modal1"><i class="icon-tables-delete"></i></a>
-                                                                                </div>
-                                                                            </td>
-                                                                    </tr>
-                                                                    <tr>
-                                                                            <td>23 يوم</td>
-                                                                            <td>الإجراء 1</td>
-                                                                            <td>اسم الموظف</td>
-                                                                            <td>
-                                                                                    <div class="d-flex table-icon">
-                                                                                        <a href="#" class="color-purple"><i class="icon-tables-edit"></i></a>
-                                                                                        <a href="#" class="color-burgundy" data-toggle="modal" data-target="#Modal1"><i class="icon-tables-delete"></i></a>
-                                                                                    </div>
-                                                                                </td>
-                                                                        </tr>
-                                                                        <tr>
-                                                                                <td>23 يوم</td>
-                                                                                <td>الإجراء 1</td>
-                                                                                <td>اسم الموظف</td>
-                                                                                <td>
-                                                                                    <div class="d-flex table-icon">
-                                                                                        <a href="#" class="color-purple"><i class="icon-tables-edit"></i></a>
-                                                                                        <a href="#" class="color-burgundy" data-toggle="modal" data-target="#Modal1"><i class="icon-tables-delete"></i></a>
-                                                                                    </div>
-                                                                                </td>
-                                                                            </tr>
-                                                        </tbody>
-                                                    </table>
+                                    البيانات المدخلة مكررة ، الرجاء إدخال بيانات صحيحة
+                                </div>
+                                <div class="form-row">
+                                    <div class="form-group col-lg-4 col-md-6  col-sm-6 col-xs-12">
+                                        <label for="">عدد الأيام التي سيبدأ بعدها التصعيد<span class="red-color">*</span></label>
+                                        <div class="input-group">
+                                            <input type="number" class="form-control" id="dayinput" aria-describedby="emailHelp">
+                                            <div class="input-group-prepend bg-none">
+                                                <div class="input-group-text">يوم</div>
                                             </div>
                                         </div>
-                                      </div>
-                                      <div class="card mt-4">
-                                            <div class="card-header">
-                                               <h3 class="m-0"> التصعيد (عاجل) </h3>
+                                        <small class="form-text text-muted">أدخل رقم أقل من 500</small>
+                                    </div>
+                
+                                    <div class="form-group col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                                        <label for="">الإجراء
+                                            <span class="red-color">*</span>
+                                        </label>
+                                        <select class="form-control">
+                                            <option selected="">الإجراء 1</option>
+                                            <option>...</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                                        <label for="">تصعيد إلى
+                                            <span class="red-color">*</span>
+                                        </label>
+                                        <select class="form-control">
+                                            <option selected="">الكل </option>
+                                            <option>...</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group col-lg-12 col-md-12 col-xs-12 col-sm-12 d-flex">
+                                        <small class="text-danger ml-auto">
+                                            يرجى تعبئة الحقول التي تحتوي على إشارة *
+                                        </small>
+                                    </div>
+                                    <div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12 align-self-end  d-flex">
+                                        <button type="submit" class="btn btn-st1 btn-lg w-xs-100 ml-auto">
+                                            إضافة
+                                        </button>
+                                    </div>
+                                </div>
+                
+                                <hr class="mb-4">
+                                <div class="w-100 d-flex align-items-center mt-2 mb-2">
+                                    <h3 class="white-c-title">جدول التصعيدات (عادي)</h3>
+                                    <span class="roundedred ml-3">3</span>
+                                    <span class="pl-2 gray4">ملفات</span>
+                                </div>
+                                <div class="table-responsive">
+                                    <table class="table table-bordered table-striped">
+                                        <thead>
+                                            <tr>
+                                                <th> عدد الأيام التي سيبدأ بعدها التصعيد</th>
+                                                <th>الإجراء</th>
+                                                <th>تصعيد إلى</th>
+                                                <th></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>23 يوم</td>
+                                                <td>الإجراء 1</td>
+                                                <td>اسم الموظف</td>
+                                                <td>
+                                                    <div class="d-flex table-icon">
+                                                        <a href="#" class="color-purple"><i class="icon-tables-edit"></i></a>
+                                                        <a href="#" class="color-burgundy" data-toggle="modal" data-target="#Modal1"><i
+                                                                class="icon-tables-delete"></i></a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>23 يوم</td>
+                                                <td>الإجراء 1</td>
+                                                <td>اسم الموظف</td>
+                                                <td>
+                                                    <div class="d-flex table-icon">
+                                                        <a href="#" class="color-purple"><i class="icon-tables-edit"></i></a>
+                                                        <a href="#" class="color-burgundy" data-toggle="modal" data-target="#Modal1"><i
+                                                                class="icon-tables-delete"></i></a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>23 يوم</td>
+                                                <td>الإجراء 1</td>
+                                                <td>اسم الموظف</td>
+                                                <td>
+                                                    <div class="d-flex table-icon">
+                                                        <a href="#" class="color-purple"><i class="icon-tables-edit"></i></a>
+                                                        <a href="#" class="color-burgundy" data-toggle="modal" data-target="#Modal1"><i
+                                                                class="icon-tables-delete"></i></a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>23 يوم</td>
+                                                <td>الإجراء 1</td>
+                                                <td>اسم الموظف</td>
+                                                <td>
+                                                    <div class="d-flex table-icon">
+                                                        <a href="#" class="color-purple"><i class="icon-tables-edit"></i></a>
+                                                        <a href="#" class="color-burgundy" data-toggle="modal" data-target="#Modal1"><i
+                                                                class="icon-tables-delete"></i></a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>23 يوم</td>
+                                                <td>الإجراء 1</td>
+                                                <td>اسم الموظف</td>
+                                                <td>
+                                                    <div class="d-flex table-icon">
+                                                        <a href="#" class="color-purple"><i class="icon-tables-edit"></i></a>
+                                                        <a href="#" class="color-burgundy" data-toggle="modal" data-target="#Modal1"><i
+                                                                class="icon-tables-delete"></i></a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mt-4">
+                            <div class="card-header">
+                                <h3 class="m-0"> التصعيد (عاجل) </h3>
+                            </div>
+                            <div class="card-body">
+                                <div class="form-row">
+                                    <div class="form-group col-lg-4 col-md-6  col-sm-6 col-xs-12">
+                                        <label for="">عدد الأيام التي سيبدأ بعدها التصعيد<span class="red-color">*</span></label>
+                                        <div class="input-group">
+                                            <input type="number" class="form-control" id="dayinput" aria-describedby="emailHelp">
+                                            <div class="input-group-prepend bg-none">
+                                                <div class="input-group-text">يوم</div>
                                             </div>
-                                            <div class="card-body">
-                                                <div class="form-row">
-                                                    <div class="form-group col-lg-4 col-md-4  col-sm-6 col-xs-12">
-                                                        <label for="">عدد الأيام التي سيبدأ بعدها التصعيد<span class="red-color">*</span></label>
-                                                        <div class="input-group">
-                                                            <input type="number" class="form-control" id="dayinput" aria-describedby="emailHelp">
-                                                            <div class="input-group-prepend bg-none">
-                                                                <div class="input-group-text">يوم</div>
-                                                            </div>
-                                                        </div>
-                                                        <small class="form-text text-muted">أدخل رقم أقل من 500</small>
+                                        </div>
+                                        <small class="form-text text-muted">أدخل رقم أقل من 500</small>
+                                    </div>
+                
+                                    <div class="form-group col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                                        <label for="">الإجراء
+                                            <span class="red-color">*</span>
+                                        </label>
+                                        <select class="form-control">
+                                            <option selected="">الإجراء 1</option>
+                                            <option>...</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                                        <label for="">تصعيد إلى
+                                            <span class="red-color">*</span>
+                                        </label>
+                                        <select class="form-control">
+                                            <option selected="">الكل </option>
+                                            <option>...</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group col-lg-12 col-md-12 col-xs-12 col-sm-12 d-flex">
+                                        <small class="text-danger ml-auto">
+                                            يرجى تعبئة الحقول التي تحتوي على إشارة *
+                                        </small>
+                                    </div>
+                                    <div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12 align-self-end  d-flex">
+                                        <button type="submit" class="btn btn-st1 btn-lg w-xs-100 ml-auto">
+                                            إضافة
+                                        </button>
+                                    </div>
+                                </div>
+                                <hr class="mb-4">
+                                <div class="w-100 d-flex align-items-center mt-2 mb-2">
+                                    <h3 class="white-c-title">جدول التصعيدات (عاجل)</h3>
+                                    <span class="roundedred ml-3">3</span>
+                                    <span class="pl-2 gray4">ملفات</span>
+                                </div>
+                                <div class="table-responsive">
+                                    <table class="table table-bordered table-striped">
+                                        <thead>
+                                            <tr>
+                                                <th> عدد الأيام التي سيبدأ بعدها التصعيد</th>
+                                                <th>الإجراء</th>
+                                                <th>تصعيد إلى</th>
+                                                <th></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>23 يوم</td>
+                                                <td>الإجراء 1</td>
+                                                <td>اسم الموظف</td>
+                                                <td>
+                                                    <div class="d-flex table-icon">
+                                                        <a href="#" class="color-purple"><i class="icon-tables-edit"></i></a>
+                                                        <a href="#" class="color-burgundy" data-toggle="modal" data-target="#Modal1"><i
+                                                                class="icon-tables-delete"></i></a>
                                                     </div>
-                                            
-                                                    <div class="form-group col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                                                        <label for="">الإجراء
-                                                            <span class="red-color">*</span>
-                                                        </label>
-                                                        <select class="form-control">
-                                                            <option selected="">الإجراء 1</option>
-                                                            <option>...</option>
-                                                        </select>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>23 يوم</td>
+                                                <td>الإجراء 1</td>
+                                                <td>اسم الموظف</td>
+                                                <td>
+                                                    <div class="d-flex table-icon">
+                                                        <a href="#" class="color-purple"><i class="icon-tables-edit"></i></a>
+                                                        <a href="#" class="color-burgundy" data-toggle="modal" data-target="#Modal1"><i
+                                                                class="icon-tables-delete"></i></a>
                                                     </div>
-                                                    <div class="form-group col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                                                        <label for="">تصعيد إلى
-                                                            <span class="red-color">*</span>
-                                                        </label>
-                                                        <select class="form-control">
-                                                            <option selected="">الكل </option>
-                                                            <option>...</option>
-                                                        </select>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>23 يوم</td>
+                                                <td>الإجراء 1</td>
+                                                <td>اسم الموظف</td>
+                                                <td>
+                                                    <div class="d-flex table-icon">
+                                                        <a href="#" class="color-purple"><i class="icon-tables-edit"></i></a>
+                                                        <a href="#" class="color-burgundy" data-toggle="modal" data-target="#Modal1"><i
+                                                                class="icon-tables-delete"></i></a>
                                                     </div>
-                                                    <div class="form-group col-lg-12 col-md-12 col-xs-12 col-sm-12 d-flex pr-0">
-                                                            <small class="text-danger ml-auto">
-                                                                يرجى تعبئة الحقول التي تحتوي على إشارة *
-                                                            </small>
-                                                        </div>
-                                                </div>
-
-                                                <div class="pull-right">
-                                                <button class="btn btn-st1">إضافة</button>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>23 يوم</td>
+                                                <td>الإجراء 1</td>
+                                                <td>اسم الموظف</td>
+                                                <td>
+                                                    <div class="d-flex table-icon">
+                                                        <a href="#" class="color-purple"><i class="icon-tables-edit"></i></a>
+                                                        <a href="#" class="color-burgundy" data-toggle="modal" data-target="#Modal1"><i
+                                                                class="icon-tables-delete"></i></a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>23 يوم</td>
+                                                <td>الإجراء 1</td>
+                                                <td>اسم الموظف</td>
+                                                <td>
+                                                    <div class="d-flex table-icon">
+                                                        <a href="#" class="color-purple"><i class="icon-tables-edit"></i></a>
+                                                        <a href="#" class="color-burgundy" data-toggle="modal" data-target="#Modal1"><i
+                                                                class="icon-tables-delete"></i></a>
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card mt-4">
+                            <div class="card-header">
+                                <h3 class="m-0">التصعيد (عاجل جداً) </h3>
+                            </div>
+                            <div class="card-body">
+                                <div class="form-row">
+                                    <div class="form-group col-lg-4 col-md-6  col-sm-6 col-xs-12">
+                                        <label for="">عدد الأيام التي سيبدأ بعدها التصعيد<span class="red-color">*</span></label>
+                                        <div class="input-group">
+                                            <input type="number" class="form-control" id="dayinput" aria-describedby="emailHelp">
+                                            <div class="input-group-prepend bg-none">
+                                                <div class="input-group-text">يوم</div>
                                             </div>
-                                            <div class="treate d-flex flex-sm-row flex-column mt-5">
-                                                    <h3 class="white-c-title"> جدول تصعيدات (عاجل)  </h3>
-                                                    <div>
-                                                        <span class="roundedred ml-sm-3 ml-auto">3</span>
-                                                        <span class="pl-2 gray4">ملفات</span>
-                                                    </div>
-                                                </div>
-                                                <div class="table-responsive">
-                                                        <table class="table table-bordered table-striped">
-                                                            <thead>
-                                                                <tr>
-                                                                    <th> عدد الأيام التي سيبدأ بعدها التصعيد</th>
-                                                                    <th>الإجراء</th>
-                                                                    <th>تصعيد إلى</th>
-                                                                    <th></th>
-                                                                </tr>
-                                                            </thead>
-                                                            <tbody>
-                                                                <tr>
-                                                                    <td>23 يوم</td>
-                                                                    <td>الإجراء 1</td>
-                                                                    <td>اسم الموظف</td>
-                                                                    <td>
-                                                                            <div class="d-flex table-icon">
-                                                                                <a href="#" class="color-purple"><i class="icon-tables-edit"></i></a>
-                                                                                <a href="#" class="color-burgundy" data-toggle="modal" data-target="#Modal1"><i class="icon-tables-delete"></i></a>
-                                                                            </div>
-                                                                        </td>
-                                                                </tr>
-                                                                            <tr>
-                                                                                    <td>23 يوم</td>
-                                                                                    <td>الإجراء 1</td>
-                                                                                    <td>اسم الموظف</td>
-                                                                                    <td>
-                                                                                        <div class="d-flex table-icon">
-                                                                                            <a href="#" class="color-purple"><i class="icon-tables-edit"></i></a>
-                                                                                            <a href="#" class="color-burgundy" data-toggle="modal" data-target="#Modal1"><i class="icon-tables-delete"></i></a>
-                                                                                        </div>
-                                                                                    </td>
-                                                                                </tr>
-                                                            </tbody>
-                                                        </table>
-                                                </div>
-                                            </div>
-                                          </div>
-                                          <div class="card mt-4">
-                                                <div class="card-header">
-                                                  <h3 class="m-0">التصعيد (عاجل جداً) </h3>
-                                                </div>
-                                                <div class="card-body">
-                                                    <div class="form-row">
-                                                        <div class="form-group col-lg-4 col-md-4  col-sm-6 col-xs-12">
-                                                            <label for="">عدد الأيام التي سيبدأ بعدها التصعيد<span class="red-color">*</span></label>
-                                                            <div class="input-group">
-                                                                <input type="number" class="form-control" id="dayinput" aria-describedby="emailHelp">
-                                                                <div class="input-group-prepend bg-none">
-                                                                    <div class="input-group-text">يوم</div>
-                                                                </div>
-                                                            </div>
-                                                            <small class="form-text text-muted">أدخل رقم أقل من 500</small>
-                                                        </div>
-                                                
-                                                        <div class="form-group col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                                                            <label for="">الإجراء
-                                                                <span class="red-color">*</span>
-                                                            </label>
-                                                            <select class="form-control">
-                                                                <option selected="">الإجراء 1</option>
-                                                                <option>...</option>
-                                                            </select>
-                                                        </div>
-                                                        <div class="form-group col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                                                            <label for="">تصعيد إلى
-                                                                <span class="red-color">*</span>
-                                                            </label>
-                                                            <select class="form-control">
-                                                                <option selected="">الكل</option>
-                                                                <option>...</option>
-                                                            </select>
-                                                        </div>
-                                                        <div class="form-group col-lg-12 col-md-12 col-xs-12 col-sm-12 d-flex pr-0">
-                                                                <small class="text-danger ml-auto">
-                                                                    يرجى تعبئة الحقول التي تحتوي على إشارة *
-                                                                </small>
-                                                            </div>
-                                                    </div>
-    
-                                                    <div class="pull-right">
-                                                    <button class="btn btn-st1">إضافة</button>
-                                                </div>
-                                                </div>
-                                              </div>
-
+                                        </div>
+                                        <small class="form-text text-muted">أدخل رقم أقل من 500</small>
+                                    </div>
+                
+                                    <div class="form-group col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                                        <label for="">الإجراء
+                                            <span class="red-color">*</span>
+                                        </label>
+                                        <select class="form-control">
+                                            <option selected="">الإجراء 1</option>
+                                            <option>...</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                                        <label for="">تصعيد إلى
+                                            <span class="red-color">*</span>
+                                        </label>
+                                        <select class="form-control">
+                                            <option selected="">الكل</option>
+                                            <option>...</option>
+                                        </select>
+                                    </div>
+                                    <div class="form-group col-lg-12 col-md-12 col-xs-12 col-sm-12 d-flex">
+                                        <small class="text-danger ml-auto">
+                                            يرجى تعبئة الحقول التي تحتوي على إشارة *
+                                        </small>
+                                    </div>
+                                    <div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12 align-self-end  d-flex">
+                                        <button type="submit" class="btn btn-st1 btn-lg w-xs-100 ml-auto">
+                                            إضافة
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 </div>
             </div>
             <div class="mx-3 mx-md-5 mb-4 d-flex">
-                    <button class="btn btn-lg btn-st3 ml-auto" data-dismiss="modal"> حفظ التصعيد </button>
-                </div>
+                <button class="btn btn-lg btn-st3 ml-auto" data-dismiss="modal"> حفظ التصعيد </button>
+            </div>
 
     </div>
 
