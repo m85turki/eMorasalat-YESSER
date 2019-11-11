@@ -1095,11 +1095,6 @@ a.aExplanation {
 }
 
 /* Dashboard Cards */
-.dashboard-cards{
-
-}
-
-
     .card-grid{
         width: 100%;
         padding: 1rem;
@@ -1264,7 +1259,10 @@ form, .form-row, .form-group, .form-control{
     border-radius: 5px;
     line-height: normal;
 }
+<<<<<<< HEAD
+=======
 
+>>>>>>> 64a8a9f26823b64486cd9a34601671fa4b75a7ce
 .jconfirm.jconfirm-yasser-theme .jconfirm-box .jconfirm-content-pane{
     margin-bottom: 15px;
     height: auto;
@@ -1276,7 +1274,10 @@ form, .form-row, .form-group, .form-control{
     overflow-x: hidden;
     overflow-y: auto;
 }
+<<<<<<< HEAD
+=======
 
+>>>>>>> 64a8a9f26823b64486cd9a34601671fa4b75a7ce
 .jconfirm.jconfirm-yasser-theme .jconfirm-box .jconfirm-buttons button{
     display: inline-block;
     font-weight: 400;
@@ -1864,7 +1865,6 @@ position :relative;
 .attach-file-icon-list li {
     list-style: none;
     display: inline-block;
-    float: right;
 }
 .attach-file-icon-list li button {
     padding: 10px;
@@ -2598,3 +2598,35 @@ h3.white-c-title{
 .form-check-label {
     white-space: pre;
 }
+
+/* Drag */
+.drag-item-style{
+    border: 1px dashed #b7b7b7;
+    padding: 10px;
+    border-radius: 7px;
+    width: auto;
+    display: inline-block;
+}
+
+    .drag-item-style:hover{
+        border: 1px dashed #4A90E2;
+        padding: 10px;
+        border-radius: 7px;
+        width: auto;
+        display: inline-block;
+    }
+
+.drag-stage-style{
+    border: 1px dashed #b7b7b7;
+    padding: 0px;
+    border-radius: 7px;
+    width: auto;
+    display:inline-block;
+    position: relative;
+}
+    .drag-stage-style .stage-note{
+        position: absolute;
+        margin: auto auto;
+        text-align: center;
+        color:rgba(0, 0, 0, 0.20);
+    }
