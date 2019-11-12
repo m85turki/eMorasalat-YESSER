@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link type="image/x-icon" rel="shortcut icon" href="./favicon.ico">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="theme-color" content="#0c7c5a">
+    <title>مراسلات</title>
+
+    <link type="image/x-icon" rel="shortcut icon" href="./favicon.ico">
+
+    <!-- Bootstrap RTL -->
+    <link href="../assets/bootstrap/css/bootstrap.min.rtl.css" rel="stylesheet">
+    <link href="../assets/bootstrap/css/bootstrap.form.rtl.css" rel="stylesheet">
+    <link href="../assets/bootstrap/css/bootstrap.grid.rtl.css" rel="stylesheet">
+
+    <!-- Main -->
+    <link href="../assets/css/main.css" rel="stylesheet">
+    <link href="../assets/css/style.css" rel="stylesheet">
+
+    <!-- Vertical Menu -->
+    <link rel="stylesheet" type="text/css" href="../assets/plugins/vertical-menu/vertical-menu.min.css">
+
+    <!-- Confirm -->
+    <link rel="stylesheet" type="text/css" href="../assets/plugins/confirm/jquery-confirm.min.css" />
+
+    <!-- RTL -->
+    <link href="../assets/css/d-rtl.css" rel="stylesheet">
+
+</head>
+
+<body class="vertical-layout vertical-menu 2-columns   menu-flipped fixed-navbar " data-open="click"
+    data-menu="vertical-menu" data-col="2-columns" dir="rtl">
+    <div class="fixed-top">
+        <div class="top-header">
+            <div class="container-fluid">
+                <div class="d-flex flex-row">
+                    <div class="">
+                        <a class="main_logo" href="#">
+                            <img src="../assets/images/logo-morasalat.png" title="" alt="">
+                        </a>
+                    </div>
+
+                    <div class="d-flex ml-auto  mr-0 align-content-around flex-wrap h-side">
+                        <div class="dropdown px-1 px-md-2">
+                            <a id="drop1" href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <div class="d-inline manager"> إسم الإدارة: الإدارة العليا
+								</div>
+								<div class="manager2">...</div>
+									<i class="la la-angle-down"></i>
+                            </a>
+
+                        <ul class="dropdown-menu admins fadeIn animated" aria-labelledby="drop1">
+                            <li class="active">
+                                <a class="notification-row d-flex ">
+                                    <div>
+                                        <span>اسم الادارة 1 </span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="notification-row d-flex">
+                                    <div>
+                                        <span>اسم الادارة 2 </span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="notification-row d-flex">
+                                    <div>
+                                        <span>اسم الادارة 3 </span>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                        </div>
+
+                        <div class="user-settings dropdown  px-1 px-md-2 ml-0">
+                            <a id="drop1" href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <span class="h-avatar mx-2">
+                                    <img src="../assets/images/businessman.png">
+                                </span>
+								<div class="name d-inline"> أشرف حسين محمد الشيخ </div>
+                                <i class="la la-angle-down"></i>
+                            </a>
+                        <ul class="dropdown-menu employee_dd  fadeIn animated" aria-labelledby="drop1">
+                            <li class="name2">
+                                <div class="site-color name-p">
+                                    <span>أشرف حسين محمد الشيخ </span>
+                                </div>
+                            </li>
+                            <li>
+                                <a class="notification-row d-flex">
+                                    <i class="icon-signature"></i>
+                                    <div>
+                                        <span>التوقيع والتأشير </span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="notification-row d-flex">
+                                    <i class="icon-referral"></i>
+                                    <div>
+                                        <span> ورقة الإحالة </span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="notification-row d-flex">
+                                    <i class="icon-distribution"></i>
+                                    <div>
+                                        <span>قائمة التوزيع</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="notification-row d-flex">
+                                    <i class="icon-track"></i>
+                                    <div>
+                                        <span> المسارات</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a class="notification-row d-flex">
+                                    <i class="icon-authorization"></i>
+                                    <div>
+                                        <span> التفويض</span>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                        </div>
+
+                        <div class="top-icons new-view">
+                            <div class="d-flex">
+                            <div class="searchbox pr-2 pl-5 flex-grow-1">
+                                <div class="h-search">
+                                    <i onclick="focusMethod()" data-toggle="tooltip" data-placement="bottom" title="" class="la la-search" data-original-title="البحث السريع"></i>
+                                    <input class="myTextField" type="text" name="search" placeholder="البحث هنا">
+                                </div>
+                                <script>
+                                    focusMethod = function getFocus() {
+                                        $('.myTextField').focus();
+                                    }
+                                </script>
+                            </div>
+                            <div class="notifications dropdown px-2">
+                             <a href="#" class="dropdown-toggle white-notification" aria-haspopup="false" aria-expanded="true" data-toggle="dropdown" data-toggle-second="tooltip" data-placement="bottom" title="" data-original-title="التنبيهات">
+                                    <em class="notification_sticky"></em>
+                              <i class="la la-bell "></i>
+                                </a>
+                                <ul class="dropdownposition dropdown-menu  fadeIn animated" aria-labelledby="drop1">
+                                    <li>
+                                        <a href="#" class="d-flex notification-row">
+                                            <i class="la la-bell bold2"></i>
+                                            <span class="bold2">التنبيهات</span>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="d-flex bgchange notification-row">
+                                            <i class="icon-assignment-return"></i>
+                                            <div>
+                                                <span>تم إرجاع معاملة</span>
+                                                <div class="pt-1 pr-3 pl-1 light-gray2 flex-column"> 28 تشرين الثاني 2018</div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="d-flex bgchange notification-row">
+                                            <i class="icon-assignment-delivered"></i>
+                                            <div>
+                                                <span>تم استلام معاملة</span>
+                                                <div class="pt-1 pr-3 pl-1 light-gray2 flex-column"> 28 تشرين الثاني 2018</div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="d-flex notification-row">
+                                            <i class="icon-assignment-new"></i>
+                                            <div>
+                                                <span>تم استلام مهمة جديدة</span>
+                                                <div class="pt-1 pr-3 pl-1 light-gray2 flex-column"> 28 تشرين الثاني 2018</div>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="notifications.html" class="d-flex notification-row more">
+                                            <div class="w-100">إظهار المزيد</div>
+                                        </a>
+                                    </li>
+                                
+                                </ul>
+                            </div>
+                            <div class="px-2">
+                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="" class="chatbtn white-notification" data-original-title="المحادثات">
+                                    <em class="notification_sticky"></em>
+                                    <i class="la la-comments "></i>
+                                </a>
+                            </div>
+                            <div class="px-2">
+                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="الدعم الفني">
+                                    <i class="la la-headphones"></i>
+                                </a>
+                            </div>
+                            <div class="px-2">
+                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="المساعدة" class="help">
+                                    <i class="la la-question-circle"></i>
+                                </a>
+                            </div>
+                            <div class="px-2">
+                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="English">
+                                    <i class="la la-globe"></i>
+                                </a>
+                            </div>
+                            <div class="pl-2 pr-0">
+                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="خروج">
+                                    <i class="la la-power-off"></i>
+                                </a>
+                            </div>
+                        </div>
+                        </div>
+						<div class="right-arrow mr-auto">
+                                <i class="la la-angle-right pl-2"></i>
+						</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- start of fixed header -->
+        <nav class="navbar navbar-default  navbar-second">
+            <div class="container-fluid">
+                <div class="row row-custom">
+                    <div class="navbar-header d-flex">
+                        <div class="mobile-menu d-md-none mr-auto">
+                            <a class="nav-link nav-menu-main menu-toggle is-active" href="#">
+                                <i class="la la-ellipsis-h"></i>
+                            </a>
+                        </div>
+                        <div class="ml-auto">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-expanded="false" aria-controls="navbar">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+                    </div>
+					  <div class="navbar-collapse collapse" id="navbarToggleExternalContent">
+					<div class="searchbox2 px-2">
+                                <div class="h-search">
+                                    <i onclick="focusMethod()" data-toggle="tooltip" data-placement="bottom" title="" class="la la-search" data-original-title="البحث السريع"></i>
+                                    <input class="myTextField" type="text" name="search" placeholder="البحث هنا">
+                                </div>
+                                <script>
+                                    focusMethod = function getFocus() {
+                                        $('.myTextField').focus();
+                                    }
+                                </script>
+                            </div>
+						  <div class="d-flex top-icons2 h-side">
+                            <div class="notifications dropdown px-2">
+                             <a href="#" class="dropdown-toggle white-notification" data-toggle="dropdown" aria-haspopup="false" aria-expanded="true" data-placement="bottom" title="التنبيهات">
+                                    <em class="notification_sticky"></em>
+                              <i class="la la-bell "></i>
+                                </a>
+                             <ul class="dropdownposition dropdown-menu  fadeIn animated" aria-labelledby="drop1">
+                                   <li>
+                                   <a href="#" class="d-flex notification-row">
+									   <i class="la la-bell bold2"></i>
+										<span class="bold2">التنبيهات</span>
+										
+										</a>
+									   </li>
+									<li>
+                                        <a class="d-flex bgchange notification-row">
+											<i class="icon-assignment-return"></i>
+											<div>
+											<span>تم إرجاع معاملة</span>
+											<div class="pt-1 pr-3 pl-1 light-gray2 flex-column"> 28 تشرين الثاني 2018</div>
+												</div>
+										</a>
+										</li>
+                                     <li>
+                                        <a class="d-flex bgchange notification-row">
+											<i class="icon-assignment-delivered"></i>
+											<div>
+											<span>تم استلام معاملة</span>
+											<div class="pt-1 pr-3 pl-1 light-gray2 flex-column"> 28 تشرين الثاني 2018</div>
+												</div>
+										</a>
+                                      </li>
+									<li>
+                                        <a class="d-flex notification-row">
+											<i class="icon-assignment-new"></i>
+											<div>
+											<span>تم استلام مهمة جديدة</span>
+											<div class="pt-1 pr-3 pl-1 light-gray2 flex-column"> 28 تشرين الثاني 2018</div>
+												</div>
+										</a>
+										</li>
+                                       <li>
+									     <a href="notifications.html" class="d-flex notification-row more">
+											<div class="w-100">إظهار المزيد</div>
+						              </a>
+										   </li>
+
+                                </ul>
+
+                            </div>
+                            <div class="px-2">
+                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="" class="chatbtn white-notification" data-original-title="المحادثات">
+                                    <em class="notification_sticky"></em>
+                                    <i class="la la-comments white-notification "></i>
+                                </a>
+                            </div>
+                            <div class="px-2">
+                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="الدعم الفني">
+                                    <i class="la la-headphones"></i>
+                                </a>
+                            </div>
+                            <div class="px-2">
+                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="المساعدة" class="help2">
+                                    <i class="la la-question-circle"></i>
+                                </a>
+                            </div>
+                            <div class="px-2">
+                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="English">
+                                    <i class="la la-globe"></i>
+                                </a>
+                            </div>
+                            <div class="pl-2 pr-0">
+                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="خروج">
+                                    <i class="la la-power-off"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <ul class="nav navbar-nav px-2">
+                            <li><a href="#">المستخدمين والأدوار</a></li>
+                            <li><a href="#">الهيكل التنظيمي</a></li>
+                            <li><a href="#">الخدمات</a></li>
+                            <li><a href="#">القوائم المعرفة</a></li>
+                            <li class="active"><a href="#">الإعدادات</a></li>
+                        </ul>
+					</div>
+                </div>
+            </div>
+        </nav>
+
+    </div>
+
+    <!-- BEGIN: Vertical Menu -->
+    <div class="align-self-start main_sidebar">
+        <div class="d-none d-md-block text-left"><a class="nav-link nav-menu-main menu-toggle hidden-xs"
+                href="#"><i><img src="../assets/images/menu/menu.svg"></i></a></div>
+        <div class=" main-menu menu-fixed menu-light menu-accordion menu-icon-left" data-scroll-to-active="true"
+            style="direction:ltr;">
+            <div class="main-menu-content">
+                <ul class="navigation navigation-main" id="main-menu-navigation" data-menu="menu-navigation">
+                    <li class="nav-item active">
+                        <a href="#"><i>
+                                <img src="../assets/images/menu/general-settings.svg"></i>
+                            <span class="menu-title">العامة</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#"><i>
+                                <img src="../assets/images/menu/coding.svg"></i>
+                            <span class="menu-title">رمز التشفير</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#"><i>
+                                <img src="../assets/images/menu/bill.svg"></i>
+                            <span class="menu-title">تذكرة المراجعة</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#"><i>
+                                <img src="../assets/images/menu/speech-bubble.svg"></i>
+                            <span class="menu-title">مزود خدمة الرسائل النصية</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#"><i>
+                                <img src="../assets/images/menu/invalid-name.svg"></i>
+                            <span class="menu-title">مزود خدمة البريد الإلكتروني</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#"><i>
+                                <img src="../assets/images/menu/search-file.svg"></i>
+                            <span class="menu-title">البحث</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#"><i>
+                                <img src="../assets/images/menu/boxes.svg"></i>
+                            <span class="menu-title">الصناديق</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#"><i>
+                                <img src="../assets/images/menu/organization.svg"></i>
+                            <span class="menu-title">الجهة</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#"><i>
+                                <img src="../assets/images/menu/smartphone.svg"></i>
+                            <span class="menu-title">الأجهزة الذكية</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#"><i>
+                                <img src="../assets/images/menu/copy-document.svg"></i>
+                            <span class="menu-title">النسخة</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#"><i>
+                                <img src="../assets/images/menu/chart.svg"></i>
+                            <span class="menu-title">التصعيد</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#"><i>
+                                <img src="../assets/images/menu/calendar.svg"></i>
+                            <span class="menu-title">التاريخ</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#"><i>
+                                <img src="../assets/images/menu/counters.svg"></i>
+                            <span class="menu-title">العدادات</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- END: Vertical Menu -->
+    </div>
+    <div class="app-content content">
+            <div class="mx-3 mx-md-5 header-container d-flex flex-row align-items-center">
+                <div class="d-flex flex-column flex-lg-row align-items-lg-center flex-grow-1 mb-3 mb-lg-0">
+                    <h3 class="site-color mb-2 mb-lg-4">تذكرة المراجعة</h3>
+                    <div class="ml-lg-auto d-flex flex-column flex-md-row">
+                    </div>
+                </div>
+
+            </div>
+
+                    <div class="white-container transparent-container mx-3 mx-md-5 mb-0 pb-0 pt-0">
+                        <form>
+                            <div class="form-row">
+                                <div class="form-group col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                                    <label for="">
+                                        نوع الخط
+                                        <span class="red-color ml-1 ml-1">*</span>
+                                    </label>
+                                    <select class="form-control">
+                                        <option selected="">اختر...</option>
+                                        <option>cairo</option>
+                                    </select>
+                                </div>
+                                <div class="form-group col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                                    <label for="">
+                                        حجم الخط
+                                        <span class="red-color ml-1 ml-1">*</span>
+                                    </label>
+                                    <select class="form-control">
+                                        <option selected="">اختر...</option>
+                                        <option>10</option>
+                                    </select>
+                                </div>
+                                <div class="form-group col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                                    <label for="">
+                                        الحجم
+                                        <span class="red-color ml-1 ml-1">*</span>
+                                    </label>
+                                    <div class="input-group">
+                                        <input type="number" aria-label="First name" class="form-control" placeholder="الطول">
+                                        <div class="input-group-prepend input-group-center">
+                                            <span class="input-group-text"><i class="la la-times"></i></span>
+                                        </div>
+                                        <input type="number" aria-label="Last name" class="form-control" placeholder="العرض">
+                                    </div>
+                                </div>
+                                <div class="form-group col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                                    <label for="">الوحدة <span class="red-color ml-1">*</span> </label>
+                                    <select class="form-control">
+                                        <option selected="">cm</option>
+                                        <option>...</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="white-container  mx-3 mx-md-5">
+                        <div class="w-100 d-flex align-items-center mt-2 mb-2">
+                            <h3 class="white-c-title">معرفات تذكرة المراجعة</h3>
+                        </div>
+            
+                        <form>
+                            <div class="form-row">
+                                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                    <div class="form-row">
+                                        <div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                            <label for="">
+                                                رمز تشفير ثلاثي الأبعاد
+                                                <span class="red-color ml-1 ml-1">*</span>
+                                            </label>
+                                            <div>
+                                                <div class="drag-item-style">
+                                                    <img src="../assets/images/qr-code.svg">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                            <label for="">
+                                                رمز تشفير ثنائي الأبعاد
+                                                <span class="red-color ml-1 ml-1">*</span>
+                                            </label>
+                                            <div>
+                                                <div class="drag-item-style">
+                                                    <img src="../assets/images/barcode.svg">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                            <label for="">
+                                                شعار الجهة  
+                                            </label>
+                                            <div>
+                                                <div class="drag-item-style">
+                                                    <img src="../assets/images/logo-icon.jpg" height="40">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                            <label for="">
+                                                 اسم الجهة
+                                            </label>
+                                            <div>
+                                                <div class="drag-item-style">
+                                                     اسم الجهة
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                            <label for="">
+                                                 تاريخ المعاملة
+                                            </label>
+                                            <div>
+                                                <div class="drag-item-style">
+                                                    تاريخ المعاملة
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                            <label for="">
+                                                 رقم المعاملة
+                                            </label>
+                                            <div>
+                                                <div class="drag-item-style">
+                                                    رقم المعاملة
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group col-lg-8 col-md-8 col-sm-6 col-xs-12">
+                                    <div>
+                                        <div class="drag-stage-style d-flex justify-content-center align-items-center"
+                                            style="width: 300px; height: 400px;">
+                                            <div class="stage-note">منطقة السحب والإفلات</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+            
+                        <div class="form-group col-lg-12 col-md-12 col-xs-12 col-sm-12 d-flex pr-0">
+                            <small class="text-danger ml-auto">
+                                يرجى تعبئة الحقول التي تحتوي على إشارة *
+                            </small>
+                        </div>
+                    </div>
+                    <div class="mx-3 mx-md-5 mb-4 d-flex">
+                        <div class="ml-auto">
+                            <button class="btn btn-st1 btn-lg mx-1 mb-2">حفظ</button>
+                            <button class="btn btn-st2 btn-lg mx-1 mb-2">إلغاء</button>
+                        </div>
+                    </div>
+
+            </div>
+
+    </div>
+    <!-- jQuery -->
+    <script src="../assets/js/jquery.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../assets/js/bootstrap-select.js"></script>
+    <script src="../assets/js/jquery.matchHeight-min.js"></script>
+    <script src="../assets/js/aos.js"></script>
+    <script src="../assets/js/jquery.slimscroll.min.js"></script>
+    <script src="../assets/js/app.js"></script>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
+    <script>
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
+
+    <!--QBS Script -->
+
+
+    <!-- sort and filter scripts-->
+
+    <!-- Vertical Menu css-->
+    <script src="../assets/plugins/vertical-menu/vendors.min.js"></script>
+    <script src="../assets/plugins/vertical-menu/app-menu.min.js"></script>
+    <script src="../assets/plugins/vertical-menu/app.min.js"></script>
+
+</body>
+
+</html>
