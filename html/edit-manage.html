@@ -407,16 +407,16 @@
             <form>
                 <div class="form-row">
                     <div class="form-group col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                        <label for="">إسم الإدارة بالعربية<span class="red-color ml-1">*</span></label>
+                        <label for="">إسم الإدارة بالعربية<span class="red-color ml-1 ml-1">*</span></label>
                         <input type="text" class="form-control">
                     </div>
                     <div class="form-group col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                        <label for="">إسم الإدارة بالإنجليزية<span class="red-color ml-1">*</span></label>
+                        <label for="">إسم الإدارة بالإنجليزية<span class="red-color ml-1 ml-1">*</span></label>
                         <input type="text" class="form-control">
                     </div>
                     <div class="form-group col-lg-3 col-md-4 col-sm-6 col-xs-12">
                         <label for=""> المعاملة المتأخرة بعد
-                            <span class="red-color">*</span>
+                            <span class="red-color ml-1">*</span>
                         </label>
                         <div class="input-group">
                             <input type="number" class="form-control" id="dayinput" aria-describedby="emailHelp">
@@ -499,198 +499,611 @@
                                     </ul>
                                     <div class="tab-content">
                                     <div class="tab-pane active" role="tabpanel" id="sub-tab-1">
-                                            <form>
-                                                    <div class="form-row">
-                                                        <div class="form-group col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                                                            <label for="">نوع الخط <span class="red-color">*</span></label>
-                                                            <select class="form-control">
-                                                                    <option selected="">اختر...</option>
-                                                                    <option>cairo</option>
-                                                                </select>
-                                                        </div>
-                                                        <div class="form-group col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                                                            <label for="">حجم الخط
-                                                                    <span class="red-color">*</span>
-                                                            </label>
-                                                            <select class="form-control">
-                                                                    <option selected="">اختر...</option>
-                                                                    <option>10</option>
-                                                                </select>
-                                                        </div>
-                                                        <div class="form-group col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                                                                <label for=""> الحجم <span class="red-color">*</span></label>
-                                                            <div class="input-group">
-                                                                    <input type="text" aria-label="First name" class="form-control" placeholder="الطول">
-                                                                    <div class="input-group-prepend input-group-center">
-                                                                            <span class="input-group-text"><i class="la la-times"></i></span>
-                                                                        </div>
-                                                                    <input type="text" aria-label="Last name" class="form-control" placeholder="العرض">
-                                                            </div>
-                                                        </div>
-                                                        <div class="form-group col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                                                            <label for="">الوحدة <span class="red-color">*</span> </label>
-                                                            <select class="form-control">
-                                                                    <option selected="">cm</option>
-                                                                    <option>...</option>
-                                                                </select>
-                                                            </div>
-                                                        </div>
-                                                    </form>
-                                                    <div class="title-box d-flex">
-                                                            <div class="d-flex align-items-center mt-2 mb-2">
-                                                                <h3 class="white-c-title"> الصلاحيات</h3>
-                                                            </div>
-                                                        </div>
-                                                        <div>
-                                                        <img src="../assets/images/CODE.png" alt="code" width="593px">
-                                                    </div>
-                                                    <div class="title-box d-flex">
-                                                            <div class="d-flex align-items-center mt-2 mb-2">
-                                                                <h3 class="white-c-title"> محتويات رمز التشفير لمرفقات</h3>
-                                                            </div>
-                                                    </div>
-                                                    <div>
-                                                        <img src="../assets/images/CODE2.png" alt="code2">
-                                                    </div>
-                                                    <div class="form-group col-lg-12 col-md-12 col-xs-12 col-sm-12 d-flex pr-0">
-                                                        <small class="text-danger ml-auto">
-                                                            يرجى تعبئة الحقول التي تحتوي على إشارة *
-                                                        </small>
-                                                    </div>
-                                                 <div class="pull-right">
-                                                    <button type="submit" class="btn btn-st1 btn-lg mr-2" data-toggle="modal" data-target="#MyModal">حفظ</button>
-                                                    <button type="submit" class="btn btn-st2 btn-lg" data-toggle="modal" data-target="#MyModal">إلغاء</button>
-                                                </div>
-                                                    </div>
-
-                                <div role="tabpanel" class="tab-pane" id="sub-tab-2">
                                         <form>
+                                            <div class="form-row">
+                                                <div class="form-group col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                                                    <label for="">نوع الخط <span class="red-color ml-1">*</span></label>
+                                                    <select class="form-control">
+                                                        <option selected="">اختر...</option>
+                                                        <option>cairo</option>
+                                                    </select>
+                                                </div>
+                                                <div class="form-group col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                                                    <label for="">حجم الخط
+                                                        <span class="red-color ml-1">*</span>
+                                                    </label>
+                                                    <select class="form-control">
+                                                        <option selected="">اختر...</option>
+                                                        <option>10</option>
+                                                    </select>
+                                                </div>
+                                                <div class="form-group col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                                                    <label for=""> الحجم <span class="red-color ml-1">*</span></label>
+                                                    <div class="input-group">
+                                                        <input type="text" aria-label="First name" class="form-control" placeholder="الطول">
+                                                        <div class="input-group-prepend input-group-center">
+                                                            <span class="input-group-text"><i class="la la-times"></i></span>
+                                                        </div>
+                                                        <input type="text" aria-label="Last name" class="form-control" placeholder="العرض">
+                                                    </div>
+                                                </div>
+                                                <div class="form-group col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                                                    <label for="">الوحدة <span class="red-color ml-1">*</span> </label>
+                                                    <select class="form-control">
+                                                        <option selected="">cm</option>
+                                                        <option>...</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </form>
+                                        <div class="title-box d-flex">
+                                            <div class="d-flex align-items-center mt-2 mb-2">
+                                                <h3 class="white-c-title"> الصلاحيات</h3>
+                                            </div>
+                                        </div>
+                                        <div class="form-row">
+                                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                                                 <div class="form-row">
-                                                    <div class="form-group col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                                                        <label for="">نوع الخط <span class="red-color">*</span></label>
-                                                        <select class="form-control">
-                                                                <option selected="">اختر...</option>
-                                                                <option>cairo</option>
-                                                            </select>
-                                                    </div>
-                                                    <div class="form-group col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                                                        <label for="">حجم الخط
-                                                                <span class="red-color">*</span>
+                                                    <div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                        <label for="">
+                                                            رمز تشفير ثلاثي الأبعاد
+                                                            <span class="red-color ml-1 ml-1">*</span>
                                                         </label>
-                                                        <select class="form-control">
-                                                                <option selected="">اختر...</option>
-                                                                <option>10</option>
-                                                            </select>
-                                                    </div>
-                                                    <div class="form-group col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                                                            <label for=""> الحجم <span class="red-color">*</span></label>
-                                                        <div class="input-group">
-                                                                <input type="text" aria-label="First name" class="form-control" placeholder="الطول">
-                                                                <div class="input-group-prepend input-group-center">
-                                                                        <span class="input-group-text"><i class="la la-times"></i></span>
-                                                                    </div>
-                                                                <input type="text" aria-label="Last name" class="form-control" placeholder="العرض">
+                                                        <div>
+                                                            <div class="drag-item-style">
+                                                                <img src="../assets/images/qr-code.svg">
+                                                            </div>
                                                         </div>
                                                     </div>
-                                                    <div class="form-group col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                                                        <label for="">الوحدة <span class="red-color">*</span> </label>
-                                                        <select class="form-control">
-                                                                <option selected="">cm</option>
-                                                                <option>...</option>
-                                                            </select>
+                                                    <div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                        <label for="">
+                                                            رمز تشفير ثنائي الأبعاد
+                                                            <span class="red-color ml-1 ml-1">*</span>
+                                                        </label>
+                                                        <div>
+                                                            <div class="drag-item-style">
+                                                                <img src="../assets/images/barcode.svg">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                        <label for="">
+                                                            الإدارة المعدة للوارد
+                                                        </label>
+                                                        <div>
+                                                            <div class="drag-item-style">
+                                                                الإدارة المعدة للوارد
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                        <label for="">
+                                                            تاريخ المعاملة
+                                                        </label>
+                                                        <div>
+                                                            <div class="drag-item-style">
+                                                                تاريخ المعاملة
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                        <label for="">
+                                                            رقم المعاملة
+                                                        </label>
+                                                        <div>
+                                                            <div class="drag-item-style">
+                                                                رقم المعاملة
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                 </div>
-                                            </form>
-                                            <div class="title-box d-flex">
-                                                    <div class="d-flex align-items-center mt-2 mb-2">
-                                                        <h3 class="white-c-title"> الصلاحيات</h3>
-                                                    </div>
-                                                </div>
+                                            </div>
+                                            <div class="col-lg-8 col-md-8 col-sm-6 col-xs-12">
                                                 <div>
-                                                <img src="../assets/images/CODE3.png" alt="code" width="593px">
-                                            </div>
-                                            <div class="title-box d-flex">
-                                                    <div class="d-flex align-items-center mt-2 mb-2">
-                                                        <h3 class="white-c-title"> محتويات رمز التشفير لمرفقات</h3>
+                                                    <div class="drag-stage-style d-flex justify-content-center align-items-center"
+                                                        style="width: 300px; height: 400px;">
+                                                        <div class="stage-note">منطقة السحب والإفلات</div>
                                                     </div>
+                                                </div>
                                             </div>
-                                            <div>
-                                                <img src="../assets/images/CODE4.png" alt="code2">
+                                        </div>
+                                        <div class="title-box d-flex">
+                                            <div class="d-flex align-items-center mt-2 mb-2">
+                                                <h3 class="white-c-title"> محتويات رمز التشفير لمرفقات</h3>
                                             </div>
-                                            <div class="form-group col-lg-12 col-md-12 col-xs-12 col-sm-12 d-flex pr-0">
-                                                <small class="text-danger ml-auto">
-                                                    يرجى تعبئة الحقول التي تحتوي على إشارة *
-                                                </small>
+                                        </div>
+                                        <form>
+                                            <div class="form-row">
+                                                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                                    <div class="form-row">
+                                                        <div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                            <label for="">
+                                                                رمز تشفير ثلاثي الأبعاد
+                                                                <span class="red-color ml-1 ml-1">*</span>
+                                                            </label>
+                                                            <div>
+                                                                <div class="drag-item-style">
+                                                                    <img src="../assets/images/qr-code.svg">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                            <label for="">
+                                                                رمز تشفير ثنائي الأبعاد
+                                                                <span class="red-color ml-1 ml-1">*</span>
+                                                            </label>
+                                                            <div>
+                                                                <div class="drag-item-style">
+                                                                    <img src="../assets/images/barcode.svg">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                            <label for="">
+                                                                الإدارة
+                                                            </label>
+                                                            <div>
+                                                                <div class="drag-item-style">
+                                                                    الإدارة
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                            <label for="">
+                                                                تاريخ
+                                                            </label>
+                                                            <div>
+                                                                <div class="drag-item-style">
+                                                                    تاريخ
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                            <label for="">
+                                                                إسم المرفق
+                                                            </label>
+                                                            <div>
+                                                                <div class="drag-item-style">
+                                                                    إسم المرفق
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                            <label for="">
+                                                                عدد المرفقات
+                                                            </label>
+                                                            <div>
+                                                                <div class="drag-item-style">
+                                                                    عدد المرفقات
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group col-lg-8 col-md-8 col-sm-6 col-xs-12">
+                                                    <div>
+                                                        <div class="drag-stage-style d-flex justify-content-center align-items-center"
+                                                            style="width: 300px; height: 400px;">
+                                                            <div class="stage-note">منطقة السحب والإفلات</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
                                             </div>
-                                         <div class="pull-right">
+                                        </form>
+                                        <div class="form-group col-lg-12 col-md-12 col-xs-12 col-sm-12 d-flex pr-0">
+                                            <small class="text-danger ml-auto">
+                                                يرجى تعبئة الحقول التي تحتوي على إشارة *
+                                            </small>
+                                        </div>
+                                        <div class="pull-right">
                                             <button type="submit" class="btn btn-st1 btn-lg mr-2" data-toggle="modal" data-target="#MyModal">حفظ</button>
                                             <button type="submit" class="btn btn-st2 btn-lg" data-toggle="modal" data-target="#MyModal">إلغاء</button>
                                         </div>
-                                </div>
-                                <div role="tabpanel" class="tab-pane" id="sub-tab-3">
-                                    <form>
-                                        <div class="form-row">
-                                            <div class="form-group col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                                                <label for="">نوع الخط <span class="red-color">*</span></label>
-                                                <select class="form-control">
-                                                    <option selected="">اختر...</option>
-                                                    <option>cairo</option>
-                                                </select>
-                                            </div>
-                                            <div class="form-group col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                                                <label for="">حجم الخط
-                                                    <span class="red-color">*</span>
-                                                </label>
-                                                <select class="form-control">
-                                                    <option selected="">اختر...</option>
-                                                    <option>10</option>
-                                                </select>
-                                            </div>
-                                            <div class="form-group col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                                                    <label for=""> الحجم <span class="red-color">*</span></label>
-                                                <div class="input-group">
+                                    </div>
+                                    <div class="tab-pane" role="tabpanel" id="sub-tab-2">
+                                        <form>
+                                            <div class="form-row">
+                                                <div class="form-group col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                                                    <label for="">نوع الخط <span class="red-color ml-1">*</span></label>
+                                                    <select class="form-control">
+                                                        <option selected="">اختر...</option>
+                                                        <option>cairo</option>
+                                                    </select>
+                                                </div>
+                                                <div class="form-group col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                                                    <label for="">حجم الخط
+                                                        <span class="red-color ml-1">*</span>
+                                                    </label>
+                                                    <select class="form-control">
+                                                        <option selected="">اختر...</option>
+                                                        <option>10</option>
+                                                    </select>
+                                                </div>
+                                                <div class="form-group col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                                                    <label for=""> الحجم <span class="red-color ml-1">*</span></label>
+                                                    <div class="input-group">
                                                         <input type="text" aria-label="First name" class="form-control" placeholder="الطول">
                                                         <div class="input-group-prepend input-group-center">
-                                                                <span class="input-group-text"><i class="la la-times"></i></span>
-                                                            </div>
+                                                            <span class="input-group-text"><i class="la la-times"></i></span>
+                                                        </div>
                                                         <input type="text" aria-label="Last name" class="form-control" placeholder="العرض">
+                                                    </div>
+                                                </div>
+                                                <div class="form-group col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                                                    <label for="">الوحدة <span class="red-color ml-1">*</span> </label>
+                                                    <select class="form-control">
+                                                        <option selected="">cm</option>
+                                                        <option>...</option>
+                                                    </select>
                                                 </div>
                                             </div>
-                                            <div class="form-group col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                                                <label for="">الوحدة <span class="red-color">*</span> </label>
-                                                <select class="form-control">
-                                                    <option selected="">cm</option>
-                                                    <option>...</option>
-                                                </select>
+                                        </form>
+                                        <div class="title-box d-flex">
+                                            <div class="d-flex align-items-center mt-2 mb-2">
+                                                <h3 class="white-c-title"> الصلاحيات</h3>
                                             </div>
                                         </div>
-                                    </form>
-                                    <div class="title-box d-flex">
-                                        <div class="d-flex align-items-center mt-2 mb-2">
-                                            <h3 class="white-c-title"> الصلاحيات</h3>
+                                        <div class="form-row">
+                                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                                <div class="form-row">
+                                                    <div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                        <label for="">
+                                                            رمز تشفير ثلاثي الأبعاد
+                                                            <span class="red-color ml-1 ml-1">*</span>
+                                                        </label>
+                                                        <div>
+                                                            <div class="drag-item-style">
+                                                                <img src="../assets/images/qr-code.svg">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                        <label for="">
+                                                            رمز تشفير ثنائي الأبعاد
+                                                            <span class="red-color ml-1 ml-1">*</span>
+                                                        </label>
+                                                        <div>
+                                                            <div class="drag-item-style">
+                                                                <img src="../assets/images/barcode.svg">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                        <label for="">
+                                                            الإدارة المعدة للوارد
+                                                        </label>
+                                                        <div>
+                                                            <div class="drag-item-style">
+                                                                الإدارة المعدة للوارد
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                        <label for="">
+                                                            تاريخ المعاملة
+                                                        </label>
+                                                        <div>
+                                                            <div class="drag-item-style">
+                                                                تاريخ المعاملة
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                        <label for="">
+                                                            رقم المعاملة
+                                                        </label>
+                                                        <div>
+                                                            <div class="drag-item-style">
+                                                                رقم المعاملة
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-8 col-md-8 col-sm-6 col-xs-12">
+                                                <div>
+                                                    <div class="drag-stage-style d-flex justify-content-center align-items-center"
+                                                        style="width: 300px; height: 400px;">
+                                                        <div class="stage-note">منطقة السحب والإفلات</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="title-box d-flex">
+                                            <div class="d-flex align-items-center mt-2 mb-2">
+                                                <h3 class="white-c-title"> محتويات رمز التشفير لمرفقات</h3>
+                                            </div>
+                                        </div>
+                                        <form>
+                                            <div class="form-row">
+                                                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                                    <div class="form-row">
+                                                        <div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                            <label for="">
+                                                                رمز تشفير ثلاثي الأبعاد
+                                                                <span class="red-color ml-1 ml-1">*</span>
+                                                            </label>
+                                                            <div>
+                                                                <div class="drag-item-style">
+                                                                    <img src="../assets/images/qr-code.svg">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                            <label for="">
+                                                                رمز تشفير ثنائي الأبعاد
+                                                                <span class="red-color ml-1 ml-1">*</span>
+                                                            </label>
+                                                            <div>
+                                                                <div class="drag-item-style">
+                                                                    <img src="../assets/images/barcode.svg">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                            <label for="">
+                                                                الإدارة
+                                                            </label>
+                                                            <div>
+                                                                <div class="drag-item-style">
+                                                                    الإدارة
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                            <label for="">
+                                                                تاريخ
+                                                            </label>
+                                                            <div>
+                                                                <div class="drag-item-style">
+                                                                    تاريخ
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                            <label for="">
+                                                                إسم المرفق
+                                                            </label>
+                                                            <div>
+                                                                <div class="drag-item-style">
+                                                                    إسم المرفق
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                            <label for="">
+                                                                عدد المرفقات
+                                                            </label>
+                                                            <div>
+                                                                <div class="drag-item-style">
+                                                                    عدد المرفقات
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group col-lg-8 col-md-8 col-sm-6 col-xs-12">
+                                                    <div>
+                                                        <div class="drag-stage-style d-flex justify-content-center align-items-center"
+                                                            style="width: 300px; height: 400px;">
+                                                            <div class="stage-note">منطقة السحب والإفلات</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                        <div class="form-group col-lg-12 col-md-12 col-xs-12 col-sm-12 d-flex pr-0">
+                                            <small class="text-danger ml-auto">
+                                                يرجى تعبئة الحقول التي تحتوي على إشارة *
+                                            </small>
+                                        </div>
+                                        <div class="pull-right">
+                                            <button type="submit" class="btn btn-st1 btn-lg mr-2" data-toggle="modal" data-target="#MyModal">حفظ</button>
+                                            <button type="submit" class="btn btn-st2 btn-lg" data-toggle="modal" data-target="#MyModal">إلغاء</button>
                                         </div>
                                     </div>
-                                    <div>
-                                        <img src="../assets/images/CODE5.png" alt="code" width="593px">
-                                    </div>
-                                    <div class="title-box d-flex">
-                                        <div class="d-flex align-items-center mt-2 mb-2">
-                                            <h3 class="white-c-title"> محتويات رمز التشفير لمرفقات</h3>
+                                    <div class="tab-pane" role="tabpanel" id="sub-tab-3">
+                                        <form>
+                                            <div class="form-row">
+                                                <div class="form-group col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                                                    <label for="">نوع الخط <span class="red-color ml-1">*</span></label>
+                                                    <select class="form-control">
+                                                        <option selected="">اختر...</option>
+                                                        <option>cairo</option>
+                                                    </select>
+                                                </div>
+                                                <div class="form-group col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                                                    <label for="">حجم الخط
+                                                        <span class="red-color ml-1">*</span>
+                                                    </label>
+                                                    <select class="form-control">
+                                                        <option selected="">اختر...</option>
+                                                        <option>10</option>
+                                                    </select>
+                                                </div>
+                                                <div class="form-group col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                                                    <label for=""> الحجم <span class="red-color ml-1">*</span></label>
+                                                    <div class="input-group">
+                                                        <input type="text" aria-label="First name" class="form-control" placeholder="الطول">
+                                                        <div class="input-group-prepend input-group-center">
+                                                            <span class="input-group-text"><i class="la la-times"></i></span>
+                                                        </div>
+                                                        <input type="text" aria-label="Last name" class="form-control" placeholder="العرض">
+                                                    </div>
+                                                </div>
+                                                <div class="form-group col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                                                    <label for="">الوحدة <span class="red-color ml-1">*</span> </label>
+                                                    <select class="form-control">
+                                                        <option selected="">cm</option>
+                                                        <option>...</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </form>
+                                        <div class="title-box d-flex">
+                                            <div class="d-flex align-items-center mt-2 mb-2">
+                                                <h3 class="white-c-title"> الصلاحيات</h3>
+                                            </div>
+                                        </div>
+                                        <div class="form-row">
+                                            <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                                <div class="form-row">
+                                                    <div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                        <label for="">
+                                                            رمز تشفير ثلاثي الأبعاد
+                                                            <span class="red-color ml-1 ml-1">*</span>
+                                                        </label>
+                                                        <div>
+                                                            <div class="drag-item-style">
+                                                                <img src="../assets/images/qr-code.svg">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                        <label for="">
+                                                            رمز تشفير ثنائي الأبعاد
+                                                            <span class="red-color ml-1 ml-1">*</span>
+                                                        </label>
+                                                        <div>
+                                                            <div class="drag-item-style">
+                                                                <img src="../assets/images/barcode.svg">
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                        <label for="">
+                                                            الإدارة المعدة للوارد
+                                                        </label>
+                                                        <div>
+                                                            <div class="drag-item-style">
+                                                                الإدارة المعدة للوارد
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                        <label for="">
+                                                            تاريخ المعاملة
+                                                        </label>
+                                                        <div>
+                                                            <div class="drag-item-style">
+                                                                تاريخ المعاملة
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                        <label for="">
+                                                            رقم المعاملة
+                                                        </label>
+                                                        <div>
+                                                            <div class="drag-item-style">
+                                                                رقم المعاملة
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-lg-8 col-md-8 col-sm-6 col-xs-12">
+                                                <div>
+                                                    <div class="drag-stage-style d-flex justify-content-center align-items-center"
+                                                        style="width: 300px; height: 400px;">
+                                                        <div class="stage-note">منطقة السحب والإفلات</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="title-box d-flex">
+                                            <div class="d-flex align-items-center mt-2 mb-2">
+                                                <h3 class="white-c-title"> محتويات رمز التشفير لمرفقات</h3>
+                                            </div>
+                                        </div>
+                                        <form>
+                                            <div class="form-row">
+                                                <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+                                                    <div class="form-row">
+                                                        <div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                            <label for="">
+                                                                رمز تشفير ثلاثي الأبعاد
+                                                                <span class="red-color ml-1 ml-1">*</span>
+                                                            </label>
+                                                            <div>
+                                                                <div class="drag-item-style">
+                                                                    <img src="../assets/images/qr-code.svg">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                            <label for="">
+                                                                رمز تشفير ثنائي الأبعاد
+                                                                <span class="red-color ml-1 ml-1">*</span>
+                                                            </label>
+                                                            <div>
+                                                                <div class="drag-item-style">
+                                                                    <img src="../assets/images/barcode.svg">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                            <label for="">
+                                                                الإدارة
+                                                            </label>
+                                                            <div>
+                                                                <div class="drag-item-style">
+                                                                    الإدارة
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                            <label for="">
+                                                                تاريخ
+                                                            </label>
+                                                            <div>
+                                                                <div class="drag-item-style">
+                                                                    تاريخ
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                            <label for="">
+                                                                إسم المرفق
+                                                            </label>
+                                                            <div>
+                                                                <div class="drag-item-style">
+                                                                    إسم المرفق
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                                                            <label for="">
+                                                                عدد المرفقات
+                                                            </label>
+                                                            <div>
+                                                                <div class="drag-item-style">
+                                                                    عدد المرفقات
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group col-lg-8 col-md-8 col-sm-6 col-xs-12">
+                                                    <div>
+                                                        <div class="drag-stage-style d-flex justify-content-center align-items-center"
+                                                            style="width: 300px; height: 400px;">
+                                                            <div class="stage-note">منطقة السحب والإفلات</div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                        <div class="form-group col-lg-12 col-md-12 col-xs-12 col-sm-12 d-flex pr-0">
+                                            <small class="text-danger ml-auto">
+                                                يرجى تعبئة الحقول التي تحتوي على إشارة *
+                                            </small>
+                                        </div>
+                                        <div class="pull-right">
+                                            <button type="submit" class="btn btn-st1 btn-lg mr-2" data-toggle="modal" data-target="#MyModal">حفظ</button>
+                                            <button type="submit" class="btn btn-st2 btn-lg" data-toggle="modal" data-target="#MyModal">إلغاء</button>
                                         </div>
                                     </div>
-                                    <div>
-                                        <img src="../assets/images/CODE4.png" alt="code2">
-                                    </div>
-                                    <div class="form-group col-lg-12 col-md-12 col-xs-12 col-sm-12 d-flex pr-0">
-                                        <small class="text-danger ml-auto">
-                                            يرجى تعبئة الحقول التي تحتوي على إشارة *
-                                        </small>
-                                    </div>
-                                    <div class="pull-right">
-                                        <button type="submit" class="btn btn-st1 btn-lg mr-2" data-toggle="modal" data-target="#MyModal">حفظ</button>
-                                        <button type="submit" class="btn btn-st2 btn-lg" data-toggle="modal" data-target="#MyModal">إلغاء</button>
-                                    </div>
-                                </div>
                             </div>
                             </div>
                             </div>
