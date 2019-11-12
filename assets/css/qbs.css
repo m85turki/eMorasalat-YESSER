@@ -396,7 +396,7 @@ h3.site-color .new-notifications-count{
 }
 
 .btn-st8:focus, .btn-st8.focus {
-    box-shadow: 0 0 0 0.2rem #343b7;
+    box-shadow: 0 0 0 0.2rem #343b77;
 	color:#343b77;
 }
 
@@ -1458,6 +1458,9 @@ a.white-notification .notification_sticky{
 }
 .w-30{
     width:30%;
+}
+.number-field{
+max-width: 120px;
 }
 /*-----------------------------------------------------------------*/
 
@@ -2635,7 +2638,6 @@ textarea.form-control {
     display: inline;
     color: #fe0000;
     font-size: 13px;
-    width: 100%;
 }
 
     .validation-error i {
