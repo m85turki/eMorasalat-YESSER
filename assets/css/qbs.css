@@ -1460,8 +1460,21 @@ a.white-notification .notification_sticky{
     width:30%;
 }
 .number-field{
-max-width: 120px;
+    max-width: 120px;
 }
+.color-burgundy .fa-times-circle{
+    font-size: 20px;
+}
+.employee-collapse i{
+    transform: rotate(180deg);
+}
+/* .purple-collapse,.purple-collapse:hover{
+    background-color: #343C76!important;
+} */
+.alert-danger{
+    font-size:14px;
+}
+
 /*-----------------------------------------------------------------*/
 
 @media(min-width:1024px) {
