@@ -2628,3 +2628,14 @@ h3.white-c-title{
         text-align: center;
         color:rgba(0, 0, 0, 0.20);
     }
+
+    .form-inline label {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-align: center;
+        align-items: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        margin-bottom: 0;
+        white-space: nowrap;
+    }
