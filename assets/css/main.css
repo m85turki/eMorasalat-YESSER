@@ -1195,9 +1195,7 @@ label {
     font-weight: normal;
 }
 
-form, .form-row, .form-group, .form-control{
-    font-size: 12pt;
-}
+
 
 .input-group-text.hyperlink {
     background-color: #06A950;
