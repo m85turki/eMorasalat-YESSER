@@ -2637,3 +2637,8 @@ h3.white-c-title{
         margin-bottom: 0;
         white-space: nowrap;
     }
+
+
+.col-table-checkbox{
+    width: 30px;
+}
