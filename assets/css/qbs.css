@@ -1343,6 +1343,7 @@ a.white-notification .notification_sticky{
 }
 .compatable{
 -ms-flex: 1 1 auto; flex: 1 1 auto; width: 1%;
+height:100%;
 }
 .right-arrow {
 	font-size: 16pt;
