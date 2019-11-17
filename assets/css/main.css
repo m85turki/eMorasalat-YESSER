@@ -137,7 +137,10 @@
     font-size: 11pt;
     color: #61669B;
     position: relative;
+    -ms-flex-align: center!important;
+    align-items: center!important;
 }
+
 .h-side .dropdown  a {
    font-size: 11pt;
     color: #61669B;

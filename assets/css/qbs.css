@@ -79,8 +79,9 @@
 .upload-btn-wrapper{
 	position: relative;
 }
+
 .user-settings .dropdown-menu i {
-    font-size: 24px;
+    font-size: 17px;
 }
 
 .h-side .notifications.dropdown > a {
