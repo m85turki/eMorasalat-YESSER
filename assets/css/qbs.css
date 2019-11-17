@@ -9,8 +9,9 @@
     opacity:0.5 !important;
 }
 
-h3.site-color .new-notifications-count{
-	color:#4a90e2 !important;
+.new-notifications-count{
+    color:#4a90e2 !important;
+    font-size: 15px;
 }
 .site-color{
 	color:#262F6B!important;
