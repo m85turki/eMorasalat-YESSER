@@ -1181,6 +1181,7 @@ a.aExplanation {
     color: #262A56;
     font-size: 45pt;
     padding-bottom: 15px;
+    text-align: center;
 }
 
 .dashboard-cards .card .card-c .text {
