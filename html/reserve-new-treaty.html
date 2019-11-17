@@ -384,75 +384,77 @@
 	
 	
     <div class="container-all">
-<div class="mb-3 mx-5 mx-xs-3 header-container2 d-flex align-items-center">
-                    <h3 class="site-color mt-xs-4"> حجز معاملة جديدة </h3>
-					<div class="close-icon mt-0 ml-auto" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="إغلاق">
-                <a class="circle-icon color-white" href="#"><i class="la la-close"></i></a>
-            </div>
-            </div>
+            <div class="mx-3 mx-md-5 header-container d-flex flex-row align-items-center">
+                    <div class="d-flex flex-column flex-lg-row align-items-lg-center flex-grow-1 mb-3 mb-lg-0">
+                        <h3 class="site-color mb-2 mb-lg-4">حجز معاملة جديدة</h3>
+                        <div class="ml-lg-auto d-flex flex-column flex-md-row">
+                            <div></div>
+                        </div>
+                    </div>
+                    <div class="close-icon pl-2 mt-0 ml-auto">
+                        <a class="circle-icon color-white" href="#" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="إغلاق"><i class="la la-close"></i></a>
+                    </div>
+                </div>
 		<div class="content_container">
             <div class="white-container mx-5 mx-xs-3">
-				<div class="form-row">
-                                     <div class="form-group col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                            <label for="">نوع المعاملة
-								<span class="red-color">*</span>
-							</label>
-                            <select class="form-control">
-                                <option selected="">نوع المعاملة</option>
-                                <option>...</option>
-                            </select>
+                <div class="form-row">
+                    <div class="form-group col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                        <label for="">نوع المعاملة
+                            <span class="red-color">*</span>
+                        </label>
+                        <select class="form-control">
+                            <option selected="">نوع المعاملة</option>
+                            <option>...</option>
+                        </select>
+                    </div>
+                
+                
+                    <div class="form-group col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                        <label for=""> الإدارة التي طلبت الحجز
+                            <span class="red-color">*</span>
+                        </label>
+                        <select class="form-control">
+                            <option selected="">الإدارة</option>
+                            <option>...</option>
+                        </select>
+                    </div>
+                
+                    <div class="form-group col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                        <label for="">الموظف الذي طلب الحجز
+                            <span class="red-color">*</span>
+                        </label>
+                        <select class="form-control">
+                            <option selected="">اسم الموظف</option>
+                            <option>...</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                        <label for=""> عدد المعاملات المطلوب حجزها
+                            <span class="red-color">*</span>
+                        </label>
+                        <div class="input-group">
+                            <input type="number" class="form-control number-field" id="dayinput" aria-describedby="emailHelp">
+                            <div class="input-group-prepend bg-none">
+                                <div class="input-group-text">معاملة</div>
+                            </div>
                         </div>
-
-					
-										<div class="form-group col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                            <label for=""> الإدارة التي طلبت الحجز
-								<span class="red-color">*</span>
-							</label>
-                            <select class="form-control">
-                                <option selected="">الإدارة</option>
-                                <option>...</option>
-                            </select>
-                        </div>
-					
-										<div class="form-group col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                            <label for="">الموظف  الذي طلب الحجز
-								<span class="red-color">*</span>
-							</label>
-                            <select class="form-control">
-                                <option selected="">اسم الموظف</option>
-                                <option>...</option>
-                            </select>
-                        </div>
-					<div class="form-group col-lg-3 col-md-4 col-sm-6 col-xs-12">
-						<label for=""> عدد المعاملات المطلوب حجزها   
-								<span class="red-color">*</span>
-							</label>
-						<div class="input-group">
-										<input type="text" class="form-control">
-												<div class="input-group-append">
-    <div class="pl-2">
-											
-        
-        معاملة
-    </div>
-										</div>
-								       </div>
-                        </div>
-						
-					<div class="form-group col-lg-6 col-md-8 col-sm-6 col-xs-12">
-												<label for=""> سبب الحجز 
-								<span class="red-color">*</span>
-							</label>
-						  <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
-					</div>
-
-			
-
+                    </div>
+                
+                    <div class="form-group col-lg-6 col-md-8 col-sm-6 col-xs-12">
+                        <label for=""> سبب الحجز
+                            <span class="red-color">*</span>
+                        </label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+                    </div>
+                
+                    <div class="form-group col-lg-12 col-md-12 col-xs-12 col-sm-12 d-flex">
+                        <small class="text-danger ml-auto">
+                            يرجى تعبئة الحقول التي تحتوي على إشارة *
+                        </small>
+                    </div>
+                
+                </div>
             </div>
-
-        <div class="text-danger">
-          يرجى تعبئة الحقول التي تحتوي على إشارة *
-             </div></div>
 						<div class="pull-right mx-3 mx-sm-5">
 			<button type="submit" class="btn btn-st1 btn-lg" data-toggle="modal" data-target="#MyModal">حفظ</button>
 				</div>
