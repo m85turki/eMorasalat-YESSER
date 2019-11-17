@@ -541,9 +541,9 @@
                                 <td>الطريقة 1</td>
                                 <td>
                                     <div class="d-flex table-icon">
-                                        <a href="#" class="color-purple"><i class="icon-tables-edit"></i></a>
+                                        <a href="#" class="color-purple" data-toggle="tooltip" data-placement="top" title="تعديل"><i class="icon-tables-edit"></i></a>
                                         <a href="#" class="color-burgundy" data-toggle="modal" data-target="#Modal1"><i
-                                                class="icon-tables-delete"></i></a>
+                                                class="icon-tables-delete" id="delete-tooltip"></i></a>
                                     </div>
                                 </td>
                             </tr>
@@ -759,7 +759,11 @@
 	
   });
 
-		});
+        });
+        $("#delete-tooltip").click(function() {
+     var tooltipId = this.data("toggle");
+     $(tooltipId).hide();
+});
 			
 
 	</script>
