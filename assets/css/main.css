@@ -1169,7 +1169,9 @@ a.aExplanation {
 .dashboard-cards .card .card-h .title{
     color: #FFFFFF;
     text-align: center;
-    font-size: 15pt;
+    font-size: 14pt;
+    line-height: 2rem;
+    font-weight: normal;
 }
 
 .dashboard-cards .card .card-c {
@@ -1180,14 +1182,12 @@ a.aExplanation {
 .dashboard-cards .card .card-c .number {
     color: #262A56;
     font-size: 45pt;
-    padding-bottom: 15px;
     text-align: center;
 }
 
 .dashboard-cards .card .card-c .text {
     color: #838599;
     font-size: 18pt;
-    padding-bottom: 5px;
 }
 
 
