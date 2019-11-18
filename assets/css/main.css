@@ -2508,6 +2508,10 @@ body.vertical-layout.vertical-menu.menu-flipped .jconfirm .navbar .navbar-contai
     text-decoration: none;
     filter: brightness(65%)
 }
+.signature-icon a:hover{
+    text-decoration: none;
+    filter: brightness(65%); 
+}
 
 .table-icon a.color-grey{color: #DFDFDF !important;}
 .table-icon a.color-orange{color: #D06902 !important;}
@@ -2522,7 +2526,7 @@ body.vertical-layout.vertical-menu.menu-flipped .jconfirm .navbar .navbar-contai
 .signature-icon a {
     display: block;
     text-decoration: none;
-    margin: 5px 5px;
+    margin: 5px 10px;
     font-size: 30px;
     line-height: 1.9rem;
 }
