@@ -2176,6 +2176,7 @@ position :relative;
 
 .custom-tree .panel-default>.panel-heading .panel-title{
     padding: 10px 10px 10px 0px;
+    font-weight: 700;
 }
 
 .custom-tree .panel-default>.panel-heading .panel-title.dark-color > a
