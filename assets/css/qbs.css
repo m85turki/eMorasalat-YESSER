@@ -79,9 +79,8 @@
 .upload-btn-wrapper{
 	position: relative;
 }
-
 .user-settings .dropdown-menu i {
-    font-size: 17px;
+    font-size: 24px;
 }
 
 .h-side .notifications.dropdown > a {
@@ -1300,7 +1299,7 @@ border:0;
 }
 
 .height-co-100{
- height: calc(100vh - 194px) !important;
+ height: calc(100vh - 214px) !important;
 }
 .date{
 	color:#a5a5a5;
@@ -1476,6 +1475,11 @@ height:100%;
 } */
 .alert-danger{
     font-size:14px;
+}
+
+.upload-attach{
+    overflow: hidden;
+    white-space: normal;
 }
 
 /*-----------------------------------------------------------------*/
@@ -3787,7 +3791,6 @@ table > thead > tr {
 		display: none;
 	}
 	
-
 	
 }
 
