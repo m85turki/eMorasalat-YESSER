@@ -3619,18 +3619,10 @@ table > thead > tr {
 	 .header-container h3 {
     font-size: 20px!important;
 }
-	.mx-xs-3{
-		margin:1rem 1rem!important;
-	}
-	.ml-xs-3{
-		margin-left:1.5rem!important;
-	}
+
 	.btn-xs-100{
 		width: 100%!important;
 	}
-	.d-block-xs{
-	display:block !important;
-}
 	.notif-col {
     width: 50%;
 }
@@ -3641,49 +3633,18 @@ table > thead > tr {
 	form, .form-row, .form-group, .form-control{
     font-size: 14px!important;
 }
-	.pl-xs-0{
-		padding-left: 0px!important;
-	}
 	.dashboard-form form{
 		float: none;
-	}
-	.d-xs-block{
-		display: block!important;
-	}
-	.p-xs-0{
-		padding:0px !important;
 	}
 	.w-xs-100{
 		width: 100%;
 	}
-	.mt-xs-4{
-		margin-top:1.5rem;
-	}
 
-	.ml-xs-0 {
-		margin-right: 0px!important;
-	}
-	.mt-xs-2{
-		margin-top: 0.5rem;
-	}
-	.mb-xs-4{
-		margin-bottom:1.5rem;
-	}
-	.mx-xs-1{
-		margin-right:0.25rem !important;
-		margin-left:0.25rem !important;
-	}
 	.add-error-border{
 		font-size: 7px;
 		padding:5px;
 	}
 
-	.pr-xs-3{
-		padding-left:1rem; 
-	}
-	.pl-xs-5{
-	     padding-right: 3rem 
-	}
 	.note-section {
         display:none !important;
         width:100% !important;
@@ -3712,12 +3673,7 @@ table > thead > tr {
 	/*.mr-lg-3{
 		margin-left: 0px;
 	}
-	.mt-xs-4{
-		margin-top: 2rem!important;
-	}
-	.mt-xs-3{
-		margin-top: 1.5rem!important;
-	}
+
 		
 	}*/
 
@@ -3773,7 +3729,7 @@ table > thead > tr {
 }
 
 @media (max-width: 760px){
-		.top-icons2{
+	.top-icons2{
 		display: flex!important;
 		color:#508ed2;
 	}
@@ -3795,7 +3751,6 @@ table > thead > tr {
 }
 
 
-
 /* Upload File */
 
 .file-upload {
@@ -3812,6 +3767,11 @@ table > thead > tr {
     height: 100%;
     opacity: 0;
 }
+@media(max-width:719px){
+
+	.toggling-menu{
+		display: none;
+	}
 @media (max-width:588px){
 	.name{
 	display: none!important;
@@ -3832,11 +3792,7 @@ table > thead > tr {
 }
 
 	}
-@media(max-width:719px){
 
-	.toggling-menu{
-		display: none;
-	}
 
 	
 

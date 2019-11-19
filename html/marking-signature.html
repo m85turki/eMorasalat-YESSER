@@ -390,7 +390,7 @@
                 <div class="row">
                     <div class="col-md-6 col-xs-12 col-sm-12 pb-2 pd-sm-10">
                         <label class="w-100">التوقيع</label>
-                        <div class="d-btn d-flex d-block-xs">
+                        <div class="d-btn d-sm-flex d-block">
                             <div class="">
                                 <button data-toggle="modal" data-target="#myModal" class="btn btn-st1 btn-xlg w-100">
                                     <i class="icon-buttons-add pr-2"></i>
@@ -398,7 +398,7 @@
                                 </button>
                             </div>
                             <div class="input-group d-flex flex-nowrap">
-                                <div class="file-upload ml-3 ml-xs-0 w-xs-100">
+                                <div class="file-upload ml-sm-3 ml-0 w-xs-100">
                                     <label for="upload" class="btn btn-st2 btn-xlg d-flex justify-content-center align-items-center upload-attach w-100">
                                         <i class="icon-buttons-attach pr-2"></i>
                                         <span id="upload-attach">تحميل التوقيع</span>
@@ -412,7 +412,7 @@
                     </div>
                     <div class="col-md-6 col-xs-12 col-sm-12 pb-2 pd-sm-10">
                         <label class="w-100">التأشير</label>
-                        <div class="d-btn d-flex d-block-xs w-100">
+                        <div class="d-btn d-sm-flex d-block w-100">
                             <div>
                                 <button data-toggle="modal" data-target="#myModalt" class="adds btn btn-st1 btn-xlg w-100">
                                     <i class="icon-buttons-add pr-2"></i>
@@ -420,7 +420,7 @@
                                 </button>
                             </div>
                             <div class="input-group d-flex flex-nowrap">
-                                <div class="file-upload ml-3 ml-xs-0 w-xs-100">
+                                <div class="file-upload ml-sm-3 ml-0 w-xs-100">
                                     <label for="upload2" class="btn btn-st2 btn-xlg d-flex justify-content-center align-items-center w-100 upload-attach">
                                         <i class="icon-buttons-attach pr-2"></i>
                                         <span id="upload-attach2">تحميل التأشير</span>
@@ -436,7 +436,6 @@
                     </div>
                 </div>
             </div>
-
         </div>
         <div class="row text-right mr-5 mt-lg-4 ml-xs-3">
             <button type="submit" class="btn btn-lg btn-st3 w-auto"  data-dismiss="modal" data-toggle="modal" data-target="#myModal2">حفظ</button>
@@ -445,7 +444,6 @@
     <!-- Modal -->
     <div class="modal fade" id="myModal" role="dialog">
         <div class="modal-dialog medium-dialog">
-
             <!-- Modal content-->
             <div class="modal-content">
                 <div class="modal-header">
@@ -514,35 +512,32 @@
         
             </div>
         </div>
-
-
-    <div class="modal fade" id="myModal2" role="dialog">
-        <div class="modal-dialog small-dialog-gray">
-
-            <!-- Modal content-->
-            <div class="modal-content MyModel2Contant ">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    <h3 class="purple3 w-auto d-inline-block m-0">تأكيد حفظ التوقيع</h3>
-                </div>
-                <div class="modal-body p-4 pl-5">
-                    <label class="w-100 mb-3">لتأكيد حفظ التوقيع يرجى كتابة كلمة المرور</label>
-                    <label class="w-100 mb-3">كلمة المرور</label>
-					<div id="show_hide_pass">
-                    <input type="password" class="form-control" id="pass">
-						  <a href=""><i class="fa fa-eye-slash eye" aria-hidden="true"></i></a>
-						  <a href=""><i class="fa fa-eye eye" aria-hidden="true"></i></a>
-						</div>
-
-					<div class="text-right mt-3">
-                        <button class="btn btn-lg btn-st1  mr-3" data-dismiss="modal" data-toggle="modal" 
-									data-target="#successful_model" id="successful_btn">حفظ</button>
-                        <button class="btn btn-lg  btn-st2" data-dismiss="modal">الغاء</button>
+        <div class="modal fade" id="myModal2" role="dialog">
+            <div class="modal-dialog small-dialog-gray">
+                <!-- Modal content-->
+                <div class="modal-content MyModel2Contant ">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h3 class="purple3 w-auto d-inline-block m-0">تأكيد حفظ التوقيع</h3>
+                    </div>
+                    <div class="modal-body p-4 pl-5">
+                        <label class="w-100 mb-3">لتأكيد حفظ التوقيع يرجى كتابة كلمة المرور</label>
+                        <label class="w-100 mb-3">كلمة المرور</label>
+                        <div id="show_hide_pass">
+                            <input type="password" class="form-control" id="pass">
+                            <a href=""><i class="fa fa-eye-slash eye" aria-hidden="true"></i></a>
+                            <a href=""><i class="fa fa-eye eye" aria-hidden="true"></i></a>
+                        </div>
+        
+                        <div class="text-right mt-3">
+                            <button class="btn btn-lg btn-st1  mr-3" data-dismiss="modal" data-toggle="modal"
+                                data-target="#successful_model" id="successful_btn">حفظ</button>
+                            <button class="btn btn-lg  btn-st2" data-dismiss="modal">الغاء</button>
+                        </div>
                     </div>
                 </div>
             </div>
-			          </div>
-</div>
+        </div>
 	    <div class="modal fade" id="myModal2b" role="dialog">
         <div class="modal-dialog small-dialog-gray">
 
@@ -560,7 +555,6 @@
 						  <a href=""><i class="fa fa-eye-slash eye" aria-hidden="true"></i></a>
 						  <a href=""><i class="fa fa-eye eye" aria-hidden="true"></i></a>
 						</div>
-					
                     <br>
                   <div class="text-right mt-3">
                         <button class="btn btn-lg btn-st1  mr-3" data-dismiss="modal" data-toggle="modal" data-target="#successful_model" id="successful_btn">حفظ</button>
@@ -569,9 +563,7 @@
                 </div>
             </div>
 			          </div>
-</div>
-
-	
+</div>	
 		
     <div class="modal fade" id="successful_model" role="dialog">
         <div class="modal-dialog small-dialog">
@@ -587,25 +579,24 @@
                 </div>
 		</div>
 	</div>
-	   <div class="modal fade" id="successful_model2" role="dialog">
+    <div class="modal fade" id="successful_model2" role="dialog">
         <div class="modal-dialog small-dialog">
-			        <div class="modal-content">
+            <div class="modal-content">
                 <div class="modal-body saves">
-                           <h3 class="dark-color w-auto d-inline-block m-0">تم حفظ التأشير بنجاح</h3>
-                  
-						</div>
-					
-                    <br>
-						<div class="d-flex justify-content-center mb-3 mx-3">
-                            <button class="btn btn-lg btn-st1 w-100" data-dismiss="modal">
-								الرجوع إلى الصفحة الرئيسية</button>
-							</div>
-
+                    <h3 class="dark-color w-auto d-inline-block m-0">تم حفظ التأشير بنجاح</h3>
+    
                 </div>
-		</div>
-	</div>
+    
+                <br>
+                <div class="d-flex justify-content-center mb-3 mx-3">
+                    <button class="btn btn-lg btn-st1 w-100" data-dismiss="modal">
+                        الرجوع إلى الصفحة الرئيسية</button>
+                </div>
+    
+            </div>
+        </div>
+    </div>
    
-
 
     <!-- jQuery -->
     <script src="../assets/js/jquery.js"></script>
