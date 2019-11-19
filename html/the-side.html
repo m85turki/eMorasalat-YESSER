@@ -481,7 +481,7 @@
                                     </label>
                                     <input id="upload" class="file-upload__input" type="file" name="file-upload">
                                 </div>
-                                <div class="table-icon align-items-center d-none  ml-1"><a class="color-burgundy"><i class="icon-tables-delete"></i></a></div>
+                                <div class="table-icon align-items-center d-none  ml-1" id="delete-file"><a class="color-burgundy"><i class="icon-tables-delete"></i></a></div>
                                 </div>
                                 <small class="form-text light-gray2">يجب تحميل شعار بحجم أقل من واحد ميغابيت وبدقة --</small>
                             </div>
@@ -571,16 +571,16 @@
     <script>
             $(document).ready(function () {
                 var init_upload=$(".upload-attach").text();
-                $('input[type="file"]').change(function (e) {
+                $('#upload').change(function (e) {
                     var fileName = e.target.files[0].name;
                     $(".upload-attach").html("<span>" + fileName + "<span>");
-                    if ($(".table-icon").hasClass("d-none")) {
-                        $(".table-icon").removeClass("d-none");
-                        $(".table-icon").addClass("d-flex");
+                    if ($("#delete-file").hasClass("d-none")) {
+                        $("#delete-file").removeClass("d-none");
+                        $("#delete-file").addClass("d-flex");
                     }
                    var add_val=$("#upload").val();
                 });
-                $(".table-icon").click(function(){
+                $("#delete-file").click(function(){
                    $("#upload").val("");
                    $(".upload-attach").html("<span>" + init_upload+ "<span>");
                     $(this).addClass("d-none");
