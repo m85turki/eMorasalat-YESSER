@@ -3667,7 +3667,9 @@ table > thead > tr {
 		min-width: 0!important;
 		padding: 0!important;
 	}
-
+    .attach-file-icon-list li button i{
+        font-size:22px !important;
+    }
 
 
 	/*.mr-lg-3{
