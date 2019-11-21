@@ -210,7 +210,7 @@
     left: auto !important;
     top:0px;
     margin: 0 !important;
-	max-height:calc(100% - 148px) !important;
+	max-height:calc(100% - 160px) !important;
 }
 
 .chat_text {
@@ -524,11 +524,14 @@
 }
 
 
-.purple .la-close {
+.purple i {
     color: white;
     position: absolute;
     top: 7px;
 	left:5px;
+}
+.purple i:hover{
+    filter: brightness(0.5);
 }
 .purple2 .fa-times{
    color: white;
@@ -1084,11 +1087,11 @@ border:0;
     border: 1px solid #969696 !important;
 }
 
-.attach-file-icon-list .selected .pencil {
+.attach-file-icon-list .selected button{
     background-color: #4a90e2 !important;
 }
 
-.attach-file-icon-list li button .icon-signature-bar-pen {
+.attach-file-icon-list li.selected button i {
     color: white;
 }
 
@@ -1299,7 +1302,7 @@ border:0;
 }
 
 .height-co-100{
- height: calc(100vh - 214px) !important;
+ height: calc(100vh - 183px) !important;
 }
 .date{
 	color:#a5a5a5;
@@ -1537,6 +1540,13 @@ height:100%;
 	text-overflow: ellipsis;
 	white-space: nowrap;
 }
+.chat-circle-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
 
 @media(max-width:897px ) and (min-width: 394px) {
     .inline-radio > .radio {
@@ -2866,7 +2876,6 @@ div.bottom-actions {
     display: table;
     width: 100%;
     position: relative;
-    padding: 15px!important;
 
 }
 
@@ -3542,8 +3551,6 @@ table > thead > tr {
             top: 2px;
         }
 
-
-
     .top-header .admins.dropdown-menu .pb-2 {
         padding: 15px 0;
     }
@@ -3670,14 +3677,9 @@ table > thead > tr {
     .attach-file-icon-list li button i{
         font-size:22px !important;
     }
-
-
-	/*.mr-lg-3{
-		margin-left: 0px;
-	}
-
-		
-	}*/
+    .treat-title h3,.treat-title span{
+        font-size:13px;
+}
 
 }
 @media(max-width:944px) {
@@ -3757,6 +3759,7 @@ table > thead > tr {
 
 .file-upload {
     position: relative;
+    word-break: break-word;
 }
 .file-upload__input {
     position: absolute;

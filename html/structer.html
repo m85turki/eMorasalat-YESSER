@@ -363,7 +363,7 @@
             </div>
             <div class="ml-lg-auto d-flex flex-column flex-md-row">
                     <div class="filter-link ml-lg-auto mr-lg-3 my-2 mt-lg-auto ">
-                        <a class="dashed-circle filter-target" href="#">
+                        <a class="dashed-circle filter-target">
                             <i class="icon-filter"></i>
                             فلترة
                         </a>
@@ -855,10 +855,7 @@
             $('#treeValueName').val($('.custom-tree .selected').find('label .department-name').text());
             $('#treeValueNumber').val($('.custom-tree .selected').find('label .department-number').text());
         });
-        $('.filter-target').click(function () {
-            $('.filter-box.filter').slideToggle('fast');
-            $(this).toggleClass("active");
-        });
+      
     });
 </script>
 

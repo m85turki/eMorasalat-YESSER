@@ -371,8 +371,8 @@
         <div class="d-flex flex-column flex-lg-row align-items-lg-center flex-grow-1 mb-3 mb-lg-0">
             <h3 class="site-color mb-2 mb-lg-4"> التفويض </h3>
             <div class="ml-lg-auto d-flex flex-column flex-md-row">
-                <button type="submit" class="btn btn-st1 btn-lg mt-2 mt-sm-auto w-xs-100">
-                    <i class="icon-buttons-add pr-3"></i>إضافة تفويض</button>
+                <button type="submit" class="btn btn-st1 btn-lg mt-2 mt-sm-auto btn-xs-50">
+                    <i class="icon-buttons-add pr-2"></i>إضافة تفويض</button>
             </div>
         </div>
     </div>
@@ -396,12 +396,12 @@
             </li>
         </ul>
         <div class="ml-auto  options p-0">
-            <div class="filter-link  ml-md-auto mr-lg-3 mt-3 mt-lg-auto">
-                <a class="dashed-circle filter-target" href="#">
+            <div class="filter-link  filter-link  ml-md-auto mr-lg-3 mt-2 mt-lg-auto">
+                <a class="dashed-circle filter-target">
                     <i class="icon-filter"></i>
                     فلترة
                 </a>
-                <a class="dashed-circle sort-target" href="#">
+                <a class="dashed-circle sort-target">
                     <i class="icon-sort"></i>
                     ترتيب حسب
                 </a>
@@ -1208,21 +1208,23 @@
         <div class="modal fade" id="refusal_model" role="dialog">
             <div class="modal-dialog small-dialog">
                 <div class="modal-content">
-                    <div class="modal-body">
+                    <div class="modal-body pb-0">
                         <div class="mt-3">
-                            <h3 class="dark-color m-0 text-left"> يرجى كتابة سبب الرفض </h3>
-                            <textarea rows="7" class="w-100 mt-4 text_area_border"></textarea>
+                            <h3 class="dark-color  text-left"> يرجى كتابة سبب الرفض </h3>
+                            <div class="form-group">
+                                <textarea class="form-control" id="modal-denie" rows="7"></textarea>
+                              </div>
                         </div>
                     </div>
-    
-    
-                    <div class="d-flex justify-content-end pr-4">
-                        <button class="btn  btn-st2 mt-3 mb-5 mr-3" data-dismiss="modal">
-                            إلغاء</button>
-    
-                        <button class="btn  btn-st1 mt-3 mb-5" data-dismiss="modal" data-toggle="modal"
-                            data-target="#refusal_model2">
-                            إرسال</button>
+        
+                    <div class="px-4 d-flex">
+                        <div class="ml-auto">
+                            <button class="btn  btn-st2 mt-3 mb-5 mr-3" data-dismiss="modal">
+                                إلغاء</button>
+                    
+                            <button class="btn  btn-st1 mt-3 mb-5" data-dismiss="modal" data-toggle="modal" data-target="#refusal_model2">
+                                إرسال</button>
+                        </div>
                     </div>
                 </div>
             </div>

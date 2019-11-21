@@ -4225,7 +4225,6 @@ body.vertical-layout.vertical-menu .content,body.vertical-layout.vertical-menu .
 body.vertical-layout.vertical-menu .content,body.vertical-layout.vertical-menu .footer{margin-left:0}}@media screen and (max-width:575px){
     th {
         font-size: 10px;
-        font-weight: normal;
         white-space: nowrap
     }.vertical-overlay-menu[data-menu=vertical-menu].boxed-layout.menu-open .main-menu{-webkit-transform:translate3d(60px,0,0)!important;-moz-transform:translate3d(60px,0,0)!important;transform:translate3d(60px,0,0)!important;margin-left:0!important}}.vertical-overlay-menu .content,.vertical-overlay-menu .navbar.navbar-brand-center .navbar-container{margin-left:0}@-webkit-keyframes fadein{from{opacity:0}to{opacity:1}}@-moz-keyframes fadein{from{opacity:0}to{opacity:1}}@-o-keyframes fadein{from{opacity:0}to{opacity:1}}@keyframes fadein{from{opacity:0}to{opacity:1}}@-webkit-keyframes fadeout{from{opacity:1}to{opacity:0}}@-moz-keyframes fadeout{from{opacity:1}to{opacity:0}}@-o-keyframes fadeout{from{opacity:1}to{opacity:0}}@keyframes fadeout{from{opacity:1}to{opacity:0}}
 
