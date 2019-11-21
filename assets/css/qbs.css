@@ -532,6 +532,7 @@
 }
 .purple i:hover{
     filter: brightness(0.5);
+    cursor: pointer;
 }
 .purple2 .fa-times{
    color: white;
