@@ -1526,3 +1526,314 @@ a.file {
       right: 13%;
   }
 }
+
+
+/* New direction 24-11-2019 */
+/* Main */
+.notifications .dropdown-menu a li span {
+  padding-right: 4px!important;
+}
+
+.h-search i {
+  left: 0px;
+}
+
+
+.h-search input {
+  padding: 0px 8px 0px 28px;
+}
+
+.nav-tabs>li>a{
+	margin-left: 0 !important;
+}
+
+@media only screen and (min-width: 550px){
+  .h-search input {
+      float: left !important;
+  }
+  }
+
+  .navbar-toggle {
+    float: left;
+    margin-right: 0px;
+}
+
+
+@media (max-width: 767px) {
+  .text-left.options {
+      text-align: left;
+  }
+  }
+
+  @media (max-width: 1024px) and (min-width: 768px){
+    .text-left.options {
+        text-align: left;
+    }
+    }
+
+    .full .w-small{
+      padding-left:20px!important;
+    }
+
+    .full .contact div{
+      padding-left:5px;
+      }
+
+      .number{
+        text-align: right;
+        }
+
+        
+.f-line::after{
+  right: 10%;
+}
+
+.nav-link.menu-toggle{
+  text-align: right;
+  margin: 3px 15px 3px 10px;
+}
+
+.removing_tag {
+  margin-right: 5px;
+}
+
+.bg_for_ie{
+  right: 0px;
+}
+
+.dnot_have_permission .dhp-message{
+  right: 0px;
+}
+
+.buttons-action .ba-content{
+  right: 0px;
+}
+
+.btn.btn-ba-a{
+  border-radius: 0px 0px 7px 0px;
+}
+
+.btn.btn-ba-b{
+  border-radius: 0px 0px 0px 7px;
+}
+
+
+/* Display  Flex Bootstrap 4.3.1*/
+.clearfix::after {
+  display: block;
+  clear: both;
+  content: ""
+}
+
+.float-left {
+  float: left!important
+}
+
+.float-right {
+  float: right!important
+}
+
+.float-none {
+  float: none!important
+}
+.bg-none .input-group-text{
+  background-color:transparent!important;
+  border:0!important;
+  color:#4A91E3;
+  font-weight: 600;
+  }
+@media (min-width:576px) {
+  .float-sm-left {
+      float: left!important
+  }
+  .float-sm-right {
+      float: right!important
+  }
+  .float-sm-none {
+      float: none!important
+  }
+}
+
+@media (min-width:768px) {
+  .float-md-left {
+      float: left!important
+  }
+  .float-md-right {
+      float: right!important
+  }
+  .float-md-none {
+      float: none!important
+  }
+}
+
+@media (min-width:992px) {
+  .float-lg-left {
+      float: left!important
+  }
+  .float-lg-right {
+      float: right!important
+  }
+  .float-lg-none {
+      float: none!important
+  }
+}
+
+@media (min-width:1200px) {
+  .float-xl-left {
+      float: left!important
+  }
+  .float-xl-right {
+      float: right!important
+  }
+  .float-xl-none {
+      float: none!important
+  }
+}
+
+
+
+.embed-responsive .embed-responsive-item,
+.embed-responsive embed,
+.embed-responsive iframe,
+.embed-responsive object,
+.embed-responsive video {
+    left: 0;
+}
+
+.container_checkbox {
+  padding-right: 45px;
+}
+
+.checkmark {
+  right: 0.75rem;
+}
+
+.container_checkbox .checkmark:after {
+  right: 9px;
+}
+
+.main-menu.menu-light .navigation>li.nav-item>a {
+  padding-left: 5px;
+}
+
+.custom-nav-tabs.nav-tabs>li:first-child>a
+{
+    border-radius: 0px 5px 5px 0px;
+}
+
+.custom-nav-tabs.nav-tabs>li:last-child>a
+{
+    border-radius: 5px 0 0 5px;
+}
+
+.custom-sub-nav-tabs.nav-tabs>li>a {
+  border-left-width: 0px;
+}
+
+.nav .custom-sub-nav-tabs>li>a{
+	margin-left: 12px !important;
+	margin-right: 12px;
+}
+
+.attach-file-icon-list{
+    margin-left: 5px;
+}
+
+.attach-file-icon-list li button {
+  border-left: 1px solid #D9D9D9;
+}
+
+.attach-file-icon-list li:last-child button{
+    border-left: 0px;
+}
+
+.header-notifications{
+    right: -110px;
+}
+.notification-row span{
+	text-align: right;
+}
+
+.custom-tree .list-group-item {
+  padding: 10px 35px 10px 0px;
+}
+
+.custom-tree li.list-group-item:not(.has-sub)::before {
+  right: -7px;
+}
+
+.custom-tree li.list-group-item:not(.has-sub)::after {
+  right: -5px;
+}
+
+.custom-tree li.list-group-item:not(.has-sub) label {
+  padding-right: 20px;
+}
+
+.custom-tree li.list-group-item:not(.has-sub) label::before {
+  right: 12px;
+}
+
+.custom-tree .panel-default>.panel-heading .panel-title{
+  padding: 10px 10px 10px 0px;
+}
+
+.custom-tree .panel-default>.panel-heading .panel-title.dark-color > a{
+  right: -12px;
+}
+
+.custom-tree li.list-group-item.has-sub {
+  padding-left: 0;
+}
+
+li.list-group-item.has-sub:not(:first-child)::before {
+  right: -7px;
+}
+
+.custom-tree .panel-default>.panel-heading .panel-title.dark-color > a::before {
+  right: -18px;
+}
+
+.custom-tree .has-sub .panel-default>.panel-heading .panel-title.dark-color a::before {
+  right: -37px;
+}
+
+.panel>.panel-collapse>.list-group:last-child .list-group-item:last-child {
+  padding-left: 0;
+}
+
+.new-chats-count{
+  right: 0px;
+}
+
+.status{
+  right: 40px;
+}
+
+.message-row.sender {
+  direction:rtl;
+}
+
+.message-row.receiver .message-content{
+  border-top-left-radius: 0;
+}
+
+.message-row.sender .message-content{
+  border-top-right-radius: 0;
+}
+
+.message-input textarea{
+  padding-right: 15px;
+}
+
+.table-icon{
+  float: left;
+}
+
+.form-check {
+  padding-right: 2rem;
+}
+
+.form-check .form-check-input {
+  margin-right: -2rem !important;
+}
