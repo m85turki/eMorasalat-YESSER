@@ -1692,3 +1692,315 @@ a.file {
       left: 13%;
   }
 }
+
+
+
+/* New direction 24-11-2019 */
+/* Main */
+.notifications .dropdown-menu a li span {
+  padding-left: 4px!important;
+}
+
+.h-search i {
+  right: 0px;
+}
+
+
+.h-search input {
+  padding: 0px 28px 0px 8px;
+}
+
+.nav-tabs>li>a{
+	margin-right: 0 !important;
+}
+
+@media only screen and (min-width: 550px){
+  .h-search input {
+      float: right !important;
+  }
+  }
+
+  .navbar-toggle {
+    float: right;
+    margin-left: 0px;
+}
+
+
+@media (max-width: 767px) {
+  .text-left.options {
+      text-align: right;
+  }
+  }
+
+  @media (max-width: 1024px) and (min-width: 768px){
+    .text-left.options {
+        text-align: right;
+    }
+    }
+
+    .full .w-small{
+      padding-right:20px!important;
+    }
+
+    .full .contact div{
+      padding-right:5px;
+      }
+
+      .number{
+        text-align: left;
+        }
+
+        
+.f-line::after{
+  left: 10%;
+}
+
+.nav-link.menu-toggle{
+  text-align: left;
+  margin: 3px 10px 3px 15px;
+}
+
+.removing_tag {
+  margin-left: 5px;
+}
+
+.bg_for_ie{
+  left: 0px;
+}
+
+.dnot_have_permission .dhp-message{
+  left: 0px;
+}
+
+.buttons-action .ba-content{
+  left: 0px;
+}
+
+.btn.btn-ba-a{
+  border-radius: 0px 0px 0px 7px;
+}
+
+.btn.btn-ba-b{
+  border-radius: 0px 0px 7px 0px;
+}
+
+
+/* Display  Flex Bootstrap 4.3.1*/
+.clearfix::after {
+  display: block;
+  clear: both;
+  content: ""
+}
+
+.float-left {
+  float: right!important
+}
+
+.float-right {
+  float: left!important
+}
+
+.float-none {
+  float: none!important
+}
+.bg-none .input-group-text{
+  background-color:transparent!important;
+  border:0!important;
+  color:#4A91E3;
+  font-weight: 600;
+  }
+@media (min-width:576px) {
+  .float-sm-left {
+      float: right!important
+  }
+  .float-sm-right {
+      float: left!important
+  }
+  .float-sm-none {
+      float: none!important
+  }
+}
+
+@media (min-width:768px) {
+  .float-md-left {
+      float: right!important
+  }
+  .float-md-right {
+      float: left!important
+  }
+  .float-md-none {
+      float: none!important
+  }
+}
+
+@media (min-width:992px) {
+  .float-lg-left {
+      float: right!important
+  }
+  .float-lg-right {
+      float: left!important
+  }
+  .float-lg-none {
+      float: none!important
+  }
+}
+
+@media (min-width:1200px) {
+  .float-xl-left {
+      float: right!important
+  }
+  .float-xl-right {
+      float: left!important
+  }
+  .float-xl-none {
+      float: none!important
+  }
+}
+
+
+
+.embed-responsive .embed-responsive-item,
+.embed-responsive embed,
+.embed-responsive iframe,
+.embed-responsive object,
+.embed-responsive video {
+  right: 0;
+}
+
+.container_checkbox {
+  padding-left: 45px;
+}
+
+.checkmark {
+  left: 0.75rem;
+}
+
+.container_checkbox .checkmark:after {
+  left: 9px;
+}
+
+.main-menu.menu-light .navigation>li.nav-item>a {
+  padding-right: 5px;
+}
+
+.custom-nav-tabs.nav-tabs>li:first-child>a
+{
+    border-radius: 5px 0px 0px 5px;
+}
+
+.custom-nav-tabs.nav-tabs>li:last-child>a
+{
+    border-radius: 0px 5px 5px 0px;
+}
+
+.custom-sub-nav-tabs.nav-tabs>li>a {
+  border-right-width: 0px;
+}
+
+.nav .custom-sub-nav-tabs>li>a{
+	margin-right: 12px !important;
+	margin-left: 12px;
+}
+
+.attach-file-icon-list{
+    margin-right: 5px;
+}
+
+.attach-file-icon-list li button {
+  border-right: 1px solid #D9D9D9;
+}
+
+.attach-file-icon-list li:last-child button{
+    border-right: 0px;
+}
+
+.header-notifications{
+    left: -110px;
+}
+.notification-row span{
+	text-align: left;
+}
+
+.custom-tree .list-group-item {
+  padding: 10px 0px 10px 35px;
+}
+
+.custom-tree li.list-group-item:not(.has-sub)::before {
+  left: -7px;
+}
+
+.custom-tree li.list-group-item:not(.has-sub)::after {
+  left: -5px;
+}
+
+.custom-tree li.list-group-item:not(.has-sub) label {
+  padding-left: 20px;
+}
+
+.custom-tree li.list-group-item:not(.has-sub) label::before {
+  left: 12px;
+}
+
+.custom-tree .panel-default>.panel-heading .panel-title{
+  padding: 10px 0px 10px 10px;
+}
+
+.custom-tree .panel-default>.panel-heading .panel-title.dark-color > a{
+  left: -12px;
+}
+
+.custom-tree li.list-group-item.has-sub {
+  padding-right: 0;
+}
+
+li.list-group-item.has-sub:not(:first-child)::before {
+  left: -7px;
+}
+
+.custom-tree .panel-default>.panel-heading .panel-title.dark-color > a::before {
+  left: -18px;
+}
+
+.custom-tree .has-sub .panel-default>.panel-heading .panel-title.dark-color a::before {
+  left: -37px;
+}
+
+.panel>.panel-collapse>.list-group:last-child .list-group-item:last-child {
+  padding-right: 0;
+}
+
+.new-chats-count{
+  left: 0px;
+}
+
+.status{
+  left: 40px;
+}
+
+.message-row.sender {
+  direction:ltr;
+}
+
+.message-row.receiver .message-content{
+  border-top-right-radius: 0;
+}
+
+.message-row.sender .message-content{
+  border-top-left-radius: 0;
+}
+
+.message-input textarea{
+  padding-left: 15px;
+}
+
+.table-icon{
+  float: right;
+}
+
+.form-check {
+  padding-left: 2rem;
+}
+
+.form-check .form-check-input {
+  margin-left: -2rem !important;
+}
