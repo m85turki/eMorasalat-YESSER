@@ -1784,7 +1784,6 @@ a.file {
   border-radius: 0px 0px 7px 0px;
 }
 
-
 /* Display  Flex Bootstrap 4.3.1*/
 .clearfix::after {
   display: block;
@@ -1793,11 +1792,11 @@ a.file {
 }
 
 .float-left {
-  float: right!important
+  float: left!important
 }
 
 .float-right {
-  float: left!important
+  float: right!important
 }
 
 .float-none {
@@ -1811,10 +1810,10 @@ a.file {
   }
 @media (min-width:576px) {
   .float-sm-left {
-      float: right!important
+      float: left!important
   }
   .float-sm-right {
-      float: left!important
+      float: right!important
   }
   .float-sm-none {
       float: none!important
@@ -1823,10 +1822,10 @@ a.file {
 
 @media (min-width:768px) {
   .float-md-left {
-      float: right!important
+      float: left!important
   }
   .float-md-right {
-      float: left!important
+      float: right!important
   }
   .float-md-none {
       float: none!important
@@ -1835,10 +1834,10 @@ a.file {
 
 @media (min-width:992px) {
   .float-lg-left {
-      float: right!important
+      float: left!important
   }
   .float-lg-right {
-      float: left!important
+      float: right!important
   }
   .float-lg-none {
       float: none!important
@@ -1847,17 +1846,15 @@ a.file {
 
 @media (min-width:1200px) {
   .float-xl-left {
-      float: right!important
+      float: left!important
   }
   .float-xl-right {
-      float: left!important
+      float: right!important
   }
   .float-xl-none {
       float: none!important
   }
 }
-
-
 
 .embed-responsive .embed-responsive-item,
 .embed-responsive embed,
