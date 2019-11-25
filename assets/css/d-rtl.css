@@ -1996,10 +1996,6 @@ table tr td {
 }
 
 @media(max-width:944px) {
-  .right-arrow{
-      display: block;
-  }
-  
   .new-view{
       left: 50px;
       padding-left: 0px;

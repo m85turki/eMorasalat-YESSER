@@ -2163,10 +2163,6 @@ table tr td {
 }
 
 @media(max-width:944px) {
-  .right-arrow{
-      display: block;
-  }
-  
   .new-view{
       right: 50px;
       padding-right: 0px;
