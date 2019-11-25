@@ -1836,3 +1836,182 @@ li.list-group-item.has-sub:not(:first-child)::before {
 .form-check .form-check-input {
   margin-right: -2rem !important;
 }
+
+/* H Style */
+
+.eye {
+  left: 27px;
+}
+
+.mr-6{
+	margin-right:4.5rem!important;
+}
+
+.carddiv {
+	right:15px;
+}
+
+.for-scroll {
+  right: 0 !important;
+  left: auto !important;
+}
+
+.pull-center{
+   right: 50%;
+}
+
+.chat_list {
+  right: 0px;
+}
+
+.purple i {
+  left:5px;
+}
+
+.purple2 .fa-times{
+  left:5px;
+}
+
+.sendertext {
+  text-align: right;
+}
+
+.sendertext .sender-p {
+  border-top-right-radius: 0;
+}
+
+.circle-img3 {
+  left: 0px;
+}
+
+.recievedtext {
+  text-align: left;
+}
+
+.recieve-p {
+  border-top-left-radius: 0;
+  margin-left: 40px;
+}
+
+.smalls {
+  right: 10px;
+}
+
+.number1 {
+  padding-right: 15px;
+  padding-left: 10px;
+}
+
+.pagination.custom-pagination > li > span{
+	margin-right: 7px!important;
+	margin-left:6px !important;
+}
+
+table tr td {
+  text-align: right;
+}
+
+.tasks_nav .nav>li>a{
+	margin-left: 0px!important;	
+}
+
+.dashboard_card .card .card-h .title{
+	text-align: right !important;
+}
+
+.pop_chat2 .second_person {
+  left:30px;
+}
+
+.search-employee-input .input-group .input-group-append {
+  border-right: 0!important;
+}
+
+.search-employee-input .input-group .form-control {
+  border-left: 0!important;
+}
+
+.day_message {
+  padding-left:15px !important;
+}
+
+.mr-lg-3{
+	margin-left: 1rem;
+}
+
+.show_message{
+  padding-left: 15px;
+}
+
+.tse-scrollbar{
+  left:0px !important;
+  right:auto !important;
+}
+
+.right-arrow i{
+  border-right: 1px solid #61669B;
+}
+
+.left-arrow i{
+  border-left: 1px solid #61669B;
+  border-right:0 !important;
+  padding-left: 0.5rem !important;
+}
+
+.correspondence-h .date{
+	text-align: right;
+}
+
+.inner-header .custom-sub-nav-tabs.nav-tabs li.border-left{
+	border-left:1px solid #353C77!important;
+}
+
+.user-info {
+  padding-right: 5px;
+}
+
+.filter-link  .checkbox label {
+  padding-right: 0px;
+}
+
+  .preview_options_list li {
+    border-left: 1px solid rgba(204, 204, 204, 0.8);
+}
+
+.validation-error i {
+  padding-left: 5px;
+}
+
+.file span {
+  padding-left: 30px;
+  padding-right: 20px;
+}
+
+.nav-filtering > li > a {
+  border-left: 2px solid #f9f9f9;
+}
+
+.NoExtraPaddind {
+  padding: 0 4px 0 17px;
+}
+
+@media(max-width:944px) {
+  .right-arrow{
+      display: block;
+  }
+  
+  .new-view{
+      left: 50px;
+      padding-left: 0px;
+  }
+
+  .new-view::before{
+    right: -30px;
+  }
+}
+
+@media (max-width: 760px){
+	.dropdownposition{
+		right:0!important;
+	}
+}
