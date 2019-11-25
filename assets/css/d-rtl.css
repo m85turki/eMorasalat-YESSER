@@ -2011,3 +2011,8 @@ table tr td {
 		right:0!important;
 	}
 }
+
+a.dropdown-toggle i{
+  margin-right: 5px ;
+}
+

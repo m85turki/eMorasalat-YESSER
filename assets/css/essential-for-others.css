@@ -118,7 +118,8 @@ a, a:hover, a:focus {
 
 .top-header {
     background-color: #262B56;
-    padding-top: 7px;
+    padding-top: 4px;
+    padding-bottom: 3px;
 }
 
 .main_logo img {

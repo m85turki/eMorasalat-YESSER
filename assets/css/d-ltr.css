@@ -2178,3 +2178,8 @@ table tr td {
 		left:0!important;
 	}
 }
+
+
+a.dropdown-toggle i{
+  margin-left: 5px ;
+}
