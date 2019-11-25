@@ -1,5 +1,5 @@
 
-/*----------------------- QBS New Style -------------------------*/
+/*----------------------- H New Style -------------------------*/
 
 
 .red-color {
@@ -3389,7 +3389,7 @@ table > thead > tr {
 }
 
 
-/*--------------------- QBS Responsive Style ----------------------*/
+/*--------------------- H Responsive Style ----------------------*/
 @media(max-width:1040px){
     .thead-specific{
         font-size:10px;
