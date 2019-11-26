@@ -3673,8 +3673,11 @@ table > thead > tr {
 
 .file-upload {
     position: relative;
-    word-break: break-word;
-    -ms-word-break: break-word;
+    word-wrap:break-word;
+    word-break:break-all;
+}
+.file-upload.flex-1{
+    flex:1;
 }
 .file-upload__input {
     position: absolute;
