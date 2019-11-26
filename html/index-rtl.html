@@ -214,9 +214,7 @@
 											<span> التفويض</span>
 												</div>
 										</a>
-							  </li>
-
-										
+							  </li>	
 
                                 </ul>
 
@@ -2613,13 +2611,13 @@
     <!-- jQuery -->
     <script src="../assets/js/jquery.js"></script>
 	<script src="../assets/plugins/splitter/jquery-resizable.js"></script>
-
     <!-- Bootstrap Core JavaScript -->
     <script src="../assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="../assets/js/jquery.matchHeight-min.js"></script>
     <script src="../assets/js/aos.js"></script>
     <script src="../assets/js/jquery.slimscroll.min.js"></script>
     <script src="../assets/js/app.js"></script>
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -2642,11 +2640,100 @@
     <script type="text/javascript" src="../assets/plugins/confirm/jquery-confirm.min.js"></script>
  <!--QBS Blugin-->
 <script type="text/javascript" src="../assets/js/resize-textarea/autosize.js"></script>
-<script type="text/javascript" src="Script-files.js"></script>
+
 <script>
     autosize(document.querySelectorAll('textarea'));
 </script>
+<script type="text/javascript">
+$(function () {
+    $(".chatbtn").click(function () {
+        $(".carddiv").css("display", "flex");
+        $(".firstcard").fadeIn();
+        $(this).addClass("active_notification");
+    });
 
+    $(".showpopchat").click(function () {
+        if ((screen.width >= 768)) {
+            $(".carddiv").css("width", "50%");
+            $(".sendfield").css("display", "flex");
+            $(".firstcard").css("width", "50%");
+            $(".popchat").fadeIn();
+            $(".purple").css("width", "200%");
+            $(".showpopchat").removeClass("highlight");
+            $(this).toggleClass("highlight");
+            $(".purple .la-close").css("left", "5px");
+        }
+    });
+    $(".purple .la-close").click(function () {
+        if ($(".popchat").css('display') == 'block') {
+            $(".popchat").css("display", "none");
+            $(".carddiv").css("width", "25%");
+            $(".firstcard").css("width", "100%");
+            $(".purple").css("width", "100%");
+            $(".showpopchat").removeClass("highlight");
+
+
+        }
+        else {
+            $(".carddiv").css("display", "none");
+            $("a.chatbtn").removeClass("active_notification");
+        }
+
+    });
+    $(".showpopchat").click(function () {
+        if ((screen.width < 768)) {
+            $(".carddiv").css("width", "100%");
+            $(".sendfield").css("display", "flex");
+            $(".firstcard").css("display", "none");
+            $(".popchat").css("width", "100%");
+            $(".popchat").css("top", "0");
+            $(".popchat").fadeIn();
+            $(".showpopchat").removeClass("highlight");
+            $(this).toggleClass("highlight");
+            $(".card-header2").css("display", "block");
+        }
+    });
+    $(".purple2 .fa-times").click(function () {
+        if ($(".popchat").css('display') == 'block') {
+            $(".popchat").css("display", "none");
+            $(".firstcard").css("display", "block");
+            $(".showpopchat").removeClass("highlight");
+
+        }
+        else {
+            $(".carddiv").css("display", "none");
+            $("a.chatbtn").removeClass("active_notification");
+        }
+    });
+
+});
+
+
+</script>
+<script>
+$(function () {
+    $(".help").click(function () {
+        $(".split").toggleClass("appear");
+        $(".panel-left").resizable({
+            resizeHeight: false,
+            handleSelector: ".splitter",
+        });
+    });
+    $(".help2").click(function () {
+        $(".split").toggleClass("appear");
+
+    });
+
+    $(".exit").click(function () {
+        $(".split").toggleClass("appear");
+    });
+    $(".full-screen").click(function () {
+        window.open("help.html", "help");
+        $(".split").toggleClass("appear");
+    })
+
+});
+</script>
 					   
 </body>
 
