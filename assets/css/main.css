@@ -2580,3 +2580,20 @@ a.dropdown-toggle .name, a.dropdown-toggle .manager{
         width: 1% !important;
         margin-bottom: 0 !important;
     }
+
+/* .but-fileupload.input-group{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    width: 100%;
+}
+
+.but-fileupload.input-group .file-upload  {
+        -ms-flex: 1 1 auto !important;
+        flex: 1 1 auto !important;
+        width: 1% !important;
+        margin-bottom: 0 !important;
+    } */
