@@ -267,7 +267,9 @@ li.list-group-item.has-sub:not(:first-child)::before {
 .message-row.sender .message-content{
     border-top-left-radius: 0;
 }
-
+.article,.article2 {
+  float: left;
+}
 /* essential-for-others */
 
 .signaturebuttons {
