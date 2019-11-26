@@ -1,6 +1,6 @@
 /**chat action Script**/
-
 $(function () {
+    load("../assets/js/jquery-inline-popup-rtl.js");
     $(".chatbtn").click(function () {
         $(".carddiv").css("display", "flex");
         $(".firstcard").fadeIn();
@@ -61,9 +61,20 @@ $(function () {
         }
     });
 
-
+    
+    setTimeout(function(){ initInlinePopup(); }, 3000);
+    
 });
 
+function load(file){
+    debugger
+var src=document.createElement("script");
+src.setAttribute("type","text/javascript");
+src.setAttribute("src",file);
+document.getElementsByTagName("head")[0].appendChild(src);
+
+
+}
 
 
 /**Header Script**/
@@ -304,13 +315,12 @@ $(function () {
 });
 
 //**pop up permissions script**//
-
-(function ($) {
+function initInlinePopup(){
     $("#ip-container").inlinePopup({
         itemSelector: ".article",
         closeinnerelem: "X"
-    })
-})(jQuery)
+    });
+}
 
 //**Chart script**//
 
@@ -375,3 +385,7 @@ $(function () {
 
 //**autosize textarea **//
 autosize(document.querySelectorAll('textarea'));
+//**other important js link *//
+
+
+

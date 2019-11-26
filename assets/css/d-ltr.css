@@ -1220,6 +1220,9 @@ body.vertical-layout.vertical-menu.menu-collapsed.menu-flipped .navbar .navbar-h
 .tables {
   right: 15px;
 }
+.popchat .message-input i{
+  transform: rotate(360deg);
+}
 /* top-left border-radius */
 .table tr:first-child td:first-child {
   border-top-right-radius: 6px;
@@ -1675,9 +1678,6 @@ a.file {
         right: 2px;
       }
 
-  .top-header .dropdown-menu {
-      left: 10px;
-  }
 
   .top-header .admins.dropdown-menu .pb-2 .fa-angle-up {
       float: right;
@@ -1691,6 +1691,9 @@ a.file {
   #ui-datepicker-div {
       left: 13%;
   }
+}
+.change-page a i{
+  transform: rotate(180deg)!important;
 }
 
 
@@ -2183,3 +2186,4 @@ table tr td {
 a.dropdown-toggle i{
   margin-left: 5px ;
 }
+
