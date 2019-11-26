@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link type="image/x-icon" rel="shortcut icon" href="./favicon.ico">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="theme-color" content="#0c7c5a">
+    <title>Morasalat</title>
+
+    <link type="image/x-icon" rel="shortcut icon" href="./favicon.ico">
+
+    <!-- Bootstrap RTL -->
+    <link href="../assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../assets/bootstrap/css/bootstrap.form.css" rel="stylesheet">
+    <link href="../assets/bootstrap/css/bootstrap.grid.css" rel="stylesheet">
+
+    <!-- Main -->
+    <link href="../assets/css/main.css" rel="stylesheet">
+    <link href="../assets/css/style.css" rel="stylesheet">
+
+    <!-- Vertical Menu -->
+    <link rel="stylesheet" type="text/css" href="../assets/plugins/vertical-menu/vertical-menu.min.css">
+
+    <!-- Confirm -->
+    <link rel="stylesheet" type="text/css" href="../assets/plugins/confirm/jquery-confirm.min.css" />
+
+    <!-- RTL -->
+    <link href="../assets/css/d-ltr.css" rel="stylesheet">
+
+</head>
+
+
+
+<body class="vertical-layout vertical-menu 2-columns   menu-flipped fixed-navbar " data-open="click"
+    data-menu="vertical-menu" data-col="2-columns" dir="rtl">
+    <div class="fixed-top">
+        <div class="top-header">
+            <div class="container-fluid">
+                <div class="d-flex flex-row">
+                    <div class="">
+                        <a class="main_logo" href="#">
+                            <img src="../assets/images/logo-morasalat.png" title=""
+                                 alt="" />
+                        </a>
+                    </div>
+
+                    <div class="d-flex ml-auto  mr-0 align-content-around flex-wrap h-side">
+                        <div class="dropdown px-1 px-md-2">
+                            <a id="drop1" href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <div class="d-inline manager"> Name of Administration:Higher Management
+								</div>
+								<div class="manager2">...</div>
+									<i class="la la-angle-down"></i>
+                            </a>
+
+                          <ul class="dropdown-menu admins fadeIn animated" aria-labelledby="drop1">
+							            <li class="active">
+                                        <a class="notification-row d-flex ">
+											<div>
+											<span> Name of Administration 1 </span>
+												</div>
+										</a>
+								        </li>
+							  
+										  <li>
+                                        <a class="notification-row d-flex">
+											<div>
+											<span> Name of Administration 2 </span>
+												</div>
+										</a>
+							  </li>
+                                     <li>
+                                     <a class="notification-row d-flex">
+											<div>
+											<span>Name of Administration 3</span>
+												</div>
+										</a>
+										 </li>
+
+                                </ul>
+                        </div>
+
+                        <div class="user-settings dropdown  px-1 px-md-2 ml-0">
+                            <a id="drop1" href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <span class="h-avatar mx-2">
+                                    <img src="../assets/images/businessman.png">
+                                </span>
+								<div class="name d-inline">Ashraf hussin mohammad al-sheikh</div>
+                                <i class="la la-angle-down"></i>
+                            </a>
+
+
+                          <ul class="dropdown-menu employee_dd  fadeIn animated" aria-labelledby="drop1">
+							              <li class="name2">
+											<div class="site-color name-p">
+											<span>Ashraf hussin mohammad al-sheikh</span>
+												</div>
+							              </li>
+                                         <li>
+                                        <a class="notification-row d-flex">
+											<i class="icon-signature"></i>
+											<div>
+											<span>Signature and notation</span>
+												</div>
+										</a>
+											 </li>
+                                         <li>
+                                        <a class="notification-row d-flex"> 
+											<i class="icon-referral"></i>
+											<div>
+											<span>assignment paper</span>
+												</div>
+										</a>
+											  </li>
+							               <li>
+                                        <a class="notification-row d-flex">
+											<i class="icon-distribution"></i>
+											<div>
+											<span>Distribution list</span>
+												</div>
+										</a>
+								          </li>
+
+                                        <li>
+                                        <a class="notification-row d-flex">
+											<i class="icon-track"></i>
+											<div>
+											<span>Tracks</span>
+												</div>
+										</a>
+											</li>
+
+                                       <li>
+                                        <a class="notification-row d-flex">
+											<i class="icon-authorization"></i>
+											<div>
+											<span>Services</span>
+												</div>
+										</a>
+							  </li>	
+                                </ul>
+
+                        </div>
+
+                        <div class="top-icons new-view">
+                            <div class="d-flex">
+                            <div class="searchbox pr-2 pl-5 flex-grow-1">
+                                <div class="h-search">
+                                    <i onclick="focusMethod()" data-toggle="tooltip" data-placement="bottom" title="" class="la la-search" data-original-title="Fast Search"></i>
+                                    <input class="myTextField" type="text" name="search" placeholder="Search here">
+                                </div>
+                                <script>
+                                    focusMethod = function getFocus() {
+                                        $('.myTextField').focus();
+                                    }
+                                </script>
+                            </div>
+                            <div class="notifications dropdown px-2">
+                             <a href="#" class="dropdown-toggle white-notification" aria-haspopup="false" aria-expanded="true" 
+								data-toggle="dropdown" data-toggle-second="tooltip" data-placement="bottom" title="notifications">
+                                    <em class="notification_sticky"></em>
+                              <i class="la la-bell "></i>
+                                </a>
+                                <ul class="dropdownposition dropdown-menu  fadeIn animated" aria-labelledby="drop1">
+                                   <li>
+                                   <a href="#" class="d-flex notification-row">
+									   <i class="la la-bell bold2"></i>
+										<span class="bold2">Notifications</span>
+										
+										</a>
+									   </li>
+									<li>
+                                        <a class="d-flex bgchange notification-row">
+											<i class="icon-assignment-return"></i>
+											<div>
+											<span>Treaty was returned</span>
+											<div class="pt-1 pr-3 pl-1 light-gray2 flex-column">28 october 2018</div>
+												</div>
+										</a>
+										</li>
+                                     <li>
+                                        <a class="d-flex bgchange notification-row">
+											<i class="icon-assignment-delivered"></i>
+											<div>
+											<span>Treaty was received</span>
+											<div class="pt-1 pr-3 pl-1 light-gray2 flex-column"> 28 october 2018</div>
+												</div>
+										</a>
+                                      </li>
+									<li>
+                                        <a class="d-flex notification-row">
+											<i class="icon-assignment-new"></i>
+											<div>
+											<span>New task was recieved</span>
+											<div class="pt-1 pr-3 pl-1 light-gray2 flex-column"> 28 october 2018</div>
+												</div>
+										</a>
+										</li>
+                                       <li>
+									     <a href="notifications.html" class="d-flex notification-row more">
+											<div class="w-100">Show more</div>
+						              </a>
+										   </li>
+
+                                </ul>
+
+                            </div>
+                            <div class="px-2">
+                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="" class="chatbtn white-notification" data-original-title="Conversations">
+                                    <em class="notification_sticky"></em>
+                                    <i class="la la-comments "></i>
+                                </a>
+                            </div>
+                            <div class="px-2">
+                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Technical support">
+                                    <i class="la la-headphones"></i>
+                                </a>
+                            </div>
+                            <div class="px-2">
+                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Help" class="help">
+                                    <i class="la la-question-circle"></i>
+                                </a>
+                            </div>
+                            <div class="px-2">
+                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="العربية">
+                                    <i class="la la-globe"></i>
+                                </a>
+                            </div>
+                            <div class="pl-2 pr-0">
+                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Exit">
+                                    <i class="la la-power-off"></i>
+                                </a>
+                            </div>
+                        </div>
+                        </div>
+						<div class="right-arrow mr-auto">
+                                <i class="la la-angle-right pl-2"></i>
+						</div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+        <!-- start of fixed header -->
+        <nav class="navbar navbar-default  navbar-second">
+            <div class="container-fluid">
+                <div class="row row-custom">
+                    <div class="navbar-header d-flex">
+                        <div class="mobile-menu d-md-none mr-auto">
+                            <a class="nav-link nav-menu-main menu-toggle" href="#">
+                                <i class="la la-ellipsis-h"></i>
+                            </a>
+                        </div>
+                        <div class="ml-auto">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                                    data-target="#navbarToggleExternalContent" aria-expanded="false" aria-controls="navbar">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+                    </div>
+					  <div class="navbar-collapse collapse"  id="navbarToggleExternalContent">
+					<div class="searchbox2 px-2">
+                                <div class="h-search">
+                                    <i onclick="focusMethod()" data-toggle="tooltip" data-placement="bottom" title="" class="la la-search" data-original-title="fast search"></i>
+                                    <input class="myTextField" type="text" name="search" placeholder="Search here">
+                                </div>
+                                <script>
+                                    focusMethod = function getFocus() {
+                                        $('.myTextField').focus();
+                                    }
+                                </script>
+                            </div>
+						  <div class="d-flex top-icons2 h-side">
+                            <div class="notifications dropdown px-2">
+                             <a href="#" class="dropdown-toggle white-notification" data-toggle="dropdown" aria-haspopup="false" aria-expanded="true" data-placement="bottom" title="Notifications">
+                                    <em class="notification_sticky"></em>
+                              <i class="la la-bell "></i>
+                                </a>
+                             <ul class="dropdownposition dropdown-menu  fadeIn animated" aria-labelledby="drop1">
+                                   <li>
+                                   <a href="#" class="d-flex notification-row">
+									   <i class="la la-bell bold2"></i>
+										<span class="bold2">Notifications</span>
+										
+										</a>
+									   </li>
+									<li>
+                                        <a class="d-flex bgchange notification-row">
+											<i class="icon-assignment-return"></i>
+											<div>
+											<span>treaty was returned</span>
+											<div class="pt-1 pr-3 pl-1 light-gray2 flex-column"> 28 october 2018  </div>
+												</div>
+										</a>
+										</li>
+                                     <li>
+                                        <a class="d-flex bgchange notification-row">
+											<i class="icon-assignment-delivered"></i>
+											<div>
+											<span>treaty was recieved</span>
+											<div class="pt-1 pr-3 pl-1 light-gray2 flex-column"> 28 october 2018</div>
+												</div>
+										</a>
+                                      </li>
+									<li>
+                                        <a class="d-flex notification-row">
+											<i class="icon-assignment-new"></i>
+											<div>
+											<span>New task recieved</span>
+											<div class="pt-1 pr-3 pl-1 light-gray2 flex-column"> 28 october 2018</div>
+												</div>
+										</a>
+										</li>
+                                       <li>
+									     <a href="notifications.html" class="d-flex notification-row more">
+											<div class="w-100">show more</div>
+						              </a>
+										   </li>
+
+                                </ul>
+                            </div>
+                            <div class="px-2">
+                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="" class="chatbtn white-notification" data-original-title="Conversations">
+                                    <em class="notification_sticky"></em>
+                                    <i class="la la-comments white-notification "></i>
+                                </a>
+                            </div>
+                            <div class="px-2">
+                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Technical Support">
+                                    <i class="la la-headphones"></i>
+                                </a>
+                            </div>
+                            <div class="px-2">
+                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Help" class="help2">
+                                    <i class="la la-question-circle"></i>
+                                </a>
+                            </div>
+                            <div class="px-2">
+                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="العربية">
+                                    <i class="la la-globe"></i>
+                                </a>
+                            </div>
+                            <div class="pl-2 pr-0">
+                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Exit">
+                                    <i class="la la-power-off"></i>
+                                </a>
+                            </div>
+                        </div>
+						
+                        <ul class="nav navbar-nav px-2">
+                            <li class="active"><a href="#">The Treaties</a></li>
+                            <li><a href="#">The Tasks <span class="notification_sticky">3</span></a></li>
+                            <li><a href="#">Managment Recepion</a></li>
+                            <li><a href="#">The Reports</a></li>
+                            <li><a href="#"> Dashboard</a></li>
+
+                        </ul>
+
+					</div>
+                </div>
+            </div>
+        </nav>
+
+    </div>
+
+    <!-- BEGIN: Vertical Menu -->
+    <div class="align-self-start main_sidebar">
+        <div class="d-none d-md-block text-left"><a class="nav-link nav-menu-main menu-toggle hidden-xs"
+                href="#"><i><img src="../assets/images/menu/menu.svg"></i></a></div>
+        <div class=" main-menu menu-fixed menu-light menu-accordion menu-icon-left" data-scroll-to-active="true"
+            style="direction:ltr;">
+            <div class="main-menu-content">
+                <ul class="navigation navigation-main" id="main-menu-navigation" data-menu="menu-navigation">
+                    <li class="nav-item active">
+                        <a href="#"><i>
+                                <img src="../assets/images/menu/transfer-of-staff.svg"></i>
+                            <span class="menu-title">Translate Employee</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#"><i>
+                                <img src="../assets/images/menu/merge-departments.svg"></i>
+                            <span class="menu-title">Merge departments</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#"><i>
+                                <img src="../assets/images/menu/transfer-of-departments.svg"></i>
+                            <span class="menu-title">Translate departments</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- END: Vertical Menu -->
+    </div>
+    <div class="app-content content">
+        <div class="mx-3 mx-md-5 header-container d-flex flex-row align-items-center">
+            <div class="d-flex flex-column flex-lg-row align-items-lg-center flex-grow-1 mb-3 mb-lg-0">
+                <h3 class="site-color mb-2 mb-lg-4">Translate Employee</h3>
+                <div class="ml-lg-auto d-flex flex-column flex-md-row">
+                </div>
+            </div>
+        </div>
+    
+        <div class="white-container mx-3 mx-md-5">
+            <form>
+                <div class="form-row">
+                    <div class="form-group col-lg-6 col-md-8 col-sm-12 col-xs-12">
+                        <label for="">From Management<span class="red-color ml-1">*</span></label>
+                        <div class="row">
+                            <div class=" col-lg-4 col-md-4 col-sm-4 col-xs-4 pr-0 ">
+                                <input placeholder="Number of side" type="text" class="form-control">
+                            </div>
+                            <div class=" col-lg-8 col-md-8 col-sm-8 col-xs-8">
+                                <div class="d-flex align-items-stretch w-100 flex-wrap">
+                                    <div class="input-group compatable">
+                                        <input type="text" class="form-control" placeholder="Name of received site">
+                                        <div class="input-group-append">
+                                            <span class="input-group-text hyperlink white">
+                                                <a href="#"><i class="icon-filter-form"></i></a>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group col-lg-6 col-md-8 col-sm-12 col-xs-12">
+                        <label for=""> To Administration<span class="red-color ml-1">*</span></label>
+                        <div class="row">
+                            <div class=" col-lg-4 col-md-4 col-sm-4 col-xs-4 pr-0 ">
+                                <input placeholder="Side Number" type="text" class="form-control">
+                            </div>
+                            <div class=" col-lg-8 col-md-8 col-sm-8 col-xs-8">
+                                <div class="d-flex align-items-stretch w-100 flex-wrap">
+                                    <div class="input-group compatable">
+                                        <input type="text" class="form-control" placeholder="Name of the side">
+                                        <div class="input-group-append">
+                                            <span class="input-group-text hyperlink white">
+                                                <a href="#"><i class="icon-filter-form"></i></a>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group col-lg-12 col-md-12 col-xs-12 col-sm-12 d-flex">
+                        <small class="text-danger ml-auto">
+                            Please fill all fields that contain * sign
+                        </small>
+                    </div>
+                </div>
+
+                <hr class="mb-4">
+
+                <div class="w-100 d-flex align-items-center mt-2 mb-2">
+                    <h3 class="white-c-title">List of employee who follow the dapartment </h3>
+                    <span class="roundedred ml-3">16</span>
+                    <span class="pl-2 gray4">Employee</span>
+                </div>
+                
+                <div class="form-row">
+                    <div class="form-group col-lg-6 col-md-8 col-sm-12 col-xs-12 mb-0">
+                        <div class="input-group">
+                            <input type="text" class="form-control">
+                            <div class="input-group-append">
+                                <span class="input-group-text hyperlink2">
+                                    <a href="#"><i class="fa fa-search"></i></a>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </form>
+            <div class="table-responsive mt-3">
+                <table class="table table-bordered table-striped">
+                    <thead>
+                        <tr>
+                            <th class="col-table-checkbox">
+                                <div class="">
+                                    <input type="checkbox" aria-label="Checkbox for following text input">
+                                </div>
+                            </th>
+                            <th>Name of Employee</th>
+                            <th>The Rule </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <div class="">
+                                    <input type="checkbox" aria-label="Checkbox for following text input">
+                                </div>
+                            </td>
+                            <td>Name of Employee</td>
+                            <td>The First Rule </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="">
+                                    <input type="checkbox" aria-label="Checkbox for following text input">
+                                </div>
+                            </td>
+                            <td>Name of employee</td>
+                            <td>The Second Rule</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="">
+                                    <input type="checkbox" aria-label="Checkbox for following text input">
+                                </div>
+                            </td>
+                            <td>Name of employee</td>
+                            <td>The Third Rule</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="">
+                                    <input type="checkbox" aria-label="Checkbox for following text input">
+                                </div>
+                            </td>
+                            <td>Name of employee</td>
+                            <td>The First Rule</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <div class="">
+                                    <input type="checkbox" aria-label="Checkbox for following text input">
+                                </div>
+                            </td>
+                            <td>Name of employee</td>
+                            <td>The Second Rule</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="w-100 text-center p-2">
+                <nav aria-label="Page navigation">
+                    <ul class="pagination custom-pagination">
+                        <li class="change-page">
+                            <a href="#" aria-label="Previous">
+                                <i class="fa fa-caret-right"></i>
+                            </a>
+                        </li>
+                        <li class="blues_border"><a href="#" class="transparent_bg">1</a></li>
+                        <li><span class="transparent_bg font_size12"> of
+    
+                                <span class="light-blue pl-1">4</span>
+                            </span>
+                        </li>
+                        <li class="change-page">
+                            <a href="#" aria-label="Next">
+                                <i class="fa fa-caret-left"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+    
+    
+            <div>
+                <div>
+    
+                    <div class="w-100 d-flex align-items-center mt-2 mb-2">
+                        <a class="purple-collapse mr-2" data-toggle="collapse" href="#collapse1" aria-expanded="false"
+                            aria-controls="collapse1">
+                            <div class="">
+                                <div class="title"><i class="fas fa-chevron-down"></i></div>
+                            </div>
+                        </a>
+                        <h3 class="white-c-title">Employee List</h3>
+                        <span class="roundedred ml-3">10</span>
+                        <span class="pl-2 gray4">Employees</span>
+                    </div>
+                </div>
+    
+                <div class="collapse in" id="collapse1">
+                    <div class="card card-body">
+                        <div class="added_departments d-flex flex-wrap">
+                            <div class="added_item mx-3 mb-3">
+                                <span class="added-class d-flex">
+                                    <span>Employee name</span>
+                                    <a href="#" class="color-burgundy ml-2"><i class="fas fa-times-circle"></i></a>
+                                </span>
+                            </div>
+                            <div class="added_item mx-3 mb-3">
+                                <span class="added-class d-flex">
+                                    <span>Employee name</span>
+                                    <a href="#" class="color-burgundy ml-2"><i class="fas fa-times-circle"></i></a>
+                                </span>
+                            </div>
+                            <div class="added_item mx-3 mb-3">
+                                <span class="added-class d-flex">
+                                    <span>Employee name</span>
+                                    <a href="#" class="color-burgundy ml-2"><i class="fas fa-times-circle"></i></a>
+                                </span>
+                            </div>
+                            <div class="added_item mx-3 mb-3">
+                                <span class="added-class d-flex">
+                                    <span>Employee name </span>
+                                    <a href="#" class="color-burgundy ml-2"><i class="fas fa-times-circle"></i></a>
+                                </span>
+                            </div>
+                            <div class="added_item mx-3 mb-3">
+                                <span class="added-class d-flex">
+                                    <span>Employee name </span>
+                                    <a href="#" class="color-burgundy ml-2"><i class="fas fa-times-circle"></i></a>
+                                </span>
+                            </div>
+                            <div class="added_item mx-3 mb-3">
+                                <span class="added-class d-flex">
+                                    <span>Employee name </span>
+                                    <a href="#" class="color-burgundy ml-2"><i class="fas fa-times-circle"></i></a>
+                                </span>
+                            </div>
+                            <div class="added_item mx-3 mb-3">
+                                <span class="added-class d-flex">
+                                    <span>Employee name </span>
+                                    <a href="#" class="color-burgundy ml-2"><i class="fas fa-times-circle"></i></a>
+                                </span>
+                            </div>
+                            <div class="added_item mx-3 mb-3">
+                                <span class="added-class d-flex">
+                                    <span>Employee name</span>
+                                    <a href="#" class="color-burgundy ml-2"><i class="fas fa-times-circle"></i></a>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+        </div>
+    </div>
+
+        <div class="mx-3 mx-md-5 mb-4 d-flex">
+            <div class="ml-auto">
+                <button class="btn btn-st1 btn-lg mx-1 mb-2" data-toggle="modal" data-target="#Modal1">Translate</button>
+                <button class="btn btn-st2 btn-lg mx-1 mb-2">Cancel</button>
+            </div>
+        </div>
+
+
+    </div>
+        <div class="modal" id="Modal1" role="dialog">
+            <div class="modal-dialog small-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">×</button>
+        
+                    </div>
+                    <div class="modal-body saves">
+                        <h3 class="dark-color w-auto d-inline-block m-0"> The employee was successfuly transfer</h3>
+        
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <button class="btn  btn-st1 mt-3 mb-5" data-dismiss="modal">
+                            ok</button>
+        
+                    </div>
+        
+                </div>
+            </div>
+        </div>
+
+
+    <!-- jQuery -->
+    <script src="../assets/js/jquery.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../assets/js/bootstrap-select.js"></script>
+    <script src="../assets/js/jquery.matchHeight-min.js"></script>
+    <script src="../assets/js/aos.js"></script>
+    <script src="../assets/js/jquery.slimscroll.min.js"></script>
+    <script src="../assets/js/app.js"></script>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
+    <script>
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
+
+    <!--QBS Script -->
+    <script>
+    $(".purple-collapse").click(function(){
+        $(this).toggleClass("employee-collapse");
+    })
+    </script>
+
+    <!-- sort and filter scripts-->
+
+    <!-- Vertical Menu css-->
+    <script src="../assets/plugins/vertical-menu/vendors.min.js"></script>
+    <script src="../assets/plugins/vertical-menu/app-menu.min.js"></script>
+    <script src="../assets/plugins/vertical-menu/app.min.js"></script>
+
+</body>
+
+</html>

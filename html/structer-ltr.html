@@ -1,0 +1,927 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link type="image/x-icon" rel="shortcut icon" href="./favicon.ico">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="theme-color" content="#0c7c5a">
+    <title>Morasalat</title>
+	<link type="image/x-icon" rel="shortcut icon" href="./favicon.ico">
+    
+    <!-- Bootstrap RTL -->
+    <link href="../assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../assets/bootstrap/css/bootstrap.form.css" rel="stylesheet">
+    <link href="../assets/bootstrap/css/bootstrap.grid.css" rel="stylesheet">
+
+    <!-- Main -->
+    <link href="../assets/css/main.css" rel="stylesheet">
+
+    <!-- Vertical Menu -->
+    <link rel="stylesheet" type="text/css" href="../assets/plugins/vertical-menu/vertical-menu.min.css">
+
+    <!-- Confirm -->
+    <link rel="stylesheet" type="text/css" href="../assets/plugins/confirm/jquery-confirm.min.css" />
+
+    <!-- RTL -->
+    <link href="../assets/css/d-ltr.css" rel="stylesheet">
+
+</head>
+
+
+<body class="vertical-menu 2-columns   menu-flipped fixed-navbar " data-open="click"
+    data-menu="vertical-menu" data-col="2-columns" dir="rtl">
+    <div class="fixed-top">
+        <div class="top-header">
+            <div class="container-fluid">
+                <div class="d-flex flex-row">
+                    <div class="">
+                        <a class="main_logo" href="#">
+                            <img src="../assets/images/logo-morasalat.png" title=""
+                                 alt="" />
+                        </a>
+                    </div>
+
+                    <div class="d-flex ml-auto  mr-0 align-content-around flex-wrap h-side">
+                        <div class="dropdown px-1 px-md-2">
+                            <a id="drop1" href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <div class="d-inline manager"> Name of Administration:Higher Management
+								</div>
+								<div class="manager2">...</div>
+									<i class="la la-angle-down"></i>
+                            </a>
+
+                          <ul class="dropdown-menu admins fadeIn animated" aria-labelledby="drop1">
+							            <li class="active">
+                                        <a class="notification-row d-flex ">
+											<div>
+											<span> Name of Administration 1 </span>
+												</div>
+										</a>
+								        </li>
+							  
+										  <li>
+                                        <a class="notification-row d-flex">
+											<div>
+											<span> Name of Administration 2 </span>
+												</div>
+										</a>
+							  </li>
+                                     <li>
+                                     <a class="notification-row d-flex">
+											<div>
+											<span>Name of Administration 3</span>
+												</div>
+										</a>
+										 </li>
+
+                                </ul>
+                        </div>
+
+                        <div class="user-settings dropdown  px-1 px-md-2 ml-0">
+                            <a id="drop1" href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <span class="h-avatar mx-2">
+                                    <img src="../assets/images/businessman.png">
+                                </span>
+								<div class="name d-inline">Ashraf hussin mohammad al-sheikh</div>
+                                <i class="la la-angle-down"></i>
+                            </a>
+
+
+                          <ul class="dropdown-menu employee_dd  fadeIn animated" aria-labelledby="drop1">
+							              <li class="name2">
+											<div class="site-color name-p">
+											<span>Ashraf hussin mohammad al-sheikh</span>
+												</div>
+							              </li>
+                                         <li>
+                                        <a class="notification-row d-flex">
+											<i class="icon-signature"></i>
+											<div>
+											<span>Signature and notation</span>
+												</div>
+										</a>
+											 </li>
+                                         <li>
+                                        <a class="notification-row d-flex"> 
+											<i class="icon-referral"></i>
+											<div>
+											<span>assignment paper</span>
+												</div>
+										</a>
+											  </li>
+							               <li>
+                                        <a class="notification-row d-flex">
+											<i class="icon-distribution"></i>
+											<div>
+											<span>Distribution list</span>
+												</div>
+										</a>
+								          </li>
+
+                                        <li>
+                                        <a class="notification-row d-flex">
+											<i class="icon-track"></i>
+											<div>
+											<span>Tracks</span>
+												</div>
+										</a>
+											</li>
+
+                                       <li>
+                                        <a class="notification-row d-flex">
+											<i class="icon-authorization"></i>
+											<div>
+											<span>Services</span>
+												</div>
+										</a>
+							  </li>	
+                                </ul>
+
+                        </div>
+
+                        <div class="top-icons new-view">
+                            <div class="d-flex">
+                            <div class="searchbox pr-2 pl-5 flex-grow-1">
+                                <div class="h-search">
+                                    <i onclick="focusMethod()" data-toggle="tooltip" data-placement="bottom" title="" class="la la-search" data-original-title="Fast Search"></i>
+                                    <input class="myTextField" type="text" name="search" placeholder="Search here">
+                                </div>
+                                <script>
+                                    focusMethod = function getFocus() {
+                                        $('.myTextField').focus();
+                                    }
+                                </script>
+                            </div>
+                            <div class="notifications dropdown px-2">
+                             <a href="#" class="dropdown-toggle white-notification" aria-haspopup="false" aria-expanded="true" 
+								data-toggle="dropdown" data-toggle-second="tooltip" data-placement="bottom" title="notifications">
+                                    <em class="notification_sticky"></em>
+                              <i class="la la-bell "></i>
+                                </a>
+                                <ul class="dropdownposition dropdown-menu  fadeIn animated" aria-labelledby="drop1">
+                                   <li>
+                                   <a href="#" class="d-flex notification-row">
+									   <i class="la la-bell bold2"></i>
+										<span class="bold2">Notifications</span>
+										
+										</a>
+									   </li>
+									<li>
+                                        <a class="d-flex bgchange notification-row">
+											<i class="icon-assignment-return"></i>
+											<div>
+											<span>Treaty was returned</span>
+											<div class="pt-1 pr-3 pl-1 light-gray2 flex-column">28 october 2018</div>
+												</div>
+										</a>
+										</li>
+                                     <li>
+                                        <a class="d-flex bgchange notification-row">
+											<i class="icon-assignment-delivered"></i>
+											<div>
+											<span>Treaty was received</span>
+											<div class="pt-1 pr-3 pl-1 light-gray2 flex-column"> 28 october 2018</div>
+												</div>
+										</a>
+                                      </li>
+									<li>
+                                        <a class="d-flex notification-row">
+											<i class="icon-assignment-new"></i>
+											<div>
+											<span>New task was recieved</span>
+											<div class="pt-1 pr-3 pl-1 light-gray2 flex-column"> 28 october 2018</div>
+												</div>
+										</a>
+										</li>
+                                       <li>
+									     <a href="notifications.html" class="d-flex notification-row more">
+											<div class="w-100">Show more</div>
+						              </a>
+										   </li>
+
+                                </ul>
+
+                            </div>
+                            <div class="px-2">
+                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="" class="chatbtn white-notification" data-original-title="Conversations">
+                                    <em class="notification_sticky"></em>
+                                    <i class="la la-comments "></i>
+                                </a>
+                            </div>
+                            <div class="px-2">
+                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Technical support">
+                                    <i class="la la-headphones"></i>
+                                </a>
+                            </div>
+                            <div class="px-2">
+                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Help" class="help">
+                                    <i class="la la-question-circle"></i>
+                                </a>
+                            </div>
+                            <div class="px-2">
+                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="العربية">
+                                    <i class="la la-globe"></i>
+                                </a>
+                            </div>
+                            <div class="pl-2 pr-0">
+                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Exit">
+                                    <i class="la la-power-off"></i>
+                                </a>
+                            </div>
+                        </div>
+                        </div>
+						<div class="right-arrow mr-auto">
+                                <i class="la la-angle-right pl-2"></i>
+						</div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+        <!-- start of fixed header -->
+        <nav class="navbar navbar-default  navbar-second">
+            <div class="container-fluid">
+                <div class="row row-custom">
+                    <div class="navbar-header d-flex">
+                        <div class="mobile-menu d-md-none mr-auto">
+                            <a class="nav-link nav-menu-main menu-toggle" href="#">
+                                <i class="la la-ellipsis-h"></i>
+                            </a>
+                        </div>
+                        <div class="ml-auto">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                                    data-target="#navbarToggleExternalContent" aria-expanded="false" aria-controls="navbar">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                        </div>
+                    </div>
+					  <div class="navbar-collapse collapse"  id="navbarToggleExternalContent">
+					<div class="searchbox2 px-2">
+                                <div class="h-search">
+                                    <i onclick="focusMethod()" data-toggle="tooltip" data-placement="bottom" title="" class="la la-search" data-original-title="fast search"></i>
+                                    <input class="myTextField" type="text" name="search" placeholder="Search here">
+                                </div>
+                                <script>
+                                    focusMethod = function getFocus() {
+                                        $('.myTextField').focus();
+                                    }
+                                </script>
+                            </div>
+						  <div class="d-flex top-icons2 h-side">
+                            <div class="notifications dropdown px-2">
+                             <a href="#" class="dropdown-toggle white-notification" data-toggle="dropdown" aria-haspopup="false" aria-expanded="true" data-placement="bottom" title="Notifications">
+                                    <em class="notification_sticky"></em>
+                              <i class="la la-bell "></i>
+                                </a>
+                             <ul class="dropdownposition dropdown-menu  fadeIn animated" aria-labelledby="drop1">
+                                   <li>
+                                   <a href="#" class="d-flex notification-row">
+									   <i class="la la-bell bold2"></i>
+										<span class="bold2">Notifications</span>
+										
+										</a>
+									   </li>
+									<li>
+                                        <a class="d-flex bgchange notification-row">
+											<i class="icon-assignment-return"></i>
+											<div>
+											<span>treaty was returned</span>
+											<div class="pt-1 pr-3 pl-1 light-gray2 flex-column"> 28 october 2018  </div>
+												</div>
+										</a>
+										</li>
+                                     <li>
+                                        <a class="d-flex bgchange notification-row">
+											<i class="icon-assignment-delivered"></i>
+											<div>
+											<span>treaty was recieved</span>
+											<div class="pt-1 pr-3 pl-1 light-gray2 flex-column"> 28 october 2018</div>
+												</div>
+										</a>
+                                      </li>
+									<li>
+                                        <a class="d-flex notification-row">
+											<i class="icon-assignment-new"></i>
+											<div>
+											<span>New task recieved</span>
+											<div class="pt-1 pr-3 pl-1 light-gray2 flex-column"> 28 october 2018</div>
+												</div>
+										</a>
+										</li>
+                                       <li>
+									     <a href="notifications.html" class="d-flex notification-row more">
+											<div class="w-100">show more</div>
+						              </a>
+										   </li>
+
+                                </ul>
+                            </div>
+                            <div class="px-2">
+                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="" class="chatbtn white-notification" data-original-title="Conversations">
+                                    <em class="notification_sticky"></em>
+                                    <i class="la la-comments white-notification "></i>
+                                </a>
+                            </div>
+                            <div class="px-2">
+                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Technical Support">
+                                    <i class="la la-headphones"></i>
+                                </a>
+                            </div>
+                            <div class="px-2">
+                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Help" class="help2">
+                                    <i class="la la-question-circle"></i>
+                                </a>
+                            </div>
+                            <div class="px-2">
+                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="العربية">
+                                    <i class="la la-globe"></i>
+                                </a>
+                            </div>
+                            <div class="pl-2 pr-0">
+                                <a href="#" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="Exit">
+                                    <i class="la la-power-off"></i>
+                                </a>
+                            </div>
+                        </div>
+						
+                        <ul class="nav navbar-nav px-2">
+                            <li class="active"><a href="#">The Treaties</a></li>
+                            <li><a href="#">The Tasks <span class="notification_sticky">3</span></a></li>
+                            <li><a href="#">Managment Recepion</a></li>
+                            <li><a href="#">The Reports</a></li>
+                            <li><a href="#"> Dashboard</a></li>
+
+                        </ul>
+
+					</div>
+                </div>
+            </div>
+        </nav>
+
+    </div>
+    <div class="container-all">
+        <div class="mx-3 mx-md-5 header-container d-flex flex-row align-items-center ">
+            <div class="d-flex flex-column flex-lg-row align-items-lg-center flex-grow-1 mb-3 mb-lg-0">
+                <h3 class="site-color mb-2 mb-lg-4">Organizational Chart</h3>
+            </div>
+            <div class="ml-lg-auto d-flex flex-column flex-md-row">
+                    <div class="filter-link ml-lg-auto mr-lg-3 my-2 mt-lg-auto ">
+                        <a class="dashed-circle filter-target">
+                            <i class="icon-filter"></i>
+                            Filter
+                        </a>
+                    </div>
+                </div>
+        </div>
+        <div class="filter-box filter mx-3 mx-md-5 white-container mt-2">
+                <form>
+                    <div class="form-row">
+                            <div class="form-group col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                                    <label for="">Name of side</label>
+                                    <input type="text" class="form-control">
+                                </div>
+                        <div class="form-group col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                            <label for="">Number of side</label>
+                            <input type="text" class="form-control">
+                        </div>
+            
+                    </div>
+                </form>
+            </div>
+		<div class="content_container">
+                <div class="white-container mx-3 mx-md-5">
+                        <!--first-->
+                        <div class="panel-group custom-tree pl-4" role="tablist">
+                            <div class="panel panel-default  ">
+                                <div class="panel-heading" role="tab" id="collapseListGroupHeading1">
+                                    <div class="panel-title dark-color selected">
+                                        <a class="collapsed" role="button" data-toggle="collapse" href="#collapseListGroup1" aria-expanded="false" aria-controls="collapseListGroup1">
+                                        </a>
+                                        <div class=" d-flex align-items-md-center flex-column flex-md-row">
+                                            <label class="order-2 order-md-1">
+                                                <span class="department-number"></span>
+                                                <span class="department-name"> Name of Side 
+                                                    (Side Registered in Morasalat Central System) </span>
+                                            </label>
+                                            <div class="table-icon d-flex align-items-center ml-md-auto order-1 order-md-2 mb-2 mb-md-0">
+                                                <a href="#" class="color-orange"><i class="icon-tables-sitemap-sub"></i></a>
+                                                <a href="#" class="color-blue"><i class="icon-tables-sitemap"></i></a>
+                                                <a href="#" class="color-purple"><i class="icon-tables-edit"></i></a>
+                                                <a href="#" class="color-burgundy" data-toggle="modal" data-target="#Modal1"><i class="icon-tables-delete"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                
+                                <div id="collapseListGroup1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="collapseListGroupHeading1" aria-expanded="false">
+                                    <ul class="list-group">
+                                        <li class="list-group-item">
+                                            <div class=" d-flex align-items-md-center flex-column flex-md-row">
+                                                    <label class="order-2 order-md-1">
+                                                            <span class="department-name">Name of sub side 
+                                                                (Side Registered in Morasalat Central System)</span>
+                                                        </label>
+                                                    <div class="table-icon d-flex align-items-center ml-md-auto order-1 order-md-2 mb-2 mb-md-0">
+                                                        <a href="#" class="color-orange"><i class="icon-tables-sitemap-sub"></i></a>
+                                                        <a href="#" class="color-blue"><i class="icon-tables-sitemap"></i></a>
+                                                        <a href="#" class="color-purple"><i class="icon-tables-edit"></i></a>
+                                                        <a href="#" class="color-burgundy" data-toggle="modal" data-target="#Modal1"><i class="icon-tables-delete"></i></a>
+                                                    </div>
+                                                </div>
+                                        </li>
+                                        <li class="list-group-item">
+                                                <div class=" d-flex align-items-md-center flex-column flex-md-row">
+                                                        <label class="order-2 order-md-1">
+                                                                <span class="department-name"> Name of sub side 
+                                                                    (Side Registered in Morasalat Central System</span>
+                                                            </label>
+                                                        <div class="table-icon d-flex align-items-center ml-md-auto order-1 order-md-2 mb-2 mb-md-0">
+                                                            <a href="#" class="color-orange"><i class="icon-tables-sitemap-sub"></i></a>
+                                                            <a href="#" class="color-blue"><i class="icon-tables-sitemap"></i></a>
+                                                            <a href="#" class="color-purple"><i class="icon-tables-edit"></i></a>
+                                                            <a href="#" class="color-burgundy" data-toggle="modal" data-target="#Modal1"><i class="icon-tables-delete"></i></a>
+                                                        </div>
+                                                    </div>
+                                        
+                                        </li>
+                                        <li class="list-group-item has-sub">
+                                            <!--Has Sub-->
+                                            <div class="panel-group" role="tablist">
+                                                <div class="panel panel-default">
+                                                    <div class="panel-heading" role="tab" id="collapseListGroupHeading1">
+                                                        <div class="panel-title dark-color">
+                                                            <a class="collapsed" role="button" data-toggle="collapse" href="#collapseSubListGroup1" aria-expanded="false" aria-controls="collapseSubListGroup1">
+                                                            </a>
+                                                            <div class=" d-flex align-items-md-center flex-column flex-md-row">
+                                                                <label class="order-2 order-md-1">
+                                                                    <span class="department-name">Name of sub side 
+                                                                        (Side Registered in Morasalat Central System</span>
+                                                                </label>
+                                                                <div class="table-icon d-flex align-items-center ml-md-auto order-1 order-md-2 mb-2 mb-md-0">
+                                                                    <a href="#" class="color-orange"><i class="icon-tables-sitemap-sub"></i></a>
+                                                                    <a href="#" class="color-blue"><i class="icon-tables-sitemap"></i></a>
+                                                                    <a href="#" class="color-purple"><i class="icon-tables-edit"></i></a>
+                                                                    <a href="#" class="color-burgundy" data-toggle="modal" data-target="#Modal1"><i class="icon-tables-delete"></i></a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div id="collapseSubListGroup1" class="panel-collapse collapse" role="tabpanel" aria-labelledby="collapseListGroupHeading1" aria-expanded="false">
+                                                        <ul class="list-group">
+                                                            <li class="list-group-item">
+                                                                <div class=" d-flex align-items-md-center flex-column flex-md-row">
+                                                                    <label class="order-2 order-md-1">
+                                                                        <span class="department-name">Name of sub side 
+                                                                            (Side Registered in Morasalat Central System</span>
+                                                                    </label>
+                                                                    <div class="table-icon d-flex align-items-center ml-md-auto order-1 order-md-2 mb-2 mb-md-0">
+                                                                        <a href="#" class="color-orange"><i class="icon-tables-sitemap-sub"></i></a>
+                                                                        <a href="#" class="color-blue"><i class="icon-tables-sitemap"></i></a>
+                                                                        <a href="#" class="color-purple"><i class="icon-tables-edit"></i></a>
+                                                                        <a href="#" class="color-burgundy" data-toggle="modal" data-target="#Modal1"><i class="icon-tables-delete"></i></a>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                                    
+                                                            <li class="list-group-item">
+                                                                <div class=" d-flex align-items-md-center flex-column flex-md-row">
+                                                                    <label class="order-2 order-md-1">
+                                                                        <span class="department-name">Name of sub side 
+                                                                            (Side Registered in Morasalat Central System</span>
+                                                                    </label>
+                                                                    <div class="table-icon d-flex align-items-center ml-md-auto order-1 order-md-2 mb-2 mb-md-0">
+                                                                        <a href="#" class="color-orange"><i class="icon-tables-sitemap-sub"></i></a>
+                                                                        <a href="#" class="color-blue"><i class="icon-tables-sitemap"></i></a>
+                                                                        <a href="#" class="color-purple"><i class="icon-tables-edit"></i></a>
+                                                                        <a href="#" class="color-burgundy" data-toggle="modal" data-target="#Modal1"><i class="icon-tables-delete"></i></a>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            <li class="list-group-item has-sub">
+                                                                <div class="panel-group" role="tablist">
+                                                                    <div class="panel panel-default">
+                                                                        <div class="panel-heading" role="tab" id="collapseListGroupHeading1">
+                                                                            <div class="panel-title dark-color">
+                                                                                <a class="collapsed" role="button" data-toggle="collapse" href="#collapseSubListGroup12" aria-expanded="false" aria-controls="collapseSubListGroup12">
+                                                                                </a>
+                                                                                <div class=" d-flex align-items-md-center flex-column flex-md-row">
+                                                                                    <label class="order-2 order-md-1">
+                                                                                        <span class="department-name">Name of sub side 
+                                                                                            (Side Registered in Morasalat Central System</span>
+                                                                                    </label>
+                                                                                    <div class="table-icon d-flex align-items-center ml-md-auto order-1 order-md-2 mb-2 mb-md-0">
+                                                                                        <a href="#" class="color-orange"><i class="icon-tables-sitemap-sub"></i></a>
+                                                                                        <a href="#" class="color-blue"><i class="icon-tables-sitemap"></i></a>
+                                                                                        <a href="#" class="color-purple"><i class="icon-tables-edit"></i></a>
+                                                                                        <a href="#" class="color-burgundy" data-toggle="modal" data-target="#Modal1"><i class="icon-tables-delete"></i></a>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div id="collapseSubListGroup12" class="panel-collapse collapse" role="tabpanel" aria-labelledby="collapseListGroupHeading1" aria-expanded="false">
+                                                                            <ul class="list-group">
+                                                                                <li class="list-group-item">
+                                                                                    <div class=" d-flex align-items-md-center flex-column flex-md-row">
+                                                                                        <label class="order-2 order-md-1">
+                                                                                            <span class="department-name">Name of sub side 
+                                                                                                (Side Registered in Morasalat Central System</span>
+                                                                                        </label>
+                                                                                        <div class="table-icon d-flex align-items-center ml-md-auto order-1 order-md-2 mb-2 mb-md-0">
+                                                                                            <a href="#" class="color-orange"><i class="icon-tables-sitemap-sub"></i></a>
+                                                                                            <a href="#" class="color-blue"><i class="icon-tables-sitemap"></i></a>
+                                                                                            <a href="#" class="color-purple"><i class="icon-tables-edit"></i></a>
+                                                                                            <a href="#" class="color-burgundy" data-toggle="modal" data-target="#Modal1"><i class="icon-tables-delete"></i></a>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </li>
+                                                                                <li class="list-group-item">
+                                                                                    <div class=" d-flex align-items-md-center flex-column flex-md-row">
+                                                                                        <label class="order-2 order-md-1">
+                                                                                            <span class="department-name">Name of sub side 
+                                                                                                (Side Registered in Morasalat Central System</span>
+                                                                                        </label>
+                                                                                        <div class="table-icon d-flex align-items-center ml-md-auto order-1 order-md-2 mb-2 mb-md-0">
+                                                                                            <a href="#" class="color-orange"><i class="icon-tables-sitemap-sub"></i></a>
+                                                                                            <a href="#" class="color-blue"><i class="icon-tables-sitemap"></i></a>
+                                                                                            <a href="#" class="color-purple"><i class="icon-tables-edit"></i></a>
+                                                                                            <a href="#" class="color-burgundy" data-toggle="modal" data-target="#Modal1"><i class="icon-tables-delete"></i></a>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </li>
+                                                                            </ul>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Second-->
+                        <div class="panel-group custom-tree pl-4" role="tablist">
+                            <div class="panel panel-default  ">
+                                <div class="panel-heading" role="tab" id="collapseListGroupHeading2">
+                                    <div class="panel-title dark-color">
+                                        <a class="collapsed" role="button" data-toggle="collapse" href="#collapseListGroup2" aria-expanded="false" aria-controls="collapseListGroup2">
+                                        </a>
+                                        <div class=" d-flex align-items-md-center flex-column flex-md-row">
+                                            <label class="order-2 order-md-1">
+                                                <span class="department-number"></span>
+                                                <span class="department-name">  
+                                                    Name of side 
+                                                                (Side Registered in Morasalat Central System</span>
+                                            </label>
+                                            <div class="table-icon d-flex align-items-center ml-md-auto order-1 order-md-2 mb-2 mb-md-0">
+                                                <a href="#" class="color-orange"><i class="icon-tables-sitemap-sub"></i></a>
+                                                <a href="#" class="color-blue"><i class="icon-tables-sitemap"></i></a>
+                                                <a href="#" class="color-purple"><i class="icon-tables-edit"></i></a>
+                                                <a href="#" class="color-burgundy" data-toggle="modal" data-target="#Modal1"><i class="icon-tables-delete"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                        
+                                </div>
+                        
+                                <div id="collapseListGroup2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="collapseListGroupHeading2" aria-expanded="false">
+                                    <ul class="list-group">
+                                        <li class="list-group-item">
+                                            <div class=" d-flex align-items-md-center flex-column flex-md-row">
+                                                <label class="order-2 order-md-1">
+                                                    <span class="department-name">Name of sub side 
+                                                        (Side Registered in Morasalat Central System</span>
+                                                </label>
+                                                <div class="table-icon d-flex align-items-center ml-md-auto order-1 order-md-2 mb-2 mb-md-0">
+                                                    <a href="#" class="color-orange"><i class="icon-tables-sitemap-sub"></i></a>
+                                                    <a href="#" class="color-blue"><i class="icon-tables-sitemap"></i></a>
+                                                    <a href="#" class="color-purple"><i class="icon-tables-edit"></i></a>
+                                                    <a href="#" class="color-burgundy" data-toggle="modal" data-target="#Modal1"><i class="icon-tables-delete"></i></a>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="list-group-item">
+                                            <div class=" d-flex align-items-md-center flex-column flex-md-row">
+                                                <label class="order-2 order-md-1">
+                                                    <span class="department-name">Name of sub side 
+                                                        (Side Registered in Morasalat Central System</span>
+                                                </label>
+                                                <div class="table-icon d-flex align-items-center ml-md-auto order-1 order-md-2 mb-2 mb-md-0">
+                                                    <a href="#" class="color-orange"><i class="icon-tables-sitemap-sub"></i></a>
+                                                    <a href="#" class="color-blue"><i class="icon-tables-sitemap"></i></a>
+                                                    <a href="#" class="color-purple"><i class="icon-tables-edit"></i></a>
+                                                    <a href="#" class="color-burgundy" data-toggle="modal" data-target="#Modal1"><i class="icon-tables-delete"></i></a>
+                                                </div>
+                                            </div>
+                        
+                                        </li>
+                                        <li class="list-group-item has-sub">
+                                            <!--Has Sub-->
+                                            <div class="panel-group" role="tablist">
+                                                <div class="panel panel-default">
+                                                    <div class="panel-heading" role="tab" id="collapseListGroupHeading2">
+                                                        <div class="panel-title dark-color">
+                                                            <a class="collapsed" role="button" data-toggle="collapse" href="#collapseSubListGroup2" aria-expanded="false" aria-controls="collapseSubListGroup2">
+                                                            </a>
+                                                            <div class=" d-flex align-items-md-center flex-column flex-md-row">
+                                                                <label class="order-2 order-md-1">
+                                                                    <span class="department-name">Name of sub side 
+                                                                        (Side Registered in Morasalat Central System</span>
+                                                                </label>
+                                                                <div class="table-icon d-flex align-items-center ml-md-auto order-1 order-md-2 mb-2 mb-md-0">
+                                                                    <a href="#" class="color-orange"><i class="icon-tables-sitemap-sub"></i></a>
+                                                                    <a href="#" class="color-blue"><i class="icon-tables-sitemap"></i></a>
+                                                                    <a href="#" class="color-purple"><i class="icon-tables-edit"></i></a>
+                                                                    <a href="#" class="color-burgundy" data-toggle="modal" data-target="#Modal1"><i class="icon-tables-delete"></i></a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div id="collapseSubListGroup2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="collapseListGroupHeading2" aria-expanded="false">
+                                                        <ul class="list-group">
+                                                            <li class="list-group-item">
+                                                                <div class=" d-flex align-items-md-center flex-column flex-md-row">
+                                                                    <label class="order-2 order-md-1">
+                                                                        <span class="department-name">Name of sub side 
+                                                                            (Side Registered in Morasalat Central System</span>
+                                                                    </label>
+                                                                    <div class="table-icon d-flex align-items-center ml-md-auto order-1 order-md-2 mb-2 mb-md-0">
+                                                                        <a href="#" class="color-orange"><i class="icon-tables-sitemap-sub"></i></a>
+                                                                        <a href="#" class="color-blue"><i class="icon-tables-sitemap"></i></a>
+                                                                        <a href="#" class="color-purple"><i class="icon-tables-edit"></i></a>
+                                                                        <a href="#" class="color-burgundy" data-toggle="modal" data-target="#Modal1"><i class="icon-tables-delete"></i></a>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                        
+                                                            <li class="list-group-item">
+                                                                <div class=" d-flex align-items-md-center flex-column flex-md-row">
+                                                                    <label class="order-2 order-md-1">
+                                                                        <span class="department-name">Name of sub side 
+                                                                            (Side Registered in Morasalat Central System</span>
+                                                                    </label>
+                                                                    <div class="table-icon d-flex align-items-center ml-md-auto order-1 order-md-2 mb-2 mb-md-0">
+                                                                        <a href="#" class="color-orange"><i class="icon-tables-sitemap-sub"></i></a>
+                                                                        <a href="#" class="color-blue"><i class="icon-tables-sitemap"></i></a>
+                                                                        <a href="#" class="color-purple"><i class="icon-tables-edit"></i></a>
+                                                                        <a href="#" class="color-burgundy" data-toggle="modal" data-target="#Modal1"><i class="icon-tables-delete"></i></a>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                            <li class="list-group-item has-sub">
+                                                                <div class="panel-group" role="tablist">
+                                                                    <div class="panel panel-default">
+                                                                        <div class="panel-heading" role="tab" id="collapseListGroupHeading2">
+                                                                            <div class="panel-title dark-color">
+                                                                                <a class="collapsed" role="button" data-toggle="collapse" href="#collapseSubListGroup22" aria-expanded="false" aria-controls="collapseSubListGroup22">
+                                                                                </a>
+                                                                                <div class=" d-flex align-items-md-center flex-column flex-md-row">
+                                                                                    <label class="order-2 order-md-1">
+                                                                                        <span class="department-name">Name of sub side 
+                                                                                            (Side Registered in Morasalat Central System</span>
+                                                                                    </label>
+                                                                                    <div class="table-icon d-flex align-items-center ml-md-auto order-1 order-md-2 mb-2 mb-md-0">
+                                                                                        <a href="#" class="color-orange"><i class="icon-tables-sitemap-sub"></i></a>
+                                                                                        <a href="#" class="color-blue"><i class="icon-tables-sitemap"></i></a>
+                                                                                        <a href="#" class="color-purple"><i class="icon-tables-edit"></i></a>
+                                                                                        <a href="#" class="color-burgundy" data-toggle="modal" data-target="#Modal1"><i class="icon-tables-delete"></i></a>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <div id="collapseSubListGroup22" class="panel-collapse collapse" role="tabpanel" aria-labelledby="collapseListGroupHeading2" aria-expanded="false">
+                                                                            <ul class="list-group">
+                                                                                <li class="list-group-item">
+                                                                                    <div class=" d-flex align-items-md-center flex-column flex-md-row">
+                                                                                        <label class="order-2 order-md-1">
+                                                                                            <span class="department-name">Name of sub side 
+                                                                                                (Side Registered in Morasalat Central System</span>
+                                                                                        </label>
+                                                                                        <div class="table-icon d-flex align-items-center ml-md-auto order-1 order-md-2 mb-2 mb-md-0">
+                                                                                            <a href="#" class="color-orange"><i class="icon-tables-sitemap-sub"></i></a>
+                                                                                            <a href="#" class="color-blue"><i class="icon-tables-sitemap"></i></a>
+                                                                                            <a href="#" class="color-purple"><i class="icon-tables-edit"></i></a>
+                                                                                            <a href="#" class="color-burgundy" data-toggle="modal" data-target="#Modal1"><i class="icon-tables-delete"></i></a>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </li>
+                                                                                <li class="list-group-item">
+                                                                                    <div class=" d-flex align-items-md-center flex-column flex-md-row">
+                                                                                        <label class="order-2 order-md-1">
+                                                                                            <span class="department-name">Name of sub side 
+                                                                                                (Side Registered in Morasalat Central System</span>
+                                                                                        </label>
+                                                                                        <div class="table-icon d-flex align-items-center ml-md-auto order-1 order-md-2 mb-2 mb-md-0">
+                                                                                            <a href="#" class="color-orange"><i class="icon-tables-sitemap-sub"></i></a>
+                                                                                            <a href="#" class="color-blue"><i class="icon-tables-sitemap"></i></a>
+                                                                                            <a href="#" class="color-purple"><i class="icon-tables-edit"></i></a>
+                                                                                            <a href="#" class="color-burgundy" data-toggle="modal" data-target="#Modal1"><i class="icon-tables-delete"></i></a>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </li>
+                                                                            </ul>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        
+                        <!-- pagination -->
+            
+                        <div class="w-100 p-2 text-center my-2">
+                            <nav aria-label="Page navigation">
+                                <ul class="pagination custom-pagination">
+                                    <li class="change-page">
+                                        <a href="#" aria-label="Previous">
+                                            <i class="fa fa-caret-right"></i>
+                                        </a>
+                                    </li>
+                                    <li class="blues_border"><a href="#" class="transparent_bg">1</a></li>
+                                    <li><span class="transparent_bg font_size12"> of
+            
+                                            <span class="light-blue pl-1">4</span>
+                                        </span>
+                                    </li>
+                                    <li class="change-page">
+                                        <a href="#" aria-label="Next">
+                                            <i class="fa fa-caret-left"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                        </div>
+                    </div>	
+            </div> <!--white container div-->
+            <div class="modal" role="dialog" id="Modal1">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-body text-center">
+                          <h3>are you sure you want to delete the Administration</h3>
+                        </div>
+                        <div class="text-center">
+                                <button class="btn  btn-st1 mt-3 mb-5" data-dismiss="modal">
+                                        cancel</button>
+                                <button class="btn  btn-st2 mt-3 mb-5" data-dismiss="modal" data-toggle="modal" data-target="#Modal2">
+                                    Yes</button>
+                            </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="modal" role="dialog" id="Modal2">
+                        <div class="modal-dialog" role="document">
+                          <div class="modal-content">
+                            <div class="modal-body text-center">
+                              <h3>The Administration is deleted</h3>
+                            </div>
+                            <div class="text-center">
+                                    <button class="btn  btn-st1 mt-3 mb-5" data-dismiss="modal" data-toggle="modal" data-target="Modal2">
+                                        ok</button>
+                                </div>
+                          </div>
+                        </div>
+                      </div>
+        </div>
+        </div>
+    </div>
+	</div>
+
+    <!-- jQuery -->
+    <script src="../assets/js/jquery.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../assets/js/bootstrap-select.js"></script>
+    <script src="../assets/js/jquery.matchHeight-min.js"></script>
+    <script src="../assets/js/aos.js"></script>
+    <script src="../assets/js/jquery.slimscroll.min.js"></script>
+    <script src="../assets/js/app.js"></script>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
+    <script>
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
+
+<script>
+    $(function () {
+        $('.custom-tree li.list-group-item:not(.has-sub)').click(function () {
+            if (!$(this).hasClass('selected')) {
+                $('.custom-tree li.list-group-item:not(.has-sub)').removeClass('selected');
+                $('.custom-tree .panel-title.dark-color').removeClass('selected');
+                $('.custom-tree .panel-default>.panel-heading .panel-title.dark-color a').removeClass('active');
+                $(this).addClass('selected');
+
+                var treeOpenedParents = $('.custom-tree .panel-default>.panel-heading .panel-title.dark-color a:not(.collapsed)');
+                for (i = 0; i < treeOpenedParents.length; i++) {
+                    if ($(treeOpenedParents[i]).parent().parent().parent().find('.selected').html()) {
+                        $(treeOpenedParents[i]).addClass('active');
+                    }
+                }
+            }
+            else {
+                $('.custom-tree li.list-group-item:not(.has-sub)').removeClass('selected');
+                $('.custom-tree .panel-title.dark-color').removeClass('selected');
+                $('.custom-tree .panel-default>.panel-heading .panel-title.dark-color a').removeClass('active');
+            }
+        });
+        $('.custom-tree .panel-title.dark-color label').click(function () {
+            if (!$(this).parent().parent().hasClass('selected')) {
+                $('.custom-tree li.list-group-item:not(.has-sub)').removeClass('selected');
+                $('.custom-tree .panel-title.dark-color').removeClass('selected');
+                $('.custom-tree .panel-default>.panel-heading .panel-title.dark-color a').removeClass('active');
+                $(this).parent().parent().addClass('selected');
+
+                var treeOpenedParents = $('.custom-tree .panel-default>.panel-heading .panel-title.dark-color a:not(.collapsed)');
+                for (i = 0; i < treeOpenedParents.length; i++) {
+                    if ($(treeOpenedParents[i]).parent().parent().parent().find('.selected').html()) {
+                        $(treeOpenedParents[i]).addClass('active');
+                    }
+                }
+            }
+            else {
+                $('.custom-tree li.list-group-item:not(.has-sub)').removeClass('selected');
+                $('.custom-tree .panel-title.dark-color').removeClass('selected');
+                $('.custom-tree .panel-default>.panel-heading .panel-title.dark-color a').removeClass('active');
+            }
+        });
+
+        $('#saveTreeValue').click(function () {
+            $('#treeValueName').val($('.custom-tree .selected').find('label .department-name').text());
+            $('#treeValueNumber').val($('.custom-tree .selected').find('label .department-number').text());
+        });
+      
+    });
+</script>
+
+    <!-- Vertical Menu css-->
+    <script src="../assets/plugins/vertical-menu/vendors.min.js"></script>
+    <script src="../assets/plugins/vertical-menu/app-menu.min.js"></script>
+    <script src="../assets/plugins/vertical-menu/app.min.js"></script>
+
+    <!-- jquery-confirm JS -->
+    <script type="text/javascript" src="../assets/plugins/confirm/jquery-confirm.min.js"></script>
+<!---Qbs JQuery-->
+	<!--Header Script-->
+	<script>
+	$(function(){
+
+		$(".right-arrow").click(function(){
+        $("div .top-icons").toggleClass("show-icons");
+		$(".right-arrow").toggleClass("la-rotate");
+       $(".right-arrow").toggleClass("left-arrow");
+	   $(".la-angle-right").toggleClass("pl-2");
+	
+  });
+
+		});
+			
+
+    </script> <!--end Header Script-->
+        <script>
+                $(document).ready(function () {
+                    $('.filter-target').click(function () {
+                        $('.filter-box.filter').slideToggle('fast');
+                        $('.sort-target').removeClass("active");
+                         $('.search-target').removeClass("active");
+                        $(this).toggleClass("active");
+                        $('.filter-box.sort').hide();
+                        $('.filter-box.search').hide();
+                        
+                    });
+                });
+            </script>
+
+
+
+
+</body>
+
+</html>
