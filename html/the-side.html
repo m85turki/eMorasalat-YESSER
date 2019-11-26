@@ -512,7 +512,6 @@
     <script src="../assets/js/jquery.matchHeight-min.js"></script>
     <script src="../assets/js/aos.js"></script>
     <script src="../assets/js/jquery.slimscroll.min.js"></script>
-    <script src="../assets/js/app.js"></script>
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -539,7 +538,7 @@
                    var add_val=$("#upload").val();
                 });
                 $("#delete-file").click(function(){
-                   $("#upload").val("");
+                   $("#upload").val(null);
                    $(".upload-attach").html("<span>" + init_upload+ "<span>");
                     $(this).addClass("d-none");
                     $(this).removeClass("d-flex");
@@ -547,6 +546,21 @@
                 
             });
     </script>
+    <!--Header Section-->
+    <script>
+        $(function () {
+        
+        $(".right-arrow").click(function () {
+            $("div .top-icons").toggleClass("show-icons");
+            $(".right-arrow").toggleClass("la-rotate");
+            $(".right-arrow").toggleClass("left-arrow");
+            $(".la-angle-right").toggleClass("pl-2");
+        
+        });
+        
+        });
+        
+        </script>
 
     <!-- Vertical Menu css-->
     <script src="../assets/plugins/vertical-menu/vendors.min.js"></script>

@@ -685,7 +685,7 @@ $('[data-toggle-second="tooltip"]').tooltip();
                    var add_val=$("#upload").val();
                 });
                 $("#delete_sig").click(function(){
-                   $("#upload").val("");
+                   $("#upload").val(null);
                    $("#upload-attach").html("<span>" + init_upload+ "<span>");
                     $(this).addClass("d-none");
                     $(this).removeClass("d-flex");

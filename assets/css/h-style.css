@@ -3674,6 +3674,7 @@ table > thead > tr {
 .file-upload {
     position: relative;
     word-break: break-word;
+    -ms-word-break: break-word;
 }
 .file-upload__input {
     position: absolute;
