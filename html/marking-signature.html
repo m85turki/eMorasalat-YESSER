@@ -397,8 +397,8 @@
                                     رسم التوقيع
                                 </button>
                             </div>
-                            <div class="but-fileupload input-group d-flex flex-nowrap">
-                                <div class="file-upload ml-sm-3 ml-0 w-xs-100">
+                            <div class="input-group d-flex flex-nowrap">
+                                <div class="file-upload ml-sm-3 ml-0 w-xs-100" id="file-upload">
                                     <label for="upload" class="btn btn-st2 btn-xlg d-flex justify-content-center align-items-center upload-attach w-100">
                                         <i class="icon-buttons-attach pr-2"></i>
                                         <span id="upload-attach">تحميل التوقيع</span>
@@ -420,7 +420,7 @@
                                 </button>
                             </div>
                             <div class="input-group d-flex flex-nowrap">
-                                <div class="file-upload ml-sm-3 ml-0 w-xs-100">
+                                <div class="file-upload ml-sm-3 ml-0 w-xs-100" id="file-upload2">
                                     <label for="upload2" class="btn btn-st2 btn-xlg d-flex justify-content-center align-items-center w-100 upload-attach">
                                         <i class="icon-buttons-attach pr-2"></i>
                                         <span id="upload-attach2">تحميل التأشير</span>
@@ -678,6 +678,7 @@ $('[data-toggle-second="tooltip"]').tooltip();
                 $('#upload').change(function (e) {
                     var fileName = e.target.files[0].name;
                     $("#upload-attach").html("<span>" + fileName + "<span>");
+                        $("#file-upload").addClass("flex-1");
                     if ($("#delete_sig").hasClass("d-none")) {
                         $("#delete_sig").removeClass("d-none");
                         $("#delete_sig").addClass("d-flex");
@@ -689,6 +690,7 @@ $('[data-toggle-second="tooltip"]').tooltip();
                    $("#upload-attach").html("<span>" + init_upload+ "<span>");
                     $(this).addClass("d-none");
                     $(this).removeClass("d-flex");
+                    $("#file-upload").removeClass("flex-1");
                 });
                 
             });
@@ -699,6 +701,7 @@ $('[data-toggle-second="tooltip"]').tooltip();
             $('#upload2').change(function (e) {
                 var fileName2 = e.target.files[0].name;
                 $("#upload-attach2").html("<span>" + fileName2 + "<span>");
+                 $("#file-upload2").addClass("flex-1");
                 if ($("#delete_sig2").hasClass("d-none")) {
                     $("#delete_sig2").removeClass("d-none");
                     $("#delete_sig2").addClass("d-flex");
@@ -710,6 +713,7 @@ $('[data-toggle-second="tooltip"]').tooltip();
                $("#upload-attach2").html("<span>" + init_upload2+ "<span>");
                 $('#delete_sig2').addClass("d-none");
                 $('#delete_sig2').removeClass("d-flex");
+                $("#file-upload2").removeClass("flex-1");
             });
             
         });
