@@ -246,7 +246,10 @@
 .h-search input:focus{
     width: 150px !important;
 }
-
+.note-section div:first-child{
+    -ms-flex: 1 1 auto;
+    flex:1 1 auto;
+}
 input::-webkit-input-placeholder {
     color: #61669B;
 }
@@ -709,6 +712,7 @@ white-space: nowrap;
     font-size: 20pt;
     line-height: 2rem;
 }
+
 
 .nav-link.menu-toggle:hover{
     color: rgba(255, 255, 255, 0.55);
