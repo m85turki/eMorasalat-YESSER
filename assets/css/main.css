@@ -1049,7 +1049,18 @@ a.aExplanation {
     -ms-transition: all 200ms ease;
     -o-transition: all 200ms ease;
     transition: all 200ms ease;
+    
 
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    height: 100%;
+
+    -ms-flex-direction: column!important;
+    flex-direction: column!important;
 }
 
 .dashboard-cards .card:hover {
@@ -1078,6 +1089,12 @@ a.aExplanation {
 .dashboard-cards .card .card-c {
     padding: 20px 20px 20px 20px;
     text-align: center;
+
+    position: relative;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    height: 1%;
+    margin-bottom: 0;
 }
 
 .dashboard-cards .card .card-c .number {
