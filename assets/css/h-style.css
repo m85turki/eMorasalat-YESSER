@@ -3605,6 +3605,10 @@ table > thead > tr {
     .treat-title h3,.treat-title span{
         font-size:13px;
 }
+.stage-note{
+    width:100%;
+    left:0;
+}
 
 }
 @media(max-width:944px) {
