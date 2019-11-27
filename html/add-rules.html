@@ -5301,7 +5301,24 @@
     <script src="../assets/plugins/vertical-menu/app.min.js"></script>
 
     <!-- jquery-confirm JS -->
-    <script type="text/javascript" src="../assets/plugins/confirm/jquery-confirm.min.js"></script>
+	<script type="text/javascript" src="../assets/plugins/confirm/jquery-confirm.min.js"></script>
+	
+    <!--Header Script-->
+    <script>
+        $(function () {
+
+            $(".right-arrow").click(function () {
+                $("div .top-icons").toggleClass("show-icons");
+                $(".right-arrow").toggleClass("la-rotate");
+                $(".right-arrow").toggleClass("left-arrow");
+                $(".la-angle-right").toggleClass("pl-2");
+
+            });
+
+        });
+
+
+    </script>
 </body>
 	<script>
 	(function($) {

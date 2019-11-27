@@ -516,7 +516,22 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 	<![endif]-->
+    <!--Header Script-->
+    <script>
+        $(function () {
 
+            $(".right-arrow").click(function () {
+                $("div .top-icons").toggleClass("show-icons");
+                $(".right-arrow").toggleClass("la-rotate");
+                $(".right-arrow").toggleClass("left-arrow");
+                $(".la-angle-right").toggleClass("pl-2");
+
+            });
+
+        });
+
+
+    </script>
     <script>
         $(function () {
             $('[data-toggle="tooltip"]').tooltip()

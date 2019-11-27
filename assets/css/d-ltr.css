@@ -301,7 +301,7 @@ li.list-group-item.has-sub:not(:first-child)::before {
 }
 
 .notification_sticky {
-  right: 0px;
+  left: 0px;
 }
 
 /* vertical-menu.min */
@@ -1139,9 +1139,7 @@ body.vertical-layout.vertical-menu.menu-collapsed.menu-flipped .navbar .navbar-h
   right: 47px;
 }
 
-.carddiv {
-  left: 15px;
-}
+
 
 .for-scroll {
   left: 0 !important;
@@ -2019,9 +2017,6 @@ li.list-group-item.has-sub:not(:first-child)::before {
 	margin-left:4.5rem!important;
 }
 
-.carddiv {
-	left:15px;
-}
 
 .for-scroll {
   left: 0 !important;

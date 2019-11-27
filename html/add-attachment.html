@@ -481,10 +481,25 @@
         })
     </script>
 
-    <!--QBS Script -->
+   
+    <!--Header Script-->
+    <script>
+        $(function () {
+
+            $(".right-arrow").click(function () {
+                $("div .top-icons").toggleClass("show-icons");
+                $(".right-arrow").toggleClass("la-rotate");
+                $(".right-arrow").toggleClass("left-arrow");
+                $(".la-angle-right").toggleClass("pl-2");
+
+            });
+
+        });
 
 
-    <!-- sort and filter scripts-->
+    </script>
+
+
 
     <!-- Vertical Menu css-->
     <script src="../assets/plugins/vertical-menu/vendors.min.js"></script>
