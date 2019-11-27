@@ -2017,6 +2017,15 @@ li.list-group-item.has-sub:not(:first-child)::before {
 	margin-left:4.5rem!important;
 }
 
+.carddiv {
+	left:15px;
+}
+
+@media(max-width:768px) {
+  .carddiv{
+    left:0 !important;
+  }
+}
 
 .for-scroll {
   left: 0 !important;

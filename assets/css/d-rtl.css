@@ -1851,6 +1851,12 @@ li.list-group-item.has-sub:not(:first-child)::before {
 	right:15px;
 }
 
+@media(max-width:768px) {
+  .carddiv{
+      right:0 !important;
+  }
+}
+
 .for-scroll {
   right: 0 !important;
   left: auto !important;
