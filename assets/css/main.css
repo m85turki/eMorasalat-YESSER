@@ -2565,6 +2565,42 @@ a.dropdown-toggle .name, a.dropdown-toggle .manager{
     white-space: nowrap;
 }
 
+/* collection label */
+.collection-label{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    width: 100%;
+}
+
+.collection-label label{
+    -ms-flex: 1 1 auto !important;
+    flex: 1 1 auto !important;
+    height: 1% !important;
+    width: auto !important;
+    margin-bottom: 0 !important;
+}
+
+
+
+@media (min-width: 768px){
+.collection-label{
+    height: auto;
+}
+
+.collection-label label{
+    -ms-flex: 1 1 auto !important;
+    flex: 1 1 auto !important;
+    height: 1% !important;
+    width: auto;
+    margin-bottom: 0 !important;
+}
+}
+
+
 /* but fileupload */
 .but-fileupload.input-group{
     display: -ms-flexbox;
