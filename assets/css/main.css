@@ -2563,37 +2563,49 @@ a.dropdown-toggle .name, a.dropdown-toggle .manager{
     white-space: nowrap;
 }
 
-/*  */
-.collection-label{
+/* but fileupload */
+.but-fileupload.input-group{
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     -ms-flex-align: stretch;
     align-items: stretch;
-    width: 100%;
+    width: auto;
 }
 
-    .collection-label label {
+    .but-fileupload.input-group .file-upload  {
         -ms-flex: 1 1 auto !important;
         flex: 1 1 auto !important;
         width: 1% !important;
         margin-bottom: 0 !important;
     }
 
-/* .but-fileupload.input-group{
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -ms-flex-align: stretch;
-    align-items: stretch;
-    width: 100%;
-}
 
-.but-fileupload.input-group .file-upload  {
+    .but-fileupload.input-group .file-upload label {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -ms-flex-align: stretch;
+        align-items: stretch;
+        width: 100%;
+    }
+
+    .but-fileupload.input-group .file-upload label > span {
         -ms-flex: 1 1 auto !important;
         flex: 1 1 auto !important;
         width: 1% !important;
         margin-bottom: 0 !important;
-    } */
+
+        -webkit-font-smoothing: antialiased;
+        white-space: pre-wrap;
+        text-rendering: optimizeLegibility;
+        word-break: normal;
+    }
+
+
+        .ie10 .but-fileupload.input-group .file-upload label > span {
+            max-width: 300px !important;
+            display: block !important;
+        }
