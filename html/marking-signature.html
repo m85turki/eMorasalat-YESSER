@@ -687,7 +687,6 @@ $('[data-toggle-second="tooltip"]').tooltip();
                 $('#upload').change(function (e) {
                     var fileName = e.target.files[0].name;
                     $("#upload-attach").html("<span>" + fileName + "<span>");
-                        $("#file-upload").addClass("flex-1");
                     if ($("#delete_sig").hasClass("d-none")) {
                         $("#delete_sig").removeClass("d-none");
                         $("#delete_sig").addClass("d-flex");
@@ -699,7 +698,6 @@ $('[data-toggle-second="tooltip"]').tooltip();
                    $("#upload-attach").html("<span>" + init_upload+ "<span>");
                     $(this).addClass("d-none");
                     $(this).removeClass("d-flex");
-                    $("#file-upload").removeClass("flex-1");
                 });
                 
             });
@@ -710,7 +708,6 @@ $('[data-toggle-second="tooltip"]').tooltip();
             $('#upload2').change(function (e) {
                 var fileName2 = e.target.files[0].name;
                 $("#upload-attach2").html("<span>" + fileName2 + "<span>");
-                 $("#file-upload2").addClass("flex-1");
                 if ($("#delete_sig2").hasClass("d-none")) {
                     $("#delete_sig2").removeClass("d-none");
                     $("#delete_sig2").addClass("d-flex");
@@ -722,7 +719,6 @@ $('[data-toggle-second="tooltip"]').tooltip();
                $("#upload-attach2").html("<span>" + init_upload2+ "<span>");
                 $('#delete_sig2').addClass("d-none");
                 $('#delete_sig2').removeClass("d-flex");
-                $("#file-upload2").removeClass("flex-1");
             });
             
         });
