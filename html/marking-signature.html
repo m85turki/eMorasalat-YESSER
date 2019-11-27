@@ -28,7 +28,14 @@
 
     <!-- RTL -->
     <link href="../assets/css/d-rtl.css" rel="stylesheet">
-
+    
+    <!--[if !IE]><!-->
+    <script>
+    if (/*@cc_on!@*/false && document.documentMode === 10) {
+    document.documentElement.className+=' ie10';
+    }
+    </script>
+    <!--<![endif]-->
 </head>
 
 
@@ -397,16 +404,17 @@
                                     رسم التوقيع
                                 </button>
                             </div>
-                            <div class="input-group d-flex flex-nowrap">
-                                <div class="file-upload ml-sm-3 ml-0 w-xs-100" id="file-upload">
-                                    <label for="upload" class="btn btn-st2 btn-xlg d-flex justify-content-center align-items-center upload-attach w-100">
+                            <div class="but-fileupload input-group">
+                                <div class="file-upload ml-sm-3 ml-0" id="file-upload">
+                                    <label for="upload" class="btn btn-st2 btn-xlg justify-content-center align-items-center">
                                         <i class="icon-buttons-attach pr-2"></i>
                                         <span id="upload-attach">تحميل التوقيع</span>
                                     </label>
                                     <input id="upload" class="file-upload__input" type="file" name="file-upload">
                                 </div>
-                                <div class="table-icon align-items-center d-none  mx-1" id="delete_sig"><a class="color-burgundy"><i
-                                            class="icon-tables-delete"></i></a></div>
+                                <div class="table-icon align-items-center d-none mx-1 float-none" id="delete_sig">
+                                    <a class="color-burgundy"><i class="icon-tables-delete"></i></a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -419,16 +427,17 @@
                                     رسم التأشير
                                 </button>
                             </div>
-                            <div class="input-group d-flex flex-nowrap">
-                                <div class="file-upload ml-sm-3 ml-0 w-xs-100" id="file-upload2">
-                                    <label for="upload2" class="btn btn-st2 btn-xlg d-flex justify-content-center align-items-center w-100 upload-attach">
+                            <div class="but-fileupload input-group">
+                                <div class="file-upload ml-sm-3 ml-0" id="file-upload2">
+                                    <label for="upload2" class="btn btn-st2 btn-xlg justify-content-center align-items-center">
                                         <i class="icon-buttons-attach pr-2"></i>
                                         <span id="upload-attach2">تحميل التأشير</span>
                                     </label>
                                     <input id="upload2" class="file-upload__input" type="file" name="file-upload2">
                                 </div>
-                                <div id="delete_sig2" class="table-icon align-items-center d-none  mx-1"><a class="color-burgundy"><i
-                                            class="icon-tables-delete"></i></a></div>
+                                <div id="delete_sig2" class="table-icon align-items-center d-none mx-1 float-none">
+                                    <a class="color-burgundy"><i class="icon-tables-delete"></i></a>
+                                </div>
                             </div>
                         </div>
                 
